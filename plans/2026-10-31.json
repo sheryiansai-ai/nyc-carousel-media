@@ -10,16 +10,17 @@
   "cover": {
     "style": 8,
     "concept": "Grand space: a vast old archive hall, one long wooden table with a single brass lamp lighting a neat stack: a folder, a rolled map and a ruler.",
-    "emotion": "surprise",
+    "emotion": "curiosity",
     "hooks": [
-      "AI isn't wrong. Your prompt is. (surprise)",
-      "You gave AI one line. (embarrassment)",
-      "'Fix my code.' AI guessed. (amusement)",
-      "Copy this prompt. Get working code. (gain)",
-      "Why does AI keep breaking your code? (curiosity)"
+      "Give AI this context and get better code. (curiosity, owner-approved)",
+      "Get working code from AI faster. (ambition)",
+      "Fix your next bug with one clear prompt. (confidence)",
+      "Debug like a senior with this one prompt. (awe)",
+      "AI can't see your screen, so show it. (wit)"
     ],
-    "hookDraft": "AI isn't wrong. Your prompt is.",
-    "lineDraft": "The 3-part prompt to learn in first year."
+    "hook": "Give AI this context and get better code.",
+    "hook_approved_by_owner": "owner, 26 Oct 2026",
+    "lineDraft": "Learn this prompt format in your first year."
   },
   "slides": [
     {
@@ -33,7 +34,10 @@
       "type": "screen",
       "bg": "dark",
       "label": "Save this",
-      "idea": "Promise: 'Copy this prompt template tonight.' / Your code, your rules, what should happen.",
+      "idea": "Results first + save promise: the 3-part prompt template (your code, your rules, what should happen).",
+      "title": "This prompt gets AI to fix the real bug.",
+      "line": "Copy the 3-part template: code, rules and expected result.",
+      "device": "results first",
       "screen": "An AI chat input box with three bold headings already typed: Code, Rules, Expected; cursor blinking"
     },
     {
@@ -42,6 +46,9 @@
       "bg": "paper",
       "label": "The problem",
       "idea": "'Fix my code' makes AI guess: it can't see your files, error or rules.",
+      "title": "AI can't see your project, so it guesses.",
+      "line": "Just saying 'fix my code' gives it nothing to use.",
+      "device": "break a belief",
       "screen": "An AI chat: user message 'fix my code' and a long generic reply that rewrites everything (lines faded)"
     },
     {
@@ -50,6 +57,8 @@
       "bg": "lime",
       "label": "Part 1",
       "idea": "Paste the exact code and the full error: only the file that breaks.",
+      "title": "First, paste the code and the full error.",
+      "line": "Send only the file that breaks, not the whole project.",
       "screen": "Chat message with a short JS code block (fictional cart.js) and a red error 'TypeError: Cannot read properties of undefined (reading \"price\")'"
     },
     {
@@ -58,6 +67,8 @@
       "bg": "dark",
       "label": "Part 2",
       "idea": "Tell it what it must not change: language/version, framework, files to leave alone.",
+      "title": "Next, tell it what it must not change.",
+      "line": "Name your language, framework and files to leave alone.",
       "screen": "Chat message lines: 'Rules: Node 20, Express. Don't change routes.js. Keep my variable names.' with the Rules line highlighted"
     },
     {
@@ -66,6 +77,9 @@
       "bg": "paper",
       "label": "Part 3",
       "idea": "Say what should happen instead: the input, the expected result, what you got.",
+      "title": "This won't work unless you say what should happen.",
+      "line": "Give the expected result and what you got instead.",
+      "device": "won't work unless",
       "screen": "Chat message: 'Expected: adding 2 items shows total 498. What happens: total shows NaN.' then AI reply starting 'The cause:' (fictional)"
     },
     {
@@ -74,6 +88,8 @@
       "bg": "lime",
       "label": "Screenshot this",
       "idea": "Cheat sheet: the full template, ready to paste.",
+      "title": "Copy this whole template into your notes.",
+      "line": "Fill in the blanks each time you ask AI.",
       "screen": "A code/notes block 'prompt-template.txt' with the template lines (Code / Error / Rules / Expected / What happens / Explain the cause first)",
       "copy_text": "Here is my code:\n<paste only the file that breaks>\n\nHere is the full error:\n<paste the error>\n\nRules: I use <language + version, framework>. Don't change <files or functions>. Keep my variable names.\n\nExpected: when I <input or action>, it should <expected result>.\nWhat happens: <actual result>.\n\nExplain the cause first, then give the smallest fix."
     },
@@ -81,7 +97,8 @@
       "n": 8,
       "type": "send",
       "image": "send",
-      "idea": "Send this to a friend getting wrong code from AI. (owner: 'a friend who says AI gives wrong code'; title kept ≤10 words)"
+      "idea": "Send this to a friend getting wrong code from AI.",
+      "title": "Send this to a friend getting wrong code from AI."
     }
   ],
   "images": [
@@ -97,5 +114,11 @@
     }
   ],
   "sources": [],
-  "note": "No external facts needed. All code, file names and numbers in screens are fictional. Caption carries the full template as copyable text."
+  "note": "No external facts needed. All code, file names and numbers in screens are fictional. Caption carries the full template as copyable text.",
+  "devices": [
+    "results first",
+    "break a belief",
+    "won't work unless"
+  ],
+  "copy_style": "Owner, 26 Oct 2026, FINAL: STYLE.md -> COPY STYLE AND EMOTION. Cover hook is owner-approved: use it word for word. Titles and lines here are drafts written to that style; the daily run checks them and may polish them within it."
 }

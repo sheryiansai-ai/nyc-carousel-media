@@ -10,16 +10,16 @@
   "cover": {
     "style": 2,
     "concept": "Surreal landscape: a tiny student walks out of a lone open campus gate into vast rolling hills dotted with small lit buildings far away.",
-    "emotion": "anger at the system",
+    "emotion": "curiosity",
     "hooks": [
-      "No companies on your campus? (anger at the system)",
-      "Your batchmate didn't wait for campus. (FOMO)",
-      "8 sites. One message. Internship. (curiosity)",
-      "Placement cell: no updates. Again. (recognition)",
-      "The internship never comes to campus. (surprise)"
+      "Find an internship without campus placements. (curiosity, owner-approved)",
+      "Second-years land startup internships on these 8 sites. (ambition)",
+      "Apply to your first internship this week. (confidence)",
+      "A second-year can intern at a YC startup. (awe)"
     ],
-    "hookDraft": "No companies on your campus?",
-    "lineDraft": "Your first summer internship was never coming there."
+    "hook": "Find an internship without campus placements.",
+    "hook_approved_by_owner": "owner, 26 Oct 2026",
+    "lineDraft": "Start with these 8 sites in first year."
   },
   "slides": [
     {
@@ -33,7 +33,9 @@
       "type": "screen",
       "bg": "dark",
       "label": "Save this",
-      "idea": "Promise: 'Save this before you apply.' / 8 real sites and the exact message to send.",
+      "idea": "Save promise: 8 real sites and the exact message to send a founder.",
+      "title": "Save these 8 sites before you apply.",
+      "line": "You also get the exact message to send a founder.",
       "screen": "Chrome bookmarks bar with an open folder 'Internships' listing the 8 sites by name and domain (internshala.com, unstop.com, linkedin.com/jobs, wellfound.com, workatastartup.com, in.indeed.com, glassdoor.co.in, foundit.in), text only, no logos"
     },
     {
@@ -42,6 +44,9 @@
       "bg": "paper",
       "label": "Sites 1-4",
       "idea": "Start with these 4: Internshala, Unstop, LinkedIn Jobs (Internship filter), Wellfound (startups).",
+      "title": "You don't need campus placements to get an internship.",
+      "line": "Start with Internshala, Unstop, LinkedIn Jobs and Wellfound.",
+      "device": "break a belief",
       "screen": "Four browser tabs named Internshala, Unstop, LinkedIn Jobs, Wellfound; in front one internship listing card for a fictional startup 'Pixelkart': Web Development Intern, Work from home, 2 months, Apply button"
     },
     {
@@ -50,6 +55,8 @@
       "bg": "lime",
       "label": "Sites 5-8",
       "idea": "Then these 4: Work at a Startup (YC startups), Indeed, Glassdoor, foundit. Tick the Internship filter.",
+      "title": "Tick the Internship filter on every site.",
+      "line": "Then add Work at a Startup, Indeed, Glassdoor and foundit.",
       "screen": "A job search filter panel cropped big: search 'web developer', location 'Remote / India', Job type with 'Internship' ticked (.row.on) and Full-time unticked, four site names as tabs above it"
     },
     {
@@ -58,7 +65,9 @@
       "image": "s05",
       "bg": "dark",
       "label": "Every evening",
-      "idea": "Send 5 applications every evening; track site, date and reply in a notebook."
+      "idea": "Send 5 applications every evening; track site, date and reply in a notebook.",
+      "title": "Send 5 applications every evening.",
+      "line": "Write the site, date and reply in a notebook."
     },
     {
       "n": 6,
@@ -66,6 +75,9 @@
       "bg": "paper",
       "label": "Copy this",
       "idea": "Message the founder directly, not just the form. Show the exact cold message (also in full in the caption).",
+      "title": "Here's a faster way: message the founder directly.",
+      "line": "Copy this message and change the details to yours.",
+      "device": "re-hook",
       "screen": "A LinkedIn message compose box to fictional 'Riya Mehta, Founder at Pixelkart', containing the cold message, Send button; fictional names and example links only",
       "copy_text": "Hi Riya, I'm Aarav, a 2nd-year CSE student. I built Bus Timings (bus-timings.vercel.app), a web app that shows live college bus times, using React and Node. I saw Pixelkart is building a student marketplace. Could I help as an intern this summer? I'm happy to do a small test task first. Thanks, Aarav"
     },
@@ -75,13 +87,17 @@
       "bg": "lime",
       "label": "Screenshot this",
       "idea": "Cheat sheet: the 8 sites in one list, 5 a day, message the founder, follow up once after 5 days.",
+      "title": "This won't work unless you follow up once.",
+      "line": "Follow up after 5 days, then screenshot this plan.",
+      "device": "won't work unless",
       "screen": "A phone Notes app note titled 'Off-campus plan' with a checklist: 8 site names, '5 applications every evening', 'Message the founder', 'Follow up once after 5 days'"
     },
     {
       "n": 8,
       "type": "send",
       "image": "send",
-      "idea": "Send this to a friend whose college has no placements."
+      "idea": "Send this to a friend whose college has no placements.",
+      "title": "Send this to a friend whose college has no placements."
     }
   ],
   "images": [
@@ -111,5 +127,11 @@
     "https://www.glassdoor.co.in/Job/india-internship-jobs-SRCH_IL.0,5_KO6,16.htm",
     "https://www.foundit.in/search/internship-jobs"
   ],
-  "note": "All 8 sites checked 26 Oct 2026 (each showed internship listings in Oct 2026). Daily run: re-check each site still lists internships; screens draw site NAMES as text, no logos. Cold message is fictional (Aarav, Riya, Pixelkart, example project) and goes in the caption in full. Send title is 10 words (QC limit)."
+  "note": "All 8 sites checked 26 Oct 2026 (each showed internship listings in Oct 2026). Daily run: re-check each site still lists internships; screens draw site NAMES as text, no logos. Cold message is fictional (Aarav, Riya, Pixelkart, example project) and goes in the caption in full. Send title is 10 words (QC limit).",
+  "devices": [
+    "break a belief",
+    "re-hook",
+    "won't work unless"
+  ],
+  "copy_style": "Owner, 26 Oct 2026, FINAL: STYLE.md -> COPY STYLE AND EMOTION. Cover hook is owner-approved: use it word for word. Titles and lines here are drafts written to that style; the daily run checks them and may polish them within it."
 }

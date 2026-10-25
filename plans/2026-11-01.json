@@ -10,16 +10,16 @@
   "cover": {
     "style": 1,
     "concept": "Renaissance oil painting remixed with tech: a young scholar at a candlelit desk marks the first of twelve blank parchment squares pinned on the wall, a laptop glowing among quills and books.",
-    "emotion": "fear (a closing window)",
+    "emotion": "ambition",
     "hooks": [
-      "Summer 2027 starts this November. (fear / closing window)",
-      "Your senior started in first year. (envy / comparison)",
-      "Eight months. One internship. (aspiration)",
-      "Still waiting for second year? (recognition)",
-      "What do you do in month one? (curiosity)"
+      "Your month-by-month plan to a summer internship. (ambition, owner-approved)",
+      "The internship you want opens in second year. (calm urgency)",
+      "Here's what to do each month until June. (confidence)",
+      "Eight months is enough for two real projects. (awe)"
     ],
-    "hookDraft": "Summer 2027 starts this November.",
-    "lineDraft": "First year, month by month, to your first internship."
+    "hook": "Your month-by-month plan to a summer internship.",
+    "hook_approved_by_owner": "owner, 26 Oct 2026",
+    "lineDraft": "Start this November, in your first year."
   },
   "slides": [
     {
@@ -33,7 +33,10 @@
       "type": "screen",
       "bg": "dark",
       "label": "Save this",
-      "idea": "Promise: 'Save this plan for the next 8 months.' / Month by month, November to June.",
+      "idea": "Results first + save promise: the whole plan, month by month, November to June.",
+      "title": "This is your plan from November to June.",
+      "line": "Save it and check one month at a time.",
+      "device": "results first",
       "screen": "Google Calendar year/month strip Nov 2026 - Jun 2027 with one coloured block per month (Build, Build, Hackathon, Open source, Open source, Apply, Apply, Intern)"
     },
     {
@@ -42,6 +45,8 @@
       "bg": "paper",
       "label": "Nov-Dec",
       "idea": "Build two small projects with live links in the stack you're learning.",
+      "title": "Build two small projects with live links.",
+      "line": "Use the stack you are already learning.",
       "screen": "GitHub pinned section cropped to two repos (aarav-codes/bus-timings, aarav-codes/notes-ai), each with a live link in its description"
     },
     {
@@ -50,7 +55,10 @@
       "image": "s04",
       "bg": "lime",
       "label": "January",
-      "idea": "Join one hackathon with friends: you learn to build fast in a team."
+      "idea": "Join one hackathon with friends: you learn to build fast in a team.",
+      "title": "Hackathons aren't only for seniors.",
+      "line": "Join one in January with friends and build fast.",
+      "device": "break a belief"
     },
     {
       "n": 5,
@@ -58,6 +66,8 @@
       "bg": "dark",
       "label": "Feb-March",
       "idea": "Make your first open-source contribution; GSoC 2026 took applications 16-31 March (check the 2027 timeline when Google posts it).",
+      "title": "Make your first open-source contribution.",
+      "line": "Start with an issue labelled good first issue.",
       "screen": "GitHub Issues list of a fictional repo filtered by label 'good first issue', one issue highlighted with 'assigned to aarav-codes'"
     },
     {
@@ -66,6 +76,9 @@
       "bg": "paper",
       "label": "March-May",
       "idea": "Apply off-campus, 5 a day; track every application.",
+      "title": "This won't work unless you apply every day.",
+      "line": "Send 5 applications a day and track each one.",
+      "device": "won't work unless",
       "screen": "A Google Sheets tracker: columns Company, Site, Date, Status; rows of fictional startups with statuses Applied / Replied / Interview"
     },
     {
@@ -74,13 +87,16 @@
       "bg": "lime",
       "label": "Screenshot this",
       "idea": "Cheat sheet: Nov-Dec build 2 projects; Jan hackathon; Feb-Mar open source (+ GSoC window); Mar-May apply 5 a day; June: your first internship or a third project.",
+      "title": "Here are all eight months on one screen.",
+      "line": "Screenshot it and tick each month as you finish.",
       "screen": "A phone Notes note 'Nov to June' with one ticked row per month group"
     },
     {
       "n": 8,
       "type": "send",
       "image": "send",
-      "idea": "Send this to a friend who thinks it's too early."
+      "idea": "Send this to a friend who thinks it's too early.",
+      "title": "Send this to a friend who thinks it's too early."
     }
   ],
   "images": [
@@ -105,5 +121,11 @@
     "https://www.outreachy.org/outreachy-dec-2026-internship-cohort/",
     "https://docs.linuxfoundation.org/lfx/mentorship/mentorship-program-timelines"
   ],
-  "note": "Owner's first choice (internship deadlines calendar) was checked on 26 Oct 2026 and FAILED its gate: fewer than 4 programmes open to 1st/2nd-years in India have current-cycle dates on official pages (GSoC page still shows the 2026 timeline; LFX lists term windows without a year; Outreachy Dec 2026 initial applications closed 31 Aug and May 2027 dates aren't out; no official 2027 dates found for Google STEP). Owner's example fallback 'GitHub Student Developer Pack' is already in history (2026-10-12, student-pack), so the backlog's 'first-year-to-internship' was used. 'model-selection' stays in the backlog, unplanned. Daily run: re-check GSoC timeline; if 2027 dates are out, use them."
+  "note": "Owner's first choice (internship deadlines calendar) was checked on 26 Oct 2026 and FAILED its gate: fewer than 4 programmes open to 1st/2nd-years in India have current-cycle dates on official pages (GSoC page still shows the 2026 timeline; LFX lists term windows without a year; Outreachy Dec 2026 initial applications closed 31 Aug and May 2027 dates aren't out; no official 2027 dates found for Google STEP). Owner's example fallback 'GitHub Student Developer Pack' is already in history (2026-10-12, student-pack), so the backlog's 'first-year-to-internship' was used. 'model-selection' stays in the backlog, unplanned. Daily run: re-check GSoC timeline; if 2027 dates are out, use them.",
+  "devices": [
+    "results first",
+    "break a belief",
+    "won't work unless"
+  ],
+  "copy_style": "Owner, 26 Oct 2026, FINAL: STYLE.md -> COPY STYLE AND EMOTION. Cover hook is owner-approved: use it word for word. Titles and lines here are drafts written to that style; the daily run checks them and may polish them within it."
 }

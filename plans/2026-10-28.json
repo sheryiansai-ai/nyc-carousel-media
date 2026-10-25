@@ -10,16 +10,16 @@
   "cover": {
     "style": 3,
     "concept": "Studio still life on flat saturated orange: one crisp sheet of paper standing upright in a brass bulldog clip, crumpled sheets scattered around it.",
-    "emotion": "embarrassment",
+    "emotion": "ambition",
     "hooks": [
-      "Two pages. Not shortlisted. (embarrassment)",
-      "Same projects. Their resume got shortlisted. (envy / comparison)",
-      "Copy this one-page resume. (gain)",
-      "Applied everywhere. Heard nothing back. (fear)",
-      "What makes a resume get shortlisted? (curiosity)"
+      "The one-page resume for your first internship. (ambition, owner-approved)",
+      "Put projects above skills on your resume. (curiosity)",
+      "You can finish this resume in one evening. (confidence)",
+      "This is a strong second-year resume. (awe)"
     ],
-    "hookDraft": "Two pages. Not shortlisted.",
-    "lineDraft": "Copy this one page before your first internship."
+    "hook": "The one-page resume for your first internship.",
+    "hook_approved_by_owner": "owner, 26 Oct 2026",
+    "lineDraft": "Copy this one page in your first year."
   },
   "slides": [
     {
@@ -33,7 +33,10 @@
       "type": "screen",
       "bg": "dark",
       "label": "Save this",
-      "idea": "Promise: 'Copy this one-page resume structure.' / 5 sections, top to bottom. Save it for your first application.",
+      "idea": "Results first + save promise: the whole one-page resume, 5 sections top to bottom.",
+      "title": "This is what a strong first resume looks like.",
+      "line": "Save its 5 sections for your first application.",
+      "device": "results first",
       "screen": "A whole one-page resume (fictional Aarav Sharma) shown small with its 5 sections boxed and named: Header, Education, Projects, Skills, Achievements"
     },
     {
@@ -42,6 +45,8 @@
       "bg": "paper",
       "label": "Section 1",
       "idea": "Put your links at the top: name, email, phone, GitHub, LinkedIn, portfolio.",
+      "title": "Put all your links at the top.",
+      "line": "Email, phone, GitHub, LinkedIn and portfolio go in one line.",
       "screen": "Resume header cropped big: Aarav Sharma, aarav@example.com, +91 98xxx xxxxx, github.com/aarav-codes, linkedin.com/in/aarav-example, aarav.example.com"
     },
     {
@@ -50,6 +55,8 @@
       "bg": "lime",
       "label": "Section 2",
       "idea": "Projects come before skills: 2-3 projects, what it does, the tech, a live link.",
+      "title": "Put your projects above your skills list.",
+      "line": "Recruiters look for what you built, with a live link.",
       "screen": "Resume Projects section cropped big: 'Bus Timings | React, Node | live link' with two bullets, then a second project"
     },
     {
@@ -58,6 +65,9 @@
       "bg": "dark",
       "label": "Section 3",
       "idea": "Write each bullet as what you built and what it does: 'Built X using Y so users can Z'.",
+      "title": "It's not the tasks or the tools you list.",
+      "line": "It's what you built and what it does for users.",
+      "device": "not A or B, it's C",
       "screen": "Two resume bullets compared: a weak one 'Worked on a website' struck in red, and a strong one 'Built a bus-times app with React and Node so students can check live bus times' marked green (fictional)"
     },
     {
@@ -66,7 +76,10 @@
       "image": "s06",
       "bg": "paper",
       "label": "Before you send",
-      "idea": "Print it and read it out loud once; you catch typos and long lines."
+      "idea": "Print it and read it out loud once; you catch typos and long lines.",
+      "title": "Here's a quick check: read it out loud once.",
+      "line": "You'll catch typos and lines that run too long.",
+      "device": "re-hook"
     },
     {
       "n": 7,
@@ -74,13 +87,17 @@
       "bg": "lime",
       "label": "Screenshot this",
       "idea": "Cheat sheet: one page; links on top; education; projects before skills; skills; achievements; bullets = action + result; save as firstname-lastname-resume.pdf.",
+      "title": "This won't work unless it fits on one page.",
+      "line": "Screenshot this checklist and tick it before you send.",
+      "device": "won't work unless",
       "screen": "A Google Docs page titled 'Resume checklist' with 6 ticked lines (.row.on): One page, Links on top, Projects before skills, Action + result bullets, Hackathons and clubs last, PDF named aarav-sharma-resume.pdf"
     },
     {
       "n": 8,
       "type": "send",
       "image": "send",
-      "idea": "Send this to a friend applying this month."
+      "idea": "Send this to a friend applying this month.",
+      "title": "Send this to a friend applying this month."
     }
   ],
   "images": [
@@ -101,5 +118,12 @@
     }
   ],
   "sources": [],
-  "note": "No external facts needed (format advice only). No invented statistics anywhere, including the fictional resume. Caption carries the full section-by-section format as copyable text."
+  "note": "No external facts needed (format advice only). No invented statistics anywhere, including the fictional resume. Caption carries the full section-by-section format as copyable text.",
+  "devices": [
+    "results first",
+    "not A or B, it's C",
+    "re-hook",
+    "won't work unless"
+  ],
+  "copy_style": "Owner, 26 Oct 2026, FINAL: STYLE.md -> COPY STYLE AND EMOTION. Cover hook is owner-approved: use it word for word. Titles and lines here are drafts written to that style; the daily run checks them and may polish them within it."
 }

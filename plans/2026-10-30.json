@@ -10,16 +10,16 @@
   "cover": {
     "style": 4,
     "concept": "One surreal object: an open laptop sealed under a tall glass bell jar on a white pedestal, nobody else can reach it.",
-    "emotion": "recognition",
+    "emotion": "confidence",
     "hooks": [
-      "It works on my laptop. (recognition)",
-      "Nobody can open localhost:3000. (amusement)",
-      "Your interviewer clicked. Nothing loaded. (fear)",
-      "Free link. Four clicks. (gain)",
-      "Why do recruiters skip your project? (curiosity)"
+      "Put your first project online for free. (confidence, owner-approved)",
+      "One free link lets anyone open your project. (ambition)",
+      "Here's why apps break after the first deploy. (curiosity)",
+      "Your laptop shouldn't be your only server. (wit)"
     ],
-    "hookDraft": "It works on my laptop.",
-    "lineDraft": "Put a live link on it before second year."
+    "hook": "Put your first project online for free.",
+    "hook_approved_by_owner": "owner, 26 Oct 2026",
+    "lineDraft": "Give it a live link before second year."
   },
   "slides": [
     {
@@ -33,7 +33,10 @@
       "type": "screen",
       "bg": "dark",
       "label": "Save this",
-      "idea": "Promise: 'Save this before your next deploy.' / Free hosts, the exact clicks and 3 common errors.",
+      "idea": "Results first + save promise: localhost vs a live link; free hosts, the exact clicks and 3 common errors.",
+      "title": "This is your project with a live link.",
+      "line": "Save the free hosts, the clicks and 3 common fixes.",
+      "device": "results first",
       "screen": "Two browser address bars stacked: localhost:3000 (greyed, 'only on your laptop') and campus-bus.vercel.app (highlighted .focus)"
     },
     {
@@ -42,6 +45,9 @@
       "bg": "paper",
       "label": "Pick a host",
       "idea": "Pick the free host by what you built: HTML -> GitHub Pages; React/Next.js -> Vercel or Netlify; Node/Python backend -> Render.",
+      "title": "It's not about the most popular host.",
+      "line": "It's the free host that fits what you built.",
+      "device": "not A or B, it's C",
       "screen": "Three browser tabs (GitHub Pages settings, Vercel New Project, Render New Web Service) with the Vercel 'Import Git Repository' list in front: aarav-codes/campus-bus with an Import button"
     },
     {
@@ -50,6 +56,8 @@
       "bg": "lime",
       "label": "The clicks",
       "idea": "Import your repo, add secret keys under Environment Variables, click Deploy. Never push .env.",
+      "title": "Import your repo on Vercel and click Deploy.",
+      "line": "Keep your .env file out of GitHub.",
       "screen": "Vercel 'Configure Project' cropped: Framework Preset Next.js, Environment Variables row API_KEY = ••••••, Deploy button (.btn.go)"
     },
     {
@@ -58,6 +66,9 @@
       "bg": "dark",
       "label": "Error 1",
       "idea": "Your app still calls localhost: change the fetch URL to your live backend link.",
+      "title": "Here's the quick fix when data won't load.",
+      "line": "Replace localhost with your live backend link.",
+      "device": "re-hook",
       "screen": "Browser console with a red error 'Failed to fetch http://localhost:5000/api/routes', below it a two-line code diff replacing localhost:5000 with campus-bus-api.onrender.com"
     },
     {
@@ -66,6 +77,9 @@
       "bg": "paper",
       "label": "Error 2",
       "idea": "Your API key is undefined: add it on the host, then redeploy.",
+      "title": "This won't work unless the host has your keys.",
+      "line": "Add them under Environment Variables, then redeploy.",
+      "device": "won't work unless",
       "screen": "Build/runtime log cropped: 'Error: API_KEY is undefined' highlighted, a 'Redeploy' button beside it"
     },
     {
@@ -74,13 +88,16 @@
       "bg": "lime",
       "label": "Screenshot this",
       "idea": "Cheat sheet: 3 hosts by project type; 4 clicks (push without .env, import, add keys, Deploy); 3 errors + fixes incl. Error 3: free Render app sleeps after 15 idle minutes, first load takes about a minute (normal).",
+      "title": "This screen has every host, click and fix.",
+      "line": "Screenshot it before your next deploy.",
       "screen": "A phone Notes note 'Deploy cheat sheet' with three short groups: Hosts, Clicks, Errors (localhost URL, undefined key, slow first load on Render)"
     },
     {
       "n": 8,
       "type": "send",
       "image": "send",
-      "idea": "Send this to a friend whose project runs on localhost. (title must stay ≤10 words)"
+      "idea": "Send this to a friend whose project runs on localhost.",
+      "title": "Send this to a friend whose project runs on localhost."
     }
   ],
   "images": [
@@ -101,5 +118,12 @@
     "https://www.netlify.com/pricing/",
     "https://render.com/docs/free"
   ],
-  "note": "REUPLOAD of deploy-first-project (gate: 3 new topics 27-29 Oct after the 26 Oct reupload). Checked 26 Oct 2026: Vercel Hobby free (personal, non-commercial); Netlify Free plan $0; Render free web services spin down after 15 idle minutes and take about a minute to wake, free Postgres expires 30 days after creation, 750 free instance hours a month; GitHub Pages docs. No 'ship' words; no * footnote; internship framing; brand-new cover hook. Error 3 (Render sleep) lives on the cheat sheet and in the caption to keep 8 slides."
+  "note": "REUPLOAD of deploy-first-project (gate: 3 new topics 27-29 Oct after the 26 Oct reupload). Checked 26 Oct 2026: Vercel Hobby free (personal, non-commercial); Netlify Free plan $0; Render free web services spin down after 15 idle minutes and take about a minute to wake, free Postgres expires 30 days after creation, 750 free instance hours a month; GitHub Pages docs. No 'ship' words; no * footnote; internship framing; brand-new cover hook. Error 3 (Render sleep) lives on the cheat sheet and in the caption to keep 8 slides.",
+  "devices": [
+    "results first",
+    "not A or B, it's C",
+    "re-hook",
+    "won't work unless"
+  ],
+  "copy_style": "Owner, 26 Oct 2026, FINAL: STYLE.md -> COPY STYLE AND EMOTION. Cover hook is owner-approved: use it word for word. Titles and lines here are drafts written to that style; the daily run checks them and may polish them within it."
 }

@@ -10,16 +10,16 @@
   "cover": {
     "style": 6,
     "concept": "Cinematic night photo: a student's desk by a window with city lights, lit by an open laptop's glow, a mug and a notebook beside it.",
-    "emotion": "aspiration",
+    "emotion": "confidence",
     "hooks": [
-      "Saturday idea. Sunday live link. (aspiration)",
-      "Your hackathon partner already built one. (FOMO)",
-      "Free tools. One weekend. One app. (gain)",
-      "48 hours to your first AI app? (curiosity)",
-      "Still only watching AI tutorials? (embarrassment)"
+      "Build your first AI app this weekend, free. (confidence, owner-approved)",
+      "Have your first AI app live by Sunday. (ambition)",
+      "A second-year can build this in two days. (awe)",
+      "These free tools can build your AI app. (curiosity)"
     ],
-    "hookDraft": "Saturday idea. Sunday live link.",
-    "lineDraft": "Your first AI app, before second year ends."
+    "hook": "Build your first AI app this weekend, free.",
+    "hook_approved_by_owner": "owner, 26 Oct 2026",
+    "lineDraft": "Do it in first year with three free tools."
   },
   "slides": [
     {
@@ -33,7 +33,10 @@
       "type": "screen",
       "bg": "dark",
       "label": "Save this",
-      "idea": "Promise: 'Save this for Saturday morning.' / A weekend plan, free tools and a prompt to copy.",
+      "idea": "Results first + save promise: the weekend plan, the free tools and a prompt to copy.",
+      "title": "By Sunday, your AI app has a live link.",
+      "line": "Save this plan, the free tools and the prompt.",
+      "device": "results first",
       "screen": "Google Calendar weekend view (Sat and Sun columns) with time blocks: 10 AM Pick a problem, 2 PM Get API key, 4 PM Build with the prompt, Sun 11 AM Deploy, 4 PM README + share"
     },
     {
@@ -42,7 +45,10 @@
       "image": "s03",
       "bg": "paper",
       "label": "Saturday, 10 AM",
-      "idea": "Pick one small problem you have, e.g. long college notices nobody reads -> a notice summariser."
+      "idea": "Pick one small problem you have, e.g. long college notices nobody reads -> a notice summariser.",
+      "title": "Your first app doesn't need a big idea.",
+      "line": "Pick one small problem, like long college notices.",
+      "device": "break a belief"
     },
     {
       "n": 4,
@@ -50,6 +56,8 @@
       "bg": "lime",
       "label": "Saturday, 2 PM",
       "idea": "Get a free Gemini API key in Google AI Studio (free tier).",
+      "title": "Get a free Gemini API key in AI Studio.",
+      "line": "It takes a few minutes with your Google account.",
       "screen": "Google AI Studio 'API keys' page cropped: 'Create API key' button and one key row masked (AIza••••••••), project name notice-summariser"
     },
     {
@@ -58,6 +66,9 @@
       "bg": "dark",
       "label": "Copy this",
       "idea": "Paste this starter prompt into your AI assistant (full prompt in the caption).",
+      "title": "Here's a faster way: let AI write the code.",
+      "line": "Paste this prompt and read every line it writes.",
+      "device": "re-hook",
       "screen": "An AI chat input box containing the starter prompt, Send arrow",
       "copy_text": "Build a Streamlit app in Python, in one file called app.py. The user pastes a long college notice. Send it to the Gemini API (read the key from st.secrets) and show a 3-line summary and any dates in it. Add clear comments, a requirements.txt, and tell me how to run it locally."
     },
@@ -67,6 +78,9 @@
       "bg": "paper",
       "label": "Sunday, 11 AM",
       "idea": "Deploy it free on Streamlit Community Cloud: push to GitHub, pick the repo, click Deploy.",
+      "title": "This won't work unless your key stays in Secrets.",
+      "line": "Deploy on Streamlit Community Cloud and paste the key there.",
+      "device": "won't work unless",
       "screen": "Streamlit Community Cloud 'Deploy an app' form: Repository aarav-codes/notice-summariser, Branch main, Main file path app.py, Secrets (GEMINI_API_KEY = ••••), Deploy button"
     },
     {
@@ -75,13 +89,16 @@
       "bg": "lime",
       "label": "Screenshot this",
       "idea": "Cheat sheet: Sat 10 problem, 2 key, 4 build with prompt, 7 test with 5 real notices; Sun 11 deploy, 2 README + screenshot, 4 share the live link.",
+      "title": "Your whole weekend fits on one screen.",
+      "line": "Screenshot it and keep to the times.",
       "screen": "A phone Notes note 'Weekend AI app' with the hour-by-hour list as ticked rows"
     },
     {
       "n": 8,
       "type": "send",
       "image": "send",
-      "idea": "Send this to your hackathon partner."
+      "idea": "Send this to your hackathon partner.",
+      "title": "Send this to your hackathon partner."
     }
   ],
   "images": [
@@ -105,5 +122,12 @@
     "https://ai.google.dev/gemini-api/docs/pricing",
     "https://streamlit.io/cloud"
   ],
-  "note": "Checked 26 Oct 2026: Gemini API has a Free tier with free tokens on Flash models (ai.google.dev pricing); Streamlit Community Cloud is free for public apps, deploy from GitHub. Daily run: re-check both; don't name a specific Gemini model version on slides. Key stays in Secrets, never in the repo."
+  "note": "Checked 26 Oct 2026: Gemini API has a Free tier with free tokens on Flash models (ai.google.dev pricing); Streamlit Community Cloud is free for public apps, deploy from GitHub. Daily run: re-check both; don't name a specific Gemini model version on slides. Key stays in Secrets, never in the repo.",
+  "devices": [
+    "results first",
+    "break a belief",
+    "re-hook",
+    "won't work unless"
+  ],
+  "copy_style": "Owner, 26 Oct 2026, FINAL: STYLE.md -> COPY STYLE AND EMOTION. Cover hook is owner-approved: use it word for word. Titles and lines here are drafts written to that style; the daily run checks them and may polish them within it."
 }

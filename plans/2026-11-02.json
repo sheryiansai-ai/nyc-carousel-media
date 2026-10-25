@@ -7,16 +7,16 @@
   "cover": {
     "style": 5,
     "concept": "A crowd where one stands out: an aerial view of a college convocation, a sea of identical grey gowns and caps, and one student in a lime jacket walking the other way with a laptop under one arm.",
-    "emotion": "anger at the system",
+    "emotion": "curiosity",
     "hooks": [
-      "Five things. Not in your syllabus. (anger at the system)",
-      "Degree done. Inbox empty. (fear)",
-      "Same degree. Different summer. (envy / comparison)",
-      "Waiting for final year? (recognition)",
-      "What internship interviews test first. (curiosity)"
+      "Start these 5 things in first year. (curiosity, owner-approved)",
+      "Add these 5 things to your degree. (ambition)",
+      "You can start all 5 of these tonight. (confidence)",
+      "All 5 can be ready by second year. (calm urgency)"
     ],
-    "hookDraft": "Five things. Not in your syllabus.",
-    "lineDraft": "Start them in first year, not final year."
+    "hook": "Start these 5 things in first year.",
+    "hook_approved_by_owner": "owner, 26 Oct 2026",
+    "lineDraft": "Do one small step for each this month."
   },
   "slides": [
     {
@@ -30,7 +30,9 @@
       "type": "screen",
       "bg": "paper",
       "label": "Save this",
-      "idea": "Promise: 'Save these 5 things for this semester.' / One action for each, starting this month.",
+      "idea": "Save promise: the 5 things, one action for each, starting this month.",
+      "title": "Save these 5 things for this semester.",
+      "line": "Each one comes with one step to take this month.",
       "screen": "A phone Notes note titled '5 things before final year' with five unticked rows (.row.off): Code + AI tools, Unseen problems, Projects you can explain, People who build, Interview format"
     },
     {
@@ -39,6 +41,9 @@
       "bg": "dark",
       "label": "Thing 1",
       "idea": "Thing 1: learn the code, then direct the AI: small changes, give it the code and constraints, read every change it makes",
+      "title": "It's not avoiding AI or copying from it.",
+      "line": "It's knowing the code and reviewing every change AI makes.",
+      "device": "not A or B, it's C",
       "screen": "A code editor with an AI chat side panel: a short prompt with the file and a constraint, and a diff with red/green lines the student is reviewing (Accept / Reject buttons)"
     },
     {
@@ -47,7 +52,9 @@
       "image": "s03",
       "bg": "paper",
       "label": "Thing 2",
-      "idea": "Thing 2: solve problems you haven't seen: break it into parts, compare two approaches, explain why yours fits"
+      "idea": "Thing 2: solve problems you haven't seen: break it into parts, compare two approaches, explain why yours fits",
+      "title": "Practise problems you haven't seen before.",
+      "line": "Break each one into parts and compare two approaches."
     },
     {
       "n": 5,
@@ -55,6 +62,8 @@
       "bg": "lime",
       "label": "Thing 3",
       "idea": "Thing 3: build projects you can explain: trace one request from the page to the API to the database",
+      "title": "Interviewers ask how your project works inside.",
+      "line": "Trace one request from the page to the database.",
       "screen": "Browser DevTools Network tab cropped to one request: POST /api/expenses, status 201, the request payload and the JSON response"
     },
     {
@@ -63,7 +72,10 @@
       "image": "s05",
       "bg": "dark",
       "label": "Thing 4",
-      "idea": "Thing 4: your college isn't your only network: hackathons, open source, GSoC"
+      "idea": "Thing 4: your college isn't your only network: hackathons, open source, GSoC",
+      "title": "Your college isn't your only network.",
+      "line": "Meet builders at hackathons, in open source and through GSoC.",
+      "device": "break a belief"
     },
     {
       "n": 7,
@@ -71,13 +83,17 @@
       "bg": "lime",
       "label": "Screenshot this",
       "idea": "Cheat sheet = Thing 5 + the list: the 5 things, one action each; line 5 is Thing 5: check if AI is allowed in the test, then practise that way.",
+      "title": "This won't work unless you practise the real format.",
+      "line": "Check whether the test allows AI, and practise that way.",
+      "device": "won't work unless",
       "screen": "The same Notes note as slide 2, now with all five rows ticked (.row.on) and one short action under each; row 5 'Interview format: check if AI is allowed, practise that way' highlighted (.focus)"
     },
     {
       "n": 8,
       "type": "send",
       "image": "send",
-      "idea": "Send this to a friend who is waiting for final year."
+      "idea": "Send this to a friend waiting for final year.",
+      "title": "Send this to a friend waiting for final year."
     }
   ],
   "images": [
@@ -105,5 +121,11 @@
   "note": "REUPLOAD of internship-5-things: rebuild from the backlog entry's content (five things from NYC_BRIEF homepage list); internship framing for 1st/2nd years; no 'ship' words; no * footnote; keep it clearly different from 'degree-not-enough'. Gate checked at planning: 2 new topics (10-31, 11-01) after the 10-30 reupload. Save/send re-plan (26 Oct): slide 2 promise, Things 1-4 on slides 3-6, Thing 5 (check the test format) folded into the slide-7 cheat sheet to keep 8 slides. Slides 2, 3, 5 and 7 are screen slides (drawn by the daily run, no image).",
   "images_rev": "2026-10-26-savesend",
   "save_reason": "The 5 things as a one-screen checklist with one concrete action each (slide 7, a screenshot-worthy cheat sheet), and the same list as copyable text in the caption, to work through this semester.",
-  "send_reason": "Send this to a friend who is waiting for final year."
+  "send_reason": "Send this to a friend who is waiting for final year.",
+  "devices": [
+    "not A or B, it's C",
+    "break a belief",
+    "won't work unless"
+  ],
+  "copy_style": "Owner, 26 Oct 2026, FINAL: STYLE.md -> COPY STYLE AND EMOTION. Cover hook is owner-approved: use it word for word. Titles and lines here are drafts written to that style; the daily run checks them and may polish them within it."
 }
