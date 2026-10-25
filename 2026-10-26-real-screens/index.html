@@ -1,0 +1,205 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>26 Oct deck, real screens (sample)</title>
+<link rel="stylesheet" href="../../carousel.css">
+<style>
+  /* Inside slides show the real thing: a browser window with the actual GitHub screen the slide talks about */
+  .p{padding:0;background:#14261c;color:var(--paper)}
+  .p>img.bg{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+  .p header{position:absolute;top:64px;left:72px;right:72px;display:flex;justify-content:space-between;align-items:center;z-index:3}
+  .p header .logo{background:#12251b;border-radius:14px;padding:12px 16px;display:block}
+  .p header .logo img{height:38px;display:block}
+  .p header .count{font-size:24px;font-weight:500;letter-spacing:.08em;font-variant-numeric:tabular-nums;border:1.5px solid currentColor;border-radius:999px;padding:10px 20px;opacity:.75}
+  .p .copy{position:absolute;top:190px;left:72px;right:72px;z-index:2}
+  .p .label{font-size:26px;font-weight:500;letter-spacing:.16em;text-transform:uppercase;color:var(--lime)}
+  .p h2{font-size:92px;line-height:.98;letter-spacing:-.045em;margin-top:20px}
+  .p .line{font-size:38px;line-height:1.25;letter-spacing:-.02em;margin-top:24px;color:#c6d3b4}
+  .p footer{position:absolute;left:72px;right:72px;bottom:56px;display:flex;justify-content:space-between;align-items:center;z-index:3}
+  .p footer .tag{background:var(--lime);color:var(--ink);font-size:22px;font-weight:500;letter-spacing:.1em;text-transform:uppercase;border-radius:8px;padding:9px 16px}
+  .p footer .handle{background:#12251b;color:#dfe6cf;font-size:22px;font-weight:500;border-radius:8px;padding:9px 16px}
+  .p footer .next{font-size:22px;font-weight:500;letter-spacing:.14em;text-transform:uppercase;color:#15261b;opacity:.7}
+  .p.light{background:#f1f0d9;color:var(--ink)}
+  .p.light .label{color:#4d7a2a}
+  .p.light .line{color:#33452f}
+  .p.lime{background:#cde58c;color:var(--ink)}
+  .p.lime .label{color:#2c4a1a}
+  .p.lime .line{color:#2c3d22}
+  .p.lime footer .tag{background:var(--ink);color:var(--lime)}
+  .p.photo footer .next{color:#fff;opacity:.9;text-shadow:0 1px 8px #0008}
+  .p:not(.light):not(.lime):not(.photo) footer .next{color:#f1f0d9}
+
+  /* Browser window, bleeding off the bottom edge */
+  .win{position:absolute;left:56px;right:56px;top:500px;height:725px;background:#fff;border-radius:22px;overflow:hidden;
+       box-shadow:0 40px 80px -30px #0009,0 0 0 1.5px #0002;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;color:#1f2328;letter-spacing:0}
+  .win .bar{height:58px;background:#eef0f2;border-bottom:1.5px solid #d0d7de;display:flex;align-items:center;gap:12px;padding:0 22px}
+  .win .bar i{width:16px;height:16px;border-radius:50%;background:#ff5f57}
+  .win .bar i:nth-child(2){background:#febc2e}.win .bar i:nth-child(3){background:#28c840}
+  .win .url{margin-left:18px;flex:1;background:#fff;border:1.5px solid #d0d7de;border-radius:10px;padding:7px 16px;font-size:21px;color:#59636e}
+  .win .screen{padding:26px 32px}
+  .gh-top{display:flex;gap:24px;align-items:center}
+  .av{flex:none;width:96px;height:96px;border-radius:50%;background:linear-gradient(135deg,#7ee2a8,#2f81f7);color:#fff;font-weight:700;font-size:36px;display:grid;place-items:center;border:2px solid #d0d7de}
+  .gh-name{font-size:32px;font-weight:700;line-height:1.1}
+  .gh-user{font-size:24px;color:#59636e;font-weight:300}
+  .gh-bio{font-size:21px;color:#1f2328;margin-top:6px}
+  .sec{display:flex;justify-content:space-between;align-items:baseline;margin:26px 0 12px;font-size:23px}
+  .sec b{font-weight:600}.sec a{color:#0969da;font-size:20px}
+  .pins{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+  .card{border:1.5px solid #d0d7de;border-radius:12px;padding:16px 18px}
+  .card .rn{display:flex;align-items:center;gap:10px;font-size:23px;font-weight:600;color:#0969da}
+  .pill{font-size:16px;font-weight:500;color:#59636e;border:1.5px solid #d0d7de;border-radius:999px;padding:2px 10px}
+  .card .ds{font-size:18px;color:#59636e;margin:8px 0 10px;line-height:1.3}
+  .meta{display:flex;gap:18px;font-size:18px;color:#59636e;align-items:center}
+  .dot{display:inline-block;width:14px;height:14px;border-radius:50%;margin-right:6px;vertical-align:-1px}
+  .js{background:#f1e05a}.py{background:#3572a5}.ts{background:#3178c6}.ht{background:#e34c26}
+  .hl{outline:5px solid #cde58c;outline-offset:6px;border-radius:14px;box-shadow:0 0 0 11px #15261b}
+  .readme{border:1.5px solid #d0d7de;border-radius:12px;margin-top:22px}
+  .readme .rh{font-size:19px;color:#59636e;padding:12px 20px;border-bottom:1.5px solid #d0d7de;background:#f6f8fa;border-radius:12px 12px 0 0}
+  .readme .rb{padding:20px 26px;font-size:25px;line-height:1.65}
+  .readme h3{font-size:34px;margin-bottom:8px}
+  .repo-h{font-size:27px;color:#0969da;display:flex;gap:10px;align-items:center}
+  .repo-h b{font-weight:600}
+  .shot{margin:14px 0;height:190px;border:1.5px solid #d0d7de;border-radius:10px;background:#f6f8fa;display:flex;gap:18px;padding:18px;align-items:flex-end}
+  .shot span{flex:1;background:#2da44e;border-radius:6px 6px 0 0}
+  .lnk{color:#0969da;font-size:24px}
+  .code{background:#f6f8fa;border-radius:10px;padding:14px 20px;font-family:ui-monospace,Menlo,monospace;font-size:21px;line-height:1.6;margin-top:10px}
+  .modal{position:absolute;left:84px;right:84px;top:96px;background:#fff;border:1.5px solid #d0d7de;border-radius:14px;box-shadow:0 20px 60px #0004}
+  .modal .mh{padding:18px 24px;border-bottom:1.5px solid #d0d7de;font-size:26px;font-weight:600}
+  .modal .ms{padding:12px 24px;font-size:19px;color:#59636e}
+  .row{display:flex;align-items:center;gap:16px;padding:13px 24px;border-top:1.5px solid #eaeef2;font-size:23px}
+  .box{width:28px;height:28px;border:2px solid #8c959f;border-radius:6px;display:grid;place-items:center}
+  .row.on .box{background:#0969da;border-color:#0969da}
+  .row.on .box:after{content:'';width:12px;height:7px;border-left:4px solid #fff;border-bottom:4px solid #fff;transform:translateY(-2px) rotate(-45deg)}
+  .row .st{margin-left:auto;color:#59636e;font-size:19px}
+  .row.off{color:#8c959f}
+  .dim{position:absolute;inset:58px 0 0 0;background:#1f232840}
+  .graph{display:grid;grid-template-columns:repeat(46,1fr);grid-auto-flow:column;grid-template-rows:repeat(7,15px);gap:4px;margin-top:12px}
+  .graph i{border-radius:3px;background:#ebedf0}
+  .g1{background:#9be9a8!important}.g2{background:#40c463!important}.g3{background:#30a14e!important}.g4{background:#216e39!important}
+  .cursor{position:absolute;width:44px;height:58px}
+  .tick{display:inline-grid;place-items:center;width:46px;height:46px;border-radius:12px;background:var(--lime);margin-right:26px;vertical-align:-8px}
+  .tick:after{content:"";width:18px;height:10px;border-left:5px solid var(--ink);border-bottom:5px solid var(--ink);transform:translateY(-3px) rotate(-45deg)}
+</style>
+</head>
+<body>
+
+<section class="slide p" style="background:#000"><img class="bg" src="img/cover.png" alt=""></section>
+
+<!-- 2: the pinned section -->
+<section class="slide p">
+  <header><span class="logo"><img src="../../assets/nyc-yellow-logo.png" alt="NYC"></span><span class="count">02/08</span></header>
+  <div class="copy"><div class="label">First thing they see</div><h2>Your 6 pinned projects show first.</h2><p class="line">GitHub lets you pin 6 projects on your profile.</p></div>
+  <div class="win"><div class="bar"><i></i><i></i><i></i><span class="url">github.com/aarav-codes</span></div>
+    <div class="screen">
+      <div class="gh-top"><div class="av">AS</div><div><div class="gh-name">Aarav Sharma</div><div class="gh-user">aarav-codes</div><div class="gh-bio">2nd-year CSE · I build small, useful apps</div></div></div>
+      <div class="hl" style="margin-top:22px;padding:2px 0 0">
+      <div class="sec" style="margin-top:6px"><b>Pinned</b><a>Customize your pins</a></div>
+      <div class="pins">
+        <div class="card"><div class="rn">expense-tracker <span class="pill">Public</span></div><div class="ds">Track hostel spends, split with friends</div><div class="meta"><span><i class="dot js"></i>JavaScript</span><span>★ 14</span></div></div>
+        <div class="card"><div class="rn">college-notes-ai <span class="pill">Public</span></div><div class="ds">Ask questions about your class notes</div><div class="meta"><span><i class="dot py"></i>Python</span><span>★ 9</span></div></div>
+        <div class="card"><div class="rn">portfolio <span class="pill">Public</span></div><div class="ds">My site, live on Vercel</div><div class="meta"><span><i class="dot ts"></i>TypeScript</span><span>★ 6</span></div></div>
+        <div class="card"><div class="rn">bus-timings <span class="pill">Public</span></div><div class="ds">Campus bus times as a tiny web app</div><div class="meta"><span><i class="dot js"></i>JavaScript</span><span>★ 4</span></div></div>
+        <div class="card"><div class="rn">weather-cli <span class="pill">Public</span></div><div class="ds">Weather in your terminal</div><div class="meta"><span><i class="dot py"></i>Python</span><span>★ 3</span></div></div>
+        <div class="card"><div class="rn">chat-app <span class="pill">Public</span></div><div class="ds">Real-time chat with rooms</div><div class="meta"><span><i class="dot ts"></i>TypeScript</span><span>★ 2</span></div></div>
+      </div></div>
+    </div></div>
+  <footer><span class="tag">GitHub</span><span class="next">Next →</span><span class="handle">@notyourcollege</span></footer>
+</section>
+
+<!-- 3: the profile README -->
+<section class="slide p light">
+  <header><span class="logo"><img src="../../assets/nyc-yellow-logo.png" alt="NYC"></span><span class="count">03/08</span></header>
+  <div class="copy"><div class="label">Step 1</div><h2>Write a profile README.</h2><p class="line">Make a repo named your username. It shows on top.</p></div>
+  <div class="win"><div class="bar"><i></i><i></i><i></i><span class="url">github.com/aarav-codes</span></div>
+    <div class="screen">
+      <div class="gh-top"><div class="av" style="width:76px;height:76px;font-size:28px">AS</div><div><div class="gh-name" style="font-size:28px">Aarav Sharma</div><div class="gh-user" style="font-size:21px">aarav-codes</div></div></div>
+      <div class="readme hl"><div class="rh">aarav-codes / README.md</div>
+        <div class="rb"><h3>Hi, I'm Aarav 👋</h3>
+          🎓 2nd-year CSE student<br>🛠️ Learning React and Python<br>🔍 Open to summer 2027 internships<br>📫 aarav@example.com</div></div>
+      <div class="sec"><b>Pinned</b><a>Customize your pins</a></div>
+      <div class="pins"><div class="card"><div class="rn">expense-tracker <span class="pill">Public</span></div><div class="meta" style="margin-top:8px"><span><i class="dot js"></i>JavaScript</span><span>★ 14</span></div></div><div class="card"><div class="rn">college-notes-ai <span class="pill">Public</span></div><div class="meta" style="margin-top:8px"><span><i class="dot py"></i>Python</span><span>★ 9</span></div></div></div>
+    </div></div>
+  <footer><span class="tag">GitHub</span><span class="next">Next →</span><span class="handle">@notyourcollege</span></footer>
+</section>
+
+<!-- 4: a project README people can try -->
+<section class="slide p lime">
+  <header><span class="logo"><img src="../../assets/nyc-yellow-logo.png" alt="NYC"></span><span class="count">04/08</span></header>
+  <div class="copy"><div class="label">Step 2</div><h2>Make every project easy to try.</h2><p class="line">Add a screenshot, a live link and run steps.</p></div>
+  <div class="win"><div class="bar"><i></i><i></i><i></i><span class="url">github.com/aarav-codes/expense-tracker</span></div>
+    <div class="screen">
+      <div class="repo-h">aarav-codes / <b>expense-tracker</b> <span class="pill">Public</span></div>
+      <div class="readme" style="margin-top:16px"><div class="rh">README.md</div>
+        <div class="rb" style="font-size:22px;line-height:1.5;padding:16px 24px"><h3 style="font-size:30px">Expense Tracker</h3>
+          <div class="shot"><span style="height:40%"></span><span style="height:75%"></span><span style="height:55%"></span><span style="height:90%"></span><span style="height:35%"></span><span style="height:65%"></span></div>
+          <div class="lnk">🔗 Live demo: expense-tracker.vercel.app</div>
+          <div style="font-weight:600;margin-top:12px">Run it locally</div>
+          <div class="code">git clone github.com/aarav-codes/expense-tracker<br>npm install<br>npm run dev</div></div></div>
+    </div></div>
+  <footer><span class="tag">GitHub</span><span class="next">Next →</span><span class="handle">@notyourcollege</span></footer>
+</section>
+
+<!-- 5: choosing what to pin -->
+<section class="slide p">
+  <header><span class="logo"><img src="../../assets/nyc-yellow-logo.png" alt="NYC"></span><span class="count">05/08</span></header>
+  <div class="copy"><div class="label">Step 3</div><h2>Pin only finished projects.</h2><p class="line">3 real projects beat 6 copied tutorials.</p></div>
+  <div class="win"><div class="bar"><i></i><i></i><i></i><span class="url">github.com/aarav-codes</span></div>
+    <div class="dim"></div>
+    <div class="modal"><div class="mh">Edit pinned items</div><div class="ms">Select up to six public repositories you'd like to show.</div>
+      <div class="row on"><span class="box"></span>expense-tracker<span class="st">★ 14</span></div>
+      <div class="row on"><span class="box"></span>college-notes-ai<span class="st">★ 9</span></div>
+      <div class="row on"><span class="box"></span>portfolio<span class="st">★ 6</span></div>
+      <div class="row off"><span class="box"></span>todo-app-tutorial<span class="st">copied</span></div>
+      <div class="row off"><span class="box"></span>netflix-clone-tutorial<span class="st">copied</span></div>
+      <div class="row off"><span class="box"></span>test<span class="st">empty</span></div>
+    </div></div>
+  <footer><span class="tag">GitHub</span><span class="next" style="color:#fff;opacity:.9">Next →</span><span class="handle">@notyourcollege</span></footer>
+</section>
+
+<!-- 6: the contribution graph vs the projects -->
+<section class="slide p light">
+  <header><span class="logo"><img src="../../assets/nyc-yellow-logo.png" alt="NYC"></span><span class="count">06/08</span></header>
+  <div class="copy"><div class="label">Myth</div><h2>Green squares won't get you the internship.</h2><p class="line">People open your projects, not your activity graph.</p></div>
+  <div class="win" style="top:640px;height:585px"><div class="bar"><i></i><i></i><i></i><span class="url">github.com/aarav-codes</span></div>
+    <div class="screen">
+      <div style="font-size:22px">1,204 contributions in the last year</div>
+      <div class="graph" id="graph"></div>
+      <div class="card hl" style="margin-top:34px;position:relative"><div class="rn">expense-tracker <span class="pill">Public</span></div><div class="ds">Track hostel spends, split with friends</div><div class="meta"><span><i class="dot js"></i>JavaScript</span><span>★ 14</span></div>
+        <svg class="cursor" style="right:120px;top:30px" viewBox="0 0 22 29"><path d="M1 1l0 22 6-6 4 10 4-2-4-10 8 0z" fill="#1f2328" stroke="#fff" stroke-width="1.6"/></svg></div>
+    </div></div>
+  <footer><span class="tag">GitHub</span><span class="next">Next →</span><span class="handle">@notyourcollege</span></footer>
+</section>
+
+<section class="slide p photo" style="background:#14261c">
+  <img class="bg" src="img/s07.jpg" alt="">
+  <div style="position:absolute;inset:0;background:linear-gradient(180deg,#0d1a12cc 0%,#0d1a1266 34%,transparent 60%)"></div>
+  <header><span class="logo"><img src="../../assets/nyc-yellow-logo.png" alt="NYC"></span><span class="count">07/08</span></header>
+  <div class="copy"><div class="label">Tonight, 1 hour</div><h2 style="color:#fbfbf4">Do these 4 things.</h2></div>
+  <ul style="position:absolute;left:72px;right:72px;top:470px;z-index:2;background:#fbfbf4;color:var(--ink);border-radius:28px;padding:18px 40px;box-shadow:0 30px 60px -20px #0007;list-style:none;font-size:44px;font-weight:500;letter-spacing:-.025em">
+    <li style="padding:24px 0;border-bottom:2px solid #15261b14"><i class="tick"></i>Add a photo and bio</li>
+    <li style="padding:24px 0;border-bottom:2px solid #15261b14"><i class="tick"></i>Write your profile README</li>
+    <li style="padding:24px 0;border-bottom:2px solid #15261b14"><i class="tick"></i>Pin 3 finished projects</li>
+    <li style="padding:24px 0"><i class="tick"></i>Add a live link to each</li>
+  </ul>
+  <footer><span class="tag">GitHub</span><span class="next">Next →</span><span class="handle">@notyourcollege</span></footer>
+</section>
+
+<section class="slide p lime">
+  <img class="bg" src="img/s08.jpg" alt="">
+  <header><span class="logo"><img src="../../assets/nyc-yellow-logo.png" alt="NYC"></span><span class="count">08/08</span></header>
+  <div class="copy"><h2>Send this to a friend with an empty GitHub.</h2></div>
+  <footer><span class="tag">GitHub</span><span></span><span class="handle">@notyourcollege</span></footer>
+</section>
+
+<script>
+  // Contribution graph: 46 weeks x 7 days of mostly green squares (fixed pattern, same on every render)
+  const g = document.getElementById('graph'); let seed = 7;
+  const rnd = () => (seed = (seed * 9301 + 49297) % 233280) / 233280;
+  for (let i = 0; i < 46 * 7; i++) { const r = rnd(); const c = r < .18 ? '' : r < .45 ? 'g1' : r < .7 ? 'g2' : r < .88 ? 'g3' : 'g4'; g.insertAdjacentHTML('beforeend', `<i class="${c}"></i>`); }
+  // #N shows only slide N, for the PNG export in render.sh
+  const n = parseInt(location.hash.slice(1));
+  if (n) { document.body.classList.add('single'); document.querySelectorAll('.slide')[n - 1].classList.add('on'); }
+</script>
+</body>
+</html>
