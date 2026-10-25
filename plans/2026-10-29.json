@@ -1,0 +1,116 @@
+{
+  "date": "2026-10-29",
+  "slug": "first-ai-app-weekend",
+  "topic": "Build your first AI app this weekend",
+  "topicTag": "AI app",
+  "template": "split",
+  "cover": {
+    "style": 6,
+    "concept": "Cinematic night photo: a student's desk by a window with city lights, lit by an open laptop's glow, a mug and a notebook beside it.",
+    "hookDraft": "One weekend.",
+    "lineDraft": "Your first AI app, live by Sunday night."
+  },
+  "slides": [
+    {
+      "n": 1,
+      "type": "cover",
+      "image": "cover",
+      "idea": "hook + line"
+    },
+    {
+      "n": 2,
+      "type": "split",
+      "image": "s02",
+      "bg": "dark",
+      "label": "Saturday, 10 AM",
+      "idea": "Pick one small problem from your own college life"
+    },
+    {
+      "n": 3,
+      "type": "split",
+      "image": "s03",
+      "bg": "paper",
+      "label": "Saturday, 2 PM",
+      "idea": "Make one call to an LLM API and see it answer (verify free-tier limits on the day)"
+    },
+    {
+      "n": 4,
+      "type": "split",
+      "image": "s04",
+      "bg": "lime",
+      "label": "Saturday, 7 PM",
+      "idea": "Add a simple screen: one input, one answer"
+    },
+    {
+      "n": 5,
+      "type": "card",
+      "image": "s05",
+      "label": "Sunday, 11 AM",
+      "idea": "Test where it fails: empty input, very long text, wrong language, made-up answers"
+    },
+    {
+      "n": 6,
+      "type": "split",
+      "image": "s06",
+      "bg": "dark",
+      "label": "Sunday, 4 PM",
+      "idea": "Put it online and get a live link"
+    },
+    {
+      "n": 7,
+      "type": "split",
+      "image": "s07",
+      "bg": "paper",
+      "label": "Sunday, 8 PM",
+      "idea": "Write the README: what it does and where the model fails"
+    },
+    {
+      "n": 8,
+      "type": "send",
+      "image": "s08",
+      "idea": "friend who says \"I'll start AI next semester\""
+    }
+  ],
+  "images": [
+    {
+      "name": "cover",
+      "size": "1024x1536",
+      "prompt": "Cinematic night photograph, magazine-ad quality, subtle film grain. A student's wooden desk by a window with distant city lights, lit only by an open laptop's cool glow and a small warm desk lamp; a ceramic mug, a closed notebook and a pen beside the laptop; a pair of hands rests near the keyboard. The desk sits in the lower 60% of the frame; the top 35% is dark, calm window and wall. Portrait 2:3, natural colours. No readable text, no letters, no numbers, no logos, no faces, no watermark."
+    },
+    {
+      "name": "s02",
+      "size": "1536x1024",
+      "prompt": "Cinematic night photograph, magazine-ad quality, a small dark student room lit only by a laptop screen's cool glow and one warm desk lamp, subtle film grain. An open notebook with a blank page and a pen resting on it, beside the glowing laptop, centred in the frame with some room around it. Landscape 3:2, natural colours. No readable text, no letters, no numbers, no logos, no faces, no watermark."
+    },
+    {
+      "name": "s03",
+      "size": "1536x1024",
+      "prompt": "Cinematic night photograph, magazine-ad quality, a small dark student room lit only by a laptop screen's cool glow and one warm desk lamp, subtle film grain. The open laptop seen from the side, its screen casting soft light across the desk, a cable plugged in, centred in the frame with some room around it. Landscape 3:2, natural colours. No readable text, no letters, no numbers, no logos, no faces, no watermark."
+    },
+    {
+      "name": "s04",
+      "size": "1536x1024",
+      "prompt": "Cinematic night photograph, magazine-ad quality, a small dark student room lit only by a laptop screen's cool glow and one warm desk lamp, subtle film grain. A pair of hands sketching simple empty boxes and arrows on a sheet of paper next to the laptop, centred in the frame with some room around it. Landscape 3:2, natural colours. No readable text, no letters, no numbers, no logos, no faces, no watermark."
+    },
+    {
+      "name": "s05",
+      "size": "1024x1536",
+      "prompt": "Cinematic night photograph, magazine-ad quality, a small dark student room lit only by a laptop screen's cool glow and one warm desk lamp, subtle film grain. The edge of the desk from above: a mug, a phone face down and a tangle of charging cables, kept low in the bottom fifth of the frame and at the edges. The top 45% and the middle of the frame stay mostly empty and calm (a white card will sit there). Portrait 2:3, natural colours. No readable text, no letters, no numbers, no logos, no faces, no watermark."
+    },
+    {
+      "name": "s06",
+      "size": "1536x1024",
+      "prompt": "Cinematic night photograph, magazine-ad quality, a small dark student room lit only by a laptop screen's cool glow and one warm desk lamp, subtle film grain. A small home wi-fi router with tiny glowing lights on the desk next to the laptop, centred in the frame with some room around it. Landscape 3:2, natural colours. No readable text, no letters, no numbers, no logos, no faces, no watermark."
+    },
+    {
+      "name": "s07",
+      "size": "1536x1024",
+      "prompt": "Cinematic night photograph, magazine-ad quality, a small dark student room lit only by a laptop screen's cool glow and one warm desk lamp, subtle film grain. Two empty coffee mugs and the closed laptop on the desk as the first blue light of dawn comes through the window, centred in the frame with some room around it. Landscape 3:2, natural colours. No readable text, no letters, no numbers, no logos, no faces, no watermark."
+    },
+    {
+      "name": "s08",
+      "size": "1024x1536",
+      "prompt": "Photoreal studio still life, magazine-ad quality, soft even light, gentle shadow. On a flat, seamless lime-green (#cde58c) backdrop: a crisp white folded paper plane and a white ceramic coffee mug, together in the lower half of the frame. The top 50% is empty, plain lime-green backdrop. Portrait 2:3. No readable text, no letters, no numbers, no logos, no faces, no watermark."
+    }
+  ]
+}

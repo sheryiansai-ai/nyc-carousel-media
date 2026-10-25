@@ -1,0 +1,110 @@
+{
+  "date": "2026-10-31",
+  "slug": "context-prompting",
+  "topic": "Give AI the right context: code, constraints, expected behaviour",
+  "topicTag": "Prompting",
+  "template": "split",
+  "cover": {
+    "style": 8,
+    "concept": "Grand space: a vast old archive hall, one long wooden table with a single brass lamp lighting a neat stack: a folder, a rolled map and a ruler.",
+    "hookDraft": "Vague prompt.",
+    "lineDraft": "Vague code. Give AI the whole picture."
+  },
+  "slides": [
+    {
+      "n": 1,
+      "type": "cover",
+      "image": "cover",
+      "idea": "hook + line"
+    },
+    {
+      "n": 2,
+      "type": "split",
+      "image": "s02",
+      "bg": "dark",
+      "label": "The problem",
+      "idea": "A vague prompt gets vague code back"
+    },
+    {
+      "n": 3,
+      "type": "split",
+      "image": "s03",
+      "bg": "paper",
+      "label": "Context 1",
+      "idea": "Show the code: the file and the function that matter"
+    },
+    {
+      "n": 4,
+      "type": "split",
+      "image": "s04",
+      "bg": "lime",
+      "label": "Context 2",
+      "idea": "State the limits: language, library version, what not to change"
+    },
+    {
+      "n": 5,
+      "type": "split",
+      "image": "s05",
+      "bg": "dark",
+      "label": "Context 3",
+      "idea": "Say what you expect: input, expected output, the actual error"
+    },
+    {
+      "n": 6,
+      "type": "bignum",
+      "label": "Every time",
+      "idea": "Three things in every prompt: code, limits, expected (value 3)"
+    },
+    {
+      "n": 7,
+      "type": "split",
+      "image": "s07",
+      "bg": "paper",
+      "label": "Always",
+      "idea": "Then read every change it makes before you keep it"
+    },
+    {
+      "n": 8,
+      "type": "send",
+      "image": "s08",
+      "idea": "friend who says \"AI gives wrong answers\""
+    }
+  ],
+  "images": [
+    {
+      "name": "cover",
+      "size": "1024x1536",
+      "prompt": "Photoreal location photograph, magazine-ad quality, subtle film grain. A vast old archive hall with towering wooden shelves fading into darkness; one long wooden table in the lower part of the frame where a single brass desk lamp lights a neat stack: a closed folder, a rolled map tied with string and a brass ruler. The top 35% of the frame is the dim, calm upper hall. Portrait 2:3, natural colours. No readable text, no letters, no numbers, no logos, no faces, no watermark."
+    },
+    {
+      "name": "s02",
+      "size": "1536x1024",
+      "prompt": "Photoreal location photograph, magazine-ad quality, a vast old archive hall with tall wooden shelves, warm light from a single brass desk lamp, subtle film grain. A messy heap of loose blank papers scattered across the long table in dim, hazy light, centred in the frame with some room around it. Landscape 3:2, natural colours. No readable text, no letters, no numbers, no logos, no faces, no watermark."
+    },
+    {
+      "name": "s03",
+      "size": "1536x1024",
+      "prompt": "Photoreal location photograph, magazine-ad quality, a vast old archive hall with tall wooden shelves, warm light from a single brass desk lamp, subtle film grain. An open folder of blank pages under the lamp with a magnifying glass resting on one page, centred in the frame with some room around it. Landscape 3:2, natural colours. No readable text, no letters, no numbers, no logos, no faces, no watermark."
+    },
+    {
+      "name": "s04",
+      "size": "1536x1024",
+      "prompt": "Photoreal location photograph, magazine-ad quality, a vast old archive hall with tall wooden shelves, warm light from a single brass desk lamp, subtle film grain. A brass ruler and a pair of steel callipers lying across an unrolled blank map on the table, centred in the frame with some room around it. Landscape 3:2, natural colours. No readable text, no letters, no numbers, no logos, no faces, no watermark."
+    },
+    {
+      "name": "s05",
+      "size": "1536x1024",
+      "prompt": "Photoreal location photograph, magazine-ad quality, a vast old archive hall with tall wooden shelves, warm light from a single brass desk lamp, subtle film grain. An unrolled blank map with a single red pin and a thin red thread marking a route, centred in the frame with some room around it. Landscape 3:2, natural colours. No readable text, no letters, no numbers, no logos, no faces, no watermark."
+    },
+    {
+      "name": "s07",
+      "size": "1536x1024",
+      "prompt": "Photoreal location photograph, magazine-ad quality, a vast old archive hall with tall wooden shelves, warm light from a single brass desk lamp, subtle film grain. A magnifying glass held over a page on the table, the lamp light falling through the lens, centred in the frame with some room around it. Landscape 3:2, natural colours. No readable text, no letters, no numbers, no logos, no faces, no watermark."
+    },
+    {
+      "name": "s08",
+      "size": "1024x1536",
+      "prompt": "Photoreal studio still life, magazine-ad quality, soft even light, gentle shadow. On a flat, seamless lime-green (#cde58c) backdrop: a crisp white folded paper plane and a brass magnifying glass, together in the lower half of the frame. The top 50% is empty, plain lime-green backdrop. Portrait 2:3. No readable text, no letters, no numbers, no logos, no faces, no watermark."
+    }
+  ]
+}

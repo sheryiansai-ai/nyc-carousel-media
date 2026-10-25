@@ -1,0 +1,110 @@
+{
+  "date": "2026-10-28",
+  "slug": "resume-shortlisted",
+  "topic": "The résumé that gets shortlisted",
+  "topicTag": "Résumé",
+  "template": "poster",
+  "cover": {
+    "style": 3,
+    "concept": "Studio still life on flat saturated orange: one crisp sheet of paper standing upright in a brass bulldog clip, crumpled sheets scattered around it.",
+    "hookDraft": "One page.",
+    "lineDraft": "The one they shortlist shows what you built."
+  },
+  "slides": [
+    {
+      "n": 1,
+      "type": "cover",
+      "image": "cover",
+      "idea": "hook + line"
+    },
+    {
+      "n": 2,
+      "type": "poster",
+      "image": "s02",
+      "bg": "dark",
+      "label": "Rule 1",
+      "idea": "One page; a 1st/2nd-year has no reason for two"
+    },
+    {
+      "n": 3,
+      "type": "poster",
+      "image": "s03",
+      "bg": "paper",
+      "label": "Rule 2",
+      "idea": "Projects go first, each with what it does and a link"
+    },
+    {
+      "n": 4,
+      "type": "poster",
+      "image": "s04",
+      "bg": "lime",
+      "label": "Rule 3",
+      "idea": "Say what you built and who uses it, not adjectives"
+    },
+    {
+      "n": 5,
+      "type": "bignum",
+      "label": "The rule",
+      "idea": "One page, one clear story (value 1)"
+    },
+    {
+      "n": 6,
+      "type": "poster",
+      "image": "s06",
+      "bg": "dark",
+      "label": "Rule 4",
+      "idea": "Every link works: GitHub, live demo, LinkedIn; click each one"
+    },
+    {
+      "n": 7,
+      "type": "poster",
+      "image": "s07",
+      "bg": "paper",
+      "label": "Rule 5",
+      "idea": "Cut the objective line and words like hardworking"
+    },
+    {
+      "n": 8,
+      "type": "send",
+      "image": "s08",
+      "idea": "friend who says \"my résumé is fine\""
+    }
+  ],
+  "images": [
+    {
+      "name": "cover",
+      "size": "1024x1536",
+      "prompt": "Photoreal studio still life, magazine-ad quality, crisp soft light, subtle film grain. On a flat, seamless, saturated orange backdrop: one crisp blank white sheet of paper stands upright, held in a brass bulldog clip, while five crumpled paper balls lie scattered around its base. The objects sit in the lower 60% of the frame; the top 35% is plain orange backdrop. Portrait 2:3, natural colours. No readable text, no letters, no numbers, no logos, no faces, no watermark."
+    },
+    {
+      "name": "s02",
+      "size": "1024x1536",
+      "prompt": "Photoreal studio still life, magazine-ad quality, crisp soft light from the upper left, subtle film grain. A single blank white sheet of paper lying flat under a round glass paperweight, placed in the lower half of the frame on a seamless deep forest-green (#14261c) backdrop. The top 45% of the frame is empty, plain deep forest-green (#14261c) backdrop with nothing in it. Portrait 2:3, natural colours. No readable text, no letters, no numbers, no logos, no faces, no watermark."
+    },
+    {
+      "name": "s03",
+      "size": "1024x1536",
+      "prompt": "Photoreal studio still life, magazine-ad quality, crisp soft light from the upper left, subtle film grain. Three small wooden building blocks stacked on top of a blank white sheet of paper held by a brass bulldog clip, placed in the lower half of the frame on a seamless warm cream paper (#f1f0d9) backdrop. The top 45% of the frame is empty, plain warm cream paper (#f1f0d9) backdrop with nothing in it. Portrait 2:3, natural colours. No readable text, no letters, no numbers, no logos, no faces, no watermark."
+    },
+    {
+      "name": "s04",
+      "size": "1024x1536",
+      "prompt": "Photoreal studio still life, magazine-ad quality, crisp soft light from the upper left, subtle film grain. A brass ruler and a sharpened pencil lying across a blank white sheet of paper, placed in the lower half of the frame on a seamless soft lime-green (#cde58c) backdrop. The top 45% of the frame is empty, plain soft lime-green (#cde58c) backdrop with nothing in it. Portrait 2:3, natural colours. No readable text, no letters, no numbers, no logos, no faces, no watermark."
+    },
+    {
+      "name": "s06",
+      "size": "1024x1536",
+      "prompt": "Photoreal studio still life, magazine-ad quality, crisp soft light from the upper left, subtle film grain. A short chain of linked silver paper clips curving across a blank white sheet of paper, placed in the lower half of the frame on a seamless deep forest-green (#14261c) backdrop. The top 45% of the frame is empty, plain deep forest-green (#14261c) backdrop with nothing in it. Portrait 2:3, natural colours. No readable text, no letters, no numbers, no logos, no faces, no watermark."
+    },
+    {
+      "name": "s07",
+      "size": "1024x1536",
+      "prompt": "Photoreal studio still life, magazine-ad quality, crisp soft light from the upper left, subtle film grain. Open steel scissors beside thin strips of white paper that have just been cut away from a clean sheet, placed in the lower half of the frame on a seamless warm cream paper (#f1f0d9) backdrop. The top 45% of the frame is empty, plain warm cream paper (#f1f0d9) backdrop with nothing in it. Portrait 2:3, natural colours. No readable text, no letters, no numbers, no logos, no faces, no watermark."
+    },
+    {
+      "name": "s08",
+      "size": "1024x1536",
+      "prompt": "Photoreal studio still life, magazine-ad quality, soft even light, gentle shadow. On a flat, seamless lime-green (#cde58c) backdrop: a crisp white folded paper plane and a brass bulldog clip, together in the lower half of the frame. The top 50% is empty, plain lime-green backdrop. Portrait 2:3. No readable text, no letters, no numbers, no logos, no faces, no watermark."
+    }
+  ]
+}

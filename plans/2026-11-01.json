@@ -1,0 +1,116 @@
+{
+  "date": "2026-11-01",
+  "slug": "model-selection",
+  "topic": "Pick the AI model by task, quality, speed and cost",
+  "topicTag": "AI models",
+  "template": "poster",
+  "cover": {
+    "style": 3,
+    "concept": "Studio still life on flat teal: four tools in a row, a scalpel, a sledgehammer, a stopwatch and a small stack of coins.",
+    "hookDraft": "Wrong tool.",
+    "lineDraft": "Not every task needs the biggest model."
+  },
+  "slides": [
+    {
+      "n": 1,
+      "type": "cover",
+      "image": "cover",
+      "idea": "hook + line"
+    },
+    {
+      "n": 2,
+      "type": "poster",
+      "image": "s02",
+      "bg": "dark",
+      "label": "The mistake",
+      "idea": "Using one model for everything wastes time and credits"
+    },
+    {
+      "n": 3,
+      "type": "poster",
+      "image": "s03",
+      "bg": "paper",
+      "label": "Ask 1",
+      "idea": "Task first: a quick edit and a hard bug need different models"
+    },
+    {
+      "n": 4,
+      "type": "poster",
+      "image": "s04",
+      "bg": "lime",
+      "label": "Ask 2",
+      "idea": "Quality: how bad is it if the answer is wrong?"
+    },
+    {
+      "n": 5,
+      "type": "poster",
+      "image": "s05",
+      "bg": "dark",
+      "label": "Ask 3",
+      "idea": "Speed: fast models for small loops you repeat"
+    },
+    {
+      "n": 6,
+      "type": "poster",
+      "image": "s06",
+      "bg": "paper",
+      "label": "Ask 4",
+      "idea": "Cost: credits and limits run out; spend them on hard problems"
+    },
+    {
+      "n": 7,
+      "type": "card",
+      "image": "s07",
+      "label": "Cheat sheet",
+      "idea": "Quick edit → fast model; hard bug → strongest; big repo → long context; practice → cheapest"
+    },
+    {
+      "n": 8,
+      "type": "send",
+      "image": "s08",
+      "idea": "friend who says \"I just use whatever's free\""
+    }
+  ],
+  "images": [
+    {
+      "name": "cover",
+      "size": "1024x1536",
+      "prompt": "Photoreal studio still life, magazine-ad quality, crisp soft light, subtle film grain. On a flat, seamless, saturated teal backdrop: four tools lie in a neat row, a small steel scalpel, a heavy sledgehammer, a silver stopwatch and a short stack of copper coins. The tools sit in the lower 60% of the frame; the top 35% is plain teal backdrop. Portrait 2:3, natural colours. No readable text, no letters, no numbers, no logos, no faces, no watermark."
+    },
+    {
+      "name": "s02",
+      "size": "1024x1536",
+      "prompt": "Photoreal studio still life, magazine-ad quality, crisp soft light from the left, subtle film grain. A heavy sledgehammer resting next to a tiny wooden peg it was used on, placed in the lower half of the frame on a seamless deep forest-green (#14261c) backdrop. The top 45% of the frame is empty, plain deep forest-green (#14261c) backdrop with nothing in it. Portrait 2:3, natural colours. No readable text, no letters, no numbers, no logos, no faces, no watermark."
+    },
+    {
+      "name": "s03",
+      "size": "1024x1536",
+      "prompt": "Photoreal studio still life, magazine-ad quality, crisp soft light from the left, subtle film grain. A small steel scalpel and a heavy sledgehammer side by side, pointing the same way, placed in the lower half of the frame on a seamless warm cream paper (#f1f0d9) backdrop. The top 45% of the frame is empty, plain warm cream paper (#f1f0d9) backdrop with nothing in it. Portrait 2:3, natural colours. No readable text, no letters, no numbers, no logos, no faces, no watermark."
+    },
+    {
+      "name": "s04",
+      "size": "1024x1536",
+      "prompt": "Photoreal studio still life, magazine-ad quality, crisp soft light from the left, subtle film grain. A steel scalpel lying precisely along a thin straight line cut in a sheet of card, placed in the lower half of the frame on a seamless soft lime-green (#cde58c) backdrop. The top 45% of the frame is empty, plain soft lime-green (#cde58c) backdrop with nothing in it. Portrait 2:3, natural colours. No readable text, no letters, no numbers, no logos, no faces, no watermark."
+    },
+    {
+      "name": "s05",
+      "size": "1024x1536",
+      "prompt": "Photoreal studio still life, magazine-ad quality, crisp soft light from the left, subtle film grain. A silver stopwatch lying on its side, its crown slightly pressed, placed in the lower half of the frame on a seamless deep forest-green (#14261c) backdrop. The top 45% of the frame is empty, plain deep forest-green (#14261c) backdrop with nothing in it. Portrait 2:3, natural colours. No readable text, no letters, no numbers, no logos, no faces, no watermark."
+    },
+    {
+      "name": "s06",
+      "size": "1024x1536",
+      "prompt": "Photoreal studio still life, magazine-ad quality, crisp soft light from the left, subtle film grain. A short stack of copper coins with a few loose coins beside it, placed in the lower half of the frame on a seamless warm cream paper (#f1f0d9) backdrop. The top 45% of the frame is empty, plain warm cream paper (#f1f0d9) backdrop with nothing in it. Portrait 2:3, natural colours. No readable text, no letters, no numbers, no logos, no faces, no watermark."
+    },
+    {
+      "name": "s07",
+      "size": "1024x1536",
+      "prompt": "Photoreal studio still life, magazine-ad quality, crisp soft light from the left, subtle film grain. On a seamless deep forest-green backdrop: The scalpel, the sledgehammer, the stopwatch and the coins in a neat row, kept low in the bottom fifth of the frame and at the edges. The top 45% and the middle of the frame stay mostly empty and calm (a white card will sit there). Portrait 2:3, natural colours. No readable text, no letters, no numbers, no logos, no faces, no watermark."
+    },
+    {
+      "name": "s08",
+      "size": "1024x1536",
+      "prompt": "Photoreal studio still life, magazine-ad quality, soft even light, gentle shadow. On a flat, seamless lime-green (#cde58c) backdrop: a crisp white folded paper plane and a silver stopwatch, together in the lower half of the frame. The top 50% is empty, plain lime-green backdrop. Portrait 2:3. No readable text, no letters, no numbers, no logos, no faces, no watermark."
+    }
+  ]
+}

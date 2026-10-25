@@ -1,0 +1,116 @@
+{
+  "date": "2026-10-27",
+  "slug": "off-campus",
+  "topic": "No big companies on campus? Find your internship off-campus in 1st/2nd year",
+  "topicTag": "Off-campus",
+  "template": "split",
+  "cover": {
+    "style": 2,
+    "concept": "Surreal landscape: a tiny student walks out of a lone open campus gate into vast rolling hills dotted with small lit buildings far away.",
+    "hookDraft": "Walk out.",
+    "lineDraft": "Your first internship won't come to campus."
+  },
+  "slides": [
+    {
+      "n": 1,
+      "type": "cover",
+      "image": "cover",
+      "idea": "hook + line"
+    },
+    {
+      "n": 2,
+      "type": "split",
+      "image": "s02",
+      "bg": "dark",
+      "label": "The truth",
+      "idea": "The internship you want won't visit your campus; you go to it"
+    },
+    {
+      "n": 3,
+      "type": "split",
+      "image": "s03",
+      "bg": "paper",
+      "label": "Step 1",
+      "idea": "Build one project with a live link before you apply"
+    },
+    {
+      "n": 4,
+      "type": "split",
+      "image": "s04",
+      "bg": "lime",
+      "label": "Step 2",
+      "idea": "Find the doors: company career pages and student programmes (verify names and dates on the day)"
+    },
+    {
+      "n": 5,
+      "type": "split",
+      "image": "s05",
+      "bg": "dark",
+      "label": "Step 3",
+      "idea": "Write short, specific messages to engineers about their work"
+    },
+    {
+      "n": 6,
+      "type": "card",
+      "image": "s06",
+      "label": "Every week",
+      "idea": "Every week: five applications, two messages, one project update"
+    },
+    {
+      "n": 7,
+      "type": "split",
+      "image": "s07",
+      "bg": "paper",
+      "label": "Step 4",
+      "idea": "Track every application and follow up once after a week"
+    },
+    {
+      "n": 8,
+      "type": "send",
+      "image": "s08",
+      "idea": "friend who says \"my college has no placements\""
+    }
+  ],
+  "images": [
+    {
+      "name": "cover",
+      "size": "1024x1536",
+      "prompt": "Photoreal surreal landscape photograph, magazine-ad quality, warm golden-hour light, subtle film grain. A lone, open wrought-iron college gate stands by itself in a vast green meadow; one tiny figure seen from behind walks away from it toward rolling hills where many small buildings glow on the far horizon under huge soft clouds. The top 35% of the frame is open sky. Portrait 2:3, natural colours. No readable text, no letters, no numbers, no logos, no faces, no watermark."
+    },
+    {
+      "name": "s02",
+      "size": "1536x1024",
+      "prompt": "Photoreal surreal landscape photograph, magazine-ad quality, warm golden-hour light, huge soft clouds, subtle film grain. The lone open wrought-iron gate in the meadow, with a narrow dirt path leading through it toward distant hills, centred in the frame with some room around it. Landscape 3:2, natural colours. No readable text, no letters, no numbers, no logos, no faces, no watermark."
+    },
+    {
+      "name": "s03",
+      "size": "1536x1024",
+      "prompt": "Photoreal surreal landscape photograph, magazine-ad quality, warm golden-hour light, huge soft clouds, subtle film grain. A small wooden workbench standing alone in the meadow with a laptop open on it, its screen glowing softly, centred in the frame with some room around it. Landscape 3:2, natural colours. No readable text, no letters, no numbers, no logos, no faces, no watermark."
+    },
+    {
+      "name": "s04",
+      "size": "1536x1024",
+      "prompt": "Photoreal surreal landscape photograph, magazine-ad quality, warm golden-hour light, huge soft clouds, subtle film grain. Five tall wooden doors standing upright in a row across the meadow, one of them slightly open with warm light behind it, centred in the frame with some room around it. Landscape 3:2, natural colours. No readable text, no letters, no numbers, no logos, no faces, no watermark."
+    },
+    {
+      "name": "s05",
+      "size": "1536x1024",
+      "prompt": "Photoreal surreal landscape photograph, magazine-ad quality, warm golden-hour light, huge soft clouds, subtle film grain. A handful of white paper envelopes carried on the wind over the rolling hills toward the distant glowing buildings, centred in the frame with some room around it. Landscape 3:2, natural colours. No readable text, no letters, no numbers, no logos, no faces, no watermark."
+    },
+    {
+      "name": "s06",
+      "size": "1024x1536",
+      "prompt": "Photoreal surreal landscape photograph, magazine-ad quality, warm golden-hour light, huge soft clouds, subtle film grain. A winding country road through the meadow with small stone milestones along its edge, kept low in the bottom fifth of the frame and at the edges. The top 45% and the middle of the frame stay mostly empty and calm (a white card will sit there). Portrait 2:3, natural colours. No readable text, no letters, no numbers, no logos, no faces, no watermark."
+    },
+    {
+      "name": "s07",
+      "size": "1536x1024",
+      "prompt": "Photoreal surreal landscape photograph, magazine-ad quality, warm golden-hour light, huge soft clouds, subtle film grain. A path of flat stepping stones crossing the meadow, each stone a little closer to a small glowing building, centred in the frame with some room around it. Landscape 3:2, natural colours. No readable text, no letters, no numbers, no logos, no faces, no watermark."
+    },
+    {
+      "name": "s08",
+      "size": "1024x1536",
+      "prompt": "Photoreal studio still life, magazine-ad quality, soft even light, gentle shadow. On a flat, seamless lime-green (#cde58c) backdrop: a crisp white folded paper plane and a small model of a wrought-iron gate, together in the lower half of the frame. The top 50% is empty, plain lime-green backdrop. Portrait 2:3. No readable text, no letters, no numbers, no logos, no faces, no watermark."
+    }
+  ]
+}

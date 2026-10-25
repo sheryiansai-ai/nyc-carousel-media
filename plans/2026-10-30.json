@@ -1,0 +1,117 @@
+{
+  "date": "2026-10-30",
+  "slug": "reupload-deploy-first-project",
+  "topic": "Deploy your first project (re-upload in the new style)",
+  "topicTag": "Deploy",
+  "template": "poster",
+  "cover": {
+    "style": 4,
+    "concept": "One surreal object: an open laptop sealed under a tall glass bell jar on a white pedestal, nobody else can reach it.",
+    "hookDraft": "Works on my laptop.",
+    "lineDraft": "Nobody else can open localhost."
+  },
+  "slides": [
+    {
+      "n": 1,
+      "type": "cover",
+      "image": "cover",
+      "idea": "hook + line"
+    },
+    {
+      "n": 2,
+      "type": "poster",
+      "image": "s02",
+      "bg": "dark",
+      "label": "Deploying",
+      "idea": "Deploying means a real link anyone can open, not localhost"
+    },
+    {
+      "n": 3,
+      "type": "card",
+      "image": "s03",
+      "label": "Pick a host",
+      "idea": "Pick the host by what you built: HTML on GitHub Pages, React on Vercel or Netlify, backend on Render (re-check free tiers on the day)"
+    },
+    {
+      "n": 4,
+      "type": "poster",
+      "image": "s04",
+      "bg": "paper",
+      "label": "Repo to link",
+      "idea": "Four steps: push (without .env), import, add your keys, deploy"
+    },
+    {
+      "n": 5,
+      "type": "poster",
+      "image": "s05",
+      "bg": "lime",
+      "label": "First deploy",
+      "idea": "Your first deploy will break: fix the localhost URL and the missing key"
+    },
+    {
+      "n": 6,
+      "type": "poster",
+      "image": "s06",
+      "bg": "dark",
+      "label": "Free tiers",
+      "idea": "Free apps sleep when idle; the first visit is slow (re-check the limit)"
+    },
+    {
+      "n": 7,
+      "type": "poster",
+      "image": "s07",
+      "bg": "paper",
+      "label": "Résumé",
+      "idea": "Put the live link on your résumé and in the repo's About box"
+    },
+    {
+      "n": 8,
+      "type": "send",
+      "image": "s08",
+      "idea": "friend who says \"it works on my laptop\""
+    }
+  ],
+  "images": [
+    {
+      "name": "cover",
+      "size": "1024x1536",
+      "prompt": "Photoreal surreal studio still life, magazine-ad quality, soft light from above, subtle film grain. An open silver laptop, its screen glowing softly, sealed under a tall glass bell jar on a white plinth, against a seamless dusty-blue backdrop. The plinth and jar sit in the lower 60% of the frame; the top 35% is plain empty backdrop. Portrait 2:3, natural colours. No readable text, no letters, no numbers, no logos, no faces, no watermark."
+    },
+    {
+      "name": "s02",
+      "size": "1024x1536",
+      "prompt": "Photoreal surreal studio still life, magazine-ad quality, soft museum-like light from above, subtle film grain. A tall glass bell jar lifted slightly off its base, a thin beam of light escaping from under it, placed in the lower half of the frame on a seamless deep forest-green (#14261c) backdrop. The top 45% of the frame is empty, plain deep forest-green (#14261c) backdrop with nothing in it. Portrait 2:3, natural colours. No readable text, no letters, no numbers, no logos, no faces, no watermark."
+    },
+    {
+      "name": "s03",
+      "size": "1024x1536",
+      "prompt": "Photoreal surreal studio still life, magazine-ad quality, soft museum-like light from above, subtle film grain. On a seamless deep forest-green backdrop: Three small glass bell jars of different sizes in a row, each empty, kept low in the bottom fifth of the frame and at the edges. The top 45% and the middle of the frame stay mostly empty and calm (a white card will sit there). Portrait 2:3, natural colours. No readable text, no letters, no numbers, no logos, no faces, no watermark."
+    },
+    {
+      "name": "s04",
+      "size": "1024x1536",
+      "prompt": "Photoreal surreal studio still life, magazine-ad quality, soft museum-like light from above, subtle film grain. An open silver laptop on a white plinth with a single network cable plugged into it, placed in the lower half of the frame on a seamless warm cream paper (#f1f0d9) backdrop. The top 45% of the frame is empty, plain warm cream paper (#f1f0d9) backdrop with nothing in it. Portrait 2:3, natural colours. No readable text, no letters, no numbers, no logos, no faces, no watermark."
+    },
+    {
+      "name": "s05",
+      "size": "1024x1536",
+      "prompt": "Photoreal surreal studio still life, magazine-ad quality, soft museum-like light from above, subtle film grain. A glass bell jar with a small clean crack running down its side, the laptop inside, placed in the lower half of the frame on a seamless soft lime-green (#cde58c) backdrop. The top 45% of the frame is empty, plain soft lime-green (#cde58c) backdrop with nothing in it. Portrait 2:3, natural colours. No readable text, no letters, no numbers, no logos, no faces, no watermark."
+    },
+    {
+      "name": "s06",
+      "size": "1024x1536",
+      "prompt": "Photoreal surreal studio still life, magazine-ad quality, soft museum-like light from above, subtle film grain. A small silver laptop half-closed on a white plinth, its screen dimmed as if asleep, placed in the lower half of the frame on a seamless deep forest-green (#14261c) backdrop. The top 45% of the frame is empty, plain deep forest-green (#14261c) backdrop with nothing in it. Portrait 2:3, natural colours. No readable text, no letters, no numbers, no logos, no faces, no watermark."
+    },
+    {
+      "name": "s07",
+      "size": "1024x1536",
+      "prompt": "Photoreal surreal studio still life, magazine-ad quality, soft museum-like light from above, subtle film grain. The empty glass bell jar set aside on the plinth, the open laptop now standing free beside it, placed in the lower half of the frame on a seamless warm cream paper (#f1f0d9) backdrop. The top 45% of the frame is empty, plain warm cream paper (#f1f0d9) backdrop with nothing in it. Portrait 2:3, natural colours. No readable text, no letters, no numbers, no logos, no faces, no watermark."
+    },
+    {
+      "name": "s08",
+      "size": "1024x1536",
+      "prompt": "Photoreal studio still life, magazine-ad quality, soft even light, gentle shadow. On a flat, seamless lime-green (#cde58c) backdrop: a crisp white folded paper plane and a small glass bell jar, together in the lower half of the frame. The top 50% is empty, plain lime-green backdrop. Portrait 2:3. No readable text, no letters, no numbers, no logos, no faces, no watermark."
+    }
+  ],
+  "note": "REUPLOAD: rebuild from the backlog entry's content; re-check every free-tier limit on the official pages and add the URLs to sources; no 'ship' words; no * footnote; internship framing."
+}

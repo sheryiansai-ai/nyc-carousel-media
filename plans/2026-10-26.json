@@ -1,0 +1,116 @@
+{
+  "date": "2026-10-26",
+  "slug": "reupload-github-profile",
+  "topic": "Your GitHub is your first résumé (re-upload in the new style)",
+  "topicTag": "GitHub",
+  "template": "poster",
+  "cover": {
+    "style": 7,
+    "concept": "Retro tech still life: a beige 1990s computer and CRT on a wooden desk, its screen a soft grid of small green squares, a manila folder and floppy disks beside it.",
+    "hookDraft": "Six repos.",
+    "lineDraft": "They open those before they read your résumé."
+  },
+  "slides": [
+    {
+      "n": 1,
+      "type": "cover",
+      "image": "cover",
+      "idea": "hook + line"
+    },
+    {
+      "n": 2,
+      "type": "poster",
+      "image": "s02",
+      "bg": "dark",
+      "label": "First look",
+      "idea": "They see your six pinned repos first"
+    },
+    {
+      "n": 3,
+      "type": "poster",
+      "image": "s03",
+      "bg": "paper",
+      "label": "Step 1",
+      "idea": "A repo named after your username: four-line README (now, learning, open to summer 2027 internships, reach me)"
+    },
+    {
+      "n": 4,
+      "type": "poster",
+      "image": "s04",
+      "bg": "lime",
+      "label": "Step 2",
+      "idea": "Make each project runnable: screenshot, live link, three commands to run it"
+    },
+    {
+      "n": 5,
+      "type": "poster",
+      "image": "s05",
+      "bg": "dark",
+      "label": "Step 3",
+      "idea": "Pin three finished projects, not six copied tutorials"
+    },
+    {
+      "n": 6,
+      "type": "poster",
+      "image": "s06",
+      "bg": "paper",
+      "label": "The myth",
+      "idea": "Green squares aren't a score; nobody counts them, they open the repos"
+    },
+    {
+      "n": 7,
+      "type": "card",
+      "image": "s07",
+      "label": "Tonight",
+      "idea": "One hour tonight: username and photo, README repo, pin three projects, live link on each"
+    },
+    {
+      "n": 8,
+      "type": "send",
+      "image": "s08",
+      "idea": "friend who says \"my GitHub is just a test repo\""
+    }
+  ],
+  "images": [
+    {
+      "name": "cover",
+      "size": "1024x1536",
+      "prompt": "Photoreal retro tech still life, magazine-ad quality, warm natural light, subtle film grain. A beige 1990s desktop computer with a chunky CRT monitor on a worn wooden desk against a muted mustard-yellow wall; the screen glows with a soft grid of small green squares; a manila folder, two floppy disks and a coiled keyboard cable beside it. The subject sits in the lower 60% of the frame; the top 35% is plain empty wall. Portrait 2:3, natural colours. No readable text, no letters, no numbers, no logos, no faces, no watermark."
+    },
+    {
+      "name": "s02",
+      "size": "1024x1536",
+      "prompt": "Photoreal retro tech studio still life, magazine-ad quality, warm soft key light from the left, subtle film grain. Six beige 1990s floppy disks standing upright in a neat row like books on a shelf, placed in the lower half of the frame on a seamless deep forest-green (#14261c) backdrop. The top 45% of the frame is empty, plain deep forest-green (#14261c) backdrop with nothing in it. Portrait 2:3, natural colours. No readable text, no letters, no numbers, no logos, no faces, no watermark."
+    },
+    {
+      "name": "s03",
+      "size": "1024x1536",
+      "prompt": "Photoreal retro tech studio still life, magazine-ad quality, warm soft key light from the left, subtle film grain. A small brass desk nameplate holder with a blank cream card, next to a beige computer mouse, placed in the lower half of the frame on a seamless warm cream paper (#f1f0d9) backdrop. The top 45% of the frame is empty, plain warm cream paper (#f1f0d9) backdrop with nothing in it. Portrait 2:3, natural colours. No readable text, no letters, no numbers, no logos, no faces, no watermark."
+    },
+    {
+      "name": "s04",
+      "size": "1024x1536",
+      "prompt": "Photoreal retro tech studio still life, magazine-ad quality, warm soft key light from the left, subtle film grain. A beige 1990s computer keyboard with one key pressed down, a coiled cable leading to a small glowing power switch, placed in the lower half of the frame on a seamless soft lime-green (#cde58c) backdrop. The top 45% of the frame is empty, plain soft lime-green (#cde58c) backdrop with nothing in it. Portrait 2:3, natural colours. No readable text, no letters, no numbers, no logos, no faces, no watermark."
+    },
+    {
+      "name": "s05",
+      "size": "1024x1536",
+      "prompt": "Photoreal retro tech studio still life, magazine-ad quality, warm soft key light from the left, subtle film grain. Three neat, plain manila folders standing neatly together, while a loose pile of crumpled half-filled printouts lies to one side, placed in the lower half of the frame on a seamless deep forest-green (#14261c) backdrop. The top 45% of the frame is empty, plain deep forest-green (#14261c) backdrop with nothing in it. Portrait 2:3, natural colours. No readable text, no letters, no numbers, no logos, no faces, no watermark."
+    },
+    {
+      "name": "s06",
+      "size": "1024x1536",
+      "prompt": "Photoreal retro tech studio still life, magazine-ad quality, warm soft key light from the left, subtle film grain. A small grid of glossy green ceramic tiles, some lighter, some darker, laid flat like a mosaic, with a magnifying glass resting beside it, placed in the lower half of the frame on a seamless warm cream paper (#f1f0d9) backdrop. The top 45% of the frame is empty, plain warm cream paper (#f1f0d9) backdrop with nothing in it. Portrait 2:3, natural colours. No readable text, no letters, no numbers, no logos, no faces, no watermark."
+    },
+    {
+      "name": "s07",
+      "size": "1024x1536",
+      "prompt": "Photoreal retro tech studio still life, magazine-ad quality, warm soft key light from the left, subtle film grain. On a seamless deep forest-green backdrop: A beige retro desk lamp switched on and a small round analogue desk clock, kept low in the bottom fifth of the frame and at the edges. The top 45% and the middle of the frame stay mostly empty and calm (a white card will sit there). Portrait 2:3, natural colours. No readable text, no letters, no numbers, no logos, no faces, no watermark."
+    },
+    {
+      "name": "s08",
+      "size": "1024x1536",
+      "prompt": "Photoreal studio still life, magazine-ad quality, soft even light, gentle shadow. On a flat, seamless lime-green (#cde58c) backdrop: a crisp white folded paper plane and one beige 1990s floppy disk, together in the lower half of the frame. The top 50% is empty, plain lime-green backdrop. Portrait 2:3. No readable text, no letters, no numbers, no logos, no faces, no watermark."
+    }
+  ]
+}
