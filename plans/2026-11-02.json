@@ -19,19 +19,91 @@
     "lineDraft": "Start them in first year, not final year."
   },
   "slides": [
-    {"n": 1, "type": "cover", "image": "cover", "idea": "hook + line"},
-    {"n": 2, "type": "screen", "bg": "dark", "label": "Thing 1", "idea": "Learn the code, then direct the AI: small changes, give it the code and constraints, read every change it makes", "screen": "A code editor with an AI chat side panel: a short prompt with the file and a constraint, and a diff with red/green lines the student is reviewing (Accept / Reject buttons)"},
-    {"n": 3, "type": "poster", "image": "s03", "bg": "paper", "label": "Thing 2", "idea": "Solve problems you haven't seen: break it into parts, compare two approaches, explain why yours fits"},
-    {"n": 4, "type": "screen", "bg": "lime", "label": "Thing 3", "idea": "Build projects you can explain: trace one request from the page to the API to the database", "screen": "Browser DevTools Network tab cropped to one request: POST /api/expenses, status 201, the request payload and the JSON response"},
-    {"n": 5, "type": "poster", "image": "s05", "bg": "dark", "label": "Thing 4", "idea": "Your college isn't your only network: hackathons, open source, GSoC"},
-    {"n": 6, "type": "screen", "bg": "paper", "label": "Thing 5", "idea": "Prepare for the format they use: check if AI is allowed, then practise that way", "screen": "An online assessment instructions page cropped to the rules box: duration, number of questions, and a line 'AI tools: not allowed' highlighted (fictional company, example.com)"},
-    {"n": 7, "type": "send", "image": "s07", "idea": "Send this to a friend who is waiting for final year."}
+    {
+      "n": 1,
+      "type": "cover",
+      "image": "cover",
+      "idea": "hook + line"
+    },
+    {
+      "n": 2,
+      "type": "screen",
+      "bg": "paper",
+      "label": "Save this",
+      "idea": "Promise: 'Save these 5 things for this semester.' / One action for each, starting this month.",
+      "screen": "A phone Notes note titled '5 things before final year' with five unticked rows (.row.off): Code + AI tools, Unseen problems, Projects you can explain, People who build, Interview format"
+    },
+    {
+      "n": 3,
+      "type": "screen",
+      "bg": "dark",
+      "label": "Thing 1",
+      "idea": "Thing 1: learn the code, then direct the AI: small changes, give it the code and constraints, read every change it makes",
+      "screen": "A code editor with an AI chat side panel: a short prompt with the file and a constraint, and a diff with red/green lines the student is reviewing (Accept / Reject buttons)"
+    },
+    {
+      "n": 4,
+      "type": "poster",
+      "image": "s03",
+      "bg": "paper",
+      "label": "Thing 2",
+      "idea": "Thing 2: solve problems you haven't seen: break it into parts, compare two approaches, explain why yours fits"
+    },
+    {
+      "n": 5,
+      "type": "screen",
+      "bg": "lime",
+      "label": "Thing 3",
+      "idea": "Thing 3: build projects you can explain: trace one request from the page to the API to the database",
+      "screen": "Browser DevTools Network tab cropped to one request: POST /api/expenses, status 201, the request payload and the JSON response"
+    },
+    {
+      "n": 6,
+      "type": "poster",
+      "image": "s05",
+      "bg": "dark",
+      "label": "Thing 4",
+      "idea": "Thing 4: your college isn't your only network: hackathons, open source, GSoC"
+    },
+    {
+      "n": 7,
+      "type": "screen",
+      "bg": "lime",
+      "label": "Screenshot this",
+      "idea": "Cheat sheet = Thing 5 + the list: the 5 things, one action each; line 5 is Thing 5: check if AI is allowed in the test, then practise that way.",
+      "screen": "The same Notes note as slide 2, now with all five rows ticked (.row.on) and one short action under each; row 5 'Interview format: check if AI is allowed, practise that way' highlighted (.focus)"
+    },
+    {
+      "n": 8,
+      "type": "send",
+      "image": "send",
+      "idea": "Send this to a friend who is waiting for final year."
+    }
   ],
   "images": [
-    {"name": "cover", "size": "1024x1536", "prompt": "Photoreal aerial photograph, magazine-ad quality, soft overcast daylight, subtle film grain. Looking straight down on a college convocation lawn: a dense, orderly crowd of graduates in identical grey gowns and grey mortarboard caps, all facing the same way, seen only from above. In the lower-middle of the frame one student in a bright lime-green jacket walks the opposite way through the crowd, a closed laptop under one arm. The top 35% of the frame is plain green lawn with nobody on it. Portrait 2:3, natural colours, not tinted. No readable text, no letters, no numbers, no logos, no faces, no watermark."},
-    {"name": "s03", "size": "1024x1536", "prompt": "Photoreal close-up photograph, magazine-ad quality, the same soft overcast campus daylight, subtle film grain. An open spiral notebook on a pale wooden campus bench, one page split down the middle with two hand-drawn diagrams of boxes and arrows side by side, one of them circled; a hand holding a pencil rests at the edge of the page; a closed laptop beside it. All of it sits in the lower half of the frame on a seamless warm cream paper (#f1f0d9) backdrop. The top 45% of the frame is empty, plain warm cream paper (#f1f0d9) backdrop with nothing in it. Portrait 2:3, natural colours. No readable text, no letters, no numbers, no logos, no faces, no watermark."},
-    {"name": "s05", "size": "1024x1536", "prompt": "Photoreal photograph, magazine-ad quality, the same soft daylight through tall windows of a college hall, subtle film grain. Seen from above at an angle: a long hackathon table shared by several students, only their hands and forearms visible, three open laptops, a tangle of chargers, sticky notes with doodled arrows, paper cups and a shared box of snacks. The table fills the lower half of the frame against a deep forest-green (#14261c) wall. The top 45% of the frame is empty, plain deep forest-green (#14261c) wall with nothing in it. Portrait 2:3, natural colours. No readable text, no letters, no numbers, no logos, no faces, no watermark."},
-    {"name": "s07", "size": "1024x1536", "prompt": "Photoreal studio still life, magazine-ad quality, soft even light, gentle shadow. On a flat, seamless lime-green (#cde58c) backdrop: a crisp white folded paper plane and a grey graduation mortarboard cap, together in the lower half of the frame. The top 50% is empty, plain lime-green backdrop. Portrait 2:3. No readable text, no letters, no numbers, no logos, no faces, no watermark."}
+    {
+      "name": "cover",
+      "size": "1024x1536",
+      "prompt": "Photoreal aerial photograph, magazine-ad quality, soft overcast daylight, subtle film grain. Looking straight down on a college convocation lawn: a dense, orderly crowd of graduates in identical grey gowns and grey mortarboard caps, all facing the same way, seen only from above. In the lower-middle of the frame one student in a bright lime-green jacket walks the opposite way through the crowd, a closed laptop under one arm. The top 35% of the frame is plain green lawn with nobody on it. Portrait 2:3, natural colours, not tinted. No readable text, no letters, no numbers, no logos, no faces, no watermark."
+    },
+    {
+      "name": "s03",
+      "size": "1024x1536",
+      "prompt": "Photoreal close-up photograph, magazine-ad quality, the same soft overcast campus daylight, subtle film grain. An open spiral notebook on a pale wooden campus bench, one page split down the middle with two hand-drawn diagrams of boxes and arrows side by side, one of them circled; a hand holding a pencil rests at the edge of the page; a closed laptop beside it. All of it sits in the lower half of the frame on a seamless warm cream paper (#f1f0d9) backdrop. The top 45% of the frame is empty, plain warm cream paper (#f1f0d9) backdrop with nothing in it. Portrait 2:3, natural colours. No readable text, no letters, no numbers, no logos, no faces, no watermark."
+    },
+    {
+      "name": "s05",
+      "size": "1024x1536",
+      "prompt": "Photoreal photograph, magazine-ad quality, the same soft daylight through tall windows of a college hall, subtle film grain. Seen from above at an angle: a long hackathon table shared by several students, only their hands and forearms visible, three open laptops, a tangle of chargers, sticky notes with doodled arrows, paper cups and a shared box of snacks. The table fills the lower half of the frame against a deep forest-green (#14261c) wall. The top 45% of the frame is empty, plain deep forest-green (#14261c) wall with nothing in it. Portrait 2:3, natural colours. No readable text, no letters, no numbers, no logos, no faces, no watermark."
+    },
+    {
+      "name": "send",
+      "size": "1024x1536",
+      "prompt": "Photoreal studio still life, magazine-ad quality, soft even light, gentle shadow. On a flat, seamless lime-green (#cde58c) backdrop: a crisp white folded paper plane and a grey graduation mortarboard cap, together in the lower half of the frame. The top 50% is empty, plain lime-green backdrop. Portrait 2:3. No readable text, no letters, no numbers, no logos, no faces, no watermark."
+    }
   ],
-  "note": "REUPLOAD of internship-5-things: rebuild from the backlog entry's content (five things from NYC_BRIEF homepage list); internship framing for 1st/2nd years; no 'ship' words; no * footnote; keep it clearly different from 'degree-not-enough'. Gate checked at planning: 2 new topics (10-31, 11-01) after the 10-30 reupload. Slides 2, 4 and 6 are screen slides (drawn by the daily run, no image)."
+  "note": "REUPLOAD of internship-5-things: rebuild from the backlog entry's content (five things from NYC_BRIEF homepage list); internship framing for 1st/2nd years; no 'ship' words; no * footnote; keep it clearly different from 'degree-not-enough'. Gate checked at planning: 2 new topics (10-31, 11-01) after the 10-30 reupload. Save/send re-plan (26 Oct): slide 2 promise, Things 1-4 on slides 3-6, Thing 5 (check the test format) folded into the slide-7 cheat sheet to keep 8 slides. Slides 2, 3, 5 and 7 are screen slides (drawn by the daily run, no image).",
+  "images_rev": "2026-10-26-savesend",
+  "save_reason": "The 5 things as a one-screen checklist with one concrete action each (slide 7, a screenshot-worthy cheat sheet), and the same list as copyable text in the caption, to work through this semester.",
+  "send_reason": "Send this to a friend who is waiting for final year."
 }

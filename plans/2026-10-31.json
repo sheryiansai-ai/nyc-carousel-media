@@ -1,14 +1,25 @@
 {
   "date": "2026-10-31",
   "slug": "context-prompting",
-  "topic": "Give AI the right context: code, constraints, expected behaviour",
-  "topicTag": "Prompting",
+  "topic": "Give AI the right context: a copy-paste prompt template with your code, your rules and the expected behaviour",
+  "topicTag": "AI prompts",
   "template": "split",
+  "images_rev": "2026-10-26-savesend",
+  "save_reason": "A copy-paste prompt template (code + error, constraints, expected vs actual behaviour), shown on the cheat sheet and in full in the caption.",
+  "send_reason": "Send this to a friend who says AI gives wrong code.",
   "cover": {
     "style": 8,
     "concept": "Grand space: a vast old archive hall, one long wooden table with a single brass lamp lighting a neat stack: a folder, a rolled map and a ruler.",
-    "hookDraft": "Vague prompt.",
-    "lineDraft": "Vague code. Give AI the whole picture."
+    "emotion": "surprise",
+    "hooks": [
+      "AI isn't wrong. Your prompt is. (surprise)",
+      "You gave AI one line. (embarrassment)",
+      "'Fix my code.' AI guessed. (amusement)",
+      "Copy this prompt. Get working code. (gain)",
+      "Why does AI keep breaking your code? (curiosity)"
+    ],
+    "hookDraft": "AI isn't wrong. Your prompt is.",
+    "lineDraft": "The 3-part prompt to learn in first year."
   },
   "slides": [
     {
@@ -19,55 +30,58 @@
     },
     {
       "n": 2,
-      "type": "split",
-      "image": "s02",
+      "type": "screen",
       "bg": "dark",
-      "label": "The problem",
-      "idea": "A vague prompt gets vague code back"
+      "label": "Save this",
+      "idea": "Promise: 'Copy this prompt template tonight.' / Your code, your rules, what should happen.",
+      "screen": "An AI chat input box with three bold headings already typed: Code, Rules, Expected; cursor blinking"
     },
     {
       "n": 3,
-      "type": "split",
-      "image": "s03",
+      "type": "screen",
       "bg": "paper",
-      "label": "Context 1",
-      "idea": "Show the code: the file and the function that matter"
+      "label": "The problem",
+      "idea": "'Fix my code' makes AI guess: it can't see your files, error or rules.",
+      "screen": "An AI chat: user message 'fix my code' and a long generic reply that rewrites everything (lines faded)"
     },
     {
       "n": 4,
-      "type": "split",
-      "image": "s04",
+      "type": "screen",
       "bg": "lime",
-      "label": "Context 2",
-      "idea": "State the limits: language, library version, what not to change"
+      "label": "Part 1",
+      "idea": "Paste the exact code and the full error: only the file that breaks.",
+      "screen": "Chat message with a short JS code block (fictional cart.js) and a red error 'TypeError: Cannot read properties of undefined (reading \"price\")'"
     },
     {
       "n": 5,
-      "type": "split",
-      "image": "s05",
+      "type": "screen",
       "bg": "dark",
-      "label": "Context 3",
-      "idea": "Say what you expect: input, expected output, the actual error"
+      "label": "Part 2",
+      "idea": "Tell it what it must not change: language/version, framework, files to leave alone.",
+      "screen": "Chat message lines: 'Rules: Node 20, Express. Don't change routes.js. Keep my variable names.' with the Rules line highlighted"
     },
     {
       "n": 6,
-      "type": "bignum",
-      "label": "Every time",
-      "idea": "Three things in every prompt: code, limits, expected (value 3)"
+      "type": "screen",
+      "bg": "paper",
+      "label": "Part 3",
+      "idea": "Say what should happen instead: the input, the expected result, what you got.",
+      "screen": "Chat message: 'Expected: adding 2 items shows total 498. What happens: total shows NaN.' then AI reply starting 'The cause:' (fictional)"
     },
     {
       "n": 7,
-      "type": "split",
-      "image": "s07",
-      "bg": "paper",
-      "label": "Always",
-      "idea": "Then read every change it makes before you keep it"
+      "type": "screen",
+      "bg": "lime",
+      "label": "Screenshot this",
+      "idea": "Cheat sheet: the full template, ready to paste.",
+      "screen": "A code/notes block 'prompt-template.txt' with the template lines (Code / Error / Rules / Expected / What happens / Explain the cause first)",
+      "copy_text": "Here is my code:\n<paste only the file that breaks>\n\nHere is the full error:\n<paste the error>\n\nRules: I use <language + version, framework>. Don't change <files or functions>. Keep my variable names.\n\nExpected: when I <input or action>, it should <expected result>.\nWhat happens: <actual result>.\n\nExplain the cause first, then give the smallest fix."
     },
     {
       "n": 8,
       "type": "send",
-      "image": "s08",
-      "idea": "friend who says \"AI gives wrong answers\""
+      "image": "send",
+      "idea": "Send this to a friend getting wrong code from AI. (owner: 'a friend who says AI gives wrong code'; title kept ≤10 words)"
     }
   ],
   "images": [
@@ -77,34 +91,11 @@
       "prompt": "Photoreal location photograph, magazine-ad quality, subtle film grain. A vast old archive hall with towering wooden shelves fading into darkness; one long wooden table in the lower part of the frame where a single brass desk lamp lights a neat stack: a closed folder, a rolled map tied with string and a brass ruler. The top 35% of the frame is the dim, calm upper hall. Portrait 2:3, natural colours. No readable text, no letters, no numbers, no logos, no faces, no watermark."
     },
     {
-      "name": "s02",
-      "size": "1536x1024",
-      "prompt": "Photoreal location photograph, magazine-ad quality, a vast old archive hall with tall wooden shelves, warm light from a single brass desk lamp, subtle film grain. A messy heap of loose blank papers scattered across the long table in dim, hazy light, centred in the frame with some room around it. Landscape 3:2, natural colours. No readable text, no letters, no numbers, no logos, no faces, no watermark."
-    },
-    {
-      "name": "s03",
-      "size": "1536x1024",
-      "prompt": "Photoreal location photograph, magazine-ad quality, a vast old archive hall with tall wooden shelves, warm light from a single brass desk lamp, subtle film grain. An open folder of blank pages under the lamp with a magnifying glass resting on one page, centred in the frame with some room around it. Landscape 3:2, natural colours. No readable text, no letters, no numbers, no logos, no faces, no watermark."
-    },
-    {
-      "name": "s04",
-      "size": "1536x1024",
-      "prompt": "Photoreal location photograph, magazine-ad quality, a vast old archive hall with tall wooden shelves, warm light from a single brass desk lamp, subtle film grain. A brass ruler and a pair of steel callipers lying across an unrolled blank map on the table, centred in the frame with some room around it. Landscape 3:2, natural colours. No readable text, no letters, no numbers, no logos, no faces, no watermark."
-    },
-    {
-      "name": "s05",
-      "size": "1536x1024",
-      "prompt": "Photoreal location photograph, magazine-ad quality, a vast old archive hall with tall wooden shelves, warm light from a single brass desk lamp, subtle film grain. An unrolled blank map with a single red pin and a thin red thread marking a route, centred in the frame with some room around it. Landscape 3:2, natural colours. No readable text, no letters, no numbers, no logos, no faces, no watermark."
-    },
-    {
-      "name": "s07",
-      "size": "1536x1024",
-      "prompt": "Photoreal location photograph, magazine-ad quality, a vast old archive hall with tall wooden shelves, warm light from a single brass desk lamp, subtle film grain. A magnifying glass held over a page on the table, the lamp light falling through the lens, centred in the frame with some room around it. Landscape 3:2, natural colours. No readable text, no letters, no numbers, no logos, no faces, no watermark."
-    },
-    {
-      "name": "s08",
+      "name": "send",
       "size": "1024x1536",
       "prompt": "Photoreal studio still life, magazine-ad quality, soft even light, gentle shadow. On a flat, seamless lime-green (#cde58c) backdrop: a crisp white folded paper plane and a brass magnifying glass, together in the lower half of the frame. The top 50% is empty, plain lime-green backdrop. Portrait 2:3. No readable text, no letters, no numbers, no logos, no faces, no watermark."
     }
-  ]
+  ],
+  "sources": [],
+  "note": "No external facts needed. All code, file names and numbers in screens are fictional. Caption carries the full template as copyable text."
 }

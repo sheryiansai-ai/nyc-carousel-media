@@ -1,14 +1,25 @@
 {
   "date": "2026-10-29",
   "slug": "first-ai-app-weekend",
-  "topic": "Build your first AI app this weekend",
+  "topic": "Build your first AI app this weekend: an hour-by-hour plan, free tools by name and a starter prompt",
   "topicTag": "AI app",
   "template": "split",
+  "images_rev": "2026-10-26-savesend",
+  "save_reason": "An hour-by-hour weekend plan (Sat 10 AM to Sun 6 PM), the free tools by name (Google AI Studio / Gemini API free tier, Streamlit Community Cloud, GitHub) and a starter prompt to copy (slide 5 and in full in the caption).",
+  "send_reason": "Send this to your hackathon partner.",
   "cover": {
     "style": 6,
     "concept": "Cinematic night photo: a student's desk by a window with city lights, lit by an open laptop's glow, a mug and a notebook beside it.",
-    "hookDraft": "One weekend.",
-    "lineDraft": "Your first AI app, live by Sunday night."
+    "emotion": "aspiration",
+    "hooks": [
+      "Saturday idea. Sunday live link. (aspiration)",
+      "Your hackathon partner already built one. (FOMO)",
+      "Free tools. One weekend. One app. (gain)",
+      "48 hours to your first AI app? (curiosity)",
+      "Still only watching AI tutorials? (embarrassment)"
+    ],
+    "hookDraft": "Saturday idea. Sunday live link.",
+    "lineDraft": "Your first AI app, before second year ends."
   },
   "slides": [
     {
@@ -19,56 +30,58 @@
     },
     {
       "n": 2,
-      "type": "split",
-      "image": "s02",
+      "type": "screen",
       "bg": "dark",
-      "label": "Saturday, 10 AM",
-      "idea": "Pick one small problem from your own college life"
+      "label": "Save this",
+      "idea": "Promise: 'Save this for Saturday morning.' / A weekend plan, free tools and a prompt to copy.",
+      "screen": "Google Calendar weekend view (Sat and Sun columns) with time blocks: 10 AM Pick a problem, 2 PM Get API key, 4 PM Build with the prompt, Sun 11 AM Deploy, 4 PM README + share"
     },
     {
       "n": 3,
       "type": "split",
       "image": "s03",
       "bg": "paper",
-      "label": "Saturday, 2 PM",
-      "idea": "Make one call to an LLM API and see it answer (verify free-tier limits on the day)"
+      "label": "Saturday, 10 AM",
+      "idea": "Pick one small problem you have, e.g. long college notices nobody reads -> a notice summariser."
     },
     {
       "n": 4,
-      "type": "split",
-      "image": "s04",
+      "type": "screen",
       "bg": "lime",
-      "label": "Saturday, 7 PM",
-      "idea": "Add a simple screen: one input, one answer"
+      "label": "Saturday, 2 PM",
+      "idea": "Get a free Gemini API key in Google AI Studio (free tier).",
+      "screen": "Google AI Studio 'API keys' page cropped: 'Create API key' button and one key row masked (AIza••••••••), project name notice-summariser"
     },
     {
       "n": 5,
-      "type": "card",
-      "image": "s05",
-      "label": "Sunday, 11 AM",
-      "idea": "Test where it fails: empty input, very long text, wrong language, made-up answers"
+      "type": "screen",
+      "bg": "dark",
+      "label": "Copy this",
+      "idea": "Paste this starter prompt into your AI assistant (full prompt in the caption).",
+      "screen": "An AI chat input box containing the starter prompt, Send arrow",
+      "copy_text": "Build a Streamlit app in Python, in one file called app.py. The user pastes a long college notice. Send it to the Gemini API (read the key from st.secrets) and show a 3-line summary and any dates in it. Add clear comments, a requirements.txt, and tell me how to run it locally."
     },
     {
       "n": 6,
-      "type": "split",
-      "image": "s06",
-      "bg": "dark",
-      "label": "Sunday, 4 PM",
-      "idea": "Put it online and get a live link"
+      "type": "screen",
+      "bg": "paper",
+      "label": "Sunday, 11 AM",
+      "idea": "Deploy it free on Streamlit Community Cloud: push to GitHub, pick the repo, click Deploy.",
+      "screen": "Streamlit Community Cloud 'Deploy an app' form: Repository aarav-codes/notice-summariser, Branch main, Main file path app.py, Secrets (GEMINI_API_KEY = ••••), Deploy button"
     },
     {
       "n": 7,
-      "type": "split",
-      "image": "s07",
-      "bg": "paper",
-      "label": "Sunday, 8 PM",
-      "idea": "Write the README: what it does and where the model fails"
+      "type": "screen",
+      "bg": "lime",
+      "label": "Screenshot this",
+      "idea": "Cheat sheet: Sat 10 problem, 2 key, 4 build with prompt, 7 test with 5 real notices; Sun 11 deploy, 2 README + screenshot, 4 share the live link.",
+      "screen": "A phone Notes note 'Weekend AI app' with the hour-by-hour list as ticked rows"
     },
     {
       "n": 8,
       "type": "send",
-      "image": "s08",
-      "idea": "friend who says \"I'll start AI next semester\""
+      "image": "send",
+      "idea": "Send this to your hackathon partner."
     }
   ],
   "images": [
@@ -78,39 +91,19 @@
       "prompt": "Cinematic night photograph, magazine-ad quality, subtle film grain. A student's wooden desk by a window with distant city lights, lit only by an open laptop's cool glow and a small warm desk lamp; a ceramic mug, a closed notebook and a pen beside the laptop; a pair of hands rests near the keyboard. The desk sits in the lower 60% of the frame; the top 35% is dark, calm window and wall. Portrait 2:3, natural colours. No readable text, no letters, no numbers, no logos, no faces, no watermark."
     },
     {
-      "name": "s02",
-      "size": "1536x1024",
-      "prompt": "Cinematic night photograph, magazine-ad quality, a small dark student room lit only by a laptop screen's cool glow and one warm desk lamp, subtle film grain. An open notebook with a blank page and a pen resting on it, beside the glowing laptop, centred in the frame with some room around it. Landscape 3:2, natural colours. No readable text, no letters, no numbers, no logos, no faces, no watermark."
-    },
-    {
       "name": "s03",
       "size": "1536x1024",
-      "prompt": "Cinematic night photograph, magazine-ad quality, a small dark student room lit only by a laptop screen's cool glow and one warm desk lamp, subtle film grain. The open laptop seen from the side, its screen casting soft light across the desk, a cable plugged in, centred in the frame with some room around it. Landscape 3:2, natural colours. No readable text, no letters, no numbers, no logos, no faces, no watermark."
+      "prompt": "Cinematic photograph, magazine-ad quality, the same warm desk-lamp light at night, subtle film grain. A college corridor notice board crowded with pinned paper notices, overlapping sheets and coloured pins (the paper shows only blurred grey lines, nothing readable); a hand holding a phone photographs one notice. Landscape 3:2, subject centred, natural colours. No readable text, no letters, no numbers, no logos, no faces, no watermark."
     },
     {
-      "name": "s04",
-      "size": "1536x1024",
-      "prompt": "Cinematic night photograph, magazine-ad quality, a small dark student room lit only by a laptop screen's cool glow and one warm desk lamp, subtle film grain. A pair of hands sketching simple empty boxes and arrows on a sheet of paper next to the laptop, centred in the frame with some room around it. Landscape 3:2, natural colours. No readable text, no letters, no numbers, no logos, no faces, no watermark."
-    },
-    {
-      "name": "s05",
-      "size": "1024x1536",
-      "prompt": "Cinematic night photograph, magazine-ad quality, a small dark student room lit only by a laptop screen's cool glow and one warm desk lamp, subtle film grain. The edge of the desk from above: a mug, a phone face down and a tangle of charging cables, kept low in the bottom fifth of the frame and at the edges. The top 45% and the middle of the frame stay mostly empty and calm (a white card will sit there). Portrait 2:3, natural colours. No readable text, no letters, no numbers, no logos, no faces, no watermark."
-    },
-    {
-      "name": "s06",
-      "size": "1536x1024",
-      "prompt": "Cinematic night photograph, magazine-ad quality, a small dark student room lit only by a laptop screen's cool glow and one warm desk lamp, subtle film grain. A small home wi-fi router with tiny glowing lights on the desk next to the laptop, centred in the frame with some room around it. Landscape 3:2, natural colours. No readable text, no letters, no numbers, no logos, no faces, no watermark."
-    },
-    {
-      "name": "s07",
-      "size": "1536x1024",
-      "prompt": "Cinematic night photograph, magazine-ad quality, a small dark student room lit only by a laptop screen's cool glow and one warm desk lamp, subtle film grain. Two empty coffee mugs and the closed laptop on the desk as the first blue light of dawn comes through the window, centred in the frame with some room around it. Landscape 3:2, natural colours. No readable text, no letters, no numbers, no logos, no faces, no watermark."
-    },
-    {
-      "name": "s08",
+      "name": "send",
       "size": "1024x1536",
       "prompt": "Photoreal studio still life, magazine-ad quality, soft even light, gentle shadow. On a flat, seamless lime-green (#cde58c) backdrop: a crisp white folded paper plane and a white ceramic coffee mug, together in the lower half of the frame. The top 50% is empty, plain lime-green backdrop. Portrait 2:3. No readable text, no letters, no numbers, no logos, no faces, no watermark."
     }
-  ]
+  ],
+  "sources": [
+    "https://ai.google.dev/gemini-api/docs/pricing",
+    "https://streamlit.io/cloud"
+  ],
+  "note": "Checked 26 Oct 2026: Gemini API has a Free tier with free tokens on Flash models (ai.google.dev pricing); Streamlit Community Cloud is free for public apps, deploy from GitHub. Daily run: re-check both; don't name a specific Gemini model version on slides. Key stays in Secrets, never in the repo."
 }

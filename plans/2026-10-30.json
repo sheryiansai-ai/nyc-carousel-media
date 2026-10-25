@@ -1,14 +1,25 @@
 {
   "date": "2026-10-30",
   "slug": "reupload-deploy-first-project",
-  "topic": "Deploy your first project (re-upload in the new style)",
+  "topic": "Deploy your first project: free hosts by name, the exact clicks and the 3 most common errors with fixes (re-upload in the new style)",
   "topicTag": "Deploy",
   "template": "poster",
+  "images_rev": "2026-10-26-savesend",
+  "save_reason": "Free hosts by name (GitHub Pages, Vercel, Netlify, Render), the exact clicks, and the 3 most common first-deploy errors with fixes, all on the cheat sheet and in the caption.",
+  "send_reason": "Send this to a friend whose project only runs on localhost.",
   "cover": {
     "style": 4,
     "concept": "One surreal object: an open laptop sealed under a tall glass bell jar on a white pedestal, nobody else can reach it.",
-    "hookDraft": "Works on my laptop.",
-    "lineDraft": "Nobody else can open localhost."
+    "emotion": "recognition",
+    "hooks": [
+      "It works on my laptop. (recognition)",
+      "Nobody can open localhost:3000. (amusement)",
+      "Your interviewer clicked. Nothing loaded. (fear)",
+      "Free link. Four clicks. (gain)",
+      "Why do recruiters skip your project? (curiosity)"
+    ],
+    "hookDraft": "It works on my laptop.",
+    "lineDraft": "Put a live link on it before second year."
   },
   "slides": [
     {
@@ -19,56 +30,57 @@
     },
     {
       "n": 2,
-      "type": "poster",
-      "image": "s02",
+      "type": "screen",
       "bg": "dark",
-      "label": "Deploying",
-      "idea": "Deploying means a real link anyone can open, not localhost"
+      "label": "Save this",
+      "idea": "Promise: 'Save this before your next deploy.' / Free hosts, the exact clicks and 3 common errors.",
+      "screen": "Two browser address bars stacked: localhost:3000 (greyed, 'only on your laptop') and campus-bus.vercel.app (highlighted .focus)"
     },
     {
       "n": 3,
-      "type": "card",
-      "image": "s03",
+      "type": "screen",
+      "bg": "paper",
       "label": "Pick a host",
-      "idea": "Pick the host by what you built: HTML on GitHub Pages, React on Vercel or Netlify, backend on Render (re-check free tiers on the day)"
+      "idea": "Pick the free host by what you built: HTML -> GitHub Pages; React/Next.js -> Vercel or Netlify; Node/Python backend -> Render.",
+      "screen": "Three browser tabs (GitHub Pages settings, Vercel New Project, Render New Web Service) with the Vercel 'Import Git Repository' list in front: aarav-codes/campus-bus with an Import button"
     },
     {
       "n": 4,
-      "type": "poster",
-      "image": "s04",
-      "bg": "paper",
-      "label": "Repo to link",
-      "idea": "Four steps: push (without .env), import, add your keys, deploy"
+      "type": "screen",
+      "bg": "lime",
+      "label": "The clicks",
+      "idea": "Import your repo, add secret keys under Environment Variables, click Deploy. Never push .env.",
+      "screen": "Vercel 'Configure Project' cropped: Framework Preset Next.js, Environment Variables row API_KEY = ••••••, Deploy button (.btn.go)"
     },
     {
       "n": 5,
-      "type": "poster",
-      "image": "s05",
-      "bg": "lime",
-      "label": "First deploy",
-      "idea": "Your first deploy will break: fix the localhost URL and the missing key"
+      "type": "screen",
+      "bg": "dark",
+      "label": "Error 1",
+      "idea": "Your app still calls localhost: change the fetch URL to your live backend link.",
+      "screen": "Browser console with a red error 'Failed to fetch http://localhost:5000/api/routes', below it a two-line code diff replacing localhost:5000 with campus-bus-api.onrender.com"
     },
     {
       "n": 6,
-      "type": "poster",
-      "image": "s06",
-      "bg": "dark",
-      "label": "Free tiers",
-      "idea": "Free apps sleep when idle; the first visit is slow (re-check the limit)"
+      "type": "screen",
+      "bg": "paper",
+      "label": "Error 2",
+      "idea": "Your API key is undefined: add it on the host, then redeploy.",
+      "screen": "Build/runtime log cropped: 'Error: API_KEY is undefined' highlighted, a 'Redeploy' button beside it"
     },
     {
       "n": 7,
-      "type": "poster",
-      "image": "s07",
-      "bg": "paper",
-      "label": "Résumé",
-      "idea": "Put the live link on your résumé and in the repo's About box"
+      "type": "screen",
+      "bg": "lime",
+      "label": "Screenshot this",
+      "idea": "Cheat sheet: 3 hosts by project type; 4 clicks (push without .env, import, add keys, Deploy); 3 errors + fixes incl. Error 3: free Render app sleeps after 15 idle minutes, first load takes about a minute (normal).",
+      "screen": "A phone Notes note 'Deploy cheat sheet' with three short groups: Hosts, Clicks, Errors (localhost URL, undefined key, slow first load on Render)"
     },
     {
       "n": 8,
       "type": "send",
-      "image": "s08",
-      "idea": "friend who says \"it works on my laptop\""
+      "image": "send",
+      "idea": "Send this to a friend whose project runs on localhost. (title must stay ≤10 words)"
     }
   ],
   "images": [
@@ -78,40 +90,16 @@
       "prompt": "Photoreal surreal studio still life, magazine-ad quality, soft light from above, subtle film grain. An open silver laptop, its screen glowing softly, sealed under a tall glass bell jar on a white plinth, against a seamless dusty-blue backdrop. The plinth and jar sit in the lower 60% of the frame; the top 35% is plain empty backdrop. Portrait 2:3, natural colours. No readable text, no letters, no numbers, no logos, no faces, no watermark."
     },
     {
-      "name": "s02",
-      "size": "1024x1536",
-      "prompt": "Photoreal surreal studio still life, magazine-ad quality, soft museum-like light from above, subtle film grain. A tall glass bell jar lifted slightly off its base, a thin beam of light escaping from under it, placed in the lower half of the frame on a seamless deep forest-green (#14261c) backdrop. The top 45% of the frame is empty, plain deep forest-green (#14261c) backdrop with nothing in it. Portrait 2:3, natural colours. No readable text, no letters, no numbers, no logos, no faces, no watermark."
-    },
-    {
-      "name": "s03",
-      "size": "1024x1536",
-      "prompt": "Photoreal surreal studio still life, magazine-ad quality, soft museum-like light from above, subtle film grain. On a seamless deep forest-green backdrop: Three small glass bell jars of different sizes in a row, each empty, kept low in the bottom fifth of the frame and at the edges. The top 45% and the middle of the frame stay mostly empty and calm (a white card will sit there). Portrait 2:3, natural colours. No readable text, no letters, no numbers, no logos, no faces, no watermark."
-    },
-    {
-      "name": "s04",
-      "size": "1024x1536",
-      "prompt": "Photoreal surreal studio still life, magazine-ad quality, soft museum-like light from above, subtle film grain. An open silver laptop on a white plinth with a single network cable plugged into it, placed in the lower half of the frame on a seamless warm cream paper (#f1f0d9) backdrop. The top 45% of the frame is empty, plain warm cream paper (#f1f0d9) backdrop with nothing in it. Portrait 2:3, natural colours. No readable text, no letters, no numbers, no logos, no faces, no watermark."
-    },
-    {
-      "name": "s05",
-      "size": "1024x1536",
-      "prompt": "Photoreal surreal studio still life, magazine-ad quality, soft museum-like light from above, subtle film grain. A glass bell jar with a small clean crack running down its side, the laptop inside, placed in the lower half of the frame on a seamless soft lime-green (#cde58c) backdrop. The top 45% of the frame is empty, plain soft lime-green (#cde58c) backdrop with nothing in it. Portrait 2:3, natural colours. No readable text, no letters, no numbers, no logos, no faces, no watermark."
-    },
-    {
-      "name": "s06",
-      "size": "1024x1536",
-      "prompt": "Photoreal surreal studio still life, magazine-ad quality, soft museum-like light from above, subtle film grain. A small silver laptop half-closed on a white plinth, its screen dimmed as if asleep, placed in the lower half of the frame on a seamless deep forest-green (#14261c) backdrop. The top 45% of the frame is empty, plain deep forest-green (#14261c) backdrop with nothing in it. Portrait 2:3, natural colours. No readable text, no letters, no numbers, no logos, no faces, no watermark."
-    },
-    {
-      "name": "s07",
-      "size": "1024x1536",
-      "prompt": "Photoreal surreal studio still life, magazine-ad quality, soft museum-like light from above, subtle film grain. The empty glass bell jar set aside on the plinth, the open laptop now standing free beside it, placed in the lower half of the frame on a seamless warm cream paper (#f1f0d9) backdrop. The top 45% of the frame is empty, plain warm cream paper (#f1f0d9) backdrop with nothing in it. Portrait 2:3, natural colours. No readable text, no letters, no numbers, no logos, no faces, no watermark."
-    },
-    {
-      "name": "s08",
+      "name": "send",
       "size": "1024x1536",
       "prompt": "Photoreal studio still life, magazine-ad quality, soft even light, gentle shadow. On a flat, seamless lime-green (#cde58c) backdrop: a crisp white folded paper plane and a small glass bell jar, together in the lower half of the frame. The top 50% is empty, plain lime-green backdrop. Portrait 2:3. No readable text, no letters, no numbers, no logos, no faces, no watermark."
     }
   ],
-  "note": "REUPLOAD: rebuild from the backlog entry's content; re-check every free-tier limit on the official pages and add the URLs to sources; no 'ship' words; no * footnote; internship framing."
+  "sources": [
+    "https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site",
+    "https://vercel.com/docs/plans/hobby",
+    "https://www.netlify.com/pricing/",
+    "https://render.com/docs/free"
+  ],
+  "note": "REUPLOAD of deploy-first-project (gate: 3 new topics 27-29 Oct after the 26 Oct reupload). Checked 26 Oct 2026: Vercel Hobby free (personal, non-commercial); Netlify Free plan $0; Render free web services spin down after 15 idle minutes and take about a minute to wake, free Postgres expires 30 days after creation, 750 free instance hours a month; GitHub Pages docs. No 'ship' words; no * footnote; internship framing; brand-new cover hook. Error 3 (Render sleep) lives on the cheat sheet and in the caption to keep 8 slides."
 }

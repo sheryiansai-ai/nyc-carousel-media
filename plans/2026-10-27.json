@@ -1,14 +1,25 @@
 {
   "date": "2026-10-27",
   "slug": "off-campus",
-  "topic": "No big companies on campus? Find your internship off-campus in 1st/2nd year",
+  "topic": "No company visits your campus? Find your first internship off-campus: 8 real sites and the exact message to send",
   "topicTag": "Off-campus",
   "template": "split",
+  "images_rev": "2026-10-26-savesend",
+  "save_reason": "A complete list of 8 real sites where internships are posted (all checked 26 Oct 2026) + the exact cold message to a founder, copyable on slide 6 and in full in the caption.",
+  "send_reason": "Send this to a friend whose college has no placements.",
   "cover": {
     "style": 2,
     "concept": "Surreal landscape: a tiny student walks out of a lone open campus gate into vast rolling hills dotted with small lit buildings far away.",
-    "hookDraft": "Walk out.",
-    "lineDraft": "Your first internship won't come to campus."
+    "emotion": "anger at the system",
+    "hooks": [
+      "No companies on your campus? (anger at the system)",
+      "Your batchmate didn't wait for campus. (FOMO)",
+      "8 sites. One message. Internship. (curiosity)",
+      "Placement cell: no updates. Again. (recognition)",
+      "The internship never comes to campus. (surprise)"
+    ],
+    "hookDraft": "No companies on your campus?",
+    "lineDraft": "Your first summer internship was never coming there."
   },
   "slides": [
     {
@@ -19,56 +30,58 @@
     },
     {
       "n": 2,
-      "type": "split",
-      "image": "s02",
+      "type": "screen",
       "bg": "dark",
-      "label": "The truth",
-      "idea": "The internship you want won't visit your campus; you go to it"
+      "label": "Save this",
+      "idea": "Promise: 'Save this before you apply.' / 8 real sites and the exact message to send.",
+      "screen": "Chrome bookmarks bar with an open folder 'Internships' listing the 8 sites by name and domain (internshala.com, unstop.com, linkedin.com/jobs, wellfound.com, workatastartup.com, in.indeed.com, glassdoor.co.in, foundit.in), text only, no logos"
     },
     {
       "n": 3,
-      "type": "split",
-      "image": "s03",
+      "type": "screen",
       "bg": "paper",
-      "label": "Step 1",
-      "idea": "Build one project with a live link before you apply"
+      "label": "Sites 1-4",
+      "idea": "Start with these 4: Internshala, Unstop, LinkedIn Jobs (Internship filter), Wellfound (startups).",
+      "screen": "Four browser tabs named Internshala, Unstop, LinkedIn Jobs, Wellfound; in front one internship listing card for a fictional startup 'Pixelkart': Web Development Intern, Work from home, 2 months, Apply button"
     },
     {
       "n": 4,
-      "type": "split",
-      "image": "s04",
+      "type": "screen",
       "bg": "lime",
-      "label": "Step 2",
-      "idea": "Find the doors: company career pages and student programmes (verify names and dates on the day)"
+      "label": "Sites 5-8",
+      "idea": "Then these 4: Work at a Startup (YC startups), Indeed, Glassdoor, foundit. Tick the Internship filter.",
+      "screen": "A job search filter panel cropped big: search 'web developer', location 'Remote / India', Job type with 'Internship' ticked (.row.on) and Full-time unticked, four site names as tabs above it"
     },
     {
       "n": 5,
       "type": "split",
       "image": "s05",
       "bg": "dark",
-      "label": "Step 3",
-      "idea": "Write short, specific messages to engineers about their work"
+      "label": "Every evening",
+      "idea": "Send 5 applications every evening; track site, date and reply in a notebook."
     },
     {
       "n": 6,
-      "type": "card",
-      "image": "s06",
-      "label": "Every week",
-      "idea": "Every week: five applications, two messages, one project update"
+      "type": "screen",
+      "bg": "paper",
+      "label": "Copy this",
+      "idea": "Message the founder directly, not just the form. Show the exact cold message (also in full in the caption).",
+      "screen": "A LinkedIn message compose box to fictional 'Riya Mehta, Founder at Pixelkart', containing the cold message, Send button; fictional names and example links only",
+      "copy_text": "Hi Riya, I'm Aarav, a 2nd-year CSE student. I built Bus Timings (bus-timings.vercel.app), a web app that shows live college bus times, using React and Node. I saw Pixelkart is building a student marketplace. Could I help as an intern this summer? I'm happy to do a small test task first. Thanks, Aarav"
     },
     {
       "n": 7,
-      "type": "split",
-      "image": "s07",
-      "bg": "paper",
-      "label": "Step 4",
-      "idea": "Track every application and follow up once after a week"
+      "type": "screen",
+      "bg": "lime",
+      "label": "Screenshot this",
+      "idea": "Cheat sheet: the 8 sites in one list, 5 a day, message the founder, follow up once after 5 days.",
+      "screen": "A phone Notes app note titled 'Off-campus plan' with a checklist: 8 site names, '5 applications every evening', 'Message the founder', 'Follow up once after 5 days'"
     },
     {
       "n": 8,
       "type": "send",
-      "image": "s08",
-      "idea": "friend who says \"my college has no placements\""
+      "image": "send",
+      "idea": "Send this to a friend whose college has no placements."
     }
   ],
   "images": [
@@ -78,39 +91,25 @@
       "prompt": "Photoreal surreal landscape photograph, magazine-ad quality, warm golden-hour light, subtle film grain. A lone, open wrought-iron college gate stands by itself in a vast green meadow; one tiny figure seen from behind walks away from it toward rolling hills where many small buildings glow on the far horizon under huge soft clouds. The top 35% of the frame is open sky. Portrait 2:3, natural colours. No readable text, no letters, no numbers, no logos, no faces, no watermark."
     },
     {
-      "name": "s02",
-      "size": "1536x1024",
-      "prompt": "Photoreal surreal landscape photograph, magazine-ad quality, warm golden-hour light, huge soft clouds, subtle film grain. The lone open wrought-iron gate in the meadow, with a narrow dirt path leading through it toward distant hills, centred in the frame with some room around it. Landscape 3:2, natural colours. No readable text, no letters, no numbers, no logos, no faces, no watermark."
-    },
-    {
-      "name": "s03",
-      "size": "1536x1024",
-      "prompt": "Photoreal surreal landscape photograph, magazine-ad quality, warm golden-hour light, huge soft clouds, subtle film grain. A small wooden workbench standing alone in the meadow with a laptop open on it, its screen glowing softly, centred in the frame with some room around it. Landscape 3:2, natural colours. No readable text, no letters, no numbers, no logos, no faces, no watermark."
-    },
-    {
-      "name": "s04",
-      "size": "1536x1024",
-      "prompt": "Photoreal surreal landscape photograph, magazine-ad quality, warm golden-hour light, huge soft clouds, subtle film grain. Five tall wooden doors standing upright in a row across the meadow, one of them slightly open with warm light behind it, centred in the frame with some room around it. Landscape 3:2, natural colours. No readable text, no letters, no numbers, no logos, no faces, no watermark."
-    },
-    {
       "name": "s05",
       "size": "1536x1024",
-      "prompt": "Photoreal surreal landscape photograph, magazine-ad quality, warm golden-hour light, huge soft clouds, subtle film grain. A handful of white paper envelopes carried on the wind over the rolling hills toward the distant glowing buildings, centred in the frame with some room around it. Landscape 3:2, natural colours. No readable text, no letters, no numbers, no logos, no faces, no watermark."
+      "prompt": "Photoreal location photograph, magazine-ad quality, warm golden-hour evening light through a window with green hills outside, subtle film grain. A wooden student desk: an open ruled notebook with a hand-drawn tracking table of ticks and short pencil marks, a pencil, a glass of chai and a closed laptop; a hand rests on the notebook. Landscape 3:2, subject centred, natural colours. No readable text, no letters, no numbers, no logos, no faces, no watermark."
     },
     {
-      "name": "s06",
-      "size": "1024x1536",
-      "prompt": "Photoreal surreal landscape photograph, magazine-ad quality, warm golden-hour light, huge soft clouds, subtle film grain. A winding country road through the meadow with small stone milestones along its edge, kept low in the bottom fifth of the frame and at the edges. The top 45% and the middle of the frame stay mostly empty and calm (a white card will sit there). Portrait 2:3, natural colours. No readable text, no letters, no numbers, no logos, no faces, no watermark."
-    },
-    {
-      "name": "s07",
-      "size": "1536x1024",
-      "prompt": "Photoreal surreal landscape photograph, magazine-ad quality, warm golden-hour light, huge soft clouds, subtle film grain. A path of flat stepping stones crossing the meadow, each stone a little closer to a small glowing building, centred in the frame with some room around it. Landscape 3:2, natural colours. No readable text, no letters, no numbers, no logos, no faces, no watermark."
-    },
-    {
-      "name": "s08",
+      "name": "send",
       "size": "1024x1536",
       "prompt": "Photoreal studio still life, magazine-ad quality, soft even light, gentle shadow. On a flat, seamless lime-green (#cde58c) backdrop: a crisp white folded paper plane and a small model of a wrought-iron gate, together in the lower half of the frame. The top 50% is empty, plain lime-green backdrop. Portrait 2:3. No readable text, no letters, no numbers, no logos, no faces, no watermark."
     }
-  ]
+  ],
+  "sources": [
+    "https://internshala.com/internships/work-from-home-internships/",
+    "https://unstop.com/blog/how-to-find-internships",
+    "https://in.linkedin.com/jobs/internship-jobs",
+    "https://wellfound.com/jobs/4329761-software-engineer-internship",
+    "https://www.workatastartup.com/jobs/92551",
+    "https://in.indeed.com/q-software-internship-jobs.html",
+    "https://www.glassdoor.co.in/Job/india-internship-jobs-SRCH_IL.0,5_KO6,16.htm",
+    "https://www.foundit.in/search/internship-jobs"
+  ],
+  "note": "All 8 sites checked 26 Oct 2026 (each showed internship listings in Oct 2026). Daily run: re-check each site still lists internships; screens draw site NAMES as text, no logos. Cold message is fictional (Aarav, Riya, Pixelkart, example project) and goes in the caption in full. Send title is 10 words (QC limit)."
 }
