@@ -1,16 +1,11 @@
 {
  "date": "2026-10-30",
  "slug": "reupload-deploy-first-project",
+ "images_rev": "2026-10-26-savesend",
  "files": [
   "cover.jpg",
-  "s02.jpg",
-  "s03.jpg",
-  "s04.jpg",
-  "s05.jpg",
-  "s06.jpg",
-  "s07.jpg",
-  "s08.jpg"
+  "send.jpg"
  ],
- "made_at": "2026-10-25T18:43:05+05:30",
+ "made_at": "2026-10-26T16:00:58+05:30",
  "by": "Codex on the owner's ChatGPT plan"
 }
