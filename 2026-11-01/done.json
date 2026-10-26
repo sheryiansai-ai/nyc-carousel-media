@@ -1,16 +1,12 @@
 {
  "date": "2026-11-01",
- "slug": "model-selection",
+ "slug": "first-year-to-internship",
+ "images_rev": "2026-10-26-savesend",
  "files": [
   "cover.jpg",
-  "s02.jpg",
-  "s03.jpg",
   "s04.jpg",
-  "s05.jpg",
-  "s06.jpg",
-  "s07.jpg",
-  "s08.jpg"
+  "send.jpg"
  ],
- "made_at": "2026-10-25T18:48:12+05:30",
+ "made_at": "2026-10-26T16:08:55+05:30",
  "by": "Codex on the owner's ChatGPT plan"
 }
