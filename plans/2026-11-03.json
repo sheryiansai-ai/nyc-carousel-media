@@ -1,0 +1,127 @@
+{
+  "date": "2026-11-03",
+  "slug": "model-selection",
+  "topic": "Pick the AI model by task: a fast model for small edits, a strong one for hard bugs and design, and how to save credits",
+  "topicTag": "AI models",
+  "template": "poster",
+  "images_rev": "2026-10-26-plan",
+  "save_reason": "A one-slide guide that matches 6 common coding tasks to a fast or a strong model, shown on the cheat sheet and in full in the caption.",
+  "send_reason": "Send this to a friend running out of AI credits.",
+  "cover": {
+    "style": 3,
+    "concept": "Studio still life on flat mustard yellow: a neat row of five tools from a tiny screwdriver to a big wrench, a hand picking the small middle one.",
+    "emotion": "confidence",
+    "hooks": [
+      "Pick the right AI model for each task. (confidence)",
+      "Seniors switch AI models for each task. (curiosity)",
+      "Build faster by choosing the right AI model. (ambition)",
+      "Most of your code needs a small model. (curiosity, insider)",
+      "Your AI credits can last the whole month. (wit, calm)"
+    ],
+    "hookDraft": "Pick the right AI model for each task.",
+    "lineDraft": "Learn this habit in your first year of coding."
+  },
+  "slides": [
+    {
+      "n": 1,
+      "type": "cover",
+      "image": "cover",
+      "idea": "hook + line"
+    },
+    {
+      "n": 2,
+      "type": "screen",
+      "bg": "dark",
+      "label": "Save this",
+      "idea": "Results first + save promise: one guide that matches each coding task to a fast or a strong model.",
+      "title": "Save this guide before you code tonight.",
+      "line": "Match each task to a fast or a strong model.",
+      "device": "results first",
+      "screen": "An AI chat app's model picker dropdown, open, with two generic options 'Fast model' (Quick answers, fewer credits) and 'Strong model' (Hard problems, more credits); fictional labels, no brand names"
+    },
+    {
+      "n": 3,
+      "type": "screen",
+      "bg": "paper",
+      "label": "Myth",
+      "idea": "Break a belief: the biggest model is not always best; it is slower and uses more credits on small tasks.",
+      "title": "The biggest model isn't always the best pick.",
+      "line": "It is slower and uses more credits on small tasks.",
+      "device": "break a belief",
+      "screen": "Two model cards side by side with Speed / Quality / Credits as simple bar rows (fictional, no numbers presented as data)"
+    },
+    {
+      "n": 4,
+      "type": "screen",
+      "bg": "lime",
+      "label": "Small tasks",
+      "idea": "Use a fast model for small edits: renaming, formatting, simple tests, explaining a line.",
+      "title": "Use a fast model for small edits.",
+      "line": "Renaming, formatting and simple tests need speed.",
+      "screen": "A code editor diff cropped big: a variable renamed from 'x' to 'cartTotal' in fictional cart.js, with 'Fast model' chip above"
+    },
+    {
+      "n": 5,
+      "type": "screen",
+      "bg": "dark",
+      "label": "Better way",
+      "idea": "Re-hook: start with the fast model, switch to the strong one only when it fails.",
+      "title": "Here's a faster way: start small, then switch.",
+      "line": "Move to a strong model only when the fast one fails.",
+      "device": "re-hook",
+      "screen": "An AI chat thread: fast model reply fails ('Still NaN'), then a model switch menu with 'Strong model' highlighted (.focus)"
+    },
+    {
+      "n": 6,
+      "type": "screen",
+      "bg": "paper",
+      "label": "Big tasks",
+      "idea": "Use a strong model for hard bugs and planning a new feature; give it the full error and your rules.",
+      "title": "Use a strong model for hard bugs.",
+      "line": "Also use it to plan a new feature.",
+      "screen": "Chat message to 'Strong model' with a fictional stack trace and 'Rules: Node 20, Express' lines"
+    },
+    {
+      "n": 7,
+      "type": "screen",
+      "bg": "dark",
+      "label": "Screenshot this",
+      "idea": "Won't work unless + cheat sheet: test every answer; table of 6 tasks -> fast/strong model.",
+      "title": "This won't work unless you test every answer.",
+      "line": "Use this guide, then run the code yourself.",
+      "device": "won't work unless",
+      "screen": "A notes table 'Model guide': Small edit -> Fast; Explain a line -> Fast; Write a simple test -> Fast; Hard bug -> Strong; Plan a feature -> Strong; Fast one failed twice -> Strong",
+      "copy_text": "Model guide\nSmall edit or rename -> fast model\nExplain a line of code -> fast model\nWrite a simple test -> fast model\nHard bug with a full error -> strong model\nPlan a new feature -> strong model\nFast model failed twice -> switch to the strong model\nAlways run and test the code yourself."
+    },
+    {
+      "n": 8,
+      "type": "send",
+      "image": "send",
+      "idea": "Send this to a friend running out of AI credits.",
+      "title": "Send this to a friend running out of AI credits."
+    }
+  ],
+  "images": [
+    {
+      "name": "cover",
+      "size": "1024x1536",
+      "prompt": "Photoreal studio still life, magazine-ad quality, soft directional light, gentle shadows, subtle film grain. On a flat, seamless mustard-yellow backdrop: a neat horizontal row of five steel hand tools in the lower half of the frame, from a tiny precision screwdriver to a large wrench, evenly spaced; one hand reaches in and picks up the small screwdriver in the middle. The top 35% of the frame is empty, plain mustard-yellow backdrop. Portrait 2:3, natural colours. No readable text, no letters, no numbers, no logos, no faces, no watermark."
+    },
+    {
+      "name": "send",
+      "size": "1024x1536",
+      "prompt": "Photoreal studio still life, magazine-ad quality, soft even light, gentle shadow. On a flat, seamless lime-green (#cde58c) backdrop: a crisp white folded paper plane and a small steel precision screwdriver, together in the lower half of the frame. The top 50% is empty, plain lime-green backdrop. Portrait 2:3. No readable text, no letters, no numbers, no logos, no faces, no watermark."
+    }
+  ],
+  "sources": [
+    "NYC_BRIEF.md: 01 AI workflow - model selection (task / quality / speed / credit cost)"
+  ],
+  "note": "Generic 'fast model' / 'strong model' only: no product names, prices or benchmark numbers (they change). All code and names in screens are fictional. If the daily run names any real model or credit rule, verify it that day on the official source.",
+  "devices": [
+    "results first",
+    "break a belief",
+    "re-hook",
+    "won't work unless"
+  ],
+  "copy_style": "Owner, 26 Oct 2026, FINAL: STYLE.md -> COPY STYLE AND EMOTION. Titles and lines here are drafts written to that style; the daily run checks them and may polish them within it."
+}
