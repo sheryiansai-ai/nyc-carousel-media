@@ -1,0 +1,134 @@
+{
+  "date": "2026-11-04",
+  "slug": "client-api-db",
+  "topic": "How one request travels: client to API to database, and how to use that map to find bugs faster",
+  "topicTag": "Full stack",
+  "template": "split",
+  "images_rev": "2026-10-27-plan",
+  "save_reason": "A one-slide bug map that matches each HTTP status code to the part to check (client, API or database), shown on the cheat sheet and in full in the caption.",
+  "send_reason": "Send this to a friend building their first full-stack app.",
+  "cover": {
+    "style": 7,
+    "concept": "Retro tech still life on a wooden desk: a 1980s beige keyboard, a beige desktop modem with small green lights and a grey metal card-index drawer, joined left to right by one coiled cable.",
+    "emotion": "curiosity",
+    "hooks": [
+      "Trace one click to the database and back. (curiosity)",
+      "Every full-stack app has the same three parts. (awe)",
+      "Find any bug faster with this one map. (confidence)",
+      "Explain your project like an engineer in interviews. (ambition)"
+    ],
+    "hookDraft": "Trace one click to the database and back.",
+    "lineDraft": "Learn this in first year and debug faster."
+  },
+  "slides": [
+    {
+      "n": 1,
+      "type": "cover",
+      "image": "cover",
+      "idea": "hook + line"
+    },
+    {
+      "n": 2,
+      "type": "screen",
+      "bg": "dark",
+      "label": "Save this",
+      "idea": "Results first + save promise: the whole path of one Login click in the browser's Network tab.",
+      "title": "This is what happens when you click Login.",
+      "line": "Save this map of one request, step by step.",
+      "device": "results first",
+      "screen": "Chrome DevTools Network tab cropped big: one row 'POST /api/login 200' (.focus) with Headers / Payload / Response tabs; fictional app"
+    },
+    {
+      "n": 3,
+      "type": "screen",
+      "bg": "paper",
+      "label": "Step 1: client",
+      "idea": "The browser (client) sends the request: a React form calls fetch with the email and password.",
+      "title": "Your browser sends the request first.",
+      "line": "The login form sends the email and password to the API.",
+      "screen": "Code editor cropped big: fictional LoginForm.jsx with fetch('/api/login', { method: 'POST', body: JSON.stringify({ email, password }) })"
+    },
+    {
+      "n": 4,
+      "type": "screen",
+      "bg": "lime",
+      "label": "Step 2: API",
+      "idea": "Break a belief: the frontend never talks to the database directly; the API checks every request in between.",
+      "title": "Your frontend never talks to the database directly.",
+      "line": "The API sits in between and checks every request.",
+      "device": "break a belief",
+      "screen": "Code editor cropped big: fictional Express route app.post('/api/login', ...) that checks the email is present, then calls the database"
+    },
+    {
+      "n": 5,
+      "type": "screen",
+      "bg": "dark",
+      "label": "Step 3: database",
+      "idea": "Not A or B, it's C: the data lives in the database; the API asks it and sends the answer back.",
+      "title": "It's not the browser or the API that stores it.",
+      "line": "It's the database, and the API asks it for data.",
+      "device": "not A or B, it's C",
+      "screen": "A database viewer (MongoDB Compass style) cropped big: collection 'users', one fictional document {email: 'aarav@example.com', name: 'Aarav Sharma'} highlighted"
+    },
+    {
+      "n": 6,
+      "type": "split",
+      "image": "s06",
+      "bg": "paper",
+      "label": "Before you debug",
+      "idea": "Re-hook: draw three boxes (client, API, database) with arrows before you debug, then mark where it broke.",
+      "title": "Here's a faster way: draw the three boxes first.",
+      "line": "Mark where the request stops, then fix that part.",
+      "device": "re-hook"
+    },
+    {
+      "n": 7,
+      "type": "screen",
+      "bg": "lime",
+      "label": "Screenshot this",
+      "idea": "Won't work unless + cheat sheet: read the status code; bug map of status codes to the part to check.",
+      "title": "This won't work unless you read the status code.",
+      "line": "Find it in the Network tab, then use this map.",
+      "device": "won't work unless",
+      "screen": "A notes page 'Bug map' with rows: 200 = it worked; 400 = check what the client sent; 401 = check the login; 404 = check the URL and route; 500 = check the API and database logs",
+      "copy_text": "Bug map\n200: it worked\n400: check what the client sent\n401: check the login\n404: check the URL and the API route\n500: check the API and database logs\nVerify each code's meaning on MDN (HTTP response status codes) on the day."
+    },
+    {
+      "n": 8,
+      "type": "send",
+      "image": "send",
+      "idea": "Send this to a friend building their first full-stack app.",
+      "title": "Send this to a friend building their first full-stack app."
+    }
+  ],
+  "images": [
+    {
+      "name": "cover",
+      "size": "1024x1536",
+      "prompt": "Photoreal retro tech still life, magazine-ad quality, warm soft window light, subtle film grain. On a warm wooden desk against a plain warm grey wall: a 1980s beige computer keyboard on the left, a small beige desktop modem with a row of tiny green lights in the middle and a grey metal card-index drawer, slightly open, on the right, joined left to right by one coiled beige cable. The objects sit in the lower 60% of the frame; the top 35% is empty, plain warm grey wall. Portrait 2:3, natural colours. No readable text, no letters, no numbers, no logos, no faces, no watermark."
+    },
+    {
+      "name": "s06",
+      "size": "1536x1024",
+      "prompt": "Photoreal still photograph, magazine-ad quality, the same warm wooden desk and warm soft window light as a retro tech still life, subtle film grain. Centred: a hand with a pencil drawing three simple empty boxes joined by arrows on a white notepad, a small beige desktop modem with tiny green lights blurred in the background. Landscape 3:2, subject centred, natural colours. No readable text, no letters, no numbers, no logos, no faces, no watermark."
+    },
+    {
+      "name": "send",
+      "size": "1024x1536",
+      "prompt": "Photoreal studio still life, magazine-ad quality, soft even light, gentle shadow. On a flat, seamless lime-green (#cde58c) backdrop: a crisp white folded paper plane and a short coiled beige cable, together in the lower half of the frame. The top 50% is empty, plain lime-green backdrop. Portrait 2:3. No readable text, no letters, no numbers, no logos, no faces, no watermark."
+    }
+  ],
+  "sources": [
+    "NYC_BRIEF.md: 02 Fundamentals - trace Client / API / Database; 03 Debugging - Reproduce, Diagnose, Validate",
+    "https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Status (HTTP status codes; the daily run re-checks each meaning)"
+  ],
+  "note": "All code, names and data in screens are fictional (Aarav Sharma, example.com). No stats. The daily run verifies the status code meanings on MDN that day.",
+  "devices": [
+    "results first",
+    "break a belief",
+    "not A or B, it's C",
+    "re-hook",
+    "won't work unless"
+  ],
+  "copy_style": "Owner, 26 Oct 2026, FINAL: STYLE.md -> COPY STYLE AND EMOTION. Titles and lines here are drafts written to that style; the daily run checks them and may polish them within it."
+}
