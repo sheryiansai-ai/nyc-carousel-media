@@ -45,7 +45,7 @@
       "label": "Step 1: client",
       "idea": "The browser (client) sends the request: a React form calls fetch with the email and password.",
       "title": "Your browser sends the request first.",
-      "line": "The login form sends the email and password to the API.",
+      "line": "The login form sends your email and password.",
       "screen": "Code editor cropped big: fictional LoginForm.jsx with fetch('/api/login', { method: 'POST', body: JSON.stringify({ email, password }) })"
     },
     {
@@ -65,7 +65,7 @@
       "bg": "dark",
       "label": "Step 3: database",
       "idea": "Not A or B, it's C: the data lives in the database; the API asks it and sends the answer back.",
-      "title": "It's not the browser or the API that stores it.",
+      "title": "It's not the browser or API that stores it.",
       "line": "It's the database, and the API asks it for data.",
       "device": "not A or B, it's C",
       "screen": "A database viewer (MongoDB Compass style) cropped big: collection 'users', one fictional document {email: 'aarav@example.com', name: 'Aarav Sharma'} highlighted"
