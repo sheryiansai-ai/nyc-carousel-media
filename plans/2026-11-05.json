@@ -1,0 +1,132 @@
+{
+  "date": "2026-11-05",
+  "slug": "amazon-lp",
+  "topic": "Amazon's 16 Leadership Principles for interns: what the interview asks, how to write each story in STAR, and a story bank to fill from first year",
+  "topicTag": "Amazon",
+  "template": "poster",
+  "images_rev": "2026-10-28-plan",
+  "save_reason": "The STAR answer format to copy and a story-bank table for the 16 Leadership Principles (slides 5 and 7, and the full principle list in the caption).",
+  "send_reason": "Send this to a friend who wants an Amazon internship.",
+  "cover": {
+    "style": 8,
+    "concept": "Grand space: a vast, quiet library reading hall in warm morning light with one small wooden desk in the centre holding an open notebook and a fanned stack of blank index cards.",
+    "emotion": "ambition",
+    "hooks": [
+      "Prepare for an Amazon internship interview early. (ambition)",
+      "Amazon interviews ask about 16 principles. (curiosity)",
+      "Your college projects can answer Amazon's questions. (awe)",
+      "Write your Amazon interview stories this week. (confidence)"
+    ],
+    "hookDraft": "Prepare for an Amazon internship interview early.",
+    "lineDraft": "Start writing your stories in first year."
+  },
+  "slides": [
+    {
+      "n": 1,
+      "type": "cover",
+      "image": "cover",
+      "idea": "hook + line"
+    },
+    {
+      "n": 2,
+      "type": "screen",
+      "bg": "dark",
+      "label": "Save this",
+      "idea": "Results first + save promise: a strong STAR answer to an Ownership question, from a fictional hackathon project.",
+      "title": "This is what a strong Amazon story looks like.",
+      "line": "Save this format and the story bank for later.",
+      "device": "results first",
+      "screen": "A Google Docs page cropped big: question 'Tell me about a time you took ownership' and a 4-part STAR answer (Situation, Task, Action, Result) about a fictional college hackathon app, Result line highlighted (.focus)"
+    },
+    {
+      "n": 3,
+      "type": "screen",
+      "bg": "paper",
+      "label": "Myth",
+      "idea": "Break a belief: Amazon's interview is not only coding; it also asks about the 16 Leadership Principles (verify on aboutamazon.com).",
+      "title": "Amazon's interview isn't only about coding.",
+      "line": "It also asks about its 16 Leadership Principles.",
+      "device": "break a belief",
+      "screen": "The Amazon Leadership Principles web page on aboutamazon.com cropped big: the list of principle names (Customer Obsession, Ownership, Invent and Simplify, Are Right, A Lot, Learn and Be Curious, ...) with the first rows readable"
+    },
+    {
+      "n": 4,
+      "type": "poster",
+      "image": "s04",
+      "bg": "lime",
+      "label": "Where stories come from",
+      "idea": "Your projects, hackathons, clubs and group work already hold these stories.",
+      "title": "Your college projects already hold these stories.",
+      "line": "Hackathons, clubs and group projects all count."
+    },
+    {
+      "n": 5,
+      "type": "screen",
+      "bg": "dark",
+      "label": "Copy this",
+      "idea": "Re-hook: write every story in STAR (Situation, Task, Action, Result); Amazon itself recommends STAR.",
+      "title": "Here's a faster way: write each story in STAR.",
+      "line": "Situation, task, action and result, one line each.",
+      "device": "re-hook",
+      "screen": "A Google Docs template cropped big: four labelled empty fields S / T / A / R with one-line hints, the 'Action' field highlighted (.focus)"
+    },
+    {
+      "n": 6,
+      "type": "screen",
+      "bg": "paper",
+      "label": "Before you practise",
+      "idea": "Won't work unless: each story ends with a measurable result (Amazon: quantifiable results make examples stronger).",
+      "title": "This won't work unless each story has a result.",
+      "line": "Add a number, like users or hours saved.",
+      "device": "won't work unless",
+      "screen": "Before / after cards of one Result line: before 'The app went well.' struck out; after 'Used by 120 students in its first week.' (fictional)"
+    },
+    {
+      "n": 7,
+      "type": "screen",
+      "bg": "lime",
+      "label": "Screenshot this",
+      "idea": "Cheat sheet: a story bank table, one row per principle, filled from first year; Amazon advises several examples per principle.",
+      "title": "Here's an easier way: keep one story bank.",
+      "line": "Screenshot this table and fill one row a week.",
+      "device": "re-hook",
+      "screen": "A Google Sheets table cropped big: columns Principle / Story / Result; rows Customer Obsession, Ownership, Learn and Be Curious, Bias for Action, Deliver Results with short fictional stories, empty rows below"
+    },
+    {
+      "n": 8,
+      "type": "send",
+      "image": "send",
+      "idea": "Send this to a friend who wants an Amazon internship.",
+      "title": "Send this to a friend who wants an Amazon internship."
+    }
+  ],
+  "images": [
+    {
+      "name": "cover",
+      "size": "1024x1536",
+      "prompt": "Photoreal photograph of a grand space, magazine-ad quality, subtle film grain. A vast, quiet library reading hall with tall arched windows and long rows of dark wooden bookshelves, warm morning light falling in soft beams. In the centre, far below, one small wooden desk holds an open notebook, a pen and a fanned stack of blank white index cards. The desk sits in the lower 55% of the frame; the top 35% is calm, empty vaulted ceiling and soft light. Portrait 2:3, natural colours. No readable text, no letters, no numbers, no logos, no faces, no watermark."
+    },
+    {
+      "name": "s04",
+      "size": "1024x1536",
+      "prompt": "Photoreal photograph, magazine-ad quality, the same warm morning light of a grand library reading hall, subtle film grain. Close view of a wooden desk: a hand writing on a blank white index card with a pen, more blank index cards in small stacks and a laptop closed beside them; the cards show only faint pencil scribbles, nothing readable. The objects sit in the lower 55% of the frame; the top 45% is an empty, plain, soft lime-green (#cde58c) wall out of focus. Portrait 2:3, natural colours. No readable text, no letters, no numbers, no logos, no faces, no watermark."
+    },
+    {
+      "name": "send",
+      "size": "1024x1536",
+      "prompt": "Photoreal studio still life, magazine-ad quality, soft even light, gentle shadow. On a flat, seamless lime-green (#cde58c) backdrop: a crisp white folded paper plane and a small stack of blank white index cards, together in the lower half of the frame. The top 50% is empty, plain lime-green backdrop. Portrait 2:3. No readable text, no letters, no numbers, no logos, no faces, no watermark."
+    }
+  ],
+  "sources": [
+    "https://www.aboutamazon.com/news/workplace/amazon-leadership-principles-interview"
+  ],
+  "note": "Checked 28 Oct 2026 on aboutamazon.com: 16 Leadership Principles; Amazon recommends practising answers with STAR; prepare several examples per principle; quantifiable results make examples stronger. Daily run: re-check, use only real principle names, fictional stories, no Amazon logo, frame as internships (never jobs or roles), no claim about which principles are asked most.",
+  "devices": [
+    "results first",
+    "break a belief",
+    "re-hook",
+    "won't work unless",
+    "re-hook"
+  ],
+  "copy_style": "Owner, 26 Oct 2026, FINAL: STYLE.md -> COPY STYLE AND EMOTION. Titles and lines here are drafts written to that style; the daily run checks them and may polish them within it."
+}
