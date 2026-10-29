@@ -1,0 +1,132 @@
+{
+  "date": "2026-11-06",
+  "slug": "reupload-notch-first-year-app",
+  "topic": "A first-year built a Windows app with AI (Notch by Akshit): who did what, and the 4 steps to build your own app with AI from first year (re-upload in the new style)",
+  "topicTag": "Build",
+  "template": "poster",
+  "images_rev": "2026-10-29-plan",
+  "save_reason": "The 4-step way to build with AI (small parts, clear context, the right model, review and test) plus a copyable context prompt (slides 5 and 7, full text in the caption).",
+  "send_reason": "Send this to a friend planning their first app.",
+  "cover": {
+    "style": 2,
+    "concept": "Surreal landscape: a vast pale salt flat at dawn, one tiny student with a laptop under one arm walks toward a single tall wooden window frame standing alone in the open, warm light pouring through it.",
+    "emotion": "awe",
+    "hooks": [
+      "A first-year built a Windows app with AI. (awe)",
+      "You can build a real app in first year. (ambition)",
+      "Here's what AI did and what Akshit did. (curiosity)",
+      "Start your first app from zero this month. (confidence)"
+    ],
+    "hookDraft": "A first-year built a Windows app with AI.",
+    "lineDraft": "You can start yours in first year too."
+  },
+  "slides": [
+    {
+      "n": 1,
+      "type": "cover",
+      "image": "cover",
+      "idea": "hook + line"
+    },
+    {
+      "n": 2,
+      "type": "screen",
+      "bg": "dark",
+      "label": "Save this",
+      "device": "results first",
+      "idea": "Results first + save promise: Notch is a Windows app by Akshit, a first-year. AI helped with research and debugging; Akshit made the decisions, did the testing and packaged it (NYC_BRIEF only).",
+      "title": "AI helped a first-year build a Windows app.",
+      "line": "Save the 4 steps to start your own.",
+      "screen": "A Notes page 'Notch, by Akshit (first year)' with two columns: 'AI helped with' (research, debugging) and 'Akshit did' (decisions, testing, packaging; this column .focus). No made-up Notch features or screenshots."
+    },
+    {
+      "n": 3,
+      "type": "screen",
+      "bg": "paper",
+      "label": "Myth",
+      "device": "break a belief",
+      "idea": "Break a belief: you don't need to hand-write every line before you start; you do need to understand what AI wrote (NYC_BRIEF).",
+      "title": "You don't need to hand-write every line first.",
+      "line": "You do need to understand what AI wrote.",
+      "screen": "VS Code cropped big: a short AI-written function in a fictional student project with the student's own comment above one line asking why it works (.focus)"
+    },
+    {
+      "n": 4,
+      "type": "poster",
+      "image": "s04",
+      "bg": "lime",
+      "label": "Step 1",
+      "idea": "Break the task into small parts: one screen or one feature at a time.",
+      "title": "Break your app into small parts first.",
+      "line": "Build one screen or one feature at a time."
+    },
+    {
+      "n": 5,
+      "type": "screen",
+      "bg": "dark",
+      "label": "Copy this",
+      "device": "re-hook",
+      "idea": "Re-hook: give AI clear context: your code, your limits and the result you expect. Copyable prompt for a fictional small Windows-style desktop app feature.",
+      "title": "Here's a faster way: give AI clear context.",
+      "line": "Paste your code, your limits and the result you expect.",
+      "screen": "An AI chat input box cropped big with a short context prompt (what the app does, the file, the limits, the expected result), Send button (.btn.go)"
+    },
+    {
+      "n": 6,
+      "type": "screen",
+      "bg": "paper",
+      "label": "Before you share it",
+      "device": "won't work unless",
+      "idea": "Won't work unless you test it yourself: a working screen is the starting point; test it and package it so others can install it (NYC_BRIEF).",
+      "title": "This won't work unless you test it yourself.",
+      "line": "Try every button and note what breaks.",
+      "screen": "A test checklist in Notes: rows ticked (.row.on) and one open row with a bug note; a 'Build installer' button below"
+    },
+    {
+      "n": 7,
+      "type": "screen",
+      "bg": "lime",
+      "label": "Screenshot this",
+      "device": "re-hook",
+      "idea": "Cheat sheet: the 4 steps (small parts, clear context, pick the model for the task, review and test what it wrote) + package it for others.",
+      "title": "Here's an easier way: screenshot these 4 steps.",
+      "line": "Use them on your first app this month.",
+      "screen": "A phone Notes page 'Build with AI' with 4 numbered steps and one line 'Then package it so others can use it'"
+    },
+    {
+      "n": 8,
+      "type": "send",
+      "image": "send",
+      "idea": "Send this to a friend planning their first app.",
+      "title": "Send this to a friend planning their first app."
+    }
+  ],
+  "images": [
+    {
+      "name": "cover",
+      "size": "1024x1536",
+      "prompt": "Photoreal surreal landscape photograph, magazine-ad quality, subtle film grain. A vast, pale salt flat at dawn under a soft peach and pale-blue sky. Far away in the lower part of the frame, one tiny student figure seen from behind, a closed laptop under one arm, walks toward a single tall wooden window frame standing alone on the salt flat, warm sunrise light pouring through the open window. The figure and window sit in the lower 55% of the frame; the top 35% is calm, empty sky. Portrait 2:3, natural colours. No readable text, no letters, no numbers, no logos, no faces, no watermark."
+    },
+    {
+      "name": "s04",
+      "size": "1024x1536",
+      "prompt": "Photoreal photograph, magazine-ad quality, the same warm dawn light, subtle film grain. Close view of a pale wooden desk: a hand sketching small boxes joined by arrows in an open notebook with a pencil (only abstract shapes, nothing readable), an open laptop beside it with a soft blank glowing screen. The objects sit in the lower 55% of the frame; the top 45% is an empty, plain, soft lime-green (#cde58c) wall out of focus. Portrait 2:3, natural colours. Hands are fine. No readable text, no letters, no numbers, no logos, no faces, no watermark."
+    },
+    {
+      "name": "send",
+      "size": "1024x1536",
+      "prompt": "Photoreal studio still life, magazine-ad quality, soft even light, gentle shadow. On a flat, seamless lime-green (#cde58c) backdrop: a crisp white folded paper plane and a small wooden window frame miniature standing upright, together in the lower half of the frame. The top 50% is empty, plain lime-green backdrop. Portrait 2:3. No readable text, no letters, no numbers, no logos, no faces, no watermark."
+    }
+  ],
+  "sources": [
+    "NYC_BRIEF.md: Community builds (Notch by Akshit, first-year; AI for research and debugging; Akshit made decisions, testing, packaging; Pixora by Abinash, DevConnect by Aryan, Bluetooth VZ by Anish; community work, not course results); 'You can start from zero'; 'A working screen is the starting point'; Pillar 01 AI workflow."
+  ],
+  "note": "REUPLOAD of first-year-built-notch (original 2026-10-20). Gate: 3 new topics (3, 4, 5 Nov) after the 2 Nov reupload; 4 days after it. Facts only from NYC_BRIEF.md: never invent Notch features, screenshots, users or results; credit builders; community work, not course results. No 'ship' words, no * footnote, internship and ambition framing for 1st/2nd years, brand-new cover. Community builds (Pixora, DevConnect, Bluetooth VZ) go in the caption.",
+  "devices": [
+    "results first",
+    "break a belief",
+    "re-hook",
+    "won't work unless",
+    "re-hook"
+  ],
+  "copy_style": "Owner, 26 Oct 2026, FINAL: STYLE.md -> COPY STYLE AND EMOTION. Titles and lines here are drafts written to that style; the daily run checks them and may polish them within it."
+}
