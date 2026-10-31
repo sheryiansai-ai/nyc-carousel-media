@@ -1,0 +1,130 @@
+{
+  "date": "2026-11-08",
+  "slug": "data-analyst-internship",
+  "topic": "Crack the data analyst internship from first year: the 4 skills it checks (SQL, spreadsheets, one dashboard, explaining the numbers) and how to show each one",
+  "topicTag": "Data internship",
+  "template": "poster",
+  "images_rev": "2026-11-08-plan",
+  "save_reason": "The 4 skills with what to practise for each (cheat sheet on slide 7, full list and practice steps in the caption).",
+  "send_reason": "Send this to a friend who likes working with numbers.",
+  "cover": {
+    "style": 6,
+    "concept": "Cinematic night photo lit by a screen: a student seen from behind at a desk by a window at night, a laptop showing a glowing abstract bar chart, city lights blurred outside.",
+    "emotion": "curiosity",
+    "hooks": [
+      "The 4 skills a data analyst internship checks. (curiosity)",
+      "Build one dashboard before your second year ends. (ambition)",
+      "You can build this dashboard in one week. (awe)",
+      "Start your first SQL query tonight, free. (confidence)"
+    ],
+    "hookDraft": "The 4 skills a data analyst internship checks.",
+    "lineDraft": "Learn them in first year, alongside your degree."
+  },
+  "slides": [
+    {
+      "n": 1,
+      "type": "cover",
+      "image": "cover",
+      "idea": "hook + line"
+    },
+    {
+      "n": 2,
+      "type": "screen",
+      "bg": "dark",
+      "label": "Save this",
+      "idea": "Results first + save promise: the dashboard a first- or second-year can build, and the 4 skills behind it.",
+      "title": "This is a dashboard a second-year can build.",
+      "line": "Save this list of the 4 skills behind it.",
+      "device": "results first",
+      "screen": "A Looker Studio style dashboard cropped big: title 'Campus canteen sales (fictional)', 3 KPI tiles and one bar chart by weekday, see-through in the slide colours"
+    },
+    {
+      "n": 3,
+      "type": "screen",
+      "bg": "paper",
+      "label": "Skill 1",
+      "idea": "SQL: SELECT, WHERE, GROUP BY, JOIN on one table to answer one real question.",
+      "title": "Write SQL that answers one real question.",
+      "line": "Practise SELECT, WHERE, GROUP BY and JOIN.",
+      "screen": "A SQL editor with a short GROUP BY query on a fictional orders table and its 4-row result grid below"
+    },
+    {
+      "n": 4,
+      "type": "screen",
+      "bg": "lime",
+      "label": "Skill 2",
+      "idea": "Break a belief: spreadsheets still matter; pivot tables and lookups in Google Sheets or Excel.",
+      "title": "Spreadsheets still matter for data internships.",
+      "line": "Learn pivot tables and lookups in Sheets or Excel.",
+      "device": "break a belief",
+      "screen": "Google Sheets with a pivot table (rows: weekday, values: SUM of sales) and the pivot editor panel cropped to the right"
+    },
+    {
+      "n": 5,
+      "type": "poster",
+      "image": "s05",
+      "bg": "dark",
+      "label": "Skill 3",
+      "idea": "Re-hook: practise explaining what a chart shows in plain words, as the interview asks you to (daily run: phrase without claiming a specific round unless verified).",
+      "title": "Here's a faster way: explain the chart out loud.",
+      "line": "Tell a friend what changed and why in one minute.",
+      "device": "re-hook"
+    },
+    {
+      "n": 6,
+      "type": "screen",
+      "bg": "paper",
+      "label": "Skill 4",
+      "idea": "Won't work unless: the dashboard needs a public link anyone can open; put it on the resume (daily run: verify the free sharing option on the official Looker Studio / Tableau Public page).",
+      "title": "This won't work unless your dashboard has a link.",
+      "line": "Share it free and put the link on your resume.",
+      "device": "won't work unless",
+      "screen": "A one-page resume cropped to the Projects section: 'Canteen sales dashboard' with a link and two bullets, the link highlighted (.focus)"
+    },
+    {
+      "n": 7,
+      "type": "screen",
+      "bg": "lime",
+      "label": "Screenshot this",
+      "idea": "Cheat sheet: SQL (SELECT, WHERE, GROUP BY, JOIN); spreadsheets (pivot tables, lookups); one dashboard with a public link; explain the numbers in one minute.",
+      "title": "Here are the 4 skills on one screen.",
+      "line": "Screenshot it and tick each skill as you learn it.",
+      "screen": "A phone Notes note 'Data internship' with 4 checkbox rows, the first ticked"
+    },
+    {
+      "n": 8,
+      "type": "send",
+      "image": "send",
+      "idea": "Send this to a friend who likes working with numbers.",
+      "title": "Send this to a friend who likes working with numbers."
+    }
+  ],
+  "images": [
+    {
+      "name": "cover",
+      "size": "1024x1536",
+      "prompt": "Cinematic night photograph, magazine-ad quality, fine film grain. A student seen from behind and slightly to the side sits at a wooden desk by a large window at night; an open laptop on the desk glows with a simple abstract bar chart of soft green bars, the only strong light in the room, lighting the student's shoulders and a mug and notebook on the desk. Blurred warm city lights through the window. The student and desk sit in the lower 60% of the frame; the top 35% is dark, plain night wall and window with nothing in it. Portrait 2:3, natural colours, not tinted green overall. No readable text, no letters, no numbers, no logos, no faces, no watermark."
+    },
+    {
+      "name": "s05",
+      "size": "1024x1536",
+      "prompt": "Photoreal photograph in the same night-desk world as the cover, magazine-ad quality, warm desk-lamp light mixed with soft laptop glow, subtle grain. Seen from above at an angle: two students' hands and forearms on a wooden desk, one hand pointing at a printed sheet showing a simple bar chart with plain bars only, an open laptop, a pen and a mug nearby. The desk fills the lower half of the frame against a seamless deep forest-green (#14261c) backdrop. The top 45% of the frame is empty, plain deep forest-green backdrop with nothing in it. Portrait 2:3, natural colours. No readable text, no letters, no numbers, no logos, no faces, no watermark."
+    },
+    {
+      "name": "send",
+      "size": "1024x1536",
+      "prompt": "Photoreal studio still life, magazine-ad quality, soft even light, gentle shadow. On a flat, seamless lime-green (#cde58c) backdrop: a crisp white folded paper plane and a small white card printed with a simple bar chart of plain bars, together in the lower half of the frame. The top 50% is empty, plain lime-green backdrop. Portrait 2:3. No readable text, no letters, no numbers, no logos, no faces, no watermark."
+    }
+  ],
+  "sources": [
+    "NYC_BRIEF.md: free resource 'Crack the data analyst internship (SQL, Excel, dashboards, case round)'; course 'Data Analytics + GenAI — analyse data with AI; check the numbers and explain them'"
+  ],
+  "note": "Planned 31 Oct 2026. No usable backlog item for 8 Nov: all new backlog topics are planned (2-7 Nov) and reupload-debug-ai-code is gated (only 1 new topic, 7 Nov, after the 6 Nov reupload, and it would be within 2 days of it), so a fresh topic from NYC_BRIEF's free-resource list was planned. Daily run: verify any claim about interview rounds and free dashboard sharing on official pages, or drop it; all screen data fictional.",
+  "devices": [
+    "results first",
+    "break a belief",
+    "re-hook",
+    "won't work unless"
+  ],
+  "copy_style": "Owner, 26 Oct 2026, FINAL: STYLE.md -> COPY STYLE AND EMOTION. Titles and lines here are drafts; the daily run checks and polishes them within it."
+}
