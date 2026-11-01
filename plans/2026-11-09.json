@@ -1,0 +1,131 @@
+{
+  "date": "2026-11-09",
+  "slug": "reupload-debug-ai-code",
+  "topic": "Find what AI got wrong in your code: reproduce, diagnose, validate (re-upload in the new style)",
+  "topicTag": "Debugging",
+  "template": "poster",
+  "images_rev": "2026-11-09-plan",
+  "save_reason": "The 3-step bug loop with what to do at each step (cheat sheet on slide 7, the full checklist and a copyable prompt in the caption), to use on the next bug.",
+  "send_reason": "Send this to a friend who is building with AI.",
+  "cover": {
+    "style": 1,
+    "concept": "Renaissance oil painting remixed with tech: a young scholar at a candlelit desk studies a glowing open laptop through a large brass magnifying glass, books and a quill around it.",
+    "emotion": "confidence",
+    "hooks": [
+      "Find the bug AI left in your code. (confidence)",
+      "Debug AI's code in three steps. (confidence)",
+      "The 3 steps engineers use on every bug. (curiosity)",
+      "You can fix bugs AI can't see. (ambition)"
+    ],
+    "hookDraft": "Find the bug AI left in your code.",
+    "lineDraft": "Learn these three steps in your first year."
+  },
+  "slides": [
+    {
+      "n": 1,
+      "type": "cover",
+      "image": "cover",
+      "idea": "hook + line"
+    },
+    {
+      "n": 2,
+      "type": "screen",
+      "bg": "dark",
+      "label": "Save this",
+      "idea": "Results first + save promise: a bug fixed with a passing test, and the 3 steps that got there.",
+      "title": "This is a bug fixed and proved with a test.",
+      "line": "Save these 3 steps for your next bug.",
+      "device": "results first",
+      "screen": "A terminal running a test file: one test 'empty cart returns 0' passing in green (PASS, 1 passed), cropped big"
+    },
+    {
+      "n": 3,
+      "type": "screen",
+      "bg": "paper",
+      "label": "Step 1 · Reproduce",
+      "idea": "Make it fail on purpose: write the exact input, expected vs actual, shrink to the smallest case.",
+      "title": "First, make the bug happen on purpose.",
+      "line": "Write the exact input, what you expected and what happened.",
+      "screen": "A GitHub-style issue / Notes bug report: Input, Expected, Actual rows for a fictional cart total bug"
+    },
+    {
+      "n": 4,
+      "type": "poster",
+      "image": "s04",
+      "bg": "lime",
+      "label": "Step 2 · Diagnose",
+      "idea": "Break a belief: pasting the error and asking AI to fix it isn't diagnosing; read the full error and print values first.",
+      "title": "AI guesses the fix when it can't see the cause.",
+      "line": "Read the full error and print values along the way.",
+      "device": "break a belief"
+    },
+    {
+      "n": 5,
+      "type": "screen",
+      "bg": "dark",
+      "label": "Step 2 · Diagnose",
+      "idea": "Re-hook: give AI the error, the code and what you expected, then read its change.",
+      "title": "Here's a better way to ask AI for a fix.",
+      "line": "Give it the error, the code and what you expected.",
+      "device": "re-hook",
+      "screen": "An AI chat panel: a prompt with the pasted error, the function and 'Expected: 0 for an empty cart', and a short answer pointing at one line"
+    },
+    {
+      "n": 6,
+      "type": "screen",
+      "bg": "paper",
+      "label": "Step 3 · Validate",
+      "idea": "Won't work unless: 'it runs' isn't proof; write a test for the exact bug and rerun after every change; check edge cases (empty, null, zero).",
+      "title": "This won't work unless you write a test.",
+      "line": "Test the exact bug, plus empty, null and zero.",
+      "device": "won't work unless",
+      "screen": "A code editor with a small test file: three test cases (empty cart, null price, zero quantity), the first highlighted (.focus)"
+    },
+    {
+      "n": 7,
+      "type": "screen",
+      "bg": "lime",
+      "label": "Screenshot this",
+      "idea": "Cheat sheet: Reproduce (exact input, expected vs actual, smallest case), Diagnose (full error, print values, trace page → API → database), Validate (test the bug, edge cases, rerun).",
+      "title": "Here are the 3 steps on one screen.",
+      "line": "Screenshot it and use it on your next bug.",
+      "screen": "A Notes note 'Every bug' with 3 sections and 3 short rows each"
+    },
+    {
+      "n": 8,
+      "type": "send",
+      "image": "send",
+      "idea": "Send this to a friend who is building with AI.",
+      "title": "Send this to a friend who is building with AI."
+    }
+  ],
+  "images": [
+    {
+      "name": "cover",
+      "size": "1024x1536",
+      "prompt": "Renaissance oil painting, magazine-ad quality, rich brushwork and fine craquelure, warm candlelight, subtle film grain. A young scholar in a dark Renaissance doublet, seen from behind and slightly to the side, sits at a heavy wooden desk and studies a modern open laptop through a large brass magnifying glass; the laptop screen glows softly with abstract coloured lines only. Around it: old leather books, a quill in an inkwell, a single candle. The scholar and desk fill the lower 60% of the frame; the top 35% is a plain, dark warm-brown painted wall with nothing in it. Portrait 2:3, natural colours, not tinted green. No readable text, no letters, no numbers, no logos, no faces, no watermark."
+    },
+    {
+      "name": "s04",
+      "size": "1024x1536",
+      "prompt": "Photoreal photograph in the same warm candlelit study world as the cover, magazine-ad quality, subtle grain. Close-up of hands on a wooden desk: one hand holds a brass magnifying glass over an open laptop keyboard edge, the other hand writes in a small notebook with a pencil; a mug and a candle nearby. All of it sits in the lower half of the frame on a seamless flat lime-green (#cde58c) backdrop. The top 45% of the frame is empty, plain lime-green (#cde58c) backdrop with nothing in it. Portrait 2:3, natural colours. No readable text, no letters, no numbers, no logos, no faces, no watermark."
+    },
+    {
+      "name": "send",
+      "size": "1024x1536",
+      "prompt": "Photoreal studio still life, magazine-ad quality, soft even light, gentle shadow. On a flat, seamless lime-green (#cde58c) backdrop: a crisp white folded paper plane and a small brass magnifying glass, together in the lower half of the frame. The top 50% is empty, plain lime-green backdrop. Portrait 2:3. No readable text, no letters, no numbers, no logos, no faces, no watermark."
+    }
+  ],
+  "sources": [
+    "NYC_BRIEF.md: pillar 03 'Debugging & testing — Reproduce → Diagnose → Validate. Learn to find what AI got wrong.'; core belief 'AI can write the code. You need to understand it.'; pillar 02 'trace Client / API / Database'",
+    "specs/2026-10-19-debug-ai-code.json (source of the re-upload)"
+  ],
+  "note": "Planned 1 Nov 2026. REUPLOAD of debug-ai-code (https://www.instagram.com/notyourcollege/p/DeqZ6t2jVhO/): rebuild from the backlog entry's content in the new style; internship framing for 1st/2nd years; no 'ship' words (the old caption's 'ships' line must go); no * footnote. Gate: min_new_since_last_reupload 2 — 7 Nov (degree-not-enough) and 8 Nov (data-analyst-internship) are new topics after the 6 Nov reupload, and 9 Nov is 3 days after it. Cover style 1 differs from 7 and 8 Nov (4, 6); emotion confidence differs from 7-8 Nov (ambition, curiosity). Slides 2, 3, 5, 6, 7 are screen slides (no image). All screen data fictional.",
+  "devices": [
+    "results first",
+    "break a belief",
+    "re-hook",
+    "won't work unless"
+  ],
+  "copy_style": "Owner, 26 Oct 2026, FINAL: STYLE.md -> COPY STYLE AND EMOTION. Titles and lines here are drafts; the daily run checks and polishes them within it."
+}
