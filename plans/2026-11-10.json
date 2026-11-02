@@ -1,0 +1,132 @@
+{
+  "date": "2026-11-10",
+  "slug": "project-demo-video",
+  "topic": "Record a 60-second demo video of your project: a 4-part script, free tools, and where to put it",
+  "topicTag": "Demo",
+  "template": "poster",
+  "images_rev": "2026-11-10-plan",
+  "save_reason": "A 60-second demo script (what to show in each part) plus a before-you-post checklist, on the cheat sheet and in full in the caption.",
+  "send_reason": "Send this to a friend whose project only runs on their laptop.",
+  "cover": {
+    "style": 7,
+    "concept": "Retro tech still life: a vintage 90s camcorder on a small tripod pointed at a beige retro computer whose screen glows soft blank light, on a warm grey seamless backdrop.",
+    "emotion": "ambition",
+    "hooks": [
+      "Show your project in a 60-second demo. (ambition)",
+      "Seniors show their projects with a one-minute video. (curiosity, insider)",
+      "Record your first project demo tonight. (confidence)",
+      "A first-year project can look this good on video. (awe)",
+      "Your demo can be shorter than this caption. (wit)"
+    ],
+    "hookDraft": "Show your project in a 60-second demo.",
+    "lineDraft": "Make one for each project in first year."
+  },
+  "slides": [
+    {
+      "n": 1,
+      "type": "cover",
+      "image": "cover",
+      "idea": "hook + line"
+    },
+    {
+      "n": 2,
+      "type": "screen",
+      "bg": "dark",
+      "label": "Save this",
+      "idea": "Results first + save promise: a finished 60-second project demo, then the script that made it.",
+      "title": "This is a project demo anyone can watch.",
+      "line": "Save this script and record yours this week.",
+      "device": "results first",
+      "screen": "A LinkedIn-style post by fictional Aarav Sharma: a video player with a play button and '0:58', title 'Expense tracker demo', and a live link chip below (example.com)"
+    },
+    {
+      "n": 3,
+      "type": "screen",
+      "bg": "paper",
+      "label": "Why a demo",
+      "idea": "Not A or B, it's C: it's not your code or your slides, it's a short demo people can watch without installing anything.",
+      "title": "It's not your code or your slides.",
+      "line": "It's a short demo people can watch without installing anything.",
+      "device": "not A or B, it's C",
+      "screen": "A GitHub repo README cropped big: project name, a demo video thumbnail with a play button right under the title, then 'Live demo' and 'Run locally' links"
+    },
+    {
+      "n": 4,
+      "type": "screen",
+      "bg": "lime",
+      "label": "The script",
+      "idea": "Plan 4 parts before recording: the problem (10s), the app working (30s), one hard part (15s), the link (5s).",
+      "title": "Write a 4-part script before you record.",
+      "line": "Problem, the app working, one hard part, then the link.",
+      "screen": "A notes app page 'Demo script' with 4 timed rows: 0:00 Problem, 0:10 Show it working, 0:40 One hard part, 0:55 Link"
+    },
+    {
+      "n": 5,
+      "type": "poster",
+      "image": "s05",
+      "bg": "dark",
+      "label": "Better way",
+      "idea": "Re-hook: you don't need a camera or editing software; your laptop's screen recorder and earphones are enough.",
+      "title": "Here's a faster way: use your laptop's screen recorder.",
+      "line": "Your earphones' mic is enough for clear sound.",
+      "device": "re-hook"
+    },
+    {
+      "n": 6,
+      "type": "screen",
+      "bg": "paper",
+      "label": "The hard part",
+      "idea": "Show one hard part and say how you tested it; this is what makes people remember the project.",
+      "title": "Spend 15 seconds on the hardest part.",
+      "line": "Say what broke and how you tested the fix.",
+      "screen": "A video player timeline with chapter markers (Problem, Demo, Hard part, Link), the 'Hard part' chapter highlighted (.focus), a code frame paused on screen"
+    },
+    {
+      "n": 7,
+      "type": "screen",
+      "bg": "lime",
+      "label": "Screenshot this",
+      "idea": "Won't work unless + cheat sheet: the link must open; checklist before posting.",
+      "title": "This won't work unless the live link opens.",
+      "line": "Check this list before you post the demo.",
+      "device": "won't work unless",
+      "screen": "A notes checklist 'Before you post': Under 60 seconds; Problem in the first 10 seconds; Live link opens; Repo link with run steps; Captions on; Pinned on GitHub README and LinkedIn",
+      "copy_text": "60-second demo script\n0:00 The problem your app solves\n0:10 The app working, one real task start to finish\n0:40 The hardest part and how you tested it\n0:55 The live link and repo\n\nBefore you post\nUnder 60 seconds\nProblem in the first 10 seconds\nLive link opens on a phone\nRepo has run steps\nCaptions on\nVideo at the top of your README"
+    },
+    {
+      "n": 8,
+      "type": "send",
+      "image": "send",
+      "idea": "Send this to a friend whose project only runs on their laptop.",
+      "title": "Send this to a friend whose project only runs on their laptop."
+    }
+  ],
+  "images": [
+    {
+      "name": "cover",
+      "size": "1024x1536",
+      "prompt": "Photoreal retro tech still life, magazine-ad quality, soft warm directional studio light, gentle shadows, subtle film grain. On a warm grey seamless backdrop, in the lower half of the frame: a vintage 1990s camcorder on a small black tripod, pointed at a beige retro desktop computer whose screen glows with soft blank light. The top 35% of the frame is empty, plain warm grey backdrop. Portrait 2:3, natural colours. No readable text, no letters, no numbers, no logos, no faces, no watermark."
+    },
+    {
+      "name": "s05",
+      "size": "1024x1536",
+      "prompt": "Photoreal studio photograph, magazine-ad quality, the same soft warm directional light and film grain as a retro tech still life. On a flat deep forest-green (#14261c) seamless backdrop, in the lower half: a modern silver laptop half open, its screen glowing soft blank light, with a pair of white wired earphones coiled neatly beside it on the surface. The top 45% is empty, plain deep forest-green backdrop. Portrait 2:3, natural colours. No readable text, no letters, no numbers, no logos, no faces, no watermark."
+    },
+    {
+      "name": "send",
+      "size": "1024x1536",
+      "prompt": "Photoreal studio still life, magazine-ad quality, soft even light, gentle shadow. On a flat, seamless lime-green (#cde58c) backdrop: a crisp white folded paper plane and a small vintage 1990s camcorder, together in the lower half of the frame. The top 50% is empty, plain lime-green backdrop. Portrait 2:3. No readable text, no letters, no numbers, no logos, no faces, no watermark."
+    }
+  ],
+  "sources": [
+    "NYC_BRIEF.md: syllabus part 'Showing your work (demo, LinkedIn, dev communities)'; core belief 'AI can write the code. You need to understand it.' (testing the hard part)"
+  ],
+  "note": "How-to with no external facts. If the daily run names a specific screen recorder (built into Windows / macOS), verify it on the official Microsoft / Apple page that day. All people, projects and links in screens are fictional (Aarav Sharma, example.com).",
+  "devices": [
+    "results first",
+    "not A or B, it's C",
+    "re-hook",
+    "won't work unless"
+  ],
+  "copy_style": "Owner, 26 Oct 2026, FINAL: STYLE.md -> COPY STYLE AND EMOTION. Titles and lines here are drafts written to that style; the daily run checks them and may polish them within it."
+}
