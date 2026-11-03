@@ -1,0 +1,134 @@
+{
+  "date": "2026-11-11",
+  "slug": "rag-notes-app",
+  "topic": "Build an AI app that answers from your own notes (RAG): chunks, a vector database, sending the right chunks with the question, and showing the source",
+  "topicTag": "AI apps",
+  "template": "poster",
+  "images_rev": "2026-11-11-plan",
+  "save_reason": "A 5-step RAG build plan (split, embed, store, search, answer with the source) on the cheat sheet and in full in the caption.",
+  "send_reason": "Send this to a friend who studies for exams from long PDFs.",
+  "cover": {
+    "style": 2,
+    "concept": "Surreal landscape: rolling dunes made of stacked white paper pages under a huge golden-hour sky, one tiny student figure walking across them holding a small glowing lantern.",
+    "emotion": "awe",
+    "hooks": [
+      "Build an AI that answers from your notes. (awe)",
+      "This is how AI apps read your PDFs. (curiosity, insider)",
+      "Build your first RAG app this weekend. (confidence)",
+      "Your notes can power a real AI project. (ambition)"
+    ],
+    "hookDraft": "Build an AI that answers from your notes.",
+    "lineDraft": "A project you can build in your first year."
+  },
+  "slides": [
+    {
+      "n": 1,
+      "type": "cover",
+      "image": "cover",
+      "idea": "hook + line"
+    },
+    {
+      "n": 2,
+      "type": "screen",
+      "bg": "dark",
+      "label": "Save this",
+      "idea": "Results first + save promise: a chat app answering a question from the student's notes and naming the source page.",
+      "title": "This app answers questions from your class notes.",
+      "line": "Save this plan and build it this weekend.",
+      "device": "results first",
+      "screen": "A chat app 'Ask my notes' cropped big: question 'When is the DBMS assignment due?', answer with a source chip 'dbms-notes.pdf · page 3' (.focus); fictional data"
+    },
+    {
+      "n": 3,
+      "type": "screen",
+      "bg": "paper",
+      "label": "Myth",
+      "idea": "Break a belief: an AI model doesn't know your notes; it only sees what you put in the prompt.",
+      "title": "An AI model doesn't know your notes.",
+      "line": "It only sees what you put in the prompt.",
+      "device": "break a belief",
+      "screen": "A plain AI chat cropped big: user asks about 'my DBMS notes', the model replies it has no access to them"
+    },
+    {
+      "n": 4,
+      "type": "poster",
+      "image": "s04",
+      "bg": "dark",
+      "label": "Better way",
+      "idea": "Re-hook: start with one PDF of notes and get it working before adding more.",
+      "title": "Here's a faster way: start with one PDF.",
+      "line": "Get one file working before you add more.",
+      "device": "re-hook"
+    },
+    {
+      "n": 5,
+      "type": "screen",
+      "bg": "lime",
+      "label": "Step 1",
+      "idea": "Split the notes into small chunks and store them in a vector database so you can search by meaning.",
+      "title": "Split your notes into small chunks first.",
+      "line": "A vector database lets you search them by meaning.",
+      "screen": "Code editor cropped big: fictional ingest.py that loads dbms-notes.pdf, splits it into chunks of about 500 characters and adds them to a vector database collection 'notes'"
+    },
+    {
+      "n": 6,
+      "type": "screen",
+      "bg": "dark",
+      "label": "Step 2",
+      "idea": "Not A or B, it's C: it's not a bigger model or a longer prompt; it's sending the right chunks with the question.",
+      "title": "It's not a bigger model or a longer prompt.",
+      "line": "It's sending the right chunks along with the question.",
+      "device": "not A or B, it's C",
+      "screen": "The final prompt cropped big: 'Context:' with two retrieved chunks tagged page 3 and page 7, then 'Question: When is the DBMS assignment due?'"
+    },
+    {
+      "n": 7,
+      "type": "screen",
+      "bg": "paper",
+      "label": "Screenshot this",
+      "idea": "Won't work unless + cheat sheet: the answer must show its source; RAG in 5 steps.",
+      "title": "This won't work unless answers show their source.",
+      "line": "Check the page before you trust the answer.",
+      "device": "won't work unless",
+      "screen": "A notes page 'RAG in 5 steps' with 5 numbered rows",
+      "copy_text": "RAG in 5 steps\n1. Split your notes into small chunks\n2. Turn each chunk into an embedding\n3. Store them in a vector database\n4. Find the chunks closest to the question\n5. Send those chunks with the question, and show the source page\nStart with one PDF, then add more."
+    },
+    {
+      "n": 8,
+      "type": "send",
+      "image": "send",
+      "idea": "Send this to a friend who studies for exams from long PDFs.",
+      "title": "Send this to a friend who studies from long PDFs."
+    }
+  ],
+  "images": [
+    {
+      "name": "cover",
+      "size": "1024x1536",
+      "prompt": "Photoreal surreal landscape, magazine-ad quality, warm golden-hour light, long soft shadows, subtle film grain. Endless rolling dunes made entirely of neatly stacked white paper pages stretch to the horizon under a huge soft sky with tall clouds. In the lower third, one tiny student figure seen from far away walks across the paper dunes holding a small glowing lantern. The top 35% of the frame is empty, plain soft sky. Portrait 2:3, natural colours. No readable text, no letters, no numbers, no logos, no faces, no watermark."
+    },
+    {
+      "name": "s04",
+      "size": "1024x1536",
+      "prompt": "Photoreal still photograph, magazine-ad quality, the same surreal paper-dune landscape as the cover at dusk, warm low light, subtle film grain. Close-up: one single white sheet of paper resting alone on top of a dune of stacked pages, a hand reaching in to pick it up. The top 45% of the frame is empty, plain deep dark green-blue dusk sky. Portrait 2:3, natural colours. No readable text, no letters, no numbers, no logos, no faces, no watermark."
+    },
+    {
+      "name": "send",
+      "size": "1024x1536",
+      "prompt": "Photoreal studio still life, magazine-ad quality, soft even light, gentle shadow. On a flat, seamless lime-green (#cde58c) backdrop: a crisp white folded paper plane and a small neat stack of white paper pages, together in the lower half of the frame. The top 50% is empty, plain lime-green backdrop. Portrait 2:3. No readable text, no letters, no numbers, no logos, no faces, no watermark."
+    }
+  ],
+  "sources": [
+    "NYC_BRIEF.md: Software Engineering + AI syllabus - AI in applications (LLM APIs, RAG, vector DBs, LangChain); 01 AI workflow - context & prompting",
+    "The daily run verifies how RAG and embeddings are described on an official source (e.g. a vector database or LLM provider's docs) and names no paid tool or price."
+  ],
+  "note": "All notes, file names and chats in screens are fictional (dbms-notes.pdf, Aarav Sharma). No stats, no product names needed.",
+  "devices": [
+    "results first",
+    "break a belief",
+    "re-hook",
+    "not A or B, it's C",
+    "won't work unless"
+  ],
+  "copy_style": "Owner, 26 Oct 2026, FINAL: STYLE.md -> COPY STYLE AND EMOTION. Titles and lines here are drafts written to that style; the daily run checks them and may polish them within it."
+}
