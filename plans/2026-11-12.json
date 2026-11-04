@@ -1,0 +1,132 @@
+{
+  "date": "2026-11-12",
+  "slug": "git-six-commands",
+  "topic": "The six Git commands a first-year uses on every project (clone, status, add, commit, push, pull), with clear commit messages and a cheat sheet",
+  "topicTag": "Git",
+  "template": "poster",
+  "images_rev": "2026-11-04-plan",
+  "save_reason": "A one-slide cheat sheet of the six Git commands with what each does (slide 7, and the full list with examples in the caption).",
+  "send_reason": "Send this to a friend starting their first coding project.",
+  "cover": {
+    "style": 6,
+    "concept": "Cinematic night photo: a quiet student desk in a dark room, lit only by the glow of an open laptop seen from behind, beside it an open notebook with a hand-drawn branching diagram of lines and dots.",
+    "emotion": "confidence",
+    "hooks": [
+      "Learn the six Git commands you'll use daily. (confidence)",
+      "Use Git the way real project teams do. (ambition)",
+      "Git can undo almost any coding mistake. (awe)",
+      "Most projects run on just six Git commands. (curiosity)"
+    ],
+    "hookDraft": "Learn the six Git commands you'll use daily.",
+    "lineDraft": "Start using them on your first-year projects."
+  },
+  "slides": [
+    {
+      "n": 1,
+      "type": "cover",
+      "image": "cover",
+      "idea": "hook + line"
+    },
+    {
+      "n": 2,
+      "type": "screen",
+      "bg": "dark",
+      "label": "Save this",
+      "idea": "Results first + save promise: a clean commit history from a fictional first-year project.",
+      "title": "This is what a clean Git history looks like.",
+      "line": "Save these six commands for your next project.",
+      "device": "results first",
+      "screen": "A terminal cropped big: `git log --oneline` on a fictional project (aarav-codes/notes-app) with 5 clear commit messages, the latest highlighted (.focus)"
+    },
+    {
+      "n": 3,
+      "type": "screen",
+      "bg": "paper",
+      "label": "Good news",
+      "idea": "Break a belief: you don't need to learn every Git command before you start; begin with six.",
+      "title": "You don't need every Git command to start.",
+      "line": "Begin with these six and learn the rest later.",
+      "device": "break a belief",
+      "screen": "A README-style list (.md) titled 'My Git basics' with the six commands clone, status, add, commit, push, pull as rows"
+    },
+    {
+      "n": 4,
+      "type": "poster",
+      "image": "s04",
+      "bg": "dark",
+      "label": "Every evening",
+      "idea": "Push your work before you close the laptop, so the code is safe on GitHub.",
+      "title": "Push your work before you close your laptop.",
+      "line": "Your code stays safe on GitHub, even if the laptop breaks."
+    },
+    {
+      "n": 5,
+      "type": "screen",
+      "bg": "paper",
+      "label": "Before you add",
+      "idea": "Re-hook: check git status first; it shows what changed.",
+      "title": "Here's a faster way: run git status first.",
+      "line": "It shows what changed before you add anything.",
+      "device": "re-hook",
+      "screen": "A terminal cropped big: `git status` output with 'Changes not staged for commit' and two modified files, one highlighted (.focus)"
+    },
+    {
+      "n": 6,
+      "type": "screen",
+      "bg": "lime",
+      "label": "Before you commit",
+      "idea": "Won't work unless your commit messages say what changed.",
+      "title": "This won't work unless your messages are clear.",
+      "line": "Write what changed, like 'Add login form'.",
+      "device": "won't work unless",
+      "screen": "Before / after cards of commit messages: before 'fix', 'stuff', 'final final' struck out; after 'Fix crash on empty search', 'Add login form' (fictional)"
+    },
+    {
+      "n": 7,
+      "type": "screen",
+      "bg": "dark",
+      "label": "Screenshot this",
+      "idea": "Cheat sheet: the six commands with what each does, one row each.",
+      "title": "Here's the easy way: keep these six commands.",
+      "line": "Screenshot this and keep it next to your laptop.",
+      "device": "re-hook",
+      "screen": "A terminal-style cheat sheet: six rows, each a command (git clone, git status, git add, git commit -m, git push, git pull) and a one-line meaning"
+    },
+    {
+      "n": 8,
+      "type": "send",
+      "image": "send",
+      "idea": "Send this to a friend starting their first coding project.",
+      "title": "Send this to a friend starting their first coding project."
+    }
+  ],
+  "images": [
+    {
+      "name": "cover",
+      "size": "1024x1536",
+      "prompt": "Cinematic night photograph, magazine-ad quality, subtle film grain. A quiet student desk in a dark room, lit only by the soft cool glow of an open laptop seen from behind (the screen faces away from the camera). Beside the laptop lies an open paper notebook with a simple hand-drawn branching diagram: pencil lines splitting and joining with small dots, no writing. A mug and a pen nearby. The desk sits in the lower 60% of the frame; the top 35% is calm, dark, empty wall. Portrait 2:3, natural colours, no green tint. No readable text, no letters, no numbers, no logos, no faces, no watermark."
+    },
+    {
+      "name": "s04",
+      "size": "1024x1536",
+      "prompt": "Cinematic night photograph, magazine-ad quality, the same dark room and soft laptop glow as a quiet student desk at night, subtle film grain. Close view of a hand gently closing the lid of a laptop on a wooden desk, the last light of the screen spilling onto the desk; an open notebook with pencil branching lines and dots beside it. The objects sit in the lower 55% of the frame; the top 45% is an empty, plain, very dark green-black (#14261c) wall, out of focus. Portrait 2:3, natural colours. No readable text, no letters, no numbers, no logos, no faces, no watermark."
+    },
+    {
+      "name": "send",
+      "size": "1024x1536",
+      "prompt": "Photoreal studio still life, magazine-ad quality, soft even light, gentle shadow. On a flat, seamless lime-green (#cde58c) backdrop: a crisp white folded paper plane and a small open paper notebook showing a pencil-drawn branching diagram of lines and dots, together in the lower half of the frame. The top 50% is empty, plain lime-green backdrop. Portrait 2:3. No readable text, no letters, no numbers, no logos, no faces, no watermark."
+    }
+  ],
+  "sources": [
+    "https://git-scm.com/docs (daily run: verify each command's meaning on git-scm.com: clone, status, add, commit, push, pull)"
+  ],
+  "note": "Fresh new topic for 12 Nov: the next backlog item, reupload-fde-role, needs 3 new topics since the last reupload (9 Nov) and only 2 are planned before 12 Nov (10, 11 Nov), so it waits for 13 Nov. Daily run: verify command meanings on git-scm.com, fictional repo and names (aarav-codes), no claim about how many commands teams use; frame around first projects and internships, never jobs.",
+  "devices": [
+    "results first",
+    "break a belief",
+    "re-hook",
+    "won't work unless",
+    "re-hook"
+  ],
+  "copy_style": "Owner, 26 Oct 2026, FINAL: STYLE.md -> COPY STYLE AND EMOTION. Titles and lines here are drafts written to that style; the daily run checks them and may polish them within it."
+}
