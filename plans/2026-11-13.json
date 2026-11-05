@@ -1,0 +1,133 @@
+{
+  "date": "2026-11-13",
+  "slug": "reupload-fde-role",
+  "topic": "Forward deployed engineers, reframed for 1st/2nd years: what AI companies' FDEs do with customers, and the 4 skills you can start now for AI internships (re-upload in the new style)",
+  "topicTag": "AI skills",
+  "template": "poster",
+  "images_rev": "2026-11-05-plan",
+  "save_reason": "The 4 skills to start now (real code, an app on an LLM API, testing where the model fails, explaining your work) as a one-slide cheat sheet, with the full list in the caption.",
+  "send_reason": "Send this to a friend who wants an AI internship.",
+  "cover": {
+    "style": 3,
+    "concept": "Studio still life on a flat saturated terracotta-orange background: an open canvas tool roll laid flat, holding a slim closed laptop, a coiled cable, a small notebook and a screwdriver, like a field engineer's kit.",
+    "emotion": "curiosity",
+    "hooks": [
+      "AI companies send engineers to work with customers. (curiosity)",
+      "Start the skills AI field engineers use. (ambition)",
+      "Make an AI app work for one real user. (confidence)",
+      "Students can build what these engineers build. (awe)"
+    ],
+    "hookDraft": "AI companies send engineers to work with customers.",
+    "lineDraft": "Start building those skills in first year."
+  },
+  "slides": [
+    {
+      "n": 1,
+      "type": "cover",
+      "image": "cover",
+      "idea": "hook + line"
+    },
+    {
+      "n": 2,
+      "type": "screen",
+      "bg": "dark",
+      "label": "Save this",
+      "device": "results first",
+      "idea": "Results first + save promise: forward deployed engineers at AI companies work inside customer teams and take an AI system from first prototype to stable production (re-check on the official OpenAI / Anthropic / Palantir posts).",
+      "title": "These engineers build AI inside customer teams.",
+      "line": "Save the 4 skills you can start in first year.",
+      "screen": "A careers page cropped big: title 'Forward Deployed Engineer' (generic, no logo) with 3 short responsibility rows from the official posts; the row 'from first prototype to stable production' is .focus"
+    },
+    {
+      "n": 3,
+      "type": "screen",
+      "bg": "paper",
+      "label": "Good to know",
+      "device": "break a belief",
+      "idea": "Break a belief: this is not a title you start with; the official posts ask for years of experience (Anthropic 4+, OpenAI 5+; re-check today, drop the numbers if not verifiable). The skills start now.",
+      "title": "You can start these skills long before the title.",
+      "line": "The official posts ask for years of experience.",
+      "screen": "The 'Requirements' part of the same careers page with one row '4+ years of experience' (.focus) and below it a note card 'Skills you can start now' with 4 empty boxes"
+    },
+    {
+      "n": 4,
+      "type": "screen",
+      "bg": "lime",
+      "label": "Skill 1 and 2",
+      "device": "re-hook",
+      "idea": "Re-hook: write real code in Python or JavaScript and build one small app on an LLM API.",
+      "title": "Here's a faster way: build one app on an LLM API.",
+      "line": "Write it in Python or JavaScript, front end and back end.",
+      "screen": "VS Code cropped big: a short fictional Python file calling an LLM API for a notes-summary app (aarav-codes), the API call line .focus; no real keys"
+    },
+    {
+      "n": 5,
+      "type": "screen",
+      "bg": "dark",
+      "label": "Skill 3",
+      "device": "won't work unless",
+      "idea": "Won't work unless you test where the model fails: keep a small test table of inputs, expected answers and what the model said.",
+      "title": "This won't work unless you test where it fails.",
+      "line": "Keep a small table of inputs and expected answers.",
+      "screen": "A spreadsheet cropped big: 5 fictional test rows (input, expected, model answer, pass/fail), one fail row .focus"
+    },
+    {
+      "n": 6,
+      "type": "poster",
+      "image": "s06",
+      "bg": "paper",
+      "label": "Skill 4",
+      "idea": "Explain your work to people who don't code: draw it, then say it in plain words.",
+      "title": "Explain your app to someone who doesn't code.",
+      "line": "Draw how it works, then say it in plain words."
+    },
+    {
+      "n": 7,
+      "type": "screen",
+      "bg": "lime",
+      "label": "Screenshot this",
+      "device": "re-hook",
+      "idea": "Cheat sheet: the 4 skills, plus 'Then put it in front of real users'.",
+      "title": "Here's the short version: screenshot these 4 skills.",
+      "line": "Start the first one this week.",
+      "screen": "A Notes page 'AI internship skills' with 4 numbered rows and one line 'Then put it in front of real users'"
+    },
+    {
+      "n": 8,
+      "type": "send",
+      "image": "send",
+      "idea": "Send this to a friend who wants an AI internship.",
+      "title": "Send this to a friend who wants an AI internship."
+    }
+  ],
+  "images": [
+    {
+      "name": "cover",
+      "size": "1024x1536",
+      "prompt": "Photoreal studio still life, magazine-ad quality, subtle film grain, soft directional light. On a flat, seamless, saturated terracotta-orange background: an open canvas tool roll laid flat, holding a slim closed silver laptop, a neatly coiled black cable, a small closed notebook and a screwdriver, like a field engineer's travel kit. The objects sit in the lower 55% of the frame; the top 35% is empty, plain orange background. Portrait 2:3, natural colours, no green tint. No readable text, no letters, no numbers, no logos, no faces, no watermark."
+    },
+    {
+      "name": "s06",
+      "size": "1024x1536",
+      "prompt": "Photoreal photograph, magazine-ad quality, the same soft directional studio light and terracotta-orange accents as the cover, subtle film grain. Close view of a hand holding a marker, pointing at a simple hand-drawn diagram of three boxes joined by arrows on a sheet of paper on a table, a second person's hands resting nearby listening, a closed silver laptop at the edge. The objects sit in the lower 55% of the frame; the top 45% is an empty, plain, warm cream (#f1f0d9) wall, out of focus. Portrait 2:3, natural colours. Hands are fine. No readable text, no letters, no numbers, no logos, no faces, no watermark."
+    },
+    {
+      "name": "send",
+      "size": "1024x1536",
+      "prompt": "Photoreal studio still life, magazine-ad quality, soft even light, gentle shadow. On a flat, seamless lime-green (#cde58c) backdrop: a crisp white folded paper plane and a small rolled canvas tool roll tied with a strap, together in the lower half of the frame. The top 50% is empty, plain lime-green backdrop. Portrait 2:3. No readable text, no letters, no numbers, no logos, no faces, no watermark."
+    }
+  ],
+  "sources": [
+    "specs/2026-10-21-fde-role.json sources (OpenAI, Anthropic, Palantir official job posts, checked 2026-10-21): re-check every claim and number on the official pages on the posting day; drop anything not verifiable, and skip the topic if too little holds up.",
+    "NYC_BRIEF.md: AI Engineering course ('build AI products you can crack internships with, and explain how they work'); free resource 'Forward Deployed Engineer: the AI job nobody told you about'."
+  ],
+  "note": "REUPLOAD of fde-role (original 2026-10-21, https://www.instagram.com/notyourcollege/p/Devjgf9DUPP/). Gate: 3 new topics (10, 11, 12 Nov) after the 9 Nov reupload; 4 days after it. Frame around skills a 1st/2nd year starts now for AI internships, never the job as the goal (the role name is context only). No 'ship' words, no * footnote, brand-new cover, fresh caption. Screens use generic careers-page layouts (no company logos) and fictional data (aarav-codes). Cover style 3 differs from 11 Nov (2) and 12 Nov (6); emotion curiosity differs from 11 Nov (awe) and 12 Nov (confidence).",
+  "devices": [
+    "results first",
+    "break a belief",
+    "re-hook",
+    "won't work unless",
+    "re-hook"
+  ],
+  "copy_style": "Owner, 26 Oct 2026, FINAL: STYLE.md -> COPY STYLE AND EMOTION. Titles and lines here are drafts written to that style; the daily run checks them and may polish them within it."
+}
