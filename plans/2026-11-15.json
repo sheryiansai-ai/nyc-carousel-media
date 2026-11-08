@@ -1,0 +1,125 @@
+{
+  "date": "2026-11-15",
+  "slug": "read-new-codebase",
+  "topic": "Understand a codebase you didn't write in one hour: README, run it, follow one feature from the page to the API to the database, read the git log — the skill an internship's first week needs",
+  "topicTag": "Reading code",
+  "template": "poster",
+  "images_rev": "2026-11-15-plan",
+  "save_reason": "The 1-hour plan for reading any new repo (cheat sheet on slide 7, full steps in the caption), to use on the next open-source project or hackathon repo.",
+  "send_reason": "Send this to a friend who wants to make their first open-source contribution.",
+  "cover": {
+    "style": 8,
+    "concept": "A grand space with one symbolic object: a vast, quiet old library hall with tall wooden shelves, and in the centre aisle one open laptop on a reading table, glowing softly, a brass reading lamp beside it.",
+    "emotion": "confidence",
+    "hooks": [
+      "Understand any codebase in one hour. (confidence)",
+      "How interns read code they didn't write. (curiosity)",
+      "Read a real open-source repo this weekend. (ambition)",
+      "You can find your way around any repo. (awe)"
+    ],
+    "hookDraft": "Understand any codebase in one hour.",
+    "lineDraft": "Practise it on one open-source repo this year."
+  },
+  "slides": [
+    {
+      "n": 1,
+      "type": "cover",
+      "image": "cover",
+      "idea": "hook + line"
+    },
+    {
+      "n": 2,
+      "type": "screen",
+      "bg": "dark",
+      "label": "Save this",
+      "idea": "Results first + save promise: a notes file with a one-line map of a repo (where the page, the API and the database live), made in one hour.",
+      "title": "This is a repo you understand after one hour.",
+      "line": "Save these 5 steps for the next repo you open.",
+      "device": "results first",
+      "screen": "A Notes file 'repo-map.md' with 3 rows: Page → src/pages/Cart.jsx, API → routes/cart.js, Database → models/Order.js, cropped big"
+    },
+    {
+      "n": 3,
+      "type": "screen",
+      "bg": "paper",
+      "label": "Step 1",
+      "idea": "Read the README and run the project locally before reading any code.",
+      "title": "Run the project before you read the code.",
+      "line": "Follow the README setup steps until it opens.",
+      "screen": "A terminal: npm install, npm run dev, 'Local: http://localhost:3000' highlighted (.focus)"
+    },
+    {
+      "n": 4,
+      "type": "screen",
+      "bg": "lime",
+      "label": "Step 2",
+      "idea": "Break a belief: you don't read every file top to bottom; you look at the folder tree and find the entry points.",
+      "title": "You don't need to read every file.",
+      "line": "Look at the folder tree and find where it starts.",
+      "device": "break a belief",
+      "screen": "VS Code explorer folder tree (src/pages, routes, models, package.json) with src/pages highlighted"
+    },
+    {
+      "n": 5,
+      "type": "screen",
+      "bg": "dark",
+      "label": "Step 3",
+      "idea": "Re-hook: follow one feature (e.g. 'Add to cart') from the page to the API to the database with search.",
+      "title": "Here's a faster way: follow one button.",
+      "line": "Search its text and trace it to the database.",
+      "device": "re-hook",
+      "screen": "VS Code search panel: query 'Add to cart' with 3 results across Cart.jsx, routes/cart.js, models/Order.js"
+    },
+    {
+      "n": 6,
+      "type": "screen",
+      "bg": "paper",
+      "label": "Step 4",
+      "idea": "Won't work unless you write it down: keep a one-line note per file and read the git log for why things changed.",
+      "title": "This won't work unless you take notes.",
+      "line": "Write one line about each file you open.",
+      "device": "won't work unless",
+      "screen": "git log --oneline in a terminal with 4 fictional commits, one highlighted"
+    },
+    {
+      "n": 7,
+      "type": "screen",
+      "bg": "lime",
+      "label": "Screenshot this",
+      "idea": "Cheat sheet: 1 Run it (README) · 2 Folder tree · 3 Follow one button · 4 Notes per file · 5 git log for the why.",
+      "title": "Here's the easy way: screenshot this 1-hour plan.",
+      "line": "Use it on your next open-source repo.",
+      "screen": "A Notes note 'New repo in 1 hour' with 5 short rows and minutes per step"
+    },
+    {
+      "n": 8,
+      "type": "send",
+      "image": "send",
+      "idea": "Send this to a friend who wants to make their first open-source contribution.",
+      "title": "Send this to a friend starting open source."
+    }
+  ],
+  "images": [
+    {
+      "name": "cover",
+      "size": "1024x1536",
+      "prompt": "Photoreal photograph, magazine-ad quality, cinematic soft light, fine film grain. A vast, quiet old library hall with tall dark wooden shelves receding into the distance; in the centre aisle stands one wooden reading table with an open laptop glowing softly and a brass reading lamp beside it, warm light pooling on the table. The table sits in the lower 55% of the frame; the top 35% is the plain, dim high ceiling and upper shelves in soft shadow with nothing distinct in it. Portrait 2:3, natural warm colours, not tinted green. No readable text, no letters, no numbers, no logos, no faces, no watermark."
+    },
+    {
+      "name": "send",
+      "size": "1024x1536",
+      "prompt": "Photoreal studio still life, magazine-ad quality, soft even light, gentle shadow. On a flat, seamless lime-green (#cde58c) backdrop: a crisp white folded paper plane and a small closed brass-cornered notebook, together in the lower half of the frame. The top 50% is empty, plain lime-green backdrop. Portrait 2:3. No readable text, no letters, no numbers, no logos, no faces, no watermark."
+    }
+  ],
+  "sources": [
+    "NYC_BRIEF.md: pillar 02 'trace Client / API / Database'; pillar 05 Collaboration (open source); core belief 'AI can write the code. You need to understand it.'; '5 things': 'Build projects you can explain', 'Work with people who build'."
+  ],
+  "note": "Planned 8 Nov 2026. Backlog: reupload-debug-ai-code is gated on 15 Nov (only 14 Nov is new after the 13 Nov reupload) and is planned for 16 Nov; no other backlog item is free, so a fresh topic was planned. Not in history or any plan. Cover style 8 differs from 13-14 Nov (3, 1); emotion confidence differs from 13-14 Nov (curiosity, ambition). All slides except cover and send are screen slides (no images). All screen data fictional. Daily run: make no claims about what interns do in week one beyond NYC_BRIEF; keep the 'one hour' as a suggested plan, not a fact.",
+  "devices": [
+    "results first",
+    "break a belief",
+    "re-hook",
+    "won't work unless"
+  ],
+  "copy_style": "Owner, 26 Oct 2026, FINAL: STYLE.md -> COPY STYLE AND EMOTION. Titles and lines here are drafts; the daily run checks and polishes them within it."
+}
