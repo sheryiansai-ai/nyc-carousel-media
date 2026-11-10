@@ -1,0 +1,129 @@
+{
+  "date": "2026-11-18",
+  "slug": "safe-login",
+  "topic": "Add a safe login to your first app: hash passwords, use a tested auth library, check the login on the server, one error message for wrong email or password, HTTPS",
+  "topicTag": "Login",
+  "template": "poster",
+  "images_rev": "2026-11-18-plan",
+  "save_reason": "A 5-step safe-login checklist (hash, library, server check, one error message, HTTPS) on the cheat sheet and in full in the caption.",
+  "send_reason": "Send this to a friend adding login to their app.",
+  "cover": {
+    "style": 4,
+    "concept": "One surreal object: a giant antique brass padlock, taller than a person, standing closed in a quiet stone college courtyard in soft morning light.",
+    "emotion": "confidence",
+    "hooks": [
+      "Add a safe login to your app this weekend. (confidence)",
+      "This is how real apps keep passwords safe. (curiosity)",
+      "Your first project can have a real login. (ambition)",
+      "Build login the way big apps do it. (awe)"
+    ],
+    "hookDraft": "Add a safe login to your first app.",
+    "lineDraft": "Do it on your first-year project this weekend."
+  },
+  "slides": [
+    {
+      "n": 1,
+      "type": "cover",
+      "image": "cover",
+      "idea": "hook + line"
+    },
+    {
+      "n": 2,
+      "type": "screen",
+      "bg": "dark",
+      "label": "Save this",
+      "idea": "Results first + save promise: a login page whose database row holds only a password hash.",
+      "title": "This login page keeps every password safe.",
+      "line": "Save these steps and add them to your app.",
+      "device": "results first",
+      "screen": "A simple app login form (email aarav@example.com, password dots, Log in button) with the users table row below showing only a password_hash (.focus); fictional data"
+    },
+    {
+      "n": 3,
+      "type": "screen",
+      "bg": "paper",
+      "label": "Myth",
+      "idea": "Break a belief: your database should never store real passwords; it stores a one-way hash.",
+      "title": "Your database should never store real passwords.",
+      "line": "It stores a hash, a scrambled one-way version.",
+      "device": "break a belief",
+      "screen": "A database table 'users' with columns email and password: a struck-out row with a plain password and a correct row with a bcrypt-style hash (.focus)"
+    },
+    {
+      "n": 4,
+      "type": "screen",
+      "bg": "lime",
+      "label": "Better way",
+      "idea": "Re-hook: use a tested auth or hashing library instead of writing password code yourself.",
+      "title": "Here's a faster way: use a tested library.",
+      "line": "Don't write your own password code from scratch.",
+      "device": "re-hook",
+      "screen": "Terminal + code editor cropped big: install a hashing library and one line that hashes the password before saving"
+    },
+    {
+      "n": 5,
+      "type": "screen",
+      "bg": "dark",
+      "label": "Step 2",
+      "idea": "Not A or B, it's C: protecting a page isn't hiding it or a secret link; it's the server checking the login on every request.",
+      "title": "It's not a hidden page or a secret link.",
+      "line": "It's the server checking the login on every request.",
+      "device": "not A or B, it's C",
+      "screen": "Server code cropped big: a requireLogin middleware that returns 401 when there is no valid session, used on the /dashboard route"
+    },
+    {
+      "n": 6,
+      "type": "screen",
+      "bg": "paper",
+      "label": "Step 3",
+      "idea": "Show one error message for a wrong email or a wrong password, so nobody can find out which emails have accounts.",
+      "title": "Show one error for a wrong email or password.",
+      "line": "Then nobody can check which emails have accounts.",
+      "screen": "The login form with the error 'Wrong email or password' (.focus)"
+    },
+    {
+      "n": 7,
+      "type": "screen",
+      "bg": "lime",
+      "label": "Screenshot this",
+      "idea": "Won't work unless + cheat sheet: the site must use HTTPS; safe login in 5 steps.",
+      "title": "This won't work unless your site uses HTTPS.",
+      "line": "Check for the lock before you share the link.",
+      "device": "won't work unless",
+      "screen": "A notes page 'Safe login in 5 steps' with 5 numbered rows",
+      "copy_text": "Safe login in 5 steps\n1. Store a password hash, never the password\n2. Use a tested library to hash and check passwords\n3. Check the login on the server for every protected page\n4. Show one error: wrong email or password\n5. Put the site on HTTPS\nTest it with a second account before you share it."
+    },
+    {
+      "n": 8,
+      "type": "send",
+      "image": "send",
+      "idea": "Send this to a friend adding login to their app.",
+      "title": "Send this to a friend adding login to their app."
+    }
+  ],
+  "images": [
+    {
+      "name": "cover",
+      "size": "1024x1536",
+      "prompt": "Photoreal surreal still image, magazine-ad quality, soft warm morning light, long gentle shadows, subtle film grain. A giant antique brass padlock, taller than a person and firmly closed, stands alone in the middle of a quiet stone-paved college courtyard with old sandstone arches and a few green trees at the edges. The padlock is in the lower half of the frame. The top 35% of the frame is empty, plain soft pale-blue morning sky. Portrait 2:3, natural colours. No readable text, no letters, no numbers, no logos, no faces, no watermark."
+    },
+    {
+      "name": "send",
+      "size": "1024x1536",
+      "prompt": "Photoreal studio still life, magazine-ad quality, soft even light, gentle shadow. On a flat, seamless lime-green (#cde58c) backdrop: a crisp white folded paper plane and a small antique brass padlock with its key beside it, together in the lower half of the frame. The top 50% is empty, plain lime-green backdrop. Portrait 2:3. No readable text, no letters, no numbers, no logos, no faces, no watermark."
+    }
+  ],
+  "sources": [
+    "NYC_BRIEF.md: Software Engineering + AI syllabus, Full stack (APIs, auth); 02 Fundamentals, 'security & access'; trace Client / API / Database",
+    "The daily run verifies the password advice on an official source (e.g. OWASP Authentication and Password Storage Cheat Sheets) and names no price."
+  ],
+  "note": "All people, emails and data in screens are fictional (Aarav Sharma, aarav@example.com). New topic: backlog is fully planned (both reuploads are on 13 and 16 Nov).",
+  "devices": [
+    "results first",
+    "break a belief",
+    "re-hook",
+    "not A or B, it's C",
+    "won't work unless"
+  ],
+  "copy_style": "Owner, 26 Oct 2026, FINAL: STYLE.md -> COPY STYLE AND EMOTION. Titles and lines here are drafts written to that style; the daily run checks them and may polish them within it."
+}
