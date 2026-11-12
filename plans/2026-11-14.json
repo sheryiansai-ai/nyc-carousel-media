@@ -1,140 +1,201 @@
 {
   "date": "2026-11-14",
-  "slug": "linkedin-first-internship",
-  "topic": "Set up your LinkedIn for your first internship in one evening: headline formula, a four-line About, Featured project, photo, a first post and a checklist",
-  "topicTag": "LinkedIn",
-  "template": "poster",
-  "images_rev": "2026-11-14-plan",
-  "save_reason": "A one-slide LinkedIn profile checklist plus a copy-paste headline formula and About template (slide 8, full text in the caption).",
-  "send_reason": "Send this to a friend making their LinkedIn this week.",
+  "format": "collection",
+  "slug": "free-apis-first-app",
+  "topic": "6 free APIs for your first app",
+  "topicTag": "APIs",
+  "images_rev": "2026-11-12-collection",
+  "dm_keyword": "APIS",
+  "save_reason": "Six free APIs a first-year can call tonight, with the official docs links in the caption.",
+  "send_reason": "Send this to a friend who is starting their first app.",
   "cover": {
-    "style": 1,
-    "concept": "Renaissance oil painting remixed with tech: a candlelit painter's studio, a large empty gilded portrait frame on a wooden easel with a softly glowing blank laptop screen set inside it where the portrait would be; brushes, a palette and drapery around it.",
-    "emotion": "ambition",
+    "style": "G",
+    "hook": "6 free APIs for your *first app*",
+    "emotion": "confidence",
+    "tag": "APIs",
+    "blanks": 6,
+    "scene": "A snack vending machine in an Indian college corridor, 2x3 front slots each holding one blank white box facing the camera.",
+    "overlay": "In each slot: the API's logo (if any) + short name, multiply blend, in item order (reading order of the slots).",
     "hooks": [
-      "Set up your LinkedIn for your first internship. (ambition)",
-      "What a recruiter reads first on your LinkedIn. (curiosity)",
-      "A first-year LinkedIn can look this strong. (awe)",
-      "Fix your LinkedIn headline in ten minutes tonight. (confidence)"
+      "6 free APIs for your first app (confidence)",
+      "Your first app can use these 6 free APIs (ambition)",
+      "These 6 APIs need no payment (curiosity)",
+      "Build something fun tonight with 6 free APIs (confidence)"
     ],
-    "hookDraft": "Set up your LinkedIn for your first internship.",
-    "lineDraft": "Do it in one evening of first year."
+    "notes": "Headline in the empty top 35% (light wall or ceiling → dark text, or dark → light). blanks.py --mode light, N=6."
   },
-  "slides": [
-    {
-      "n": 1,
-      "type": "cover",
-      "image": "cover",
-      "idea": "hook + line"
-    },
+  "items": [
     {
       "n": 2,
-      "type": "screen",
-      "bg": "dark",
-      "label": "Save this",
-      "idea": "Results first + save promise: a fictional first-year's LinkedIn top card that looks strong.",
-      "title": "This is a strong first-year LinkedIn profile.",
-      "line": "Save these steps and set yours up tonight.",
-      "device": "results first",
-      "screen": "LinkedIn profile top card cropped big (fictional Aarav Sharma): name, headline 'CSE 1st year | Building campus-bus with React and Node', location, 'Open to: Internships' box (.focus on the headline)"
+      "name": "Open-Meteo",
+      "logo": null,
+      "official_url": "https://open-meteo.com/",
+      "factNum": "10,000",
+      "factText": "free calls a day",
+      "source_quote": "Non-commercial use up to 10,000 daily API calls is free.",
+      "checked_at": "2026-11-12",
+      "shot_crop_top": 0
     },
     {
       "n": 3,
-      "type": "screen",
-      "bg": "paper",
-      "label": "Good news",
-      "idea": "Break a belief: you don't need experience for a good headline; write what you study and what you're building.",
-      "title": "You don't need experience to write a good headline.",
-      "line": "Write what you study and what you're building.",
-      "device": "break a belief",
-      "screen": "LinkedIn 'Edit intro' form cropped to the Headline field with its character counter, filled with the fictional headline (.focus)"
+      "name": "PokeAPI",
+      "logo": null,
+      "official_url": "https://pokeapi.co/docs/v2",
+      "fact": "No API key needed",
+      "source_quote": "No authentication is required to access this API, and all resources are fully open and available.",
+      "checked_at": "2026-11-12",
+      "shot_crop_top": 0
     },
     {
       "n": 4,
-      "type": "screen",
-      "bg": "lime",
-      "label": "Step 2",
-      "idea": "About section in four short lines: who you are, what you're building, what you're learning, what internship you want.",
-      "title": "Write your About section in four short lines.",
-      "line": "Say what you build, learn and want next.",
-      "screen": "LinkedIn About section cropped big with a fictional four-line About text (.focus)"
+      "name": "NASA APOD",
+      "logo": "nasa",
+      "official_url": "https://api.nasa.gov/",
+      "fact": "Works with DEMO_KEY",
+      "source_quote": "api_key | demo: DEMO_KEY",
+      "checked_at": "2026-11-12",
+      "shot_crop_top": 0,
+      "source_url": "https://github.com/nasa/apod-api"
     },
     {
       "n": 5,
-      "type": "screen",
-      "bg": "dark",
-      "label": "Step 3",
-      "idea": "Re-hook: here's a faster way to stand out: put your live project in Featured.",
-      "title": "Here's a faster way: feature your live project.",
-      "line": "Recruiters can open it straight from your profile.",
-      "device": "re-hook",
-      "screen": "LinkedIn Featured section cropped big: one link card 'campus-bus: see when the next college bus comes' with the live link, plus a GitHub repo card (.focus on the project)"
+      "name": "JokeAPI",
+      "logo": null,
+      "official_url": "https://v2.jokeapi.dev/",
+      "fact": "No sign-up or payment",
+      "source_quote": "It can be used without any API token, membership, registration or payment.",
+      "checked_at": "2026-11-12",
+      "shot_crop_top": 0
     },
     {
       "n": 6,
-      "type": "poster",
-      "image": "s06",
-      "bg": "lime",
-      "label": "Step 4",
-      "idea": "A clear profile photo: daylight from a window, plain wall, phone at eye level; no studio needed.",
-      "title": "Take your photo by a window in daylight.",
-      "line": "A plain wall and your phone at eye level work."
+      "name": "Dog API",
+      "logo": null,
+      "official_url": "https://dog.ceo/dog-api/",
+      "factNum": "20,000+",
+      "factText": "dog photos",
+      "source_quote": "Over 20,000 images of dogs programmaticaly accessible by over 120 breeds.",
+      "checked_at": "2026-11-12",
+      "shot_crop_top": 0
     },
     {
       "n": 7,
-      "type": "screen",
-      "bg": "paper",
-      "label": "Before you apply",
-      "idea": "This won't work unless you post what you build: one short post per project.",
-      "title": "This won't work unless you post what you build.",
-      "line": "Write one short post each time a project goes live.",
-      "device": "won't work unless",
-      "screen": "LinkedIn 'Start a post' composer cropped big with a fictional 3-line project post and a link preview (.focus)"
+      "name": "Open Library",
+      "logo": "internetarchive",
+      "official_url": "https://openlibrary.org/developers/api",
+      "fact": "Book data in JSON",
+      "source_quote": "Open Library provides APIs in JSON, YAML and RDF/XML formats to support public-good, open, human-centered book discovery",
+      "checked_at": "2026-11-12",
+      "shot_crop_top": 0
+    }
+  ],
+  "slides": [
+    {
+      "n": 1,
+      "type": "cover"
+    },
+    {
+      "n": 2,
+      "type": "item",
+      "item": "Open-Meteo"
+    },
+    {
+      "n": 3,
+      "type": "item",
+      "item": "PokeAPI"
+    },
+    {
+      "n": 4,
+      "type": "item",
+      "item": "NASA APOD"
+    },
+    {
+      "n": 5,
+      "type": "item",
+      "item": "JokeAPI"
+    },
+    {
+      "n": 6,
+      "type": "item",
+      "item": "Dog API"
+    },
+    {
+      "n": 7,
+      "type": "item",
+      "item": "Open Library"
     },
     {
       "n": 8,
-      "type": "screen",
-      "bg": "dark",
-      "label": "Screenshot this",
-      "idea": "Cheat sheet: the profile checklist (photo, headline formula, About in 4 lines, Featured project, Open to internships, one post per project).",
-      "title": "Here's the easy way: use this checklist tonight.",
-      "line": "Screenshot it and tick one line at a time.",
-      "device": "re-hook",
-      "screen": "A notes checklist (.row.on/.off) 'linkedin-tonight.txt' with 6 rows: photo by a window, headline: year + what you build, About in 4 lines, live project in Featured, open to internships, one post per project"
-    },
-    {
-      "n": 9,
-      "type": "send",
-      "image": "send",
-      "idea": "Send this to a friend making their LinkedIn this week.",
-      "title": "Send this to a friend making their LinkedIn this week."
+      "type": "end",
+      "text": "All six links are in the caption. (dm_automation false) / Comment APIS for all six links. (true)"
     }
   ],
   "images": [
     {
       "name": "cover",
-      "size": "1024x1536",
-      "prompt": "Renaissance oil painting, museum quality, rich chiaroscuro, visible brushwork and fine craquelure, magazine-ad quality. A candlelit painter's studio: a large ornate empty gilded portrait frame stands on a wooden easel; inside the frame, where the portrait would be, sits a softly glowing blank laptop screen. Around it a wooden palette with oil paints, brushes in a jar, heavy velvet drapery and one candle. The easel and frame sit in the lower 60% of the frame; the top 35% is calm, dark, empty studio wall in warm shadow. Portrait 2:3, natural warm colours. No readable text, no letters, no numbers, no logos, no faces, no watermark."
+      "size": "1024x1280",
+      "prompt": "Photoreal photograph, magazine-ad quality, subtle film grain. A tall snack vending machine standing against a pale painted wall in an Indian college corridor, seen perfectly straight-on, soft daylight. Behind its clean glass front are six equal slots in 2 columns and 3 rows; each slot holds one plain blank white cardboard box facing the camera flat, all boxes identical and completely blank. The machine fills the lower 65% of the frame; the top 35% is empty plain pale wall. Natural colours. No readable text, no letters, no numbers, no logos, no faces, no watermark."
     },
     {
-      "name": "s06",
-      "size": "1024x1536",
-      "prompt": "Photoreal photograph, magazine-ad quality, subtle film grain, soft natural daylight from a window on the left, warm and calm like the cover's light. A smartphone in a small black tripod stands at eye level on a wooden table near a window, facing a plain wall; a sheer curtain glows softly; a stack of books and a small plant beside the tripod. The table and tripod sit in the lower 55% of the frame; the top 45% is an empty, plain, soft lime-green (#cde58c) painted wall, gently out of focus. Portrait 2:3, natural colours. The phone screen shows nothing readable. No readable text, no letters, no numbers, no logos, no faces, no watermark."
+      "name": "face-1",
+      "local": "student-1",
+      "use": "last-slide face circle (optional; dropped if missing)"
     },
     {
-      "name": "send",
-      "size": "1024x1536",
-      "prompt": "Photoreal studio still life, magazine-ad quality, soft even light, gentle shadow. On a flat, seamless lime-green (#cde58c) backdrop: a crisp white folded paper plane and a small ornate gilded picture-frame corner piece, together in the lower half of the frame. The top 50% is empty, plain lime-green backdrop. Portrait 2:3. No readable text, no letters, no numbers, no logos, no faces, no watermark."
+      "name": "face-2",
+      "local": "student-2",
+      "use": "last-slide face circle (optional; dropped if missing)"
+    },
+    {
+      "name": "face-3",
+      "local": "student-3",
+      "use": "last-slide face circle (optional; dropped if missing)"
+    },
+    {
+      "name": "face-4",
+      "local": "student-4",
+      "use": "last-slide face circle (optional; dropped if missing)"
     }
   ],
-  "sources": [],
-  "note": "Planned 6 Nov 2026 (TARGET+7 of the 7 Nov run). No usable backlog item: both remaining backlog entries (reupload-debug-ai-code, reupload-fde-role) are already planned (9 and 13 Nov), so this is a fresh new topic, not in history or any plan. Fits NYC_BRIEF syllabus part 'Showing your work (demo, LinkedIn, dev communities)'. Cover style 1 differs from 12 Nov (6) and 13 Nov (3); emotion ambition differs from 12 Nov (confidence) and 13 Nov (curiosity). The daily run must verify on LinkedIn's official help pages that day any product facts it states (e.g. the headline character limit, 'Open to work' / Featured section names) and keep all screen data fictional (Aarav Sharma, aarav-codes, campus-bus).",
-  "devices": [
-    "results first",
-    "break a belief",
-    "re-hook",
-    "won't work unless",
-    "re-hook"
+  "caption_draft": "Your first app can use these 6 free APIs today.\n\nOpen-Meteo — https://open-meteo.com/ — 10,000 free calls a day\nPokeAPI — https://pokeapi.co/docs/v2 — No API key needed\nNASA APOD — https://api.nasa.gov/ — Works with DEMO_KEY\nJokeAPI — https://v2.jokeapi.dev/ — No sign-up or payment\nDog API — https://dog.ceo/dog-api/ — 20,000+ dog photos\nOpen Library — https://openlibrary.org/developers/api — Book data in JSON\n\nSave this for your next project and send it to the friend who is starting their first app.\n\n#firstapp #api #webdev #coding #firstyear #internship #javascript #python #notyourcollege",
+  "sources": [
+    {
+      "item": "Open-Meteo",
+      "url": "https://open-meteo.com/",
+      "quote": "Non-commercial use up to 10,000 daily API calls is free.",
+      "checked_at": "2026-11-12"
+    },
+    {
+      "item": "PokeAPI",
+      "url": "https://pokeapi.co/docs/v2",
+      "quote": "No authentication is required to access this API, and all resources are fully open and available.",
+      "checked_at": "2026-11-12"
+    },
+    {
+      "item": "NASA APOD",
+      "url": "https://github.com/nasa/apod-api",
+      "quote": "api_key | demo: DEMO_KEY",
+      "checked_at": "2026-11-12"
+    },
+    {
+      "item": "JokeAPI",
+      "url": "https://v2.jokeapi.dev/",
+      "quote": "It can be used without any API token, membership, registration or payment.",
+      "checked_at": "2026-11-12"
+    },
+    {
+      "item": "Dog API",
+      "url": "https://dog.ceo/dog-api/",
+      "quote": "Over 20,000 images of dogs programmaticaly accessible by over 120 breeds.",
+      "checked_at": "2026-11-12"
+    },
+    {
+      "item": "Open Library",
+      "url": "https://openlibrary.org/developers/api",
+      "quote": "Open Library provides APIs in JSON, YAML and RDF/XML formats to support public-good, open, human-centered book discovery",
+      "checked_at": "2026-11-12"
+    }
   ],
-  "copy_style": "Owner, 26 Oct 2026, FINAL: STYLE.md -> COPY STYLE AND EMOTION. Titles and lines here are drafts; the daily run checks them and may polish them within it."
+  "note": "Collection format (collection/RULES.md, owner 12 Nov 2026). Items verified on their official pages on 2026-11-12 by the setup run; the daily run re-verifies them (CLAUDE.md step 5). REST Countries was dropped (its URL now redirects to a static file). NASA DEMO_KEY limits (30 an hour, 50 a day per IP) are from the api.data.gov manual; keep them out of the slide.",
+  "replaces": "lesson-format plan for this date (moved to topics.json ideas)"
 }

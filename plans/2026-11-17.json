@@ -1,136 +1,212 @@
 {
   "date": "2026-11-17",
-  "slug": "first-project-ideas",
-  "topic": "6 first projects a first-year can finish in two weeks, each solving a real problem in the hostel or class, and how to pick one",
-  "topicTag": "Project ideas",
-  "template": "poster",
-  "images_rev": "2026-11-17-plan",
-  "save_reason": "A list of 6 project ideas with what each one needs (pages, data, the one hard part), on the cheat sheet and in full in the caption.",
-  "send_reason": "Send this to a friend who wants to build something but hasn't picked an idea.",
+  "format": "collection",
+  "slug": "ai-app-builders",
+  "topic": "6 AI tools that build an app from one prompt",
+  "topicTag": "AI tools",
+  "images_rev": "2026-11-12-collection",
+  "dm_keyword": "BUILD",
+  "save_reason": "Six AI app builders with their free plans, linked in the caption, to try this weekend.",
+  "send_reason": "Send this to a friend who has an app idea but has not started.",
   "cover": {
-    "style": 3,
-    "concept": "Studio still life on a flat, saturated mustard-yellow background: everyday campus objects arranged neatly in a row — a brass hostel room key on a ring, a steel canteen tumbler, a small stack of notebooks and a closed silver laptop.",
-    "emotion": "ambition",
+    "style": "F",
+    "hook": "6 AI tools that *build your app*",
+    "emotion": "awe",
+    "tag": "AI tools",
+    "blanks": 1,
+    "scene": "A hand holding a phone straight on, blank white screen, black background, green rim light.",
+    "overlay": "The real phone-width screenshot of item 2 (v0) on the blank screen, kind screen.",
     "hooks": [
-      "Build one of these 6 projects this month. (ambition)",
-      "6 projects a first-year can finish in two weeks. (awe)",
-      "The projects seniors wish they had built first. (curiosity)",
-      "Pick your first project idea tonight. (confidence)"
+      "6 AI tools that build your app (awe)",
+      "Type one prompt and get a working app (awe)",
+      "Try these 6 AI app builders free this weekend (confidence)",
+      "Your app idea can run tonight with these 6 tools (ambition)"
     ],
-    "hookDraft": "Build one of these 6 projects this month.",
-    "lineDraft": "Each one fits in two weeks of first year."
+    "notes": "Headline in the empty black top (light text). blanks.py --mode light N=1 finds the white screen."
   },
-  "slides": [
-    {
-      "n": 1,
-      "type": "cover",
-      "image": "cover",
-      "idea": "hook + line"
-    },
+  "items": [
     {
       "n": 2,
-      "type": "screen",
-      "bg": "dark",
-      "label": "Save this",
-      "idea": "Results first + save promise: six finished first-year projects pinned on a GitHub profile.",
-      "title": "You can finish all 6 of these in first year.",
-      "line": "Save the list and pick one for this month.",
-      "device": "results first",
-      "screen": "GitHub profile 'Pinned' section of fictional aarav-codes with 6 repo cards: mess-menu, lost-and-found, laundry-slots, notes-share, attendance-tracker, exam-countdown"
+      "name": "v0",
+      "logo": "v0",
+      "official_url": "https://v0.app/pricing",
+      "factNum": "7",
+      "factText": "free messages a day",
+      "source_quote": "7 message/day limit (Free plan)",
+      "checked_at": "2026-11-12",
+      "shot_crop_top": 0
     },
     {
       "n": 3,
-      "type": "screen",
-      "bg": "paper",
-      "label": "How to pick",
-      "idea": "Not A or B, it's C: a good first project isn't a big idea or a clone of a famous app; it's a small problem people around you have every day.",
-      "title": "It's not a big idea or a famous app clone.",
-      "line": "It's a small problem your hostel or class has every day.",
-      "device": "not A or B, it's C",
-      "screen": "A class WhatsApp-style group chat with three messages asking 'what's in the mess today?', 'anyone found a blue bottle?', 'is the washing machine free?' (fictional names), cropped big"
+      "name": "Bolt",
+      "logo": "stackblitz",
+      "official_url": "https://bolt.new/pricing",
+      "factNum": "1M",
+      "factText": "free tokens a month",
+      "source_quote": "1M tokens per month (Free plan)",
+      "checked_at": "2026-11-12",
+      "shot_crop_top": 0
     },
     {
       "n": 4,
-      "type": "poster",
-      "image": "s04",
-      "bg": "paper",
-      "label": "Projects 1-3",
-      "idea": "Three hostel projects: a mess menu with ratings, a lost-and-found board, a laundry slot booker.",
-      "title": "Start with a problem in your hostel.",
-      "line": "A mess menu, a lost-and-found board or laundry slots."
+      "name": "Lovable",
+      "logo": null,
+      "official_url": "https://docs.lovable.dev/introduction/plans-and-credits",
+      "factNum": "5",
+      "factText": "free build credits a day",
+      "source_quote": "Free workspaces receive 5 daily build credits, up to 30 per calendar month.",
+      "checked_at": "2026-11-12",
+      "shot_crop_top": 0,
+      "shot_url": "https://lovable.dev/"
     },
     {
       "n": 5,
-      "type": "poster",
-      "image": "s05",
-      "bg": "dark",
-      "label": "Better way",
-      "idea": "Re-hook: build the first version with AI in a weekend, then spend the next week testing and fixing it yourself.",
-      "title": "Here's a faster way: build version one in a weekend.",
-      "line": "Use AI to start, then test every feature yourself.",
-      "device": "re-hook"
+      "name": "Replit Agent",
+      "logo": "replit",
+      "official_url": "https://docs.replit.com/billing/plans/starter-plan",
+      "factNum": "1",
+      "factText": "free published app",
+      "source_quote": "Get 1 free published app whether you're using Lite build or Design Canvas.",
+      "checked_at": "2026-11-12",
+      "shot_crop_top": 0,
+      "shot_url": "https://replit.com/"
     },
     {
       "n": 6,
-      "type": "screen",
-      "bg": "lime",
-      "label": "Projects 4-6",
-      "idea": "Three class projects: shared notes with search, an attendance tracker that warns below 75%, an exam countdown planner.",
-      "title": "Or pick a problem from your class.",
-      "line": "Shared notes, attendance or an exam planner.",
-      "screen": "A simple web app 'Attendance tracker' with 4 subject rows and percentages, one row below 75% highlighted (.focus)"
+      "name": "Google AI Studio",
+      "logo": "google",
+      "official_url": "https://ai.google.dev/gemini-api/docs/aistudio-build-mode",
+      "fact": "Builds an app from one prompt",
+      "source_quote": "Describe what you want to build with a prompt, and Gemini will generate an app for you.",
+      "checked_at": "2026-11-12",
+      "shot_crop_top": 0,
+      "shot_url": "https://aistudio.google.com/"
     },
     {
       "n": 7,
-      "type": "screen",
-      "bg": "paper",
-      "label": "Screenshot this",
-      "idea": "Won't work unless real people use it + cheat sheet of all 6 projects with the one hard part of each.",
-      "title": "This won't work unless 10 friends use it.",
-      "line": "Share the link and fix what they find.",
-      "device": "won't work unless",
-      "screen": "A notes list '6 first projects' with each project and its one hard part: Mess menu (ratings), Lost and found (photo upload), Laundry slots (no double booking), Notes share (search), Attendance (75% warning), Exam countdown (reminders)",
-      "copy_text": "6 first projects (two weeks each)\nMess menu with ratings: one hard part is averaging ratings per dish\nLost-and-found board: photo upload\nLaundry slot booker: no double booking\nShared notes: search\nAttendance tracker: warning below 75%\nExam countdown: reminders\n\nBefore you call it done\nLive link that opens on a phone\n10 friends tried it\nREADME with run steps"
+      "name": "Base44",
+      "logo": null,
+      "official_url": "https://base44.com/pricing",
+      "factNum": "25",
+      "factText": "free message credits a month",
+      "source_quote": "25 message credits/mo (Free plan)",
+      "checked_at": "2026-11-12",
+      "shot_crop_top": 0
+    }
+  ],
+  "slides": [
+    {
+      "n": 1,
+      "type": "cover"
+    },
+    {
+      "n": 2,
+      "type": "item",
+      "item": "v0"
+    },
+    {
+      "n": 3,
+      "type": "item",
+      "item": "Bolt"
+    },
+    {
+      "n": 4,
+      "type": "item",
+      "item": "Lovable"
+    },
+    {
+      "n": 5,
+      "type": "item",
+      "item": "Replit Agent"
+    },
+    {
+      "n": 6,
+      "type": "item",
+      "item": "Google AI Studio"
+    },
+    {
+      "n": 7,
+      "type": "item",
+      "item": "Base44"
     },
     {
       "n": 8,
-      "type": "send",
-      "image": "send",
-      "idea": "Send this to a friend who wants to build something but hasn't picked an idea.",
-      "title": "Send this to a friend looking for a project idea."
+      "type": "end",
+      "text": "All six links are in the caption. (dm_automation false) / Comment BUILD for all six links. (true)"
     }
   ],
   "images": [
     {
       "name": "cover",
-      "size": "1024x1536",
-      "prompt": "Photoreal studio still life, magazine-ad quality, soft directional studio light, gentle shadows, subtle film grain. On a flat, saturated mustard-yellow seamless backdrop, in the lower half of the frame, everyday campus objects arranged neatly in a row: a brass room key on a ring, a steel tumbler, a small stack of plain notebooks and a closed silver laptop. The top 35% of the frame is empty, plain mustard-yellow backdrop. Portrait 2:3, natural colours. No readable text, no letters, no numbers, no logos, no faces, no watermark."
+      "size": "1024x1280",
+      "prompt": "Photoreal product photograph, magazine-ad quality, subtle film grain. A hand holding a modern smartphone straight on toward the camera against a pure black background, a soft green rim light along the edges of the hand and the phone. The phone screen is plain glowing white, completely blank, facing the camera flat. The hand and phone fill the lower 65% of the frame; the top 35% is empty black. Natural skin tones. No readable text, no letters, no numbers, no logos, no faces, no watermark."
     },
     {
-      "name": "s04",
-      "size": "1024x1536",
-      "prompt": "Photoreal photograph, magazine-ad quality, the same soft directional light and film grain as a mustard-yellow studio still life. On a flat warm cream (#f1f0d9) seamless backdrop, in the lower half: a small cork notice board leaning on the surface, with a few blank coloured paper slips pinned to it, a brass room key hanging from one pin and a steel tumbler beside it. The top 45% is empty, plain cream backdrop. Portrait 2:3, natural colours. No readable text, no letters, no numbers, no logos, no faces, no watermark."
+      "name": "face-1",
+      "local": "student-1",
+      "use": "last-slide face circle (optional; dropped if missing)"
     },
     {
-      "name": "s05",
-      "size": "1024x1536",
-      "prompt": "Photoreal photograph, magazine-ad quality, the same soft directional light and film grain as a mustard-yellow studio still life. On a flat deep forest-green (#14261c) seamless backdrop, in the lower half: an open silver laptop with its screen glowing soft blank light, a steel tumbler and a small stack of plain notebooks beside it, hands of a student resting on the keyboard. The top 45% is empty, plain deep forest-green backdrop. Portrait 2:3, natural colours. No readable text, no letters, no numbers, no logos, no faces, no watermark."
+      "name": "face-2",
+      "local": "student-2",
+      "use": "last-slide face circle (optional; dropped if missing)"
     },
     {
-      "name": "send",
-      "size": "1024x1536",
-      "prompt": "Photoreal studio still life, magazine-ad quality, soft even light, gentle shadow. On a flat, seamless lime-green (#cde58c) backdrop: a crisp white folded paper plane and a brass room key on a ring, together in the lower half of the frame. The top 50% is empty, plain lime-green backdrop. Portrait 2:3. No readable text, no letters, no numbers, no logos, no faces, no watermark."
+      "name": "face-3",
+      "local": "student-3",
+      "use": "last-slide face circle (optional; dropped if missing)"
+    },
+    {
+      "name": "face-4",
+      "local": "student-4",
+      "use": "last-slide face circle (optional; dropped if missing)"
     }
   ],
+  "caption_draft": "These 6 AI tools turn one prompt into a working app, and each has a free plan.\n\nv0 — https://v0.app/pricing — 7 free messages a day\nBolt — https://bolt.new/pricing — 1M free tokens a month\nLovable — https://docs.lovable.dev/introduction/plans-and-credits — 5 free build credits a day\nReplit Agent — https://docs.replit.com/billing/plans/starter-plan — 1 free published app\nGoogle AI Studio — https://ai.google.dev/gemini-api/docs/aistudio-build-mode — Builds an app from one prompt\nBase44 — https://base44.com/pricing — 25 free message credits a month\n\nSave this for the weekend and send it to the friend who has an app idea but has not started.\n\n#ai #nocode #appdevelopment #v0 #bolt #lovable #replit #firstyear #notyourcollege",
   "sources": [
-    "NYC_BRIEF.md: 'Build projects you can explain' (5 things to crack a tech internship); method 'build real products WITH AI from day one, and learn to understand, debug and test what you build'."
+    {
+      "item": "v0",
+      "url": "https://v0.app/pricing",
+      "quote": "7 message/day limit (Free plan)",
+      "checked_at": "2026-11-12"
+    },
+    {
+      "item": "Bolt",
+      "url": "https://bolt.new/pricing",
+      "quote": "1M tokens per month (Free plan)",
+      "checked_at": "2026-11-12"
+    },
+    {
+      "item": "Lovable",
+      "url": "https://docs.lovable.dev/introduction/plans-and-credits",
+      "quote": "Free workspaces receive 5 daily build credits, up to 30 per calendar month.",
+      "checked_at": "2026-11-12"
+    },
+    {
+      "item": "Replit Agent",
+      "url": "https://docs.replit.com/billing/plans/starter-plan",
+      "quote": "Get 1 free published app whether you're using Lite build or Design Canvas.",
+      "checked_at": "2026-11-12"
+    },
+    {
+      "item": "Google AI Studio",
+      "url": "https://ai.google.dev/gemini-api/docs/aistudio-build-mode",
+      "quote": "Describe what you want to build with a prompt, and Gemini will generate an app for you.",
+      "checked_at": "2026-11-12"
+    },
+    {
+      "item": "Base44",
+      "url": "https://base44.com/pricing",
+      "quote": "25 message credits/mo (Free plan)",
+      "checked_at": "2026-11-12"
+    },
+    {
+      "item": "Google AI Studio",
+      "url": "https://ai.google.dev/gemini-api/docs/billing",
+      "quote": "AI Studio usage remains free of charge unless users link a paid API key for access to paid features.",
+      "checked_at": "2026-11-12"
+    }
   ],
-  "note": "New topic (backlog fully planned). How-to with no external facts; all names and data in screens are fictional. The 75% attendance figure is shown only as an app setting in a fictional screen, not as a rule; the daily run should keep it generic or drop it if unsure.",
-  "devices": [
-    "results first",
-    "not A or B, it's C",
-    "re-hook",
-    "won't work unless"
-  ],
-  "copy_style": "Owner, 26 Oct 2026, FINAL: STYLE.md -> COPY STYLE AND EMOTION. Titles and lines here are drafts written to that style; the daily run checks them and may polish them within it."
+  "note": "Collection format (collection/RULES.md, owner 12 Nov 2026). Items verified on their official pages on 2026-11-12 by the setup run; the daily run re-verifies them (CLAUDE.md step 5). Firebase Studio dropped: its page says it is being sunset on March 22, 2027. Free-plan numbers change often; the daily run must re-check each pricing page.",
+  "replaces": "lesson-format plan for this date (moved to topics.json ideas)"
 }
