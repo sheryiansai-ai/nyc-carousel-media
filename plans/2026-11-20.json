@@ -1,0 +1,265 @@
+{
+  "date": "2026-11-20",
+  "format": "collection",
+  "slug": "free-datasets-first-project",
+  "topic": "6 free datasets for your first data project",
+  "topicTag": "Datasets",
+  "images_rev": "2026-11-12-datasets",
+  "dm_keyword": "DATA",
+  "save_reason": "Six free dataset sources for a first data project, linked in the caption.",
+  "send_reason": "Send this to a friend who wants to build their first data project.",
+  "cover": {
+    "style": "C",
+    "field": "paper",
+    "kicker": "6 free places to find",
+    "giant": "DATA",
+    "student": "student",
+    "logos": [
+      "kaggle",
+      "huggingface",
+      "google"
+    ],
+    "hook": "6 free places to find *data*",
+    "emotion": "confidence",
+    "tag": "Datasets",
+    "hooks": [
+      "6 free places to find data (confidence)",
+      "6 free datasets for your first project (confidence)",
+      "Over a million datasets are free to use (awe)",
+      "The data behind real research is free (curiosity)"
+    ],
+    "notes": "Magazine cover on paper field (13 Nov lime, 16 Nov green); giant 'DATA' in Helvetica 700 ink; the real student cut-out (student-2, per queue) overlaps the bottom of DATA; logos Kaggle, Hugging Face, Google in white circles. If student.png is missing at run time, switch to F (19 D, 18 G; 21 Nov queue is F, so then rewrite 21 Nov to C or G in step 16): fallback_scene with the Kaggle Datasets screenshot on the screen, hook '6 free datasets for *your first project*'; drop faces.",
+    "fallback_scene": "Photoreal product photograph, magazine-ad quality, subtle film grain. A hand holding a modern smartphone straight on toward the camera against a pure black background, a soft green rim light along the edges of the hand and the phone. The phone screen is plain glowing white, completely blank, facing the camera flat. The hand and phone fill the lower 65% of the frame; the top 35% is empty black. Natural skin tones. No readable text, no letters, no numbers, no logos, no faces, no watermark."
+  },
+  "items": [
+    {
+      "n": 2,
+      "name": "Kaggle Datasets",
+      "logo": "kaggle",
+      "official_url": "https://www.kaggle.com/datasets",
+      "fact": "Hundreds of thousands of open datasets",
+      "source_quote": "Browse and download hundreds of thousands of open datasets for AI research, model training, and analysis.",
+      "checked_at": "2026-11-12",
+      "shot_crop_top": 0,
+      "shot_name": "shot-1"
+    },
+    {
+      "n": 3,
+      "name": "data.gov.in",
+      "logo": null,
+      "official_url": "https://www.data.gov.in/metrics",
+      "fact": "India's government data, open",
+      "source_quote": "It provides number of resources and catalogs published by each Central and State Ministry/Department/Organization.",
+      "checked_at": "2026-11-12",
+      "shot_crop_top": 0,
+      "shot_url": "https://www.data.gov.in/",
+      "shot_name": "shot-2"
+    },
+    {
+      "n": 4,
+      "name": "UCI ML Repository",
+      "logo": null,
+      "official_url": "https://archive.ics.uci.edu",
+      "factNum": "690",
+      "factText": "datasets for machine learning",
+      "source_quote": "We currently maintain 690 datasets as a service to the machine learning community.",
+      "checked_at": "2026-11-12",
+      "shot_crop_top": 0,
+      "shot_name": "shot-3"
+    },
+    {
+      "n": 5,
+      "name": "Our World in Data",
+      "logo": null,
+      "official_url": "https://ourworldindata.org/",
+      "factNum": "14,040",
+      "factText": "charts across 126 topics",
+      "source_quote": "14,040 charts across 126 topics",
+      "checked_at": "2026-11-12",
+      "shot_crop_top": 0,
+      "source_url": "https://ourworldindata.org/",
+      "shot_name": "shot-4"
+    },
+    {
+      "n": 6,
+      "name": "Hugging Face",
+      "logo": "huggingface",
+      "official_url": "https://huggingface.co/datasets",
+      "factNum": "1M+",
+      "factText": "datasets",
+      "source_quote": "1,125,710",
+      "checked_at": "2026-11-12",
+      "shot_crop_top": 0,
+      "shot_name": "shot-5"
+    },
+    {
+      "n": 7,
+      "name": "Dataset Search",
+      "logo": "google",
+      "official_url": "https://datasetsearch.research.google.com/",
+      "fact": "A search engine for datasets",
+      "source_quote": "Dataset Search is a search engine for datasets.",
+      "checked_at": "2026-11-12",
+      "shot_crop_top": 0,
+      "source_url": "https://datasetsearch.research.google.com/help",
+      "shot_name": "shot-6"
+    }
+  ],
+  "slides": [
+    {
+      "n": 1,
+      "type": "cover"
+    },
+    {
+      "n": 2,
+      "type": "item",
+      "item": "Kaggle Datasets"
+    },
+    {
+      "n": 3,
+      "type": "item",
+      "item": "data.gov.in"
+    },
+    {
+      "n": 4,
+      "type": "item",
+      "item": "UCI ML Repository"
+    },
+    {
+      "n": 5,
+      "type": "item",
+      "item": "Our World in Data"
+    },
+    {
+      "n": 6,
+      "type": "item",
+      "item": "Hugging Face"
+    },
+    {
+      "n": 7,
+      "type": "item",
+      "item": "Dataset Search"
+    },
+    {
+      "n": 8,
+      "type": "proof"
+    },
+    {
+      "n": 9,
+      "type": "close",
+      "text": "When you show this in an interview, they ask how you built it. / All six links are in the caption. / See the courses at notyourcollege.com →"
+    }
+  ],
+  "images": [
+    {
+      "name": "shot-1",
+      "screenshot": "https://www.kaggle.com/datasets"
+    },
+    {
+      "name": "shot-2",
+      "screenshot": "https://www.data.gov.in/"
+    },
+    {
+      "name": "shot-3",
+      "screenshot": "https://archive.ics.uci.edu"
+    },
+    {
+      "name": "shot-4",
+      "screenshot": "https://ourworldindata.org/"
+    },
+    {
+      "name": "shot-5",
+      "screenshot": "https://huggingface.co/datasets"
+    },
+    {
+      "name": "shot-6",
+      "screenshot": "https://datasetsearch.research.google.com/"
+    },
+    {
+      "name": "student",
+      "local": "student-2",
+      "use": "cover C cut-out"
+    },
+    {
+      "name": "face-1",
+      "local": "student-1",
+      "use": "last-slide face circle (optional; dropped if missing)"
+    },
+    {
+      "name": "face-2",
+      "local": "student-2",
+      "use": "last-slide face circle (optional; dropped if missing)"
+    },
+    {
+      "name": "face-3",
+      "local": "student-3",
+      "use": "last-slide face circle (optional; dropped if missing)"
+    },
+    {
+      "name": "face-4",
+      "local": "student-4",
+      "use": "last-slide face circle (optional; dropped if missing)"
+    },
+    {
+      "name": "proof",
+      "screenshot": "https://notyourcollege.com/instructors",
+      "use": "proof slide card: crop the heading + group photo, below the site header"
+    }
+  ],
+  "proof": {
+    "logos": [
+      "google"
+    ],
+    "sentence": "A Google analyst teaches data at NYC.",
+    "fact": "Your first SQL in week 3",
+    "shot_name": "proof",
+    "shot_crop_top": 0,
+    "disclaimer": "Instructors and mentors speak for themselves, not for their employers.",
+    "source": "NYC_BRIEF.md → Proof facts: Abhishek (Engineering Analyst, Google) teaches Data Analytics + GenAI; DA + GenAI week 3: your first SQL on a real business dataset"
+  },
+  "close": {
+    "line": 4,
+    "text": "When you show this in an interview, they ask how you built it.",
+    "cta": "See the courses at notyourcollege.com →"
+  },
+  "caption_draft": "6 free places to find data for your first project.\n\nKaggle Datasets — https://www.kaggle.com/datasets — Hundreds of thousands of open datasets\ndata.gov.in — https://www.data.gov.in/metrics — India's government data, open\nUCI ML Repository — https://archive.ics.uci.edu — 690 datasets for machine learning\nOur World in Data — https://ourworldindata.org/ — 14,040 charts across 126 topics\nHugging Face — https://huggingface.co/datasets — 1M+ datasets\nDataset Search — https://datasetsearch.research.google.com/ — A search engine for datasets\n\nSave this for your first data project. Send it to the friend who keeps asking where to get data.\n\n#datascience #datasets #kaggle #huggingface #machinelearning #firstyear #studentprojects #notyourcollege",
+  "sources": [
+    {
+      "item": "Kaggle Datasets",
+      "url": "https://www.kaggle.com/datasets",
+      "quote": "Browse and download hundreds of thousands of open datasets for AI research, model training, and analysis.",
+      "checked_at": "2026-11-12"
+    },
+    {
+      "item": "data.gov.in",
+      "url": "https://www.data.gov.in/metrics",
+      "quote": "It provides number of resources and catalogs published by each Central and State Ministry/Department/Organization.",
+      "checked_at": "2026-11-12"
+    },
+    {
+      "item": "UCI ML Repository",
+      "url": "https://archive.ics.uci.edu",
+      "quote": "We currently maintain 690 datasets as a service to the machine learning community.",
+      "checked_at": "2026-11-12"
+    },
+    {
+      "item": "Our World in Data",
+      "url": "https://ourworldindata.org/",
+      "quote": "14,040 charts across 126 topics",
+      "checked_at": "2026-11-12"
+    },
+    {
+      "item": "Hugging Face",
+      "url": "https://huggingface.co/datasets",
+      "quote": "1,125,710",
+      "checked_at": "2026-11-12"
+    },
+    {
+      "item": "Dataset Search",
+      "url": "https://datasetsearch.research.google.com/help",
+      "quote": "Dataset Search is a search engine for datasets.",
+      "checked_at": "2026-11-12"
+    }
+  ],
+  "note": "Swapped in on 12 Nov 2026 (daily run, step 16): the queued 20 Nov topic 'december-hackathons-first-years' could not be verified today (the cloud run could not open the Devfolio event pages; only 2 events had readable official pages), so the next ready backlog collection was used. All 6 items re-verified on their official pages on 2026-11-12 (data.gov.in quote from www.data.gov.in/metrics). Cover C keeps rotation (18 G, 19 D)."
+}
