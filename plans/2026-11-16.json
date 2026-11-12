@@ -4,7 +4,7 @@
   "slug": "dsa-practice-sites",
   "topic": "5 free sites to practise DSA",
   "topicTag": "DSA",
-  "images_rev": "2026-11-12-collection",
+  "images_rev": "2026-11-12-collection-shots",
   "dm_keyword": "DSA",
   "save_reason": "Five official practice sites for DSA, linked in the caption, to use all semester.",
   "send_reason": "Send this to a friend who wants to start DSA this week.",
@@ -44,7 +44,8 @@
       "factText": "classic interview questions",
       "source_quote": "150 Original & Classic Questions",
       "checked_at": "2026-11-12",
-      "shot_crop_top": 0
+      "shot_crop_top": 0,
+      "shot_name": "shot-1"
     },
     {
       "n": 3,
@@ -55,7 +56,8 @@
       "source_quote": "Filter Problems ... Difficulty (problem set page filter)",
       "checked_at": "2026-11-12",
       "shot_crop_top": 0,
-      "note": "weakest fact: the daily run should look for a better quoted fact on codeforces.com and replace it if found"
+      "note": "weakest fact: the daily run should look for a better quoted fact on codeforces.com and replace it if found",
+      "shot_name": "shot-2"
     },
     {
       "n": 4,
@@ -65,7 +67,8 @@
       "fact": "Weekly contests on the free plan",
       "source_quote": "Weekly contest access. (free plan)",
       "checked_at": "2026-11-12",
-      "shot_crop_top": 0
+      "shot_crop_top": 0,
+      "shot_name": "shot-3"
     },
     {
       "n": 5,
@@ -75,7 +78,8 @@
       "fact": "Practice sorted by data structure",
       "source_quote": "Subdomains: Arrays, Linked Lists, Trees, Balanced Trees, Stacks, Queues, Heap ...",
       "checked_at": "2026-11-12",
-      "shot_crop_top": 0
+      "shot_crop_top": 0,
+      "shot_name": "shot-4"
     },
     {
       "n": 6,
@@ -86,7 +90,8 @@
       "factText": "practice problems",
       "source_quote": "2564 Problems",
       "checked_at": "2026-11-12",
-      "shot_crop_top": 0
+      "shot_crop_top": 0,
+      "shot_name": "shot-5"
     }
   ],
   "slides": [
@@ -126,6 +131,26 @@
     }
   ],
   "images": [
+    {
+      "name": "shot-1",
+      "screenshot": "https://leetcode.com/studyplan/top-interview-150/"
+    },
+    {
+      "name": "shot-2",
+      "screenshot": "https://codeforces.com/problemset"
+    },
+    {
+      "name": "shot-3",
+      "screenshot": "https://www.codechef.com/"
+    },
+    {
+      "name": "shot-4",
+      "screenshot": "https://www.hackerrank.com/domains/data-structures"
+    },
+    {
+      "name": "shot-5",
+      "screenshot": "https://www.geeksforgeeks.org/explore"
+    },
     {
       "name": "student",
       "local": "student-1",

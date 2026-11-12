@@ -4,7 +4,7 @@
   "slug": "github-repos-first-years",
   "topic": "6 GitHub repos to bookmark in first year",
   "topicTag": "GitHub",
-  "images_rev": "2026-11-12-collection",
+  "images_rev": "2026-11-12-collection-shots",
   "dm_keyword": "REPOS",
   "save_reason": "Six GitHub repos with roadmaps, project ideas and first contributions, linked in the caption.",
   "send_reason": "Send this to a friend who opens GitHub and does not know where to start.",
@@ -34,7 +34,8 @@
       "factText": "stars on GitHub",
       "source_quote": "stargazers_count 371888 (GitHub API, 2026-11-12)",
       "checked_at": "2026-11-12",
-      "shot_crop_top": 0
+      "shot_crop_top": 0,
+      "shot_name": "shot-1"
     },
     {
       "n": 3,
@@ -46,7 +47,8 @@
       "source_quote": "stargazers_count 98552 (GitHub API, 2026-11-12)",
       "checked_at": "2026-11-12",
       "shot_crop_top": 0,
-      "shot_note": "sponsor banner on top: crop below it"
+      "shot_note": "sponsor banner on top: crop below it",
+      "shot_name": "shot-2"
     },
     {
       "n": 4,
@@ -57,7 +59,8 @@
       "factText": "stars on GitHub",
       "source_quote": "stargazers_count 289593 (GitHub API, 2026-11-12)",
       "checked_at": "2026-11-12",
-      "shot_crop_top": 0
+      "shot_crop_top": 0,
+      "shot_name": "shot-3"
     },
     {
       "n": 5,
@@ -68,7 +71,8 @@
       "factText": "stars on GitHub",
       "source_quote": "stargazers_count 562010 (GitHub API, 2026-11-12)",
       "checked_at": "2026-11-12",
-      "shot_crop_top": 0
+      "shot_crop_top": 0,
+      "shot_name": "shot-4"
     },
     {
       "n": 6,
@@ -79,7 +83,8 @@
       "factText": "stars on GitHub",
       "source_quote": "stargazers_count 56813 (GitHub API, 2026-11-12)",
       "checked_at": "2026-11-12",
-      "shot_crop_top": 0
+      "shot_crop_top": 0,
+      "shot_name": "shot-5"
     },
     {
       "n": 7,
@@ -90,7 +95,8 @@
       "factText": "stars on GitHub",
       "source_quote": "stargazers_count 364295 (GitHub API, 2026-11-12)",
       "checked_at": "2026-11-12",
-      "shot_crop_top": 0
+      "shot_crop_top": 0,
+      "shot_name": "shot-6"
     }
   ],
   "slides": [
@@ -135,6 +141,30 @@
     }
   ],
   "images": [
+    {
+      "name": "shot-1",
+      "screenshot": "https://github.com/nilbuild/developer-roadmap"
+    },
+    {
+      "name": "shot-2",
+      "screenshot": "https://github.com/florinpop17/app-ideas"
+    },
+    {
+      "name": "shot-3",
+      "screenshot": "https://github.com/practical-tutorials/project-based-learning"
+    },
+    {
+      "name": "shot-4",
+      "screenshot": "https://github.com/codecrafters-io/build-your-own-x"
+    },
+    {
+      "name": "shot-5",
+      "screenshot": "https://github.com/firstcontributions/first-contributions"
+    },
+    {
+      "name": "shot-6",
+      "screenshot": "https://github.com/jwasham/coding-interview-university"
+    },
     {
       "name": "cover",
       "size": "1024x1280",

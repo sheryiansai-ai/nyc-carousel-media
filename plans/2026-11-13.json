@@ -4,7 +4,7 @@
   "slug": "big-tech-student-programs",
   "topic": "6 student programs from big tech",
   "topicTag": "Programs",
-  "images_rev": "2026-11-12-collection",
+  "images_rev": "2026-11-12-collection-shots",
   "dm_keyword": "PROGRAMS",
   "save_reason": "A complete list of six real big-tech programs a first-year can join, with the official links in the caption.",
   "send_reason": "Send this to a friend who wants a big-tech internship one day.",
@@ -41,7 +41,8 @@
       "fact": "No application needed",
       "source_quote": "Get started - no application required!",
       "checked_at": "2026-11-12",
-      "shot_crop_top": 0
+      "shot_crop_top": 0,
+      "shot_name": "shot-1"
     },
     {
       "n": 3,
@@ -51,7 +52,8 @@
       "fact": "Free GitHub Pro for students",
       "source_quote": "Free GitHub Pro account for verified learners",
       "checked_at": "2026-11-12",
-      "shot_crop_top": 0
+      "shot_crop_top": 0,
+      "shot_name": "shot-2"
     },
     {
       "n": 4,
@@ -61,7 +63,8 @@
       "fact": "Beginners are welcome",
       "source_quote": "Whether you're a beginner or a pro, all interested in technology are welcome in this inclusive community.",
       "checked_at": "2026-11-12",
-      "shot_crop_top": 0
+      "shot_crop_top": 0,
+      "shot_name": "shot-3"
     },
     {
       "n": 5,
@@ -71,7 +74,8 @@
       "fact": "Open to college students aged 18+",
       "source_quote": "Membership is open to any learner actively enrolled in a post-secondary institution aged 18+",
       "checked_at": "2026-11-12",
-      "shot_crop_top": 0
+      "shot_crop_top": 0,
+      "shot_name": "shot-4"
     },
     {
       "n": 6,
@@ -82,7 +86,8 @@
       "source_quote": "18+ years old at registration; Student or Open source beginner",
       "checked_at": "2026-11-12",
       "shot_crop_top": 0,
-      "source_url": "https://developers.google.com/open-source/gsoc/faq"
+      "source_url": "https://developers.google.com/open-source/gsoc/faq",
+      "shot_name": "shot-5"
     },
     {
       "n": 7,
@@ -92,7 +97,8 @@
       "fact": "Applications close 28 Feb 2027",
       "source_quote": "Applications close on February 28, 2027.",
       "checked_at": "2026-11-12",
-      "shot_crop_top": 0
+      "shot_crop_top": 0,
+      "shot_name": "shot-6"
     }
   ],
   "slides": [
@@ -137,6 +143,30 @@
     }
   ],
   "images": [
+    {
+      "name": "shot-1",
+      "screenshot": "https://learn.microsoft.com/en-us/training/student-hub/become-a-student-ambassador"
+    },
+    {
+      "name": "shot-2",
+      "screenshot": "https://github.com/education/students"
+    },
+    {
+      "name": "shot-3",
+      "screenshot": "https://gdg.community.dev/"
+    },
+    {
+      "name": "shot-4",
+      "screenshot": "https://builder.aws.com/community/cloud-clubs"
+    },
+    {
+      "name": "shot-5",
+      "screenshot": "https://summerofcode.withgoogle.com/"
+    },
+    {
+      "name": "shot-6",
+      "screenshot": "https://imaginecup.microsoft.com/"
+    },
     {
       "name": "student",
       "local": "student-3",
