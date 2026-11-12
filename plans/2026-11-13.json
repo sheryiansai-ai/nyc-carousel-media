@@ -4,7 +4,7 @@
   "slug": "big-tech-student-programs",
   "topic": "6 student programs from big tech",
   "topicTag": "Programs",
-  "images_rev": "2026-11-12-collection-shots",
+  "images_rev": "2026-11-12-proof",
   "dm_keyword": "PROGRAMS",
   "save_reason": "A complete list of six real big-tech programs a first-year can join, with the official links in the caption.",
   "send_reason": "Send this to a friend who wants a big-tech internship one day.",
@@ -138,8 +138,12 @@
     },
     {
       "n": 8,
-      "type": "end",
-      "text": "All six links are in the caption. (dm_automation false) / Comment PROGRAMS for all six links. (true)"
+      "type": "proof"
+    },
+    {
+      "n": 9,
+      "type": "close",
+      "text": "People will ask who taught you. / All N links are in the caption. / See the courses at notyourcollege.com →"
     }
   ],
   "images": [
@@ -191,6 +195,11 @@
       "name": "face-4",
       "local": "student-4",
       "use": "last-slide face circle (optional; dropped if missing)"
+    },
+    {
+      "name": "proof",
+      "screenshot": "https://notyourcollege.com/instructors",
+      "use": "proof slide card: crop the heading + group photo, below the site header"
     }
   ],
   "caption_draft": "Big tech runs these 6 programs for students, and you can join most of them in first year.\n\nStudent Ambassadors — https://learn.microsoft.com/en-us/training/student-hub/become-a-student-ambassador — No application needed\nGitHub Education — https://github.com/education/students — Free GitHub Pro for students\nGDG on Campus — https://gdg.community.dev/ — Beginners are welcome\nStudent Builder Groups — https://builder.aws.com/community/cloud-clubs — Open to college students aged 18+\nSummer of Code — https://summerofcode.withgoogle.com/ — Open to beginners aged 18+\nImagine Cup — https://imaginecup.microsoft.com/ — Applications close 28 Feb 2027\n\nSave this list and open one link tonight. Send it to the friend who wants a big-tech internship.\n\n#internship #firstyear #microsoft #github #googlesummerofcode #aws #imaginecup #studentprograms #notyourcollege",
@@ -233,5 +242,23 @@
     }
   ],
   "note": "Collection format (collection/RULES.md, owner 12 Nov 2026). Items verified on their official pages on 2026-11-12 by the setup run; the daily run re-verifies them (CLAUDE.md step 5). GitHub Campus Experts was dropped: education.github.com/experts now redirects. Imagine Cup page does not list eligibility; keep the fact to the deadline.",
-  "replaces": "lesson-format plan for this date (moved to topics.json ideas)"
+  "replaces": "lesson-format plan for this date (moved to topics.json ideas)",
+  "proof": {
+    "logos": [
+      "microsoft",
+      "atlassian",
+      "google"
+    ],
+    "sentence": "Engineers from these companies teach at NYC.",
+    "fact": "They review every project you build.",
+    "shot_name": "proof",
+    "shot_crop_top": 0,
+    "disclaimer": "Instructors and mentors speak for themselves, not for their employers.",
+    "source": "NYC_BRIEF.md → Proof facts: Instructors: Swapnil (Microsoft), Akshay (Atlassian), Abhishek (Google); engineers review every project"
+  },
+  "close": {
+    "line": 5,
+    "text": "People will ask who taught you.",
+    "cta": "See the courses at notyourcollege.com →"
+  }
 }

@@ -4,7 +4,7 @@
   "slug": "github-repos-first-years",
   "topic": "6 GitHub repos to bookmark in first year",
   "topicTag": "GitHub",
-  "images_rev": "2026-11-12-collection-shots",
+  "images_rev": "2026-11-12-proof",
   "dm_keyword": "REPOS",
   "save_reason": "Six GitHub repos with roadmaps, project ideas and first contributions, linked in the caption.",
   "send_reason": "Send this to a friend who opens GitHub and does not know where to start.",
@@ -136,8 +136,12 @@
     },
     {
       "n": 8,
-      "type": "end",
-      "text": "All six links are in the caption. (dm_automation false) / Comment REPOS for all six links. (true)"
+      "type": "proof"
+    },
+    {
+      "n": 9,
+      "type": "close",
+      "text": "In six months, you build seven projects that anyone can open. / All N links are in the caption. / See the courses at notyourcollege.com →"
     }
   ],
   "images": [
@@ -189,6 +193,11 @@
       "name": "face-4",
       "local": "student-4",
       "use": "last-slide face circle (optional; dropped if missing)"
+    },
+    {
+      "name": "proof",
+      "screenshot": "https://notyourcollege.com/instructors",
+      "use": "proof slide card: crop the heading + group photo, below the site header"
     }
   ],
   "caption_draft": "These 6 GitHub repos are worth bookmarking in your first year.\n\nDeveloper Roadmap — https://github.com/nilbuild/developer-roadmap — 372k stars on GitHub\nApp Ideas — https://github.com/florinpop17/app-ideas — 98.6k stars on GitHub\nProject-Based Learning — https://github.com/practical-tutorials/project-based-learning — 290k stars on GitHub\nBuild Your Own X — https://github.com/codecrafters-io/build-your-own-x — 562k stars on GitHub\nFirst Contributions — https://github.com/firstcontributions/first-contributions — 56.8k stars on GitHub\nInterview University — https://github.com/jwasham/coding-interview-university — 364k stars on GitHub\n\nSave this and star one repo tonight. Send it to the friend who opens GitHub and does not know where to start.\n\n#github #opensource #firstyear #coding #projects #internship #developer #roadmap #notyourcollege",
@@ -231,5 +240,19 @@
     }
   ],
   "note": "Collection format (collection/RULES.md, owner 12 Nov 2026). Items verified on their official pages on 2026-11-12 by the setup run; the daily run re-verifies them (CLAUDE.md step 5). Stars rounded from the GitHub API on 2026-11-12. Repos have no company logo (logo null); the GitHub mark is on the cover.",
-  "replaces": "lesson-format plan for this date (moved to topics.json ideas)"
+  "replaces": "lesson-format plan for this date (moved to topics.json ideas)",
+  "proof": {
+    "logos": [],
+    "sentence": "Engineers review every project you build at NYC.",
+    "fact": "7 portfolio projects in 6 months",
+    "shot_name": "proof",
+    "shot_crop_top": 0,
+    "disclaimer": "Instructors and mentors speak for themselves, not for their employers.",
+    "source": "NYC_BRIEF.md → Proof facts: SE + AI: 7 portfolio projects in 6 months; engineers review every project"
+  },
+  "close": {
+    "line": 1,
+    "text": "In six months, you build seven projects that anyone can open.",
+    "cta": "See the courses at notyourcollege.com →"
+  }
 }

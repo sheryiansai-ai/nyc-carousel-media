@@ -4,7 +4,7 @@
   "slug": "free-project-hosting",
   "topic": "6 free places to put your project online",
   "topicTag": "Hosting",
-  "images_rev": "2026-11-12-collection-shots",
+  "images_rev": "2026-11-12-proof",
   "dm_keyword": "HOST",
   "save_reason": "Six free places to put a project online, each with its free limit from the official page.",
   "send_reason": "Send this to a friend whose project only runs on their laptop.",
@@ -134,8 +134,12 @@
     },
     {
       "n": 8,
-      "type": "end",
-      "text": "All six links are in the caption. (dm_automation false) / Comment HOST for all six links. (true)"
+      "type": "proof"
+    },
+    {
+      "n": 9,
+      "type": "close",
+      "text": "Your first app goes live in week six. / All N links are in the caption. / See the courses at notyourcollege.com →"
     }
   ],
   "images": [
@@ -187,6 +191,11 @@
       "name": "face-4",
       "local": "student-4",
       "use": "last-slide face circle (optional; dropped if missing)"
+    },
+    {
+      "name": "proof",
+      "screenshot": "https://notyourcollege.com/instructors",
+      "use": "proof slide card: crop the heading + group photo, below the site header"
     }
   ],
   "caption_draft": "Your project can have a real link today: 6 free places to put it online.\n\nGitHub Pages — https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages — Free for public repositories\nVercel — https://vercel.com/docs/plans/hobby — 100 deployments a day, free\nNetlify — https://www.netlify.com/pricing/ — 300 free credits a month\nCloudflare Pages — https://developers.cloudflare.com/pages/platform/limits/ — 500 free builds a month\nRender — https://render.com/docs/free — 750 free instance hours a month\nFirebase Hosting — https://firebase.google.com/pricing — 10 GB free hosting storage\n\nSave this and put one project online tonight. Send it to the friend whose project only runs on their laptop.\n\n#webdev #hosting #github #vercel #firstyear #students #projects #notyourcollege",
@@ -230,5 +239,19 @@
   ],
   "kind": "remake of reupload-deploy-first-project (30 Oct)",
   "reason": "Built yesterday, put it live today.",
-  "note": "Items verified on official pages on 2026-11-12 (calendar run). Firebase Hosting uses the Google logo (Firebase is a Google product) until a Firebase logo is added."
+  "note": "Items verified on official pages on 2026-11-12 (calendar run). Firebase Hosting uses the Google logo (Firebase is a Google product) until a Firebase logo is added.",
+  "proof": {
+    "logos": [],
+    "sentence": "At NYC, your first pages go live in week one.",
+    "fact": "Fridays are build days",
+    "shot_name": "proof",
+    "shot_crop_top": 0,
+    "disclaimer": "Instructors and mentors speak for themselves, not for their employers.",
+    "source": "NYC_BRIEF.md → Proof facts: SE + AI week 1 first pages go live; Fridays are build days"
+  },
+  "close": {
+    "line": 2,
+    "text": "Your first app goes live in week six.",
+    "cta": "See the courses at notyourcollege.com →"
+  }
 }

@@ -4,7 +4,7 @@
   "slug": "dsa-practice-sites",
   "topic": "5 free sites to practise DSA",
   "topicTag": "DSA",
-  "images_rev": "2026-11-12-collection-shots",
+  "images_rev": "2026-11-12-proof",
   "dm_keyword": "DSA",
   "save_reason": "Five official practice sites for DSA, linked in the caption, to use all semester.",
   "send_reason": "Send this to a friend who wants to start DSA this week.",
@@ -126,8 +126,12 @@
     },
     {
       "n": 7,
-      "type": "end",
-      "text": "All five links are in the caption. (dm_automation false) / Comment DSA for all five links. (true)"
+      "type": "proof"
+    },
+    {
+      "n": 8,
+      "type": "close",
+      "text": "Engineers review every project you build here. / All N links are in the caption. / See the courses at notyourcollege.com →"
     }
   ],
   "images": [
@@ -175,6 +179,11 @@
       "name": "face-4",
       "local": "student-4",
       "use": "last-slide face circle (optional; dropped if missing)"
+    },
+    {
+      "name": "proof",
+      "screenshot": "https://notyourcollege.com/instructors",
+      "use": "proof slide card: crop the heading + group photo, below the site header"
     }
   ],
   "caption_draft": "You can practise DSA for free on these 5 sites.\n\nLeetCode — https://leetcode.com/studyplan/top-interview-150/ — 150 classic interview questions\nCodeforces — https://codeforces.com/problemset — Problems sorted by difficulty\nCodeChef — https://www.codechef.com/ — Weekly contests on the free plan\nHackerRank — https://www.hackerrank.com/domains/data-structures — Practice sorted by data structure\nGeeksforGeeks — https://www.geeksforgeeks.org/explore — 2,500+ practice problems\n\nSave this for the semester and send it to the friend who wants to start DSA this week.\n\n#dsa #leetcode #codeforces #codechef #hackerrank #geeksforgeeks #coding #firstyear #notyourcollege",
@@ -211,5 +220,21 @@
     }
   ],
   "note": "Collection format (collection/RULES.md, owner 12 Nov 2026). Items verified on their official pages on 2026-11-12 by the setup run; the daily run re-verifies them (CLAUDE.md step 5). Cover C again 3 days after 13 Nov (allowed: never two days running, never twice in three days).",
-  "replaces": "lesson-format plan for this date (moved to topics.json ideas)"
+  "replaces": "lesson-format plan for this date (moved to topics.json ideas)",
+  "proof": {
+    "logos": [
+      "atlassian"
+    ],
+    "sentence": "An Atlassian engineer teaches DSA at NYC.",
+    "fact": "The DSA track opens in week 13",
+    "shot_name": "proof",
+    "shot_crop_top": 0,
+    "disclaimer": "Instructors and mentors speak for themselves, not for their employers.",
+    "source": "NYC_BRIEF.md → Proof facts: Akshay (Senior Software Engineer, Atlassian) teaches DSA; SE + AI week 13 the DSA track opens"
+  },
+  "close": {
+    "line": 3,
+    "text": "Engineers review every project you build here.",
+    "cta": "See the courses at notyourcollege.com →"
+  }
 }

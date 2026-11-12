@@ -4,7 +4,7 @@
   "slug": "free-resume-tools",
   "topic": "5 free tools to make your first resume",
   "topicTag": "Resume",
-  "images_rev": "2026-11-12-collection-shots",
+  "images_rev": "2026-11-12-proof",
   "dm_keyword": "RESUME",
   "save_reason": "Five free tools to make a one-page resume this week, with the official links in the caption.",
   "send_reason": "Send this to a friend who is applying for a winter internship.",
@@ -115,8 +115,12 @@
     },
     {
       "n": 7,
-      "type": "end",
-      "text": "All five links are in the caption. (dm_automation false) / Comment RESUME for all five links. (true)"
+      "type": "proof"
+    },
+    {
+      "n": 8,
+      "type": "close",
+      "text": "When you show this in an interview, they ask how you built it. / All N links are in the caption. / See the courses at notyourcollege.com →"
     }
   ],
   "images": [
@@ -164,6 +168,11 @@
       "name": "face-4",
       "local": "student-4",
       "use": "last-slide face circle (optional; dropped if missing)"
+    },
+    {
+      "name": "proof",
+      "screenshot": "https://notyourcollege.com/instructors",
+      "use": "proof slide card: crop the heading + group photo, below the site header"
     }
   ],
   "caption_draft": "Your first resume can be made free with these 5 tools.\n\nOverleaf — https://www.overleaf.com/gallery/tagged/cv — LaTeX templates for résumés\nReactive Resume — https://docs.rxresu.me/use-cases/free-resume-builder — No paywall on downloads\nFlowCV — https://flowcv.com/ — 100+ resume templates\nCanva Resumes — https://www.canva.com/create/resumes/ — Hundreds of free templates\nGoogle Docs — https://support.google.com/docs/answer/148833?hl=en&co=GENIE.Platform%3DDesktop — Built-in resume templates\n\nSave this and make your one-page resume this week. Send it to the friend applying for a winter internship.\n\n#resume #internship #firstyear #secondyear #students #latex #careerprep #notyourcollege",
@@ -201,5 +210,22 @@
   ],
   "kind": "remake of resume-shortlisted (28 Oct)",
   "reason": "Start of a 'make something and show it' week; 2nd-years apply to winter internships.",
-  "note": "Collection format. Items verified on official pages on 2026-11-12 (calendar run); the daily run re-verifies. FlowCV free plan covers one resume; Reactive Resume quote is from its official docs, screenshot from rxresu.me."
+  "note": "Collection format. Items verified on official pages on 2026-11-12 (calendar run); the daily run re-verifies. FlowCV free plan covers one resume; Reactive Resume quote is from its official docs, screenshot from rxresu.me.",
+  "proof": {
+    "logos": [
+      "google",
+      "microsoft"
+    ],
+    "sentence": "Engineers from Google and Microsoft take mock interviews at NYC.",
+    "fact": "They review your projects too.",
+    "shot_name": "proof",
+    "shot_crop_top": 0,
+    "disclaimer": "Instructors and mentors speak for themselves, not for their employers.",
+    "source": "NYC_BRIEF.md → Proof facts: Mentors Manish Singh (Google) and Yasir Sharfi (Microsoft) review projects and take mock interviews"
+  },
+  "close": {
+    "line": 4,
+    "text": "When you show this in an interview, they ask how you built it.",
+    "cta": "See the courses at notyourcollege.com →"
+  }
 }

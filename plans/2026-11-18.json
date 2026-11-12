@@ -4,7 +4,7 @@
   "slug": "ai-app-builders",
   "topic": "6 AI tools that build an app from one prompt",
   "topicTag": "AI tools",
-  "images_rev": "2026-11-12-collection-shots",
+  "images_rev": "2026-11-12-proof",
   "dm_keyword": "BUILD",
   "save_reason": "Six AI app builders with free plans, each with its free limit and official link.",
   "send_reason": "Send this to a friend who has an app idea but no app yet.",
@@ -137,8 +137,12 @@
     },
     {
       "n": 8,
-      "type": "end",
-      "text": "All six links are in the caption. (dm_automation false) / Comment BUILD for all six links. (true)"
+      "type": "proof"
+    },
+    {
+      "n": 9,
+      "type": "close",
+      "text": "Engineers review every project you build here. / All N links are in the caption. / See the courses at notyourcollege.com →"
     }
   ],
   "images": [
@@ -190,6 +194,11 @@
       "name": "face-4",
       "local": "student-4",
       "use": "last-slide face circle (optional; dropped if missing)"
+    },
+    {
+      "name": "proof",
+      "screenshot": "https://notyourcollege.com/instructors",
+      "use": "proof slide card: crop the heading + group photo, below the site header"
     }
   ],
   "caption_draft": "Type one prompt and these 6 AI tools build an app for you.\n\nv0 — https://v0.app/pricing — 7 free messages a day\nBolt — https://bolt.new/pricing — 1M free tokens a month\nLovable — https://docs.lovable.dev/introduction/plans-and-credits — 5 free build credits a day\nReplit Agent — https://docs.replit.com/billing/plans/starter-plan — 1 free published app\nGoogle AI Studio — https://ai.google.dev/gemini-api/docs/aistudio-build-mode — Builds an app from one prompt\nBase44 — https://base44.com/pricing — 25 free message credits a month\n\nSave this and build your first app idea this week. Send it to the friend who keeps talking about an app idea.\n\n#ai #appdevelopment #nocode #firstyear #students #buildinpublic #webdev #notyourcollege",
@@ -233,5 +242,19 @@
   ],
   "kind": "remake of first-ai-app-weekend (29 Oct)",
   "reason": "Build step of the 'make something and show it' week.",
-  "note": "Items carried over from the setup run's 17 Nov plan (verified on official pages 2026-11-12); the daily run re-verifies free limits, which change often."
+  "note": "Items carried over from the setup run's 17 Nov plan (verified on official pages 2026-11-12); the daily run re-verifies free limits, which change often.",
+  "proof": {
+    "logos": [],
+    "sentence": "At NYC, you use AI from day one and learn to check its code.",
+    "fact": "Week 21: your app has AI inside",
+    "shot_name": "proof",
+    "shot_crop_top": 0,
+    "disclaimer": "Instructors and mentors speak for themselves, not for their employers.",
+    "source": "NYC_BRIEF.md → Proof facts: AI from day one, you learn to check its code; SE + AI week 21 your app has AI inside"
+  },
+  "close": {
+    "line": 3,
+    "text": "Engineers review every project you build here.",
+    "cta": "See the courses at notyourcollege.com →"
+  }
 }

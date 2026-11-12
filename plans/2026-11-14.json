@@ -4,7 +4,7 @@
   "slug": "free-apis-first-app",
   "topic": "6 free APIs for your first app",
   "topicTag": "APIs",
-  "images_rev": "2026-11-12-collection-shots",
+  "images_rev": "2026-11-12-proof",
   "dm_keyword": "APIS",
   "save_reason": "Six free APIs a first-year can call tonight, with the official docs links in the caption.",
   "send_reason": "Send this to a friend who is starting their first app.",
@@ -132,8 +132,12 @@
     },
     {
       "n": 8,
-      "type": "end",
-      "text": "All six links are in the caption. (dm_automation false) / Comment APIS for all six links. (true)"
+      "type": "proof"
+    },
+    {
+      "n": 9,
+      "type": "close",
+      "text": "Your first app goes live in week six. / All N links are in the caption. / See the courses at notyourcollege.com →"
     }
   ],
   "images": [
@@ -185,6 +189,11 @@
       "name": "face-4",
       "local": "student-4",
       "use": "last-slide face circle (optional; dropped if missing)"
+    },
+    {
+      "name": "proof",
+      "screenshot": "https://notyourcollege.com/instructors",
+      "use": "proof slide card: crop the heading + group photo, below the site header"
     }
   ],
   "caption_draft": "Your first app can use these 6 free APIs today.\n\nOpen-Meteo — https://open-meteo.com/ — 10,000 free calls a day\nPokeAPI — https://pokeapi.co/docs/v2 — No API key needed\nNASA APOD — https://api.nasa.gov/ — Works with DEMO_KEY\nJokeAPI — https://v2.jokeapi.dev/ — No sign-up or payment\nDog API — https://dog.ceo/dog-api/ — 20,000+ dog photos\nOpen Library — https://openlibrary.org/developers/api — Book data in JSON\n\nSave this for your next project and send it to the friend who is starting their first app.\n\n#firstapp #api #webdev #coding #firstyear #internship #javascript #python #notyourcollege",
@@ -227,5 +236,19 @@
     }
   ],
   "note": "Collection format (collection/RULES.md, owner 12 Nov 2026). Items verified on their official pages on 2026-11-12 by the setup run; the daily run re-verifies them (CLAUDE.md step 5). REST Countries was dropped (its URL now redirects to a static file). NASA DEMO_KEY limits (30 an hour, 50 a day per IP) are from the api.data.gov manual; keep them out of the slide.",
-  "replaces": "lesson-format plan for this date (moved to topics.json ideas)"
+  "replaces": "lesson-format plan for this date (moved to topics.json ideas)",
+  "proof": {
+    "logos": [],
+    "sentence": "Fridays are build days at NYC.",
+    "fact": "Live classes five days a week",
+    "shot_name": "proof",
+    "shot_crop_top": 0,
+    "disclaimer": "Instructors and mentors speak for themselves, not for their employers.",
+    "source": "NYC_BRIEF.md → Proof facts: Live classes five days a week; Fridays are build days; week 6 first app live"
+  },
+  "close": {
+    "line": 2,
+    "text": "Your first app goes live in week six.",
+    "cta": "See the courses at notyourcollege.com →"
+  }
 }
