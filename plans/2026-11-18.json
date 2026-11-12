@@ -1,82 +1,103 @@
 {
   "date": "2026-11-18",
   "format": "collection",
-  "slug": "paid-tools-free-students",
-  "topic": "5 paid tools free with your college email",
-  "topicTag": "Student deals",
-  "images_rev": "2026-11-12-collection",
-  "dm_keyword": "TOOLS",
-  "save_reason": "Five paid tools students get free, with the official sign-up links in the caption.",
-  "send_reason": "Send this to a friend who still pays for tools they could get free.",
+  "slug": "ai-app-builders",
+  "topic": "6 AI tools that build an app from one prompt",
+  "topicTag": "AI tools",
+  "images_rev": "2026-11-12-collection-shots",
+  "dm_keyword": "BUILD",
+  "save_reason": "Six AI app builders with free plans, each with its free limit and official link.",
+  "send_reason": "Send this to a friend who has an app idea but no app yet.",
   "cover": {
     "style": "G",
-    "hook": "5 paid tools *free for students*",
-    "emotion": "curiosity",
-    "tag": "Student deals",
-    "blanks": 5,
-    "scene": "A college library book trolley holding five books with plain white blank covers facing the camera.",
-    "overlay": "On each blank cover: the tool's real logo + name, multiply blend, in item order.",
+    "hook": "6 AI tools that build *from one prompt*",
+    "emotion": "awe",
+    "tag": "AI tools",
+    "blanks": 6,
+    "scene": "A shop window on an Indian market street at dusk showing six identical blank screens in a 2x3 grid.",
+    "overlay": "On each screen: the tool's logo (if any) + short name, multiply blend, in item order (reading order).",
     "hooks": [
-      "5 paid tools free for students (curiosity)",
-      "Your college email unlocks these 5 tools (curiosity)",
-      "Get these 5 pro tools free this week (confidence)",
-      "Students get these 5 paid tools for free (ambition)"
+      "6 AI tools that build from one prompt (awe)",
+      "Type one prompt and get a working app (awe)",
+      "Try these 6 AI app builders free this weekend (confidence)",
+      "Your app idea can run tonight with these 6 tools (ambition)"
     ],
-    "notes": "Headline in the empty top 35%. blanks.py --mode light N=5."
+    "notes": "blanks.py --mode light N=6 (white screens). Headline in the empty top (dark shopfront fascia → light text; light → dark). Rotation: 17 F, 19 D, 16 C, so the fallback that keeps rotation is C (student-2 is free; C needs a student cut-out entry and a plan change — only if the Mac has it) else post nothing."
   },
   "items": [
     {
       "n": 2,
-      "name": "JetBrains IDEs",
-      "logo": "jetbrains",
-      "official_url": "https://sales.jetbrains.com/hc/en-gb/articles/207241195",
-      "fact": "All IDEs free for students",
-      "source_quote": "includes IntelliJ IDEA Ultimate, ReSharper, and all other JetBrains IDEs and .NET tools",
+      "name": "v0",
+      "logo": "v0",
+      "official_url": "https://v0.app/pricing",
+      "factNum": "7",
+      "factText": "free messages a day",
+      "source_quote": "7 message/day limit (Free plan)",
       "checked_at": "2026-11-12",
       "shot_crop_top": 0,
-      "shot_url": "https://www.jetbrains.com/academy/student-pack/"
+      "shot_name": "shot-1"
     },
     {
       "n": 3,
-      "name": "Azure for Students",
-      "logo": "microsoft",
-      "official_url": "https://azure.microsoft.com/en-in/free/students/",
-      "factNum": "$100",
-      "factText": "credit, no credit card",
-      "source_quote": "USD 100 credit ... No credit card required",
+      "name": "Bolt",
+      "logo": "stackblitz",
+      "official_url": "https://bolt.new/pricing",
+      "factNum": "1M",
+      "factText": "free tokens a month",
+      "source_quote": "1M tokens per month (Free plan)",
       "checked_at": "2026-11-12",
-      "shot_crop_top": 0
+      "shot_crop_top": 0,
+      "shot_name": "shot-2"
     },
     {
       "n": 4,
-      "name": "Notion Education",
-      "logo": "notion",
-      "official_url": "https://www.notion.com/help/notion-for-education",
-      "fact": "Free with a college email",
-      "source_quote": "You must have a valid educational email address to upgrade to the Education Plan.",
+      "name": "Lovable",
+      "logo": null,
+      "official_url": "https://docs.lovable.dev/introduction/plans-and-credits",
+      "factNum": "5",
+      "factText": "free build credits a day",
+      "source_quote": "Free workspaces receive 5 daily build credits, up to 30 per calendar month.",
       "checked_at": "2026-11-12",
-      "shot_crop_top": 0
+      "shot_crop_top": 0,
+      "shot_name": "shot-3",
+      "shot_url": "https://lovable.dev/"
     },
     {
       "n": 5,
-      "name": "Autodesk",
-      "logo": "autodesk",
-      "official_url": "https://www.autodesk.com/education/students",
-      "factNum": "1 year",
-      "factText": "of free access",
-      "source_quote": "free, one-year, single-user access to Autodesk software for educational purposes",
+      "name": "Replit Agent",
+      "logo": "replit",
+      "official_url": "https://docs.replit.com/billing/plans/starter-plan",
+      "factNum": "1",
+      "factText": "free published app",
+      "source_quote": "Get 1 free published app whether you're using Lite build or Design Canvas.",
       "checked_at": "2026-11-12",
-      "shot_crop_top": 0
+      "shot_crop_top": 0,
+      "shot_name": "shot-4",
+      "shot_url": "https://replit.com/"
     },
     {
       "n": 6,
-      "name": "Unity Student",
-      "logo": "unity",
-      "official_url": "https://unity.com/products/unity-student",
-      "fact": "Unity Pro free for students",
-      "source_quote": "The latest version of the Unity Pro Editor (Unity Student, for students enrolled at accredited degree-granting institutions)",
+      "name": "Google AI Studio",
+      "logo": "google",
+      "official_url": "https://ai.google.dev/gemini-api/docs/aistudio-build-mode",
+      "fact": "Builds an app from one prompt",
+      "source_quote": "Describe what you want to build with a prompt, and Gemini will generate an app for you.",
       "checked_at": "2026-11-12",
-      "shot_crop_top": 0
+      "shot_crop_top": 0,
+      "shot_name": "shot-5",
+      "shot_url": "https://aistudio.google.com/"
+    },
+    {
+      "n": 7,
+      "name": "Base44",
+      "logo": null,
+      "official_url": "https://base44.com/pricing",
+      "factNum": "25",
+      "factText": "free message credits a month",
+      "source_quote": "25 message credits/mo (Free plan)",
+      "checked_at": "2026-11-12",
+      "shot_crop_top": 0,
+      "shot_name": "shot-6"
     }
   ],
   "slides": [
@@ -87,39 +108,68 @@
     {
       "n": 2,
       "type": "item",
-      "item": "JetBrains IDEs"
+      "item": "v0"
     },
     {
       "n": 3,
       "type": "item",
-      "item": "Azure for Students"
+      "item": "Bolt"
     },
     {
       "n": 4,
       "type": "item",
-      "item": "Notion Education"
+      "item": "Lovable"
     },
     {
       "n": 5,
       "type": "item",
-      "item": "Autodesk"
+      "item": "Replit Agent"
     },
     {
       "n": 6,
       "type": "item",
-      "item": "Unity Student"
+      "item": "Google AI Studio"
     },
     {
       "n": 7,
+      "type": "item",
+      "item": "Base44"
+    },
+    {
+      "n": 8,
       "type": "end",
-      "text": "All five links are in the caption. (dm_automation false) / Comment TOOLS for all five links. (true)"
+      "text": "All six links are in the caption. (dm_automation false) / Comment BUILD for all six links. (true)"
     }
   ],
   "images": [
     {
+      "name": "shot-1",
+      "screenshot": "https://v0.app/pricing"
+    },
+    {
+      "name": "shot-2",
+      "screenshot": "https://bolt.new/pricing"
+    },
+    {
+      "name": "shot-3",
+      "screenshot": "https://lovable.dev/"
+    },
+    {
+      "name": "shot-4",
+      "screenshot": "https://replit.com/"
+    },
+    {
+      "name": "shot-5",
+      "screenshot": "https://aistudio.google.com/"
+    },
+    {
+      "name": "shot-6",
+      "screenshot": "https://base44.com/pricing"
+    },
+    {
       "name": "cover",
       "size": "1024x1280",
-      "prompt": "Photoreal photograph, magazine-ad quality, subtle film grain. A wooden book trolley in a bright Indian college library, seen straight-on, soft daylight. On its top shelf stand five hardback books side by side with their front covers turned to face the camera; every cover is plain blank white, identical and completely empty. Shelves of books softly blurred behind. The trolley fills the lower 62% of the frame; the top 38% is an empty, plain, softly lit cream wall. Natural colours. No readable text, no letters, no numbers, no logos, no faces, no watermark."
+      "prompt": "Photoreal photograph, magazine-ad quality, subtle film grain. The glass shop window of a small electronics shop on an Indian market street at dusk, seen perfectly straight-on. Inside the window, six identical flat screens hang in a neat grid of 2 columns and 3 rows; every screen is plain glowing white, completely blank, facing the camera flat. The window and screens fill the lower 65% of the frame; the top 35% is the plain dark painted shop wall above the window. Warm natural street light. No readable text, no letters, no numbers, no logos, no faces, no watermark."
     },
     {
       "name": "face-1",
@@ -142,39 +192,46 @@
       "use": "last-slide face circle (optional; dropped if missing)"
     }
   ],
-  "caption_draft": "Your college email unlocks these 5 paid tools for free.\n\nJetBrains IDEs — https://sales.jetbrains.com/hc/en-gb/articles/207241195 — All IDEs free for students\nAzure for Students — https://azure.microsoft.com/en-in/free/students/ — $100 credit, no credit card\nNotion Education — https://www.notion.com/help/notion-for-education — Free with a college email\nAutodesk — https://www.autodesk.com/education/students — 1 year of free access\nUnity Student — https://unity.com/products/unity-student — Unity Pro free for students\n\nSave this and claim one tonight. Send it to the friend who still pays for tools they could get free.\n\n#studentdeals #jetbrains #azure #notion #autodesk #unity #collegelife #firstyear #notyourcollege",
+  "caption_draft": "Type one prompt and these 6 AI tools build an app for you.\n\nv0 — https://v0.app/pricing — 7 free messages a day\nBolt — https://bolt.new/pricing — 1M free tokens a month\nLovable — https://docs.lovable.dev/introduction/plans-and-credits — 5 free build credits a day\nReplit Agent — https://docs.replit.com/billing/plans/starter-plan — 1 free published app\nGoogle AI Studio — https://ai.google.dev/gemini-api/docs/aistudio-build-mode — Builds an app from one prompt\nBase44 — https://base44.com/pricing — 25 free message credits a month\n\nSave this and build your first app idea this week. Send it to the friend who keeps talking about an app idea.\n\n#ai #appdevelopment #nocode #firstyear #students #buildinpublic #webdev #notyourcollege",
   "sources": [
     {
-      "item": "JetBrains IDEs",
-      "url": "https://sales.jetbrains.com/hc/en-gb/articles/207241195",
-      "quote": "includes IntelliJ IDEA Ultimate, ReSharper, and all other JetBrains IDEs and .NET tools",
+      "item": "v0",
+      "url": "https://v0.app/pricing",
+      "quote": "7 message/day limit (Free plan)",
       "checked_at": "2026-11-12"
     },
     {
-      "item": "Azure for Students",
-      "url": "https://azure.microsoft.com/en-in/free/students/",
-      "quote": "USD 100 credit ... No credit card required",
+      "item": "Bolt",
+      "url": "https://bolt.new/pricing",
+      "quote": "1M tokens per month (Free plan)",
       "checked_at": "2026-11-12"
     },
     {
-      "item": "Notion Education",
-      "url": "https://www.notion.com/help/notion-for-education",
-      "quote": "You must have a valid educational email address to upgrade to the Education Plan.",
+      "item": "Lovable",
+      "url": "https://docs.lovable.dev/introduction/plans-and-credits",
+      "quote": "Free workspaces receive 5 daily build credits, up to 30 per calendar month.",
       "checked_at": "2026-11-12"
     },
     {
-      "item": "Autodesk",
-      "url": "https://www.autodesk.com/education/students",
-      "quote": "free, one-year, single-user access to Autodesk software for educational purposes",
+      "item": "Replit Agent",
+      "url": "https://docs.replit.com/billing/plans/starter-plan",
+      "quote": "Get 1 free published app whether you're using Lite build or Design Canvas.",
       "checked_at": "2026-11-12"
     },
     {
-      "item": "Unity Student",
-      "url": "https://unity.com/products/unity-student",
-      "quote": "The latest version of the Unity Pro Editor (Unity Student, for students enrolled at accredited degree-granting institutions)",
+      "item": "Google AI Studio",
+      "url": "https://ai.google.dev/gemini-api/docs/aistudio-build-mode",
+      "quote": "Describe what you want to build with a prompt, and Gemini will generate an app for you.",
+      "checked_at": "2026-11-12"
+    },
+    {
+      "item": "Base44",
+      "url": "https://base44.com/pricing",
+      "quote": "25 message credits/mo (Free plan)",
       "checked_at": "2026-11-12"
     }
   ],
-  "note": "Collection format (collection/RULES.md, owner 12 Nov 2026). Items verified on their official pages on 2026-11-12 by the setup run; the daily run re-verifies them (CLAUDE.md step 5). GitHub Student Pack left out (13 Nov has GitHub Education; history has student-pack). Dropped: Canva (college students excluded), Microsoft 365 (depends on the college), Google AI Pro (India not confirmed), Tableau (free for everyone), Miro (terms contradict), Figma Education kept as spare only: region availability not confirmed for India.",
-  "replaces": "lesson-format plan for this date (moved to topics.json ideas)"
+  "kind": "remake of first-ai-app-weekend (29 Oct)",
+  "reason": "Build step of the 'make something and show it' week.",
+  "note": "Items carried over from the setup run's 17 Nov plan (verified on official pages 2026-11-12); the daily run re-verifies free limits, which change often."
 }

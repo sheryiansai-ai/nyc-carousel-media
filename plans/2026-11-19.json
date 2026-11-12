@@ -1,95 +1,100 @@
 {
   "date": "2026-11-19",
   "format": "collection",
-  "slug": "free-datasets-first-project",
-  "topic": "6 free datasets for your first data project",
-  "topicTag": "Datasets",
-  "images_rev": "2026-11-12-collection",
-  "dm_keyword": "DATA",
-  "save_reason": "Six free dataset sources for a first data project, linked in the caption.",
-  "send_reason": "Send this to a friend who wants to build their first data project.",
+  "slug": "free-project-hosting",
+  "topic": "6 free places to put your project online",
+  "topicTag": "Hosting",
+  "images_rev": "2026-11-12-collection-shots",
+  "dm_keyword": "HOST",
+  "save_reason": "Six free places to put a project online, each with its free limit from the official page.",
+  "send_reason": "Send this to a friend whose project only runs on their laptop.",
   "cover": {
     "style": "D",
-    "hook": "6 free datasets for *your first project*",
+    "hook": "6 free places to *host your project*",
     "emotion": "confidence",
-    "tag": "Datasets",
+    "tag": "Hosting",
     "blanks": 1,
-    "scene": "Raphael-style fresco of scholars in a vaulted library; one scholar holds up a modern tablet with a blank white screen facing the viewer.",
-    "overlay": "The real Kaggle logo (collection/logos/kaggle.svg) on the blank screen, kind mark.",
+    "scene": "Renaissance fresco; robed scholars hold up a large blank white framed panel facing the viewer, like presenting a new work.",
+    "overlay": "The real GitHub mark (collection/logos/github.svg) on the blank panel, kind mark.",
     "hooks": [
-      "6 free datasets for your first project (confidence)",
-      "Over a million datasets are free to use (awe)",
-      "Find data for your first project in minutes (confidence)",
-      "The data behind real research is free (curiosity)"
+      "6 free places to host your project (confidence)",
+      "Put your project online free tonight (confidence)",
+      "Your project deserves a real link: 6 free hosts (ambition)",
+      "6 free hosts seniors used for their first project (curiosity)"
     ],
-    "notes": "Different painting from 15 Nov: library scene, not School of Athens. Headline on the painted vault."
+    "notes": "Headline on the painted sky at the top (dark or light by the sky). blanks.py --mode light N=1. Rotation: 18 G, 17 F, 20 C; fallback that keeps rotation: none other than D (F was 17, G 18, C 20) — regenerate once, else post nothing. Logos for Netlify, Cloudflare, Render and Firebase are not in collection/logos yet."
   },
   "items": [
     {
       "n": 2,
-      "name": "Kaggle Datasets",
-      "logo": "kaggle",
-      "official_url": "https://www.kaggle.com/datasets",
-      "fact": "Hundreds of thousands of open datasets",
-      "source_quote": "Browse and download hundreds of thousands of open datasets for AI research, model training, and analysis.",
+      "name": "GitHub Pages",
+      "logo": "github",
+      "official_url": "https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages",
+      "fact": "Free for public repositories",
+      "source_quote": "GitHub Pages is available in public repositories with GitHub Free and GitHub Free for organizations.",
       "checked_at": "2026-11-12",
-      "shot_crop_top": 0
+      "shot_crop_top": 0,
+      "shot_name": "shot-1"
     },
     {
       "n": 3,
-      "name": "data.gov.in",
-      "logo": null,
-      "official_url": "https://www.data.gov.in/metrics",
-      "fact": "India's government data, open",
-      "source_quote": "It provides number of resources and catalogs published by each Central and State Ministry/Department/Organization.",
+      "name": "Vercel",
+      "logo": "vercel",
+      "official_url": "https://vercel.com/docs/plans/hobby",
+      "factNum": "100",
+      "factText": "deployments a day, free",
+      "source_quote": "The Hobby plan is free and aimed at developers with personal projects, and small-scale applications. … Deployments per day | 100",
       "checked_at": "2026-11-12",
       "shot_crop_top": 0,
-      "shot_url": "https://www.data.gov.in/"
+      "shot_name": "shot-2"
     },
     {
       "n": 4,
-      "name": "UCI ML Repository",
+      "name": "Netlify",
       "logo": null,
-      "official_url": "https://archive.ics.uci.edu",
-      "factNum": "690",
-      "factText": "datasets for machine learning",
-      "source_quote": "We currently maintain 690 datasets as a service to the machine learning community.",
+      "official_url": "https://www.netlify.com/pricing/",
+      "factNum": "300",
+      "factText": "free credits a month",
+      "source_quote": "$0 forever … 300 credit limit / month",
       "checked_at": "2026-11-12",
-      "shot_crop_top": 0
+      "shot_crop_top": 0,
+      "shot_name": "shot-3"
     },
     {
       "n": 5,
-      "name": "Our World in Data",
+      "name": "Cloudflare Pages",
       "logo": null,
-      "official_url": "https://ourworldindata.org/",
-      "factNum": "14,040",
-      "factText": "charts across 126 topics",
-      "source_quote": "14,040 charts across 126 topics",
+      "official_url": "https://developers.cloudflare.com/pages/platform/limits/",
+      "factNum": "500",
+      "factText": "free builds a month",
+      "source_quote": "Builds per month — Free: 500",
       "checked_at": "2026-11-12",
       "shot_crop_top": 0,
-      "source_url": "https://ourworldindata.org/owid-homepage"
+      "shot_name": "shot-4"
     },
     {
       "n": 6,
-      "name": "Hugging Face",
-      "logo": "huggingface",
-      "official_url": "https://huggingface.co/datasets",
-      "factNum": "1M+",
-      "factText": "datasets",
-      "source_quote": "Datasets 1,125,710",
+      "name": "Render",
+      "logo": null,
+      "official_url": "https://render.com/docs/free",
+      "factNum": "750",
+      "factText": "free instance hours a month",
+      "source_quote": "Render grants 750 Free instance hours to each workspace per calendar month",
       "checked_at": "2026-11-12",
-      "shot_crop_top": 0
+      "shot_crop_top": 0,
+      "shot_name": "shot-5"
     },
     {
       "n": 7,
-      "name": "Dataset Search",
+      "name": "Firebase Hosting",
       "logo": "google",
-      "official_url": "https://datasetsearch.research.google.com/",
-      "fact": "A search engine for datasets",
-      "source_quote": "Dataset Search is a search engine for datasets.",
+      "official_url": "https://firebase.google.com/pricing",
+      "factNum": "10 GB",
+      "factText": "free hosting storage",
+      "source_quote": "Spark plan, Hosting: Storage 10 GB; Data transfer 360 MB/day",
       "checked_at": "2026-11-12",
       "shot_crop_top": 0,
-      "source_url": "https://datasetsearch.research.google.com/help"
+      "shot_name": "shot-6"
     }
   ],
   "slides": [
@@ -100,44 +105,68 @@
     {
       "n": 2,
       "type": "item",
-      "item": "Kaggle Datasets"
+      "item": "GitHub Pages"
     },
     {
       "n": 3,
       "type": "item",
-      "item": "data.gov.in"
+      "item": "Vercel"
     },
     {
       "n": 4,
       "type": "item",
-      "item": "UCI ML Repository"
+      "item": "Netlify"
     },
     {
       "n": 5,
       "type": "item",
-      "item": "Our World in Data"
+      "item": "Cloudflare Pages"
     },
     {
       "n": 6,
       "type": "item",
-      "item": "Hugging Face"
+      "item": "Render"
     },
     {
       "n": 7,
       "type": "item",
-      "item": "Dataset Search"
+      "item": "Firebase Hosting"
     },
     {
       "n": 8,
       "type": "end",
-      "text": "All six links are in the caption. (dm_automation false) / Comment DATA for all six links. (true)"
+      "text": "All six links are in the caption. (dm_automation false) / Comment HOST for all six links. (true)"
     }
   ],
   "images": [
     {
+      "name": "shot-1",
+      "screenshot": "https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages"
+    },
+    {
+      "name": "shot-2",
+      "screenshot": "https://vercel.com/docs/plans/hobby"
+    },
+    {
+      "name": "shot-3",
+      "screenshot": "https://www.netlify.com/pricing/"
+    },
+    {
+      "name": "shot-4",
+      "screenshot": "https://developers.cloudflare.com/pages/platform/limits/"
+    },
+    {
+      "name": "shot-5",
+      "screenshot": "https://render.com/docs/free"
+    },
+    {
+      "name": "shot-6",
+      "screenshot": "https://firebase.google.com/pricing"
+    },
+    {
       "name": "cover",
       "size": "1024x1280",
-      "prompt": "A Renaissance fresco in the style of Raphael, painterly, rich natural colours, visible fresco texture, magazine-ad quality. Robed scholars in a grand vaulted library with tall shelves of old books; in the centre one scholar, seen from behind, holds up a modern thin tablet whose screen is plain glowing white, completely blank, facing the viewer straight on. No faces are visible: figures face away or are in shadowed profile. The top 35% of the frame is an empty painted vault with soft sky-blue panels. Natural colours, no green tint. No readable text, no letters, no numbers, no logos, no faces, no watermark."
+      "prompt": "A Renaissance fresco in the style of Raphael, painterly, rich natural colours, visible fresco texture, magazine-ad quality. Under a painted sky, a small group of robed scholars stands on a marble terrace and together holds up one large plain white rectangular panel in a simple gilded frame, presenting it to the viewer; the panel is completely blank and faces the viewer straight on. The figures are seen from behind or in profile with heads turned away, so no faces are visible. The top 35% of the frame is empty painted sky with soft clouds. Natural colours, no green tint. No readable text, no letters, no numbers, no logos, no faces, no watermark."
     },
     {
       "name": "face-1",
@@ -160,45 +189,46 @@
       "use": "last-slide face circle (optional; dropped if missing)"
     }
   ],
-  "caption_draft": "These 6 free sources have data for your first data project.\n\nKaggle Datasets — https://www.kaggle.com/datasets — Hundreds of thousands of open datasets\ndata.gov.in — https://www.data.gov.in/metrics — India's government data, open\nUCI ML Repository — https://archive.ics.uci.edu — 690 datasets for machine learning\nOur World in Data — https://ourworldindata.org/ — 14,040 charts across 126 topics\nHugging Face — https://huggingface.co/datasets — 1M+ datasets\nDataset Search — https://datasetsearch.research.google.com/ — A search engine for datasets\n\nSave this for your next project and send it to the friend who wants to build their first data project.\n\n#datascience #datasets #kaggle #huggingface #machinelearning #dataanalytics #firstyear #internship #notyourcollege",
+  "caption_draft": "Your project can have a real link today: 6 free places to put it online.\n\nGitHub Pages — https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages — Free for public repositories\nVercel — https://vercel.com/docs/plans/hobby — 100 deployments a day, free\nNetlify — https://www.netlify.com/pricing/ — 300 free credits a month\nCloudflare Pages — https://developers.cloudflare.com/pages/platform/limits/ — 500 free builds a month\nRender — https://render.com/docs/free — 750 free instance hours a month\nFirebase Hosting — https://firebase.google.com/pricing — 10 GB free hosting storage\n\nSave this and put one project online tonight. Send it to the friend whose project only runs on their laptop.\n\n#webdev #hosting #github #vercel #firstyear #students #projects #notyourcollege",
   "sources": [
     {
-      "item": "Kaggle Datasets",
-      "url": "https://www.kaggle.com/datasets",
-      "quote": "Browse and download hundreds of thousands of open datasets for AI research, model training, and analysis.",
+      "item": "GitHub Pages",
+      "url": "https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages",
+      "quote": "GitHub Pages is available in public repositories with GitHub Free and GitHub Free for organizations.",
       "checked_at": "2026-11-12"
     },
     {
-      "item": "data.gov.in",
-      "url": "https://www.data.gov.in/metrics",
-      "quote": "It provides number of resources and catalogs published by each Central and State Ministry/Department/Organization.",
+      "item": "Vercel",
+      "url": "https://vercel.com/docs/plans/hobby",
+      "quote": "The Hobby plan is free and aimed at developers with personal projects, and small-scale applications. … Deployments per day | 100",
       "checked_at": "2026-11-12"
     },
     {
-      "item": "UCI ML Repository",
-      "url": "https://archive.ics.uci.edu",
-      "quote": "We currently maintain 690 datasets as a service to the machine learning community.",
+      "item": "Netlify",
+      "url": "https://www.netlify.com/pricing/",
+      "quote": "$0 forever … 300 credit limit / month",
       "checked_at": "2026-11-12"
     },
     {
-      "item": "Our World in Data",
-      "url": "https://ourworldindata.org/owid-homepage",
-      "quote": "14,040 charts across 126 topics",
+      "item": "Cloudflare Pages",
+      "url": "https://developers.cloudflare.com/pages/platform/limits/",
+      "quote": "Builds per month — Free: 500",
       "checked_at": "2026-11-12"
     },
     {
-      "item": "Hugging Face",
-      "url": "https://huggingface.co/datasets",
-      "quote": "Datasets 1,125,710",
+      "item": "Render",
+      "url": "https://render.com/docs/free",
+      "quote": "Render grants 750 Free instance hours to each workspace per calendar month",
       "checked_at": "2026-11-12"
     },
     {
-      "item": "Dataset Search",
-      "url": "https://datasetsearch.research.google.com/help",
-      "quote": "Dataset Search is a search engine for datasets.",
+      "item": "Firebase Hosting",
+      "url": "https://firebase.google.com/pricing",
+      "quote": "Spark plan, Hosting: Storage 10 GB; Data transfer 360 MB/day",
       "checked_at": "2026-11-12"
     }
   ],
-  "note": "Collection format (collection/RULES.md, owner 12 Nov 2026). Items verified on their official pages on 2026-11-12 by the setup run; the daily run re-verifies them (CLAUDE.md step 5). World Bank Data verified as a spare (https://data.worldbank.org/, \"Free and open access to global development data\").",
-  "replaces": "lesson-format plan for this date (moved to topics.json ideas)"
+  "kind": "remake of reupload-deploy-first-project (30 Oct)",
+  "reason": "Built yesterday, put it live today.",
+  "note": "Items verified on official pages on 2026-11-12 (calendar run). Firebase Hosting uses the Google logo (Firebase is a Google product) until a Firebase logo is added."
 }

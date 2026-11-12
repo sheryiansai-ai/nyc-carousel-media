@@ -1,97 +1,86 @@
 {
   "date": "2026-11-17",
   "format": "collection",
-  "slug": "ai-app-builders",
-  "topic": "6 AI tools that build an app from one prompt",
-  "topicTag": "AI tools",
-  "images_rev": "2026-11-12-collection",
-  "dm_keyword": "BUILD",
-  "save_reason": "Six AI app builders with their free plans, linked in the caption, to try this weekend.",
-  "send_reason": "Send this to a friend who has an app idea but has not started.",
+  "slug": "free-resume-tools",
+  "topic": "5 free tools to make your first resume",
+  "topicTag": "Resume",
+  "images_rev": "2026-11-12-collection-shots",
+  "dm_keyword": "RESUME",
+  "save_reason": "Five free tools to make a one-page resume this week, with the official links in the caption.",
+  "send_reason": "Send this to a friend who is applying for a winter internship.",
   "cover": {
     "style": "F",
-    "hook": "6 AI tools that *build your app*",
-    "emotion": "awe",
-    "tag": "AI tools",
+    "hook": "5 free tools for your *first resume*",
+    "emotion": "confidence",
+    "tag": "Resume",
     "blanks": 1,
     "scene": "A hand holding a phone straight on, blank white screen, black background, green rim light.",
-    "overlay": "The real phone-width screenshot of item 2 (v0) on the blank screen, kind screen.",
+    "overlay": "The real phone-width screenshot of item 2 (Reactive Resume, shot-2) on the blank screen, kind screen.",
     "hooks": [
-      "6 AI tools that build your app (awe)",
-      "Type one prompt and get a working app (awe)",
-      "Try these 6 AI app builders free this weekend (confidence)",
-      "Your app idea can run tonight with these 6 tools (ambition)"
+      "5 free tools for your first resume (confidence)",
+      "Make your first resume free this week (confidence)",
+      "Your first resume needs only these 5 free tools (calm)",
+      "5 free tools seniors used for their first resume (curiosity)"
     ],
-    "notes": "Headline in the empty black top (light text). blanks.py --mode light N=1 finds the white screen."
+    "notes": "Headline in the empty black top (light text). blanks.py --mode light N=1 finds the white screen. Fallback style that keeps rotation (16 C, 18 G, 19 D): none safe except F; if the scene is missing, Figma generate_image with the cover prompt. Logos for Overleaf, Canva, FlowCV and Google Docs are not in collection/logos yet: items run with logo null, so a missing screenshot cannot use the large-logo fallback for them."
   },
   "items": [
     {
       "n": 2,
-      "name": "v0",
-      "logo": "v0",
-      "official_url": "https://v0.app/pricing",
-      "factNum": "7",
-      "factText": "free messages a day",
-      "source_quote": "7 message/day limit (Free plan)",
+      "name": "Overleaf",
+      "logo": null,
+      "official_url": "https://www.overleaf.com/gallery/tagged/cv",
+      "fact": "LaTeX templates for résumés",
+      "source_quote": "Make a great first impression with our popular LaTeX templates for CVs and résumés.",
       "checked_at": "2026-11-12",
-      "shot_crop_top": 0
+      "shot_crop_top": 0,
+      "shot_name": "shot-1"
     },
     {
       "n": 3,
-      "name": "Bolt",
-      "logo": "stackblitz",
-      "official_url": "https://bolt.new/pricing",
-      "factNum": "1M",
-      "factText": "free tokens a month",
-      "source_quote": "1M tokens per month (Free plan)",
+      "name": "Reactive Resume",
+      "logo": null,
+      "official_url": "https://docs.rxresu.me/use-cases/free-resume-builder",
+      "fact": "No paywall on downloads",
+      "source_quote": "you get every feature with no premium tier, no watermark and no paywall on downloads.",
       "checked_at": "2026-11-12",
-      "shot_crop_top": 0
+      "shot_crop_top": 0,
+      "shot_name": "shot-2",
+      "shot_url": "https://rxresu.me/"
     },
     {
       "n": 4,
-      "name": "Lovable",
+      "name": "FlowCV",
       "logo": null,
-      "official_url": "https://docs.lovable.dev/introduction/plans-and-credits",
-      "factNum": "5",
-      "factText": "free build credits a day",
-      "source_quote": "Free workspaces receive 5 daily build credits, up to 30 per calendar month.",
+      "official_url": "https://flowcv.com/",
+      "factNum": "100+",
+      "factText": "resume templates",
+      "source_quote": "100+ Customizable Templates",
       "checked_at": "2026-11-12",
       "shot_crop_top": 0,
-      "shot_url": "https://lovable.dev/"
+      "shot_name": "shot-3"
     },
     {
       "n": 5,
-      "name": "Replit Agent",
-      "logo": "replit",
-      "official_url": "https://docs.replit.com/billing/plans/starter-plan",
-      "factNum": "1",
-      "factText": "free published app",
-      "source_quote": "Get 1 free published app whether you're using Lite build or Design Canvas.",
+      "name": "Canva Resumes",
+      "logo": null,
+      "official_url": "https://www.canva.com/create/resumes/",
+      "fact": "Hundreds of free templates",
+      "source_quote": "Hundreds of free templates and layouts",
       "checked_at": "2026-11-12",
       "shot_crop_top": 0,
-      "shot_url": "https://replit.com/"
+      "shot_name": "shot-4"
     },
     {
       "n": 6,
-      "name": "Google AI Studio",
+      "name": "Google Docs",
       "logo": "google",
-      "official_url": "https://ai.google.dev/gemini-api/docs/aistudio-build-mode",
-      "fact": "Builds an app from one prompt",
-      "source_quote": "Describe what you want to build with a prompt, and Gemini will generate an app for you.",
+      "official_url": "https://support.google.com/docs/answer/148833?hl=en&co=GENIE.Platform%3DDesktop",
+      "fact": "Built-in resume templates",
+      "source_quote": "You can use Google-created templates like resumes, budgets, and order forms.",
       "checked_at": "2026-11-12",
       "shot_crop_top": 0,
-      "shot_url": "https://aistudio.google.com/"
-    },
-    {
-      "n": 7,
-      "name": "Base44",
-      "logo": null,
-      "official_url": "https://base44.com/pricing",
-      "factNum": "25",
-      "factText": "free message credits a month",
-      "source_quote": "25 message credits/mo (Free plan)",
-      "checked_at": "2026-11-12",
-      "shot_crop_top": 0
+      "shot_name": "shot-5"
     }
   ],
   "slides": [
@@ -102,40 +91,55 @@
     {
       "n": 2,
       "type": "item",
-      "item": "v0"
+      "item": "Overleaf"
     },
     {
       "n": 3,
       "type": "item",
-      "item": "Bolt"
+      "item": "Reactive Resume"
     },
     {
       "n": 4,
       "type": "item",
-      "item": "Lovable"
+      "item": "FlowCV"
     },
     {
       "n": 5,
       "type": "item",
-      "item": "Replit Agent"
+      "item": "Canva Resumes"
     },
     {
       "n": 6,
       "type": "item",
-      "item": "Google AI Studio"
+      "item": "Google Docs"
     },
     {
       "n": 7,
-      "type": "item",
-      "item": "Base44"
-    },
-    {
-      "n": 8,
       "type": "end",
-      "text": "All six links are in the caption. (dm_automation false) / Comment BUILD for all six links. (true)"
+      "text": "All five links are in the caption. (dm_automation false) / Comment RESUME for all five links. (true)"
     }
   ],
   "images": [
+    {
+      "name": "shot-1",
+      "screenshot": "https://www.overleaf.com/gallery/tagged/cv"
+    },
+    {
+      "name": "shot-2",
+      "screenshot": "https://rxresu.me/"
+    },
+    {
+      "name": "shot-3",
+      "screenshot": "https://flowcv.com/"
+    },
+    {
+      "name": "shot-4",
+      "screenshot": "https://www.canva.com/create/resumes/"
+    },
+    {
+      "name": "shot-5",
+      "screenshot": "https://support.google.com/docs/answer/148833?hl=en&co=GENIE.Platform%3DDesktop"
+    },
     {
       "name": "cover",
       "size": "1024x1280",
@@ -162,51 +166,40 @@
       "use": "last-slide face circle (optional; dropped if missing)"
     }
   ],
-  "caption_draft": "These 6 AI tools turn one prompt into a working app, and each has a free plan.\n\nv0 — https://v0.app/pricing — 7 free messages a day\nBolt — https://bolt.new/pricing — 1M free tokens a month\nLovable — https://docs.lovable.dev/introduction/plans-and-credits — 5 free build credits a day\nReplit Agent — https://docs.replit.com/billing/plans/starter-plan — 1 free published app\nGoogle AI Studio — https://ai.google.dev/gemini-api/docs/aistudio-build-mode — Builds an app from one prompt\nBase44 — https://base44.com/pricing — 25 free message credits a month\n\nSave this for the weekend and send it to the friend who has an app idea but has not started.\n\n#ai #nocode #appdevelopment #v0 #bolt #lovable #replit #firstyear #notyourcollege",
+  "caption_draft": "Your first resume can be made free with these 5 tools.\n\nOverleaf — https://www.overleaf.com/gallery/tagged/cv — LaTeX templates for résumés\nReactive Resume — https://docs.rxresu.me/use-cases/free-resume-builder — No paywall on downloads\nFlowCV — https://flowcv.com/ — 100+ resume templates\nCanva Resumes — https://www.canva.com/create/resumes/ — Hundreds of free templates\nGoogle Docs — https://support.google.com/docs/answer/148833?hl=en&co=GENIE.Platform%3DDesktop — Built-in resume templates\n\nSave this and make your one-page resume this week. Send it to the friend applying for a winter internship.\n\n#resume #internship #firstyear #secondyear #students #latex #careerprep #notyourcollege",
   "sources": [
     {
-      "item": "v0",
-      "url": "https://v0.app/pricing",
-      "quote": "7 message/day limit (Free plan)",
+      "item": "Overleaf",
+      "url": "https://www.overleaf.com/gallery/tagged/cv",
+      "quote": "Make a great first impression with our popular LaTeX templates for CVs and résumés.",
       "checked_at": "2026-11-12"
     },
     {
-      "item": "Bolt",
-      "url": "https://bolt.new/pricing",
-      "quote": "1M tokens per month (Free plan)",
+      "item": "Reactive Resume",
+      "url": "https://docs.rxresu.me/use-cases/free-resume-builder",
+      "quote": "you get every feature with no premium tier, no watermark and no paywall on downloads.",
       "checked_at": "2026-11-12"
     },
     {
-      "item": "Lovable",
-      "url": "https://docs.lovable.dev/introduction/plans-and-credits",
-      "quote": "Free workspaces receive 5 daily build credits, up to 30 per calendar month.",
+      "item": "FlowCV",
+      "url": "https://flowcv.com/",
+      "quote": "100+ Customizable Templates",
       "checked_at": "2026-11-12"
     },
     {
-      "item": "Replit Agent",
-      "url": "https://docs.replit.com/billing/plans/starter-plan",
-      "quote": "Get 1 free published app whether you're using Lite build or Design Canvas.",
+      "item": "Canva Resumes",
+      "url": "https://www.canva.com/create/resumes/",
+      "quote": "Hundreds of free templates and layouts",
       "checked_at": "2026-11-12"
     },
     {
-      "item": "Google AI Studio",
-      "url": "https://ai.google.dev/gemini-api/docs/aistudio-build-mode",
-      "quote": "Describe what you want to build with a prompt, and Gemini will generate an app for you.",
-      "checked_at": "2026-11-12"
-    },
-    {
-      "item": "Base44",
-      "url": "https://base44.com/pricing",
-      "quote": "25 message credits/mo (Free plan)",
-      "checked_at": "2026-11-12"
-    },
-    {
-      "item": "Google AI Studio",
-      "url": "https://ai.google.dev/gemini-api/docs/billing",
-      "quote": "AI Studio usage remains free of charge unless users link a paid API key for access to paid features.",
+      "item": "Google Docs",
+      "url": "https://support.google.com/docs/answer/148833?hl=en&co=GENIE.Platform%3DDesktop",
+      "quote": "You can use Google-created templates like resumes, budgets, and order forms.",
       "checked_at": "2026-11-12"
     }
   ],
-  "note": "Collection format (collection/RULES.md, owner 12 Nov 2026). Items verified on their official pages on 2026-11-12 by the setup run; the daily run re-verifies them (CLAUDE.md step 5). Firebase Studio dropped: its page says it is being sunset on March 22, 2027. Free-plan numbers change often; the daily run must re-check each pricing page.",
-  "replaces": "lesson-format plan for this date (moved to topics.json ideas)"
+  "kind": "remake of resume-shortlisted (28 Oct)",
+  "reason": "Start of a 'make something and show it' week; 2nd-years apply to winter internships.",
+  "note": "Collection format. Items verified on official pages on 2026-11-12 (calendar run); the daily run re-verifies. FlowCV free plan covers one resume; Reactive Resume quote is from its official docs, screenshot from rxresu.me."
 }
