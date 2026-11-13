@@ -1,12 +1,21 @@
 {
  "date": "2026-11-13",
- "slug": "reupload-fde-role",
- "images_rev": "2026-11-05-plan",
+ "slug": "big-tech-student-programs",
+ "images_rev": "2026-11-12-proof",
  "files": [
-  "cover.jpg",
-  "s06.jpg",
-  "send.jpg"
+  "shot-1.jpg",
+  "shot-2.jpg",
+  "shot-3.jpg",
+  "shot-4.jpg",
+  "shot-5.jpg",
+  "shot-6.jpg",
+  "student.png",
+  "face-1.png",
+  "face-2.png",
+  "face-3.png",
+  "face-4.png",
+  "proof.jpg"
  ],
- "made_at": "2026-11-11T12:39:21+05:30",
+ "made_at": "2026-11-12T22:34:58+05:30",
  "by": "Codex on the owner's ChatGPT plan"
 }
