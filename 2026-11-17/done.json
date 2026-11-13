@@ -1,13 +1,20 @@
 {
  "date": "2026-11-17",
- "slug": "first-project-ideas",
- "images_rev": "2026-11-17-plan",
+ "slug": "free-resume-tools",
+ "images_rev": "2026-11-12-proof",
  "files": [
+  "shot-1.jpg",
+  "shot-2.jpg",
+  "shot-3.jpg",
+  "shot-4.jpg",
+  "shot-5.jpg",
   "cover.jpg",
-  "s04.jpg",
-  "s05.jpg",
-  "send.jpg"
+  "face-1.png",
+  "face-2.png",
+  "face-3.png",
+  "face-4.png",
+  "proof.jpg"
  ],
- "made_at": "2026-11-11T19:02:07+05:30",
+ "made_at": "2026-11-13T13:02:12+05:30",
  "by": "Codex on the owner's ChatGPT plan"
 }
