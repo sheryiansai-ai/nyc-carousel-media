@@ -4,32 +4,25 @@
   "slug": "free-datasets-first-project",
   "topic": "6 free datasets for your first data project",
   "topicTag": "Datasets",
-  "images_rev": "2026-11-12-datasets",
+  "images_rev": "2026-11-13-covers",
   "dm_keyword": "DATA",
   "save_reason": "Six free dataset sources for a first data project, linked in the caption.",
   "send_reason": "Send this to a friend who wants to build their first data project.",
   "cover": {
-    "style": "C",
-    "field": "paper",
-    "kicker": "6 free places to find",
-    "giant": "DATA",
-    "student": "student",
-    "logos": [
-      "kaggle",
-      "huggingface",
-      "google"
-    ],
+    "style": "G",
     "hook": "6 free places to find *data*",
     "emotion": "confidence",
     "tag": "Datasets",
+    "blanks": 6,
+    "scene": "A wooden library card catalogue, straight-on; six drawers in 2x3, each with a blank white label card in a brass holder; empty pale wall in the top 38%.",
+    "overlay": "On each drawer label, in item order (reading order): the source's short name (Kaggle, data.gov.in, UCI, Our World in Data, Hugging Face, Dataset Search) with its real logo where collection/logos has one (kaggle, huggingface, google), mix-blend-mode: multiply. Names and logos only, never a screenshot.",
     "hooks": [
       "6 free places to find data (confidence)",
       "6 free datasets for your first project (confidence)",
       "Over a million datasets are free to use (awe)",
       "The data behind real research is free (curiosity)"
     ],
-    "notes": "Magazine cover on paper field (13 Nov lime, 16 Nov green); giant 'DATA' in Helvetica 700 ink; the real student cut-out (student-2, per queue) overlaps the bottom of DATA; logos Kaggle, Hugging Face, Google in white circles. If student.png is missing at run time, switch to F (19 D, 18 G; 21 Nov queue is F, so then rewrite 21 Nov to C or G in step 16): fallback_scene with the Kaggle Datasets screenshot on the screen, hook '6 free datasets for *your first project*'; drop faces.",
-    "fallback_scene": "Photoreal product photograph, magazine-ad quality, subtle film grain. A hand holding a modern smartphone straight on toward the camera against a pure black background, a soft green rim light along the edges of the hand and the phone. The phone screen is plain glowing white, completely blank, facing the camera flat. The hand and phone fill the lower 65% of the frame; the top 35% is empty black. Natural skin tones. No readable text, no letters, no numbers, no logos, no faces, no watermark."
+    "notes": "Labels are small: keep names short and check them at 375px; if they are unreadable, use names only (no logos) at the largest size that fits. Headline in the empty top wall (dark text). blanks.py --mode light N=6. Cover sequence (owner rule 13 Nov 2026: no real screenshots on covers, F retired, C/D/G cycle): 14 G, 15 D, 16 C, 17 G, 18 D, 19 C, 20 G, 21 D. No other style keeps rotation: if the cover cannot be made, regenerate the scene once (Figma generate_image), else post nothing (golden rule). Never F."
   },
   "items": [
     {
@@ -176,9 +169,9 @@
       "screenshot": "https://datasetsearch.research.google.com/"
     },
     {
-      "name": "student",
-      "local": "student-2",
-      "use": "cover C cut-out"
+      "name": "cover",
+      "size": "1024x1280",
+      "prompt": "Photoreal photograph, magazine-ad quality, subtle film grain. An old wooden library card catalogue cabinet in a quiet Indian college library, seen perfectly straight-on, warm soft daylight. Its front shows six equal small drawers in a neat grid of 2 columns and 3 rows, each with a small brass pull and a brass label holder holding one plain blank white label card; the six labels are identical, completely blank and face the camera flat. The cabinet fills the lower 62% of the frame; the top 38% is empty plain pale painted wall. Natural colours. No readable text, no letters, no numbers, no logos, no faces, no watermark."
     },
     {
       "name": "face-1",
@@ -261,5 +254,5 @@
       "checked_at": "2026-11-12"
     }
   ],
-  "note": "Swapped in on 12 Nov 2026 (daily run, step 16): the queued 20 Nov topic 'december-hackathons-first-years' could not be verified today (the cloud run could not open the Devfolio event pages; only 2 events had readable official pages), so the next ready backlog collection was used. All 6 items re-verified on their official pages on 2026-11-12 (data.gov.in quote from www.data.gov.in/metrics). Cover C keeps rotation (18 G, 19 D)."
+  "note": "Swapped in on 12 Nov 2026 (daily run, step 16): the queued 20 Nov topic 'december-hackathons-first-years' could not be verified today (the cloud run could not open the Devfolio event pages; only 2 events had readable official pages), so the next ready backlog collection was used. All 6 items re-verified on their official pages on 2026-11-12 (data.gov.in quote from www.data.gov.in/metrics). Cover changed to G on 13 Nov 2026 (owner rule: no screenshots on covers, F retired; C/D/G cycle) — the student-2 cut-out is no longer needed."
 }

@@ -4,25 +4,35 @@
   "slug": "free-project-hosting",
   "topic": "6 free places to put your project online",
   "topicTag": "Hosting",
-  "images_rev": "2026-11-12-proof",
+  "images_rev": "2026-11-13-covers",
   "dm_keyword": "HOST",
   "save_reason": "Six free places to put a project online, each with its free limit from the official page.",
   "send_reason": "Send this to a friend whose project only runs on their laptop.",
   "cover": {
-    "style": "D",
+    "style": "C",
+    "field": "lime",
+    "kicker": "6 free places to go",
+    "giant": "LIVE",
+    "giantSize": 190,
+    "student": "student",
+    "logos": [
+      "github",
+      "vercel",
+      "netlify",
+      "cloudflare",
+      "render",
+      "google"
+    ],
     "hook": "6 free places to *host your project*",
     "emotion": "confidence",
     "tag": "Hosting",
-    "blanks": 1,
-    "scene": "Renaissance fresco; robed scholars hold up a large blank white framed panel facing the viewer, like presenting a new work.",
-    "overlay": "The real GitHub mark (collection/logos/github.svg) on the blank panel, kind mark.",
     "hooks": [
       "6 free places to host your project (confidence)",
       "Put your project online free tonight (confidence)",
       "Your project deserves a real link: 6 free hosts (ambition)",
       "6 free hosts seniors used for their first project (curiosity)"
     ],
-    "notes": "Headline on the painted sky at the top (dark or light by the sky). blanks.py --mode light N=1. Rotation: 18 G, 17 F, 20 C; fallback that keeps rotation: none other than D (F was 17, G 18, C 20) — regenerate once, else post nothing. Logos for Netlify, Cloudflare, Render and Firebase are not in collection/logos yet."
+    "notes": "Magazine cover on flat lime #cde58c (16 Nov was deep green; next C, 22 Nov, should use paper). Kicker '6 free places to go' in Instrument Serif italic, giant 'LIVE' in Helvetica 700 ink; the real student cut-out student-4 (not used on 16 Nov) overlaps the bottom of LIVE; the six host logos in white circles (GitHub Pages → github, Vercel → vercel, Netlify, Cloudflare Pages, Render, Firebase Hosting → google). Cover words = kicker + giant ('6 free places to go LIVE', 6 words); the plan's hook stays the caption hook. LOGOS: netlify, cloudflare and render SVGs are NOT yet in nyc-carousel-bot/collection/logos — the 18 Nov evening run must add the real brand marks (official press/brand pages) before rendering; the renderer needs at least 4 real logos and shows up to 6; use only the ones that exist, never draw one. If student.png is missing: no other style keeps rotation → post nothing. Cover sequence (owner rule 13 Nov 2026: no real screenshots on covers, F retired, C/D/G cycle): 14 G, 15 D, 16 C, 17 G, 18 D, 19 C, 20 G, 21 D. No other style keeps rotation: if the cover cannot be made, regenerate the scene once (Figma generate_image), else post nothing (golden rule). Never F."
   },
   "items": [
     {
@@ -168,9 +178,9 @@
       "screenshot": "https://firebase.google.com/pricing"
     },
     {
-      "name": "cover",
-      "size": "1024x1280",
-      "prompt": "A Renaissance fresco in the style of Raphael, painterly, rich natural colours, visible fresco texture, magazine-ad quality. Under a painted sky, a small group of robed scholars stands on a marble terrace and together holds up one large plain white rectangular panel in a simple gilded frame, presenting it to the viewer; the panel is completely blank and faces the viewer straight on. The figures are seen from behind or in profile with heads turned away, so no faces are visible. The top 35% of the frame is empty painted sky with soft clouds. Natural colours, no green tint. No readable text, no letters, no numbers, no logos, no faces, no watermark."
+      "name": "student",
+      "local": "student-4",
+      "use": "cover C cut-out"
     },
     {
       "name": "face-1",

@@ -4,25 +4,25 @@
   "slug": "ai-app-builders",
   "topic": "6 AI tools that build an app from one prompt",
   "topicTag": "AI tools",
-  "images_rev": "2026-11-12-proof",
+  "images_rev": "2026-11-13-covers",
   "dm_keyword": "BUILD",
   "save_reason": "Six AI app builders with free plans, each with its free limit and official link.",
   "send_reason": "Send this to a friend who has an app idea but no app yet.",
   "cover": {
-    "style": "G",
+    "style": "D",
     "hook": "6 AI tools that build *from one prompt*",
     "emotion": "awe",
     "tag": "AI tools",
-    "blanks": 6,
-    "scene": "A shop window on an Indian market street at dusk showing six identical blank screens in a 2x3 grid.",
-    "overlay": "On each screen: the tool's logo (if any) + short name, multiply blend, in item order (reading order).",
+    "blanks": 1,
+    "scene": "Renaissance fresco: two angels seen from behind lower a large modern tablet from the clouds toward scholars on a terrace; the tablet's blank white screen faces the viewer; empty painted sky on top.",
+    "overlay": "On the tablet's blank screen: the six tool names in item order as a neat 2x3 (or 3x2) grid of small rows, each with its real logo where collection/logos has one (v0, stackblitz for Bolt, replit, google for Google AI Studio; Lovable and Base44 name only), kind mark, dark ink on the white screen. Names and logos only, never a screenshot.",
     "hooks": [
       "6 AI tools that build from one prompt (awe)",
       "Type one prompt and get a working app (awe)",
       "Try these 6 AI app builders free this weekend (confidence)",
       "Your app idea can run tonight with these 6 tools (ambition)"
     ],
-    "notes": "blanks.py --mode light N=6 (white screens). Headline in the empty top (dark shopfront fascia → light text; light → dark). Rotation: 17 F, 19 D, 16 C, so the fallback that keeps rotation is C (student-2 is free; C needs a student cut-out entry and a plan change — only if the Mac has it) else post nothing."
+    "notes": "Headline on the painted sky at the top (dark or light by the sky). blanks.py --mode light N=1 finds the screen; split its box into 6 cells for the overlay. Cover sequence (owner rule 13 Nov 2026: no real screenshots on covers, F retired, C/D/G cycle): 14 G, 15 D, 16 C, 17 G, 18 D, 19 C, 20 G, 21 D. No other style keeps rotation: if the cover cannot be made, regenerate the scene once (Figma generate_image), else post nothing (golden rule). Never F."
   },
   "items": [
     {
@@ -173,7 +173,7 @@
     {
       "name": "cover",
       "size": "1024x1280",
-      "prompt": "Photoreal photograph, magazine-ad quality, subtle film grain. The glass shop window of a small electronics shop on an Indian market street at dusk, seen perfectly straight-on. Inside the window, six identical flat screens hang in a neat grid of 2 columns and 3 rows; every screen is plain glowing white, completely blank, facing the camera flat. The window and screens fill the lower 65% of the frame; the top 35% is the plain dark painted shop wall above the window. Warm natural street light. No readable text, no letters, no numbers, no logos, no faces, no watermark."
+      "prompt": "A Renaissance fresco in the style of Raphael and Michelangelo, painterly, rich natural colours, visible fresco texture and fine cracks, magazine-ad quality. On soft painted clouds in the middle of the picture, two robed winged angels seen from behind lower one large modern tablet computer, held upright between them, toward a marble terrace where a few robed scholars stand in profile with their heads turned away, looking up at it. The tablet's screen is plain glowing white, completely blank, large in the frame and facing the viewer straight on. No faces are visible. The top 35% of the frame is empty painted sky with soft clouds and warm light. Natural colours, no green tint. No readable text, no letters, no numbers, no logos, no faces, no watermark."
     },
     {
       "name": "face-1",
