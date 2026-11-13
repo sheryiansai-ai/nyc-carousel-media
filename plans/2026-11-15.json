@@ -1,6 +1,7 @@
 {
   "date": "2026-11-15",
   "format": "collection",
+  "day_type": "value",
   "slug": "github-repos-first-years",
   "topic": "6 GitHub repos to bookmark in first year",
   "topicTag": "GitHub",

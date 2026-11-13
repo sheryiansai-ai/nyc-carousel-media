@@ -1,6 +1,7 @@
 {
   "date": "2026-11-18",
   "format": "collection",
+  "day_type": "value",
   "slug": "ai-app-builders",
   "topic": "6 AI tools that build an app from one prompt",
   "topicTag": "AI tools",

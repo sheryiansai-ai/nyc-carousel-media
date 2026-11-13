@@ -1,6 +1,7 @@
 {
   "date": "2026-11-16",
   "format": "collection",
+  "day_type": "value",
   "slug": "dsa-practice-sites",
   "topic": "5 free sites to practise DSA",
   "topicTag": "DSA",

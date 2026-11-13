@@ -1,6 +1,7 @@
 {
   "date": "2026-11-19",
   "format": "collection",
+  "day_type": "build-fallback",
   "slug": "free-project-hosting",
   "topic": "6 free places to put your project online",
   "topicTag": "Hosting",

@@ -1,6 +1,7 @@
 {
   "date": "2026-11-20",
   "format": "collection",
+  "day_type": "value",
   "slug": "free-datasets-first-project",
   "topic": "6 free datasets for your first data project",
   "topicTag": "Datasets",

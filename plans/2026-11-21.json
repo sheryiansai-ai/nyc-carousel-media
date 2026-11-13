@@ -1,0 +1,252 @@
+{
+  "date": "2026-11-21",
+  "format": "collection",
+  "day_type": "build-fallback",
+  "slug": "free-demo-recording-tools",
+  "topic": "6 free tools to record your project demo",
+  "topicTag": "Demo tools",
+  "images_rev": "2026-11-13-plan",
+  "dm_keyword": "DEMO",
+  "save_reason": "Six free ways to record a project demo on Windows or Mac, with official links in the caption.",
+  "send_reason": "Send this to a friend who built something and never showed it.",
+  "cover": {
+    "style": "D",
+    "hook": "6 free tools to record your *demo*",
+    "emotion": "confidence",
+    "tag": "Demo tools",
+    "blanks": 1,
+    "scene": "Renaissance fresco: robed scholars seen from behind watch one large blank white canvas screen in a carved frame in a vaulted hall; empty painted ceiling on top.",
+    "overlay": "On the blank canvas: the six tool names in item order as a neat 2x3 grid, each with its real logo where collection/logos has one (microsoft for Snipping Tool and Clipchamp; OBS Studio, Mac Screenshot app, ShareX, Loom name only), kind mark, dark ink on the white canvas. Names and logos only, never a screenshot.",
+    "hooks": [
+      "6 free tools to record your demo (confidence)",
+      "Show what you built with these 6 free recorders (ambition)",
+      "Your project needs a 60-second demo (curiosity)",
+      "Record your first demo tonight, free (confidence)"
+    ],
+    "notes": "Headline on the painted ceiling at the top (dark or light by the paint). blanks.py --mode light N=1 finds the canvas; split its box into 6 cells for the overlay. Cover sequence (owner rule 13 Nov 2026): 14 G, 15 D, 16 C, 17 G, 18 D, 19 C, 20 G, 21 D, 22 C. Build day (Sat): evergreen fallback, goes out only if the owner's Mac session scheduled no build post. If the cover cannot be made, regenerate the scene once, else post nothing (golden rule). Never F."
+  },
+  "items": [
+    {
+      "n": 2,
+      "name": "OBS Studio",
+      "logo": null,
+      "official_url": "https://obsproject.com/",
+      "fact": "Free, open-source screen recorder",
+      "source_quote": "Free and open source software for video recording and live streaming.",
+      "checked_at": "2026-11-13",
+      "shot_name": "shot-1",
+      "shot_crop_top": 0
+    },
+    {
+      "n": 3,
+      "name": "Snipping Tool",
+      "logo": "microsoft",
+      "official_url": "https://support.microsoft.com/en-us/windows/apps/use-snipping-tool-to-capture-screenshots",
+      "fact": "Built into Windows, records too",
+      "source_quote": "To capture a video snip, open Snipping Tool, select the Record button, then select New",
+      "checked_at": "2026-11-13",
+      "shot_name": "shot-2",
+      "shot_crop_top": 0
+    },
+    {
+      "n": 4,
+      "name": "Mac Screenshot app",
+      "logo": null,
+      "official_url": "https://support.apple.com/en-in/102618",
+      "fact": "Shift + Command + 5 to record",
+      "source_quote": "Open the Screenshot app by pressing these three keys together: Shift, Command and 5.",
+      "checked_at": "2026-11-13",
+      "shot_name": "shot-3",
+      "shot_crop_top": 0
+    },
+    {
+      "n": 5,
+      "name": "ShareX",
+      "logo": null,
+      "official_url": "https://getsharex.com/",
+      "fact": "Free; records video and GIFs",
+      "source_quote": "ShareX is a free and open source screenshot tool for Windows with screen capture, screen recording, file sharing and productivity features built into one lightweight application.",
+      "checked_at": "2026-11-13",
+      "shot_name": "shot-4",
+      "shot_crop_top": 0
+    },
+    {
+      "n": 6,
+      "name": "Loom",
+      "logo": null,
+      "official_url": "https://support.atlassian.com/loom/docs/available-loom-plans/",
+      "shot_url": "https://www.loom.com/pricing",
+      "fact": "Free: 25 videos, 5 min each",
+      "source_quote": "Free plan with 5 min recording limit and 25 video limit storage",
+      "checked_at": "2026-11-13",
+      "shot_name": "shot-5",
+      "shot_crop_top": 0
+    },
+    {
+      "n": 7,
+      "name": "Clipchamp",
+      "logo": "microsoft",
+      "official_url": "https://clipchamp.com/en/pricing/",
+      "factNum": "1080p",
+      "factText": "free exports, no watermark",
+      "source_quote": "Export videos in up to 1080p (full HD) video resolution for free, with no watermarks.",
+      "checked_at": "2026-11-13",
+      "shot_name": "shot-6",
+      "shot_crop_top": 0
+    }
+  ],
+  "slides": [
+    {
+      "n": 1,
+      "type": "cover"
+    },
+    {
+      "n": 2,
+      "type": "item",
+      "item": "OBS Studio"
+    },
+    {
+      "n": 3,
+      "type": "item",
+      "item": "Snipping Tool"
+    },
+    {
+      "n": 4,
+      "type": "item",
+      "item": "Mac Screenshot app"
+    },
+    {
+      "n": 5,
+      "type": "item",
+      "item": "ShareX"
+    },
+    {
+      "n": 6,
+      "type": "item",
+      "item": "Loom"
+    },
+    {
+      "n": 7,
+      "type": "item",
+      "item": "Clipchamp"
+    },
+    {
+      "n": 8,
+      "type": "proof"
+    },
+    {
+      "n": 9,
+      "type": "close"
+    }
+  ],
+  "images": [
+    {
+      "name": "shot-1",
+      "screenshot": "https://obsproject.com/"
+    },
+    {
+      "name": "shot-2",
+      "screenshot": "https://support.microsoft.com/en-us/windows/apps/use-snipping-tool-to-capture-screenshots"
+    },
+    {
+      "name": "shot-3",
+      "screenshot": "https://support.apple.com/en-in/102618"
+    },
+    {
+      "name": "shot-4",
+      "screenshot": "https://getsharex.com/"
+    },
+    {
+      "name": "shot-5",
+      "screenshot": "https://www.loom.com/pricing"
+    },
+    {
+      "name": "shot-6",
+      "screenshot": "https://clipchamp.com/en/pricing/"
+    },
+    {
+      "name": "cover",
+      "size": "1024x1280",
+      "prompt": "A Renaissance fresco in the style of Raphael, painterly, rich natural colours, visible fresco texture and fine cracks, magazine-ad quality. In a vaulted marble hall, a group of robed scholars seen from behind, heads turned away, sit and stand on stone steps watching one large plain stretched white canvas screen mounted in a carved wooden frame at the centre of the picture, as if a demonstration is about to be shown. The canvas is completely blank, bright white, large in the frame and facing the viewer straight on. No faces are visible. The top 35% of the frame is an empty painted vaulted ceiling with soft warm light. Natural colours, no green tint. No readable text, no letters, no numbers, no logos, no faces, no watermark."
+    },
+    {
+      "name": "face-1",
+      "local": "student-1",
+      "use": "last-slide face circle (optional; dropped if missing)"
+    },
+    {
+      "name": "face-2",
+      "local": "student-2",
+      "use": "last-slide face circle (optional; dropped if missing)"
+    },
+    {
+      "name": "face-3",
+      "local": "student-3",
+      "use": "last-slide face circle (optional; dropped if missing)"
+    },
+    {
+      "name": "face-4",
+      "local": "student-4",
+      "use": "last-slide face circle (optional; dropped if missing)"
+    },
+    {
+      "name": "proof",
+      "screenshot": "https://notyourcollege.com/instructors",
+      "use": "proof slide card: crop the heading + group photo, below the site header"
+    }
+  ],
+  "proof": {
+    "logos": [],
+    "sentence": "At NYC, your course ends with a product you launch.",
+    "fact": "Weeks 24-26: present it to engineers",
+    "shot_name": "proof",
+    "shot_crop_top": 0,
+    "disclaimer": "Instructors and mentors speak for themselves, not for their employers.",
+    "source": "NYC_BRIEF.md → Proof facts: SE + AI weeks 24-26 you launch your own product and present it to engineers; 7 portfolio projects"
+  },
+  "close": {
+    "line": 1,
+    "text": "In six months, you build seven projects that anyone can open.",
+    "cta": "See the courses at notyourcollege.com →"
+  },
+  "caption_draft": "Your project deserves a demo. These 6 free tools record it.\n\nOBS Studio — https://obsproject.com/ — Free, open-source screen recorder\nSnipping Tool — https://support.microsoft.com/en-us/windows/apps/use-snipping-tool-to-capture-screenshots — Built into Windows, records too\nMac Screenshot app — https://support.apple.com/en-in/102618 — Shift + Command + 5 to record\nShareX — https://getsharex.com/ — Free; records video and GIFs\nLoom — https://support.atlassian.com/loom/docs/available-loom-plans/ — Free: 25 videos, 5 min each\nClipchamp — https://clipchamp.com/en/pricing/ — 1080p free exports, no watermark\n\nSave this for the day your project works. Send it to the friend who built something and never showed it.\n\n#projectdemo #screenrecording #buildinpublic #firstyear #students #webdev #coding #notyourcollege",
+  "sources": [
+    {
+      "item": "OBS Studio",
+      "url": "https://obsproject.com/",
+      "quote": "Free and open source software for video recording and live streaming.",
+      "checked_at": "2026-11-13"
+    },
+    {
+      "item": "Snipping Tool",
+      "url": "https://support.microsoft.com/en-us/windows/apps/use-snipping-tool-to-capture-screenshots",
+      "quote": "To capture a video snip, open Snipping Tool, select the Record button, then select New",
+      "checked_at": "2026-11-13"
+    },
+    {
+      "item": "Mac Screenshot app",
+      "url": "https://support.apple.com/en-in/102618",
+      "quote": "Open the Screenshot app by pressing these three keys together: Shift, Command and 5.",
+      "checked_at": "2026-11-13"
+    },
+    {
+      "item": "ShareX",
+      "url": "https://getsharex.com/",
+      "quote": "ShareX is a free and open source screenshot tool for Windows with screen capture, screen recording, file sharing and productivity features built into one lightweight application.",
+      "checked_at": "2026-11-13"
+    },
+    {
+      "item": "Loom",
+      "url": "https://support.atlassian.com/loom/docs/available-loom-plans/",
+      "quote": "Free plan with 5 min recording limit and 25 video limit storage",
+      "checked_at": "2026-11-13"
+    },
+    {
+      "item": "Clipchamp",
+      "url": "https://clipchamp.com/en/pricing/",
+      "quote": "Export videos in up to 1080p (full HD) video resolution for free, with no watermarks.",
+      "checked_at": "2026-11-13"
+    }
+  ],
+  "note": "Queue topic for 21 Nov (remake of project-demo-video, 10 Nov), written by the 13 Nov evening run; items verified on official pages 2026-11-13 (WebFetch). Loom's official free-plan page is Atlassian's Loom support page (Atlassian owns Loom); the screenshot is loom.com/pricing. Close line 1 (20 Nov uses 4). Apple logo not in collection/logos, so the Mac item has no logo."
+}

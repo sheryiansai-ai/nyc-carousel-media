@@ -1,6 +1,7 @@
 {
   "date": "2026-11-17",
   "format": "collection",
+  "day_type": "build-fallback",
   "slug": "free-resume-tools",
   "topic": "5 free tools to make your first resume",
   "topicTag": "Resume",
