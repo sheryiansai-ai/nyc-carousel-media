@@ -1,0 +1,257 @@
+{
+  "date": "2026-11-22",
+  "format": "collection",
+  "day_type": "value",
+  "slug": "end-sem-study-tools",
+  "topic": "6 free tools to study for end-sems",
+  "topicTag": "Study",
+  "images_rev": "2026-11-14-plan",
+  "dm_keyword": "STUDY",
+  "save_reason": "Six free study tools for exam week, linked in the caption.",
+  "send_reason": "Send this to a friend who is studying for end-sems.",
+  "cover": {
+    "style": "C",
+    "hook": "6 free tools to *study for end-sems*",
+    "emotion": "confidence",
+    "tag": "Study",
+    "hooks": [
+      "6 free tools to study for end-sems (confidence)",
+      "Study for end-sems with these 6 free tools (confidence)",
+      "6 free tools seniors use in exam week (curiosity)",
+      "Your end-sem notes, in 6 free tools (confidence)"
+    ],
+    "field": "paper",
+    "kicker": "6 free tools to study for",
+    "giant": "END\nSEMS",
+    "student": "student",
+    "logos": [
+      "googlegemini",
+      "notion",
+      "internetarchive",
+      "anki",
+      "obsidian"
+    ],
+    "notes": "Rotation: 19 Nov C lime (student-4), 20 G, 21 D, 22 C paper (student-2), 23 G. Logos: googlegemini, notion, internetarchive are in collection/logos; anki and obsidian are NOT yet — the daily run takes them from origin/codex-images:bot-assets/logos/<name>.svg if the Mac adds simple-icons copies (owner Mac: please add anki.svg, obsidian.svg, excalidraw.svg). If they are still missing, use the 4 logos googlegemini, notion, internetarchive, google (Gemini Notebook is a Google product). Gemini Notebook is the new name of NotebookLM (Google help pages, 14 Nov 2026); notebook.google may show a sign-in page on the Mac screenshot — if so, use the logo-large fallback for that item. No screenshot on the cover."
+  },
+  "items": [
+    {
+      "n": 2,
+      "name": "Gemini Notebook",
+      "logo": "googlegemini",
+      "official_url": "https://notebook.google/",
+      "fact": "Free with a Gmail account",
+      "source_quote": "Sign up at no charge by using your gmail account. (Gemini Notebook Help, Learn about Gemini Notebook's plans: https://support.google.com/notebooklm/answer/16213268; free plan: 100 notebooks, 50 sources per notebook)",
+      "checked_at": "2026-11-14",
+      "shot_crop_top": 0,
+      "shot_name": "shot-1"
+    },
+    {
+      "n": 3,
+      "name": "Anki",
+      "logo": null,
+      "official_url": "https://apps.ankiweb.net/",
+      "fact": "Free on computer and Android",
+      "source_quote": "The free computer version is available for all major platforms. / AnkiDroid for Android is free and developed by contributors.",
+      "checked_at": "2026-11-14",
+      "shot_crop_top": 0,
+      "shot_name": "shot-2"
+    },
+    {
+      "n": 4,
+      "name": "Obsidian",
+      "logo": null,
+      "official_url": "https://obsidian.md/",
+      "fact": "Free, and works offline",
+      "source_quote": "The free and flexible app for your private thoughts. / Obsidian stores notes privately on your device, so you can access them quickly, even offline.",
+      "checked_at": "2026-11-14",
+      "shot_crop_top": 0,
+      "shot_name": "shot-3"
+    },
+    {
+      "n": 5,
+      "name": "Excalidraw",
+      "logo": null,
+      "official_url": "https://excalidraw.com/",
+      "fact": "Free, no sign-up needed",
+      "source_quote": "Excalidraw.com is free and easy to use. No sign-up is needed. (https://plus.excalidraw.com/how-to-start)",
+      "checked_at": "2026-11-14",
+      "shot_crop_top": 0,
+      "shot_name": "shot-4"
+    },
+    {
+      "n": 6,
+      "name": "Notion",
+      "logo": "notion",
+      "official_url": "https://www.notion.com/",
+      "fact": "Free plan for individuals",
+      "source_quote": "Free ... For individuals to organize personal projects and life. (https://www.notion.com/pricing)",
+      "checked_at": "2026-11-14",
+      "shot_crop_top": 0,
+      "shot_name": "shot-5"
+    },
+    {
+      "n": 7,
+      "name": "Open Library",
+      "logo": "internetarchive",
+      "official_url": "https://openlibrary.org/",
+      "fact": "Borrow 10 books at once, free",
+      "source_quote": "available to be borrowed by one patron at a time from anywhere in the world for free / You can borrow ten books at a time from Open Library. (https://openlibrary.org/help/faq/borrow)",
+      "checked_at": "2026-11-14",
+      "shot_crop_top": 0,
+      "shot_name": "shot-6"
+    }
+  ],
+  "slides": [
+    {
+      "n": 1,
+      "type": "cover"
+    },
+    {
+      "n": 2,
+      "type": "item",
+      "item": "Gemini Notebook"
+    },
+    {
+      "n": 3,
+      "type": "item",
+      "item": "Anki"
+    },
+    {
+      "n": 4,
+      "type": "item",
+      "item": "Obsidian"
+    },
+    {
+      "n": 5,
+      "type": "item",
+      "item": "Excalidraw"
+    },
+    {
+      "n": 6,
+      "type": "item",
+      "item": "Notion"
+    },
+    {
+      "n": 7,
+      "type": "item",
+      "item": "Open Library"
+    },
+    {
+      "n": 8,
+      "type": "proof"
+    },
+    {
+      "n": 9,
+      "type": "close"
+    }
+  ],
+  "images": [
+    {
+      "name": "shot-1",
+      "screenshot": "https://notebook.google/"
+    },
+    {
+      "name": "shot-2",
+      "screenshot": "https://apps.ankiweb.net/"
+    },
+    {
+      "name": "shot-3",
+      "screenshot": "https://obsidian.md/"
+    },
+    {
+      "name": "shot-4",
+      "screenshot": "https://excalidraw.com/"
+    },
+    {
+      "name": "shot-5",
+      "screenshot": "https://www.notion.com/"
+    },
+    {
+      "name": "shot-6",
+      "screenshot": "https://openlibrary.org/"
+    },
+    {
+      "name": "student",
+      "local": "student-2",
+      "use": "cover C cut-out"
+    },
+    {
+      "name": "face-1",
+      "local": "student-1",
+      "use": "last-slide face circle (optional; dropped if missing)"
+    },
+    {
+      "name": "face-2",
+      "local": "student-2",
+      "use": "last-slide face circle (optional; dropped if missing)"
+    },
+    {
+      "name": "face-3",
+      "local": "student-3",
+      "use": "last-slide face circle (optional; dropped if missing)"
+    },
+    {
+      "name": "face-4",
+      "local": "student-4",
+      "use": "last-slide face circle (optional; dropped if missing)"
+    },
+    {
+      "name": "proof",
+      "screenshot": "https://notyourcollege.com/instructors",
+      "use": "proof slide card: crop the heading + group photo, below the site header"
+    }
+  ],
+  "caption_draft": "Six free tools to study for end-sems, with the official links.\n\nGemini Notebook — https://notebook.google/ — Free with a Gmail account\nAnki — https://apps.ankiweb.net/ — Free on computer and Android\nObsidian — https://obsidian.md/ — Free, and works offline\nExcalidraw — https://excalidraw.com/ — Free, no sign-up needed\nNotion — https://www.notion.com/ — Free plan for individuals\nOpen Library — https://openlibrary.org/ — Borrow 10 books at once, free\n\nSave this for exam week and pick one tool tonight. Send it to a friend who is studying for end-sems.\n\n#studytips #endsem #engineeringstudents #firstyear #notes #productivity #btech #notyourcollege",
+  "sources": [
+    {
+      "item": "Gemini Notebook",
+      "url": "https://notebook.google/",
+      "quote": "Sign up at no charge by using your gmail account. (Gemini Notebook Help, Learn about Gemini Notebook's plans: https://support.google.com/notebooklm/answer/16213268; free plan: 100 notebooks, 50 sources per notebook)",
+      "checked_at": "2026-11-14"
+    },
+    {
+      "item": "Anki",
+      "url": "https://apps.ankiweb.net/",
+      "quote": "The free computer version is available for all major platforms. / AnkiDroid for Android is free and developed by contributors.",
+      "checked_at": "2026-11-14"
+    },
+    {
+      "item": "Obsidian",
+      "url": "https://obsidian.md/",
+      "quote": "The free and flexible app for your private thoughts. / Obsidian stores notes privately on your device, so you can access them quickly, even offline.",
+      "checked_at": "2026-11-14"
+    },
+    {
+      "item": "Excalidraw",
+      "url": "https://excalidraw.com/",
+      "quote": "Excalidraw.com is free and easy to use. No sign-up is needed. (https://plus.excalidraw.com/how-to-start)",
+      "checked_at": "2026-11-14"
+    },
+    {
+      "item": "Notion",
+      "url": "https://www.notion.com/",
+      "quote": "Free ... For individuals to organize personal projects and life. (https://www.notion.com/pricing)",
+      "checked_at": "2026-11-14"
+    },
+    {
+      "item": "Open Library",
+      "url": "https://openlibrary.org/",
+      "quote": "available to be borrowed by one patron at a time from anywhere in the world for free / You can borrow ten books at a time from Open Library. (https://openlibrary.org/help/faq/borrow)",
+      "checked_at": "2026-11-14"
+    }
+  ],
+  "proof": {
+    "logos": [],
+    "sentence": "Every class at NYC is recorded.",
+    "fact": "Recordings stay 6 months after the course",
+    "shot_name": "proof",
+    "shot_crop_top": 0,
+    "source": "NYC_BRIEF.md → Proof facts: Every class is recorded; recordings stay for 6 months after the course (PROOF.md row: study tools → close line 3)"
+  },
+  "close": {
+    "line": 3,
+    "text": "Engineers review every project you build here.",
+    "cta": "See the courses at notyourcollege.com →"
+  },
+  "note": "Planned by the 14 Nov evening run from topics.json queue[2026-11-22] (end-sem-study-tools, cover C, student-2, field paper). Items verified on official pages on 2026-11-14; the daily run re-verifies. 6 items (queue hook said 5; six verified free tools). Close line 3 (21 Nov plan uses 1)."
+}
