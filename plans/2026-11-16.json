@@ -2,97 +2,110 @@
   "date": "2026-11-16",
   "format": "collection",
   "day_type": "value",
-  "slug": "dsa-practice-sites",
-  "topic": "5 free sites to practise DSA",
-  "topicTag": "DSA",
-  "images_rev": "2026-11-12-proof",
-  "dm_keyword": "DSA",
-  "save_reason": "Five official practice sites for DSA, linked in the caption, to use all semester.",
-  "send_reason": "Send this to a friend who wants to start DSA this week.",
+  "slug": "free-project-hosting",
+  "topic": "6 free places to put your project online",
+  "topicTag": "Hosting",
+  "images_rev": "2026-11-15-swap",
+  "dm_keyword": "HOST",
+  "save_reason": "Six free places to put a project online, each with its free limit from the official page.",
+  "send_reason": "Send this to a friend whose project only runs on their laptop.",
   "cover": {
     "style": "C",
     "field": "green",
-    "kicker": "5 free sites to practise",
-    "giant": "DSA",
+    "kicker": "6 free places to go",
+    "giant": "LIVE",
     "giantSize": 190,
     "student": "student",
     "logos": [
-      "leetcode",
-      "codeforces",
-      "codechef",
-      "hackerrank",
-      "geeksforgeeks"
+      "github",
+      "vercel",
+      "netlify",
+      "cloudflare",
+      "render",
+      "firebase"
     ],
-    "hook": "5 free sites to practise DSA",
-    "emotion": "ambition",
-    "tag": "DSA",
+    "hook": "6 free places to *host your project*",
+    "emotion": "confidence",
+    "tag": "Hosting",
     "hooks": [
-      "5 free sites to practise DSA (ambition)",
-      "Practise DSA free on these 5 sites (confidence)",
-      "Where seniors practise DSA, all 5 free (curiosity)",
-      "Start DSA this week on 5 free sites (confidence)"
+      "6 free places to host your project (confidence)",
+      "Put your project online free tonight (confidence)",
+      "Your project deserves a real link: 6 free hosts (ambition)",
+      "6 free hosts seniors used for their first project (curiosity)"
     ],
-    "notes": "Magazine cover on deep green #15261b, giant lime 'DSA', student-1 cut-out overlapping the bottom of the word, 5 logos in white circles. If student.png is missing at run time no other pool style keeps rotation with the plans around it (G 14, D 15, F 17): use F (fallback_scene, LeetCode screenshot on the screen, hook '5 free sites to *practise DSA*'), drop faces, and in step 16 rewrite the 17 Nov plan's cover to G (and re-check 18-19 Nov) so rotation holds.",
-    "fallback_scene": "Photoreal product photograph, magazine-ad quality. A hand holding a modern smartphone straight on toward the camera against a pure black background, a soft green rim light along the edges of the hand and phone. The phone screen is plain glowing white, completely blank, facing the camera flat. The phone and hand fill the lower 65% of the frame; the top 35% is empty black. Natural skin tones. No readable text, no letters, no numbers, no logos, no faces, no watermark."
+    "notes": "Swapped from 19 Nov on 15 Nov 2026 (CLAUDE.md step 6e: 3 of 5 DSA screenshots blocked). Magazine cover on deep green (13 Nov C was lime), student-4 cut-out, kicker '6 free places to go', giant 'LIVE', six real logos. Built and scheduled 15 Nov 2026 with the Mac images of codex-images 2026-11-19. Cover sequence (owner rule 13 Nov 2026: no real screenshots on covers, F retired, C/D/G cycle): 14 G, 15 D, 16 C, 17 G, 18 D, 19 C, 20 G, 21 D, 22 C, 23 G. No other style keeps rotation; never F."
   },
   "items": [
     {
       "n": 2,
-      "name": "LeetCode",
-      "logo": "leetcode",
-      "official_url": "https://leetcode.com/studyplan/top-interview-150/",
-      "factNum": "150",
-      "factText": "classic interview questions",
-      "source_quote": "150 Original & Classic Questions",
-      "checked_at": "2026-11-12",
+      "name": "GitHub Pages",
+      "logo": "github",
+      "official_url": "https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages",
+      "fact": "Free for public repositories",
+      "source_quote": "GitHub Pages is available in public repositories with GitHub Free and GitHub Free for organizations",
+      "checked_at": "2026-11-15",
       "shot_crop_top": 0,
       "shot_name": "shot-1"
     },
     {
       "n": 3,
-      "name": "Codeforces",
-      "logo": "codeforces",
-      "official_url": "https://codeforces.com/problemset",
-      "fact": "Problems sorted by difficulty",
-      "source_quote": "Filter Problems ... Difficulty (problem set page filter)",
-      "checked_at": "2026-11-12",
+      "name": "Vercel",
+      "logo": "vercel",
+      "official_url": "https://vercel.com/docs/plans/hobby",
+      "factNum": "100",
+      "factText": "deployments a day, free",
+      "source_quote": "The Hobby plan is free and aimed at developers with personal projects, and small-scale applications. … Deployments per day | 100",
+      "checked_at": "2026-11-15",
       "shot_crop_top": 0,
-      "note": "weakest fact: the daily run should look for a better quoted fact on codeforces.com and replace it if found",
       "shot_name": "shot-2"
     },
     {
       "n": 4,
-      "name": "CodeChef",
-      "logo": "codechef",
-      "official_url": "https://www.codechef.com/",
-      "fact": "Weekly contests on the free plan",
-      "source_quote": "Weekly contest access. (free plan)",
-      "checked_at": "2026-11-12",
+      "name": "Netlify",
+      "logo": "netlify",
+      "official_url": "https://www.netlify.com/pricing/",
+      "factNum": "300",
+      "factText": "free credits a month",
+      "source_quote": "$0 forever … 300 credit limit / month",
+      "checked_at": "2026-11-15",
       "shot_crop_top": 0,
       "shot_name": "shot-3"
     },
     {
       "n": 5,
-      "name": "HackerRank",
-      "logo": "hackerrank",
-      "official_url": "https://www.hackerrank.com/domains/data-structures",
-      "fact": "Practice sorted by data structure",
-      "source_quote": "Subdomains: Arrays, Linked Lists, Trees, Balanced Trees, Stacks, Queues, Heap ...",
-      "checked_at": "2026-11-12",
+      "name": "Cloudflare Pages",
+      "logo": "cloudflare",
+      "official_url": "https://developers.cloudflare.com/pages/platform/limits/",
+      "factNum": "500",
+      "factText": "free builds a month",
+      "source_quote": "Builds per month | 500 | 5,000 | 20,000 (Free | Pro | Business)",
+      "checked_at": "2026-11-15",
       "shot_crop_top": 0,
       "shot_name": "shot-4"
     },
     {
       "n": 6,
-      "name": "GeeksforGeeks",
-      "logo": "geeksforgeeks",
-      "official_url": "https://www.geeksforgeeks.org/explore",
-      "factNum": "2,500+",
-      "factText": "practice problems",
-      "source_quote": "2564 Problems",
-      "checked_at": "2026-11-12",
+      "name": "Render",
+      "logo": "render",
+      "official_url": "https://render.com/docs/free",
+      "factNum": "750",
+      "factText": "free instance hours a month",
+      "source_quote": "Render grants 750 Free instance hours to each workspace per calendar month",
+      "checked_at": "2026-11-15",
       "shot_crop_top": 0,
       "shot_name": "shot-5"
+    },
+    {
+      "n": 7,
+      "name": "Firebase Hosting",
+      "logo": "firebase",
+      "official_url": "https://firebase.google.com/pricing",
+      "factNum": "10 GB",
+      "factText": "free hosting storage",
+      "source_quote": "Spark plan, Hosting: Storage 10 GB; Data transfer 360 MB/day",
+      "checked_at": "2026-11-15",
+      "shot_crop_top": 0,
+      "shot_name": "shot-6"
     }
   ],
   "slides": [
@@ -103,62 +116,71 @@
     {
       "n": 2,
       "type": "item",
-      "item": "LeetCode"
+      "item": "GitHub Pages"
     },
     {
       "n": 3,
       "type": "item",
-      "item": "Codeforces"
+      "item": "Vercel"
     },
     {
       "n": 4,
       "type": "item",
-      "item": "CodeChef"
+      "item": "Netlify"
     },
     {
       "n": 5,
       "type": "item",
-      "item": "HackerRank"
+      "item": "Cloudflare Pages"
     },
     {
       "n": 6,
       "type": "item",
-      "item": "GeeksforGeeks"
+      "item": "Render"
     },
     {
       "n": 7,
-      "type": "proof"
+      "type": "item",
+      "item": "Firebase Hosting"
     },
     {
       "n": 8,
+      "type": "proof"
+    },
+    {
+      "n": 9,
       "type": "close",
-      "text": "Engineers review every project you build here. / All N links are in the caption. / See the courses at notyourcollege.com →"
+      "text": "Your first app goes live in week six. / All N links are in the caption. / See the courses at notyourcollege.com →"
     }
   ],
   "images": [
     {
       "name": "shot-1",
-      "screenshot": "https://leetcode.com/studyplan/top-interview-150/"
+      "screenshot": "https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages"
     },
     {
       "name": "shot-2",
-      "screenshot": "https://codeforces.com/problemset"
+      "screenshot": "https://vercel.com/docs/plans/hobby"
     },
     {
       "name": "shot-3",
-      "screenshot": "https://www.codechef.com/"
+      "screenshot": "https://www.netlify.com/pricing/"
     },
     {
       "name": "shot-4",
-      "screenshot": "https://www.hackerrank.com/domains/data-structures"
+      "screenshot": "https://developers.cloudflare.com/pages/platform/limits/"
     },
     {
       "name": "shot-5",
-      "screenshot": "https://www.geeksforgeeks.org/explore"
+      "screenshot": "https://render.com/docs/free"
+    },
+    {
+      "name": "shot-6",
+      "screenshot": "https://firebase.google.com/pricing"
     },
     {
       "name": "student",
-      "local": "student-1",
+      "local": "student-4",
       "use": "cover C cut-out"
     },
     {
@@ -187,55 +209,60 @@
       "use": "proof slide card: crop the heading + group photo, below the site header"
     }
   ],
-  "caption_draft": "You can practise DSA for free on these 5 sites.\n\nLeetCode — https://leetcode.com/studyplan/top-interview-150/ — 150 classic interview questions\nCodeforces — https://codeforces.com/problemset — Problems sorted by difficulty\nCodeChef — https://www.codechef.com/ — Weekly contests on the free plan\nHackerRank — https://www.hackerrank.com/domains/data-structures — Practice sorted by data structure\nGeeksforGeeks — https://www.geeksforgeeks.org/explore — 2,500+ practice problems\n\nSave this for the semester and send it to the friend who wants to start DSA this week.\n\n#dsa #leetcode #codeforces #codechef #hackerrank #geeksforgeeks #coding #firstyear #notyourcollege",
+  "caption_draft": "Your project can have a real link today: 6 free places to put it online.\n\nGitHub Pages — https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages — Free for public repositories\nVercel — https://vercel.com/docs/plans/hobby — 100 deployments a day, free\nNetlify — https://www.netlify.com/pricing/ — 300 free credits a month\nCloudflare Pages — https://developers.cloudflare.com/pages/platform/limits/ — 500 free builds a month\nRender — https://render.com/docs/free — 750 free instance hours a month\nFirebase Hosting — https://firebase.google.com/pricing — 10 GB free hosting storage\n\nSave this and put one project online tonight. Send it to the friend whose project only runs on their laptop.\n\n#webdev #hosting #github #vercel #firstyear #students #projects #notyourcollege",
   "sources": [
     {
-      "item": "LeetCode",
-      "url": "https://leetcode.com/studyplan/top-interview-150/",
-      "quote": "150 Original & Classic Questions",
-      "checked_at": "2026-11-12"
+      "item": "GitHub Pages",
+      "url": "https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages",
+      "quote": "GitHub Pages is available in public repositories with GitHub Free and GitHub Free for organizations",
+      "checked_at": "2026-11-15"
     },
     {
-      "item": "Codeforces",
-      "url": "https://codeforces.com/problemset",
-      "quote": "Filter Problems ... Difficulty (problem set page filter)",
-      "checked_at": "2026-11-12"
+      "item": "Vercel",
+      "url": "https://vercel.com/docs/plans/hobby",
+      "quote": "The Hobby plan is free and aimed at developers with personal projects, and small-scale applications. … Deployments per day | 100",
+      "checked_at": "2026-11-15"
     },
     {
-      "item": "CodeChef",
-      "url": "https://www.codechef.com/",
-      "quote": "Weekly contest access. (free plan)",
-      "checked_at": "2026-11-12"
+      "item": "Netlify",
+      "url": "https://www.netlify.com/pricing/",
+      "quote": "$0 forever … 300 credit limit / month",
+      "checked_at": "2026-11-15"
     },
     {
-      "item": "HackerRank",
-      "url": "https://www.hackerrank.com/domains/data-structures",
-      "quote": "Subdomains: Arrays, Linked Lists, Trees, Balanced Trees, Stacks, Queues, Heap ...",
-      "checked_at": "2026-11-12"
+      "item": "Cloudflare Pages",
+      "url": "https://developers.cloudflare.com/pages/platform/limits/",
+      "quote": "Builds per month | 500 | 5,000 | 20,000 (Free | Pro | Business)",
+      "checked_at": "2026-11-15"
     },
     {
-      "item": "GeeksforGeeks",
-      "url": "https://www.geeksforgeeks.org/explore",
-      "quote": "2564 Problems",
-      "checked_at": "2026-11-12"
+      "item": "Render",
+      "url": "https://render.com/docs/free",
+      "quote": "Render grants 750 Free instance hours to each workspace per calendar month",
+      "checked_at": "2026-11-15"
+    },
+    {
+      "item": "Firebase Hosting",
+      "url": "https://firebase.google.com/pricing",
+      "quote": "Spark plan, Hosting: Storage 10 GB; Data transfer 360 MB/day",
+      "checked_at": "2026-11-15"
     }
   ],
-  "note": "Collection format (collection/RULES.md, owner 12 Nov 2026). Items verified on their official pages on 2026-11-12 by the setup run; the daily run re-verifies them (CLAUDE.md step 5). Cover C again 3 days after 13 Nov (allowed: never two days running, never twice in three days).",
-  "replaces": "lesson-format plan for this date (moved to topics.json ideas)",
+  "kind": "remake of reupload-deploy-first-project (30 Oct)",
+  "reason": "Built yesterday, put it live today.",
+  "note": "Moved from 19 Nov to 16 Nov on 15 Nov 2026 (step 6e swap with the DSA plan). Items re-verified 2026-11-15. Logos netlify/cloudflare/render/firebase added to collection/logos (simple-icons copies).",
   "proof": {
-    "logos": [
-      "atlassian"
-    ],
-    "sentence": "An Atlassian engineer teaches DSA at NYC.",
-    "fact": "The DSA track opens in week 13",
+    "logos": [],
+    "sentence": "At NYC, your first pages go live in week one.",
+    "fact": "Fridays are build days",
     "shot_name": "proof",
     "shot_crop_top": 0,
     "disclaimer": "Instructors and mentors speak for themselves, not for their employers.",
-    "source": "NYC_BRIEF.md → Proof facts: Akshay (Senior Software Engineer, Atlassian) teaches DSA; SE + AI week 13 the DSA track opens"
+    "source": "NYC_BRIEF.md → Proof facts: SE + AI week 1 first pages go live; Fridays are build days"
   },
   "close": {
-    "line": 3,
-    "text": "Engineers review every project you build here.",
+    "line": 2,
+    "text": "Your first app goes live in week six.",
     "cta": "See the courses at notyourcollege.com →"
   }
 }

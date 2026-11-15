@@ -2,110 +2,95 @@
   "date": "2026-11-19",
   "format": "collection",
   "day_type": "build-fallback",
-  "slug": "free-project-hosting",
-  "topic": "6 free places to put your project online",
-  "topicTag": "Hosting",
-  "images_rev": "2026-11-13-covers",
-  "dm_keyword": "HOST",
-  "save_reason": "Six free places to put a project online, each with its free limit from the official page.",
-  "send_reason": "Send this to a friend whose project only runs on their laptop.",
+  "slug": "dsa-practice-sites",
+  "topic": "5 free sites to practise DSA",
+  "topicTag": "DSA",
+  "images_rev": "2026-11-15-swap",
+  "dm_keyword": "DSA",
+  "save_reason": "Five official practice sites for DSA, linked in the caption, to use all semester.",
+  "send_reason": "Send this to a friend who wants to start DSA this week.",
   "cover": {
     "style": "C",
     "field": "lime",
-    "kicker": "6 free places to go",
-    "giant": "LIVE",
+    "kicker": "5 free sites to practise",
+    "giant": "DSA",
     "giantSize": 190,
     "student": "student",
     "logos": [
-      "github",
-      "vercel",
-      "netlify",
-      "cloudflare",
-      "render",
-      "google"
+      "leetcode",
+      "codeforces",
+      "codechef",
+      "hackerrank",
+      "geeksforgeeks"
     ],
-    "hook": "6 free places to *host your project*",
-    "emotion": "confidence",
-    "tag": "Hosting",
+    "hook": "5 free sites to practise DSA",
+    "emotion": "ambition",
+    "tag": "DSA",
     "hooks": [
-      "6 free places to host your project (confidence)",
-      "Put your project online free tonight (confidence)",
-      "Your project deserves a real link: 6 free hosts (ambition)",
-      "6 free hosts seniors used for their first project (curiosity)"
+      "5 free sites to practise DSA (ambition)",
+      "Practise DSA free on these 5 sites (confidence)",
+      "Where seniors practise DSA, all 5 free (curiosity)",
+      "Start DSA this week on 5 free sites (confidence)"
     ],
-    "notes": "Magazine cover on flat lime #cde58c (16 Nov was deep green; next C, 22 Nov, should use paper). Kicker '6 free places to go' in Instrument Serif italic, giant 'LIVE' in Helvetica 700 ink; the real student cut-out student-4 (not used on 16 Nov) overlaps the bottom of LIVE; the six host logos in white circles (GitHub Pages → github, Vercel → vercel, Netlify, Cloudflare Pages, Render, Firebase Hosting → google). Cover words = kicker + giant ('6 free places to go LIVE', 6 words); the plan's hook stays the caption hook. LOGOS: netlify, cloudflare and render SVGs are NOT yet in nyc-carousel-bot/collection/logos — the 18 Nov evening run must add the real brand marks (official press/brand pages) before rendering; the renderer needs at least 4 real logos and shows up to 6; use only the ones that exist, never draw one. If student.png is missing: no other style keeps rotation → post nothing. Cover sequence (owner rule 13 Nov 2026: no real screenshots on covers, F retired, C/D/G cycle): 14 G, 15 D, 16 C, 17 G, 18 D, 19 C, 20 G, 21 D. No other style keeps rotation: if the cover cannot be made, regenerate the scene once (Figma generate_image), else post nothing (golden rule). Never F."
+    "notes": "Moved from 16 Nov on 15 Nov 2026. Magazine cover on flat lime (16 Nov C is deep green; 22 Nov C paper), giant 'DSA', student-1 cut-out overlapping the bottom of the word, 5 logos in white circles. If student.png is missing: post nothing (golden rule). Cover sequence (owner rule 13 Nov 2026: no real screenshots on covers, F retired, C/D/G cycle): 14 G, 15 D, 16 C, 17 G, 18 D, 19 C, 20 G, 21 D, 22 C, 23 G. No other style keeps rotation; never F."
   },
   "items": [
     {
       "n": 2,
-      "name": "GitHub Pages",
-      "logo": "github",
-      "official_url": "https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages",
-      "fact": "Free for public repositories",
-      "source_quote": "GitHub Pages is available in public repositories with GitHub Free and GitHub Free for organizations.",
-      "checked_at": "2026-11-12",
+      "name": "LeetCode",
+      "logo": "leetcode",
+      "official_url": "https://leetcode.com/studyplan/top-interview-150/",
+      "factNum": "150",
+      "factText": "classic interview questions",
+      "source_quote": "150 Original & Classic Questions",
+      "checked_at": "2026-11-15",
       "shot_crop_top": 0,
       "shot_name": "shot-1"
     },
     {
       "n": 3,
-      "name": "Vercel",
-      "logo": "vercel",
-      "official_url": "https://vercel.com/docs/plans/hobby",
-      "factNum": "100",
-      "factText": "deployments a day, free",
-      "source_quote": "The Hobby plan is free and aimed at developers with personal projects, and small-scale applications. … Deployments per day | 100",
-      "checked_at": "2026-11-12",
+      "name": "Codeforces",
+      "logo": "codeforces",
+      "official_url": "https://codeforces.com/problemset",
+      "fact": "Filter problems by difficulty",
+      "source_quote": "Filter Problems … Difficulty:",
+      "checked_at": "2026-11-15",
       "shot_crop_top": 0,
       "shot_name": "shot-2"
     },
     {
       "n": 4,
-      "name": "Netlify",
-      "logo": null,
-      "official_url": "https://www.netlify.com/pricing/",
-      "factNum": "300",
-      "factText": "free credits a month",
-      "source_quote": "$0 forever … 300 credit limit / month",
-      "checked_at": "2026-11-12",
+      "name": "CodeChef",
+      "logo": "codechef",
+      "official_url": "https://www.codechef.com/",
+      "fact": "Weekly contests on the free plan",
+      "source_quote": "Weekly contest access. (free plan)",
+      "checked_at": "2026-11-15",
       "shot_crop_top": 0,
       "shot_name": "shot-3"
     },
     {
       "n": 5,
-      "name": "Cloudflare Pages",
-      "logo": null,
-      "official_url": "https://developers.cloudflare.com/pages/platform/limits/",
-      "factNum": "500",
-      "factText": "free builds a month",
-      "source_quote": "Builds per month — Free: 500",
-      "checked_at": "2026-11-12",
+      "name": "HackerRank",
+      "logo": "hackerrank",
+      "official_url": "https://www.hackerrank.com/domains/data-structures",
+      "fact": "Practice sorted by data structure",
+      "source_quote": "Subdomains: Arrays, Linked Lists, Trees, Balanced Trees, Stacks, Queues, Heap ...",
+      "checked_at": "2026-11-15",
       "shot_crop_top": 0,
       "shot_name": "shot-4"
     },
     {
       "n": 6,
-      "name": "Render",
-      "logo": null,
-      "official_url": "https://render.com/docs/free",
-      "factNum": "750",
-      "factText": "free instance hours a month",
-      "source_quote": "Render grants 750 Free instance hours to each workspace per calendar month",
-      "checked_at": "2026-11-12",
+      "name": "GeeksforGeeks",
+      "logo": "geeksforgeeks",
+      "official_url": "https://www.geeksforgeeks.org/explore",
+      "factNum": "2,500+",
+      "factText": "practice problems",
+      "source_quote": "2565 Problems",
+      "checked_at": "2026-11-15",
       "shot_crop_top": 0,
       "shot_name": "shot-5"
-    },
-    {
-      "n": 7,
-      "name": "Firebase Hosting",
-      "logo": "google",
-      "official_url": "https://firebase.google.com/pricing",
-      "factNum": "10 GB",
-      "factText": "free hosting storage",
-      "source_quote": "Spark plan, Hosting: Storage 10 GB; Data transfer 360 MB/day",
-      "checked_at": "2026-11-12",
-      "shot_crop_top": 0,
-      "shot_name": "shot-6"
     }
   ],
   "slides": [
@@ -116,71 +101,62 @@
     {
       "n": 2,
       "type": "item",
-      "item": "GitHub Pages"
+      "item": "LeetCode"
     },
     {
       "n": 3,
       "type": "item",
-      "item": "Vercel"
+      "item": "Codeforces"
     },
     {
       "n": 4,
       "type": "item",
-      "item": "Netlify"
+      "item": "CodeChef"
     },
     {
       "n": 5,
       "type": "item",
-      "item": "Cloudflare Pages"
+      "item": "HackerRank"
     },
     {
       "n": 6,
       "type": "item",
-      "item": "Render"
+      "item": "GeeksforGeeks"
     },
     {
       "n": 7,
-      "type": "item",
-      "item": "Firebase Hosting"
-    },
-    {
-      "n": 8,
       "type": "proof"
     },
     {
-      "n": 9,
+      "n": 8,
       "type": "close",
-      "text": "Your first app goes live in week six. / All N links are in the caption. / See the courses at notyourcollege.com →"
+      "text": "Engineers review every project you build here. / All N links are in the caption. / See the courses at notyourcollege.com →"
     }
   ],
   "images": [
     {
       "name": "shot-1",
-      "screenshot": "https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages"
+      "screenshot": "https://leetcode.com/studyplan/top-interview-150/"
     },
     {
       "name": "shot-2",
-      "screenshot": "https://vercel.com/docs/plans/hobby"
+      "screenshot": "https://codeforces.com/problemset"
     },
     {
       "name": "shot-3",
-      "screenshot": "https://www.netlify.com/pricing/"
+      "screenshot": "https://www.codechef.com/"
     },
     {
       "name": "shot-4",
-      "screenshot": "https://developers.cloudflare.com/pages/platform/limits/"
+      "screenshot": "https://www.hackerrank.com/domains/data-structures"
     },
     {
       "name": "shot-5",
-      "screenshot": "https://render.com/docs/free"
-    },
-    {
-      "name": "shot-6",
-      "screenshot": "https://firebase.google.com/pricing"
+      "screenshot": "https://www.geeksforgeeks.org/explore"
     },
     {
       "name": "student",
-      "local": "student-4",
+      "local": "student-1",
       "use": "cover C cut-out"
     },
     {
@@ -209,60 +185,56 @@
       "use": "proof slide card: crop the heading + group photo, below the site header"
     }
   ],
-  "caption_draft": "Your project can have a real link today: 6 free places to put it online.\n\nGitHub Pages — https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages — Free for public repositories\nVercel — https://vercel.com/docs/plans/hobby — 100 deployments a day, free\nNetlify — https://www.netlify.com/pricing/ — 300 free credits a month\nCloudflare Pages — https://developers.cloudflare.com/pages/platform/limits/ — 500 free builds a month\nRender — https://render.com/docs/free — 750 free instance hours a month\nFirebase Hosting — https://firebase.google.com/pricing — 10 GB free hosting storage\n\nSave this and put one project online tonight. Send it to the friend whose project only runs on their laptop.\n\n#webdev #hosting #github #vercel #firstyear #students #projects #notyourcollege",
+  "caption_draft": "You can practise DSA for free on these 5 sites.\n\nLeetCode — https://leetcode.com/studyplan/top-interview-150/ — 150 classic interview questions\nCodeforces — https://codeforces.com/problemset — Filter problems by difficulty\nCodeChef — https://www.codechef.com/ — Weekly contests on the free plan\nHackerRank — https://www.hackerrank.com/domains/data-structures — Practice sorted by data structure\nGeeksforGeeks — https://www.geeksforgeeks.org/explore — 2,500+ practice problems\n\nSave this for the semester and send it to the friend who wants to start DSA this week.\n\n#dsa #leetcode #codeforces #codechef #hackerrank #geeksforgeeks #coding #firstyear #notyourcollege",
   "sources": [
     {
-      "item": "GitHub Pages",
-      "url": "https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages",
-      "quote": "GitHub Pages is available in public repositories with GitHub Free and GitHub Free for organizations.",
-      "checked_at": "2026-11-12"
+      "item": "LeetCode",
+      "url": "https://leetcode.com/studyplan/top-interview-150/",
+      "quote": "150 Original & Classic Questions",
+      "checked_at": "2026-11-15"
     },
     {
-      "item": "Vercel",
-      "url": "https://vercel.com/docs/plans/hobby",
-      "quote": "The Hobby plan is free and aimed at developers with personal projects, and small-scale applications. … Deployments per day | 100",
-      "checked_at": "2026-11-12"
+      "item": "Codeforces",
+      "url": "https://codeforces.com/problemset",
+      "quote": "Filter Problems … Difficulty:",
+      "checked_at": "2026-11-15"
     },
     {
-      "item": "Netlify",
-      "url": "https://www.netlify.com/pricing/",
-      "quote": "$0 forever … 300 credit limit / month",
-      "checked_at": "2026-11-12"
+      "item": "CodeChef",
+      "url": "https://www.codechef.com/",
+      "quote": "Weekly contest access. (free plan)",
+      "checked_at": "2026-11-15"
     },
     {
-      "item": "Cloudflare Pages",
-      "url": "https://developers.cloudflare.com/pages/platform/limits/",
-      "quote": "Builds per month — Free: 500",
-      "checked_at": "2026-11-12"
+      "item": "HackerRank",
+      "url": "https://www.hackerrank.com/domains/data-structures",
+      "quote": "Subdomains: Arrays, Linked Lists, Trees, Balanced Trees, Stacks, Queues, Heap ...",
+      "checked_at": "2026-11-15"
     },
     {
-      "item": "Render",
-      "url": "https://render.com/docs/free",
-      "quote": "Render grants 750 Free instance hours to each workspace per calendar month",
-      "checked_at": "2026-11-12"
-    },
-    {
-      "item": "Firebase Hosting",
-      "url": "https://firebase.google.com/pricing",
-      "quote": "Spark plan, Hosting: Storage 10 GB; Data transfer 360 MB/day",
-      "checked_at": "2026-11-12"
+      "item": "GeeksforGeeks",
+      "url": "https://www.geeksforgeeks.org/explore",
+      "quote": "2565 Problems",
+      "checked_at": "2026-11-15"
     }
   ],
-  "kind": "remake of reupload-deploy-first-project (30 Oct)",
-  "reason": "Built yesterday, put it live today.",
-  "note": "Items verified on official pages on 2026-11-12 (calendar run). Firebase Hosting uses the Google logo (Firebase is a Google product) until a Firebase logo is added.",
+  "note": "Moved from 16 Nov to 19 Nov on 15 Nov 2026 (step 6e). Facts re-verified 2026-11-15; Codeforces fact replaced with the filter label quoted on the page.",
   "proof": {
-    "logos": [],
-    "sentence": "At NYC, your first pages go live in week one.",
-    "fact": "Fridays are build days",
+    "logos": [
+      "atlassian"
+    ],
+    "sentence": "An Atlassian engineer teaches DSA at NYC.",
+    "fact": "The DSA track opens in week 13",
     "shot_name": "proof",
     "shot_crop_top": 0,
     "disclaimer": "Instructors and mentors speak for themselves, not for their employers.",
-    "source": "NYC_BRIEF.md → Proof facts: SE + AI week 1 first pages go live; Fridays are build days"
+    "source": "NYC_BRIEF.md → Proof facts: Akshay (Senior Software Engineer, Atlassian) teaches DSA; SE + AI week 13 the DSA track opens"
   },
   "close": {
-    "line": 2,
-    "text": "Your first app goes live in week six.",
+    "line": 3,
+    "text": "Engineers review every project you build here.",
     "cta": "See the courses at notyourcollege.com →"
-  }
+  },
+  "day_type_note": "Build day (Thu): evergreen fallback, posted only if the owner's Mac session scheduled no build post.",
+  "screenshot_warning": "15 Nov 2026: the Mac's shots for LeetCode and Codeforces showed a Cloudflare 'Performing security verification' page and HackerRank showed 'Access Denied' (only CodeChef and GeeksforGeeks were usable). That is why this topic moved off 16 Nov. The Mac must retake them (e.g. a logged-in, non-headless browser); if 3+ are still unusable on 18 Nov, the evening run swaps this topic again (step 6e)."
 }

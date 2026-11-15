@@ -143,7 +143,7 @@
     {
       "n": 9,
       "type": "close",
-      "text": "Engineers review every project you build here. / All N links are in the caption. / See the courses at notyourcollege.com →"
+      "text": "Your first app goes live in week six. / All N links are in the caption. / See the courses at notyourcollege.com →"
     }
   ],
   "images": [
@@ -254,8 +254,9 @@
     "source": "NYC_BRIEF.md → Proof facts: AI from day one, you learn to check its code; SE + AI week 21 your app has AI inside"
   },
   "close": {
-    "line": 3,
-    "text": "Engineers review every project you build here.",
+    "line": 2,
+    "text": "Your first app goes live in week six.",
     "cta": "See the courses at notyourcollege.com →"
-  }
+  },
+  "close_change": "15 Nov 2026: line 3 → 2 so it differs from 19 Nov (DSA, line 3) and 17 Nov (line 4); PROOF.md allows 2 or 3 for AI app builders."
 }

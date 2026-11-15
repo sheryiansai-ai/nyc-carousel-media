@@ -1,0 +1,256 @@
+{
+  "date": "2026-11-23",
+  "format": "collection",
+  "day_type": "value",
+  "slug": "free-ai-coding-tools",
+  "topic": "6 free AI coding tools for students",
+  "topicTag": "AI tools",
+  "images_rev": "2026-11-15-plan",
+  "dm_keyword": "AI",
+  "save_reason": "Six AI coding tools with a free plan or open source, each with its free limit from the official page.",
+  "send_reason": "Send this to a friend who codes late at night.",
+  "cover": {
+    "style": "G",
+    "hook": "6 free *AI coding tools*",
+    "emotion": "curiosity",
+    "tag": "AI tools",
+    "blanks": 6,
+    "scene": "A college bookshop shelf, straight-on; six spiral notebooks stand face-out in a 3x2 grid, each with a plain blank white cover; empty pale wall in the top 38%.",
+    "overlay": "On each notebook cover, in item order (reading order): the tool's short name (Copilot, Amazon Q, JetBrains AI, Cursor, Cline, Continue) with its real logo where collection/logos has one (github, aws, jetbrains), mix-blend-mode: multiply. Names and logos only, never a screenshot.",
+    "hooks": [
+      "6 free AI coding tools (curiosity)",
+      "Code with AI for free: 6 tools (confidence)",
+      "6 AI tools that code with you, free (ambition)",
+      "Your AI pair programmer can be free (curiosity)"
+    ],
+    "notes": "New G object (not the vending machine of 14 Nov, folders of 17 Nov or card catalogue of 20 Nov). Headline in the empty pale wall at the top (dark text). blanks.py --mode light N=6. Exam weeks: light, save-worthy list. Cover sequence (owner rule 13 Nov 2026: no real screenshots on covers, F retired, C/D/G cycle): 20 G, 21 D, 22 C, 23 G, 24 D. If the cover cannot be made, regenerate the scene once (Figma generate_image), else post nothing (golden rule). Never F."
+  },
+  "items": [
+    {
+      "n": 2,
+      "name": "GitHub Copilot",
+      "logo": "github",
+      "official_url": "https://github.com/features/copilot/plans",
+      "factNum": "2,000",
+      "factText": "free completions a month",
+      "source_quote": "Free … $0USD … 2,000 completions per month",
+      "checked_at": "2026-11-15",
+      "shot_crop_top": 0,
+      "shot_name": "shot-1"
+    },
+    {
+      "n": 3,
+      "name": "Amazon Q Developer",
+      "logo": "aws",
+      "official_url": "https://aws.amazon.com/q/developer/pricing/",
+      "factNum": "50",
+      "factText": "free agent requests a month",
+      "source_quote": "Free Tier … 50 agentic requests per month",
+      "checked_at": "2026-11-15",
+      "shot_crop_top": 0,
+      "shot_name": "shot-2"
+    },
+    {
+      "n": 4,
+      "name": "JetBrains AI",
+      "logo": "jetbrains",
+      "official_url": "https://lp.jetbrains.com/ai-ides-faq/",
+      "fact": "Unlimited code completion, free tier",
+      "source_quote": "AI Free … Unlimited code completion (powered by JetBrains' Mellum model).",
+      "checked_at": "2026-11-15",
+      "shot_crop_top": 0,
+      "shot_name": "shot-3"
+    },
+    {
+      "n": 5,
+      "name": "Cursor",
+      "logo": null,
+      "official_url": "https://cursor.com/pricing",
+      "fact": "Free plan with agent requests",
+      "source_quote": "Free … $0/month … Limited agent requests",
+      "checked_at": "2026-11-15",
+      "shot_crop_top": 0,
+      "shot_name": "shot-4"
+    },
+    {
+      "n": 6,
+      "name": "Cline",
+      "logo": null,
+      "official_url": "https://github.com/cline/cline",
+      "factNum": "71.7k",
+      "factText": "stars on GitHub",
+      "source_quote": "GitHub API stargazers_count 71656 (15 Nov 2026); 'Autonomous coding agent as an SDK, IDE extension, or CLI assistant.'",
+      "checked_at": "2026-11-15",
+      "shot_crop_top": 0,
+      "shot_name": "shot-5"
+    },
+    {
+      "n": 7,
+      "name": "Continue",
+      "logo": null,
+      "official_url": "https://github.com/continuedev/continue",
+      "factNum": "36.5k",
+      "factText": "stars on GitHub",
+      "source_quote": "GitHub API stargazers_count 36483 (15 Nov 2026); 'open-source coding agent'",
+      "checked_at": "2026-11-15",
+      "shot_crop_top": 0,
+      "shot_name": "shot-6"
+    }
+  ],
+  "slides": [
+    {
+      "n": 1,
+      "type": "cover"
+    },
+    {
+      "n": 2,
+      "type": "item",
+      "item": "GitHub Copilot"
+    },
+    {
+      "n": 3,
+      "type": "item",
+      "item": "Amazon Q Developer"
+    },
+    {
+      "n": 4,
+      "type": "item",
+      "item": "JetBrains AI"
+    },
+    {
+      "n": 5,
+      "type": "item",
+      "item": "Cursor"
+    },
+    {
+      "n": 6,
+      "type": "item",
+      "item": "Cline"
+    },
+    {
+      "n": 7,
+      "type": "item",
+      "item": "Continue"
+    },
+    {
+      "n": 8,
+      "type": "proof"
+    },
+    {
+      "n": 9,
+      "type": "close",
+      "text": "Your first app goes live in week six. / All N links are in the caption. / See the courses at notyourcollege.com →"
+    }
+  ],
+  "images": [
+    {
+      "name": "shot-1",
+      "screenshot": "https://github.com/features/copilot/plans"
+    },
+    {
+      "name": "shot-2",
+      "screenshot": "https://aws.amazon.com/q/developer/pricing/"
+    },
+    {
+      "name": "shot-3",
+      "screenshot": "https://lp.jetbrains.com/ai-ides-faq/"
+    },
+    {
+      "name": "shot-4",
+      "screenshot": "https://cursor.com/pricing"
+    },
+    {
+      "name": "shot-5",
+      "screenshot": "https://github.com/cline/cline"
+    },
+    {
+      "name": "shot-6",
+      "screenshot": "https://github.com/continuedev/continue"
+    },
+    {
+      "name": "cover",
+      "size": "1024x1280",
+      "prompt": "Photoreal photograph, magazine-ad quality, subtle film grain. A wooden shelf in a small Indian college bookshop, seen perfectly straight-on, warm soft daylight. Six identical spiral notebooks stand face-out on the shelf in a neat grid of 3 columns and 2 rows; each notebook has a plain matte blank white cover facing the camera flat, with a thin dark spiral binding on the left. The shelf fills the lower 62% of the frame; the top 38% is empty plain pale painted wall. Natural colours. No readable text, no letters, no numbers, no logos, no faces, no watermark."
+    },
+    {
+      "name": "face-1",
+      "local": "student-1",
+      "use": "last-slide face circle (optional; dropped if missing)"
+    },
+    {
+      "name": "face-2",
+      "local": "student-2",
+      "use": "last-slide face circle (optional; dropped if missing)"
+    },
+    {
+      "name": "face-3",
+      "local": "student-3",
+      "use": "last-slide face circle (optional; dropped if missing)"
+    },
+    {
+      "name": "face-4",
+      "local": "student-4",
+      "use": "last-slide face circle (optional; dropped if missing)"
+    },
+    {
+      "name": "proof",
+      "screenshot": "https://notyourcollege.com/instructors",
+      "use": "proof slide card: crop the heading + group photo, below the site header"
+    }
+  ],
+  "proof": {
+    "logos": [],
+    "sentence": "At NYC, you use AI from day one.",
+    "fact": "You learn to check its code",
+    "shot_name": "proof",
+    "shot_crop_top": 0,
+    "disclaimer": "Instructors and mentors speak for themselves, not for their employers.",
+    "source": "NYC_BRIEF.md → Proof facts: AI is used from day one, and you learn to check its code."
+  },
+  "close": {
+    "line": 2,
+    "text": "Your first app goes live in week six.",
+    "cta": "See the courses at notyourcollege.com →"
+  },
+  "caption_draft": "These 6 AI coding tools have a free way in.\n\nGitHub Copilot — https://github.com/features/copilot/plans — 2,000 free completions a month\nAmazon Q Developer — https://aws.amazon.com/q/developer/pricing/ — 50 free agent requests a month\nJetBrains AI — https://lp.jetbrains.com/ai-ides-faq/ — Unlimited code completion, free tier\nCursor — https://cursor.com/pricing — Free plan with agent requests\nCline — https://github.com/cline/cline — 71.7k stars on GitHub\nContinue — https://github.com/continuedev/continue — 36.5k stars on GitHub\n\nSave this for your next project. Send it to a friend who codes late at night.\n\n#ai #coding #copilot #developer #firstyear #students #programming #notyourcollege",
+  "sources": [
+    {
+      "item": "GitHub Copilot",
+      "url": "https://github.com/features/copilot/plans",
+      "quote": "Free … $0USD … 2,000 completions per month",
+      "checked_at": "2026-11-15"
+    },
+    {
+      "item": "Amazon Q Developer",
+      "url": "https://aws.amazon.com/q/developer/pricing/",
+      "quote": "Free Tier … 50 agentic requests per month",
+      "checked_at": "2026-11-15"
+    },
+    {
+      "item": "JetBrains AI",
+      "url": "https://lp.jetbrains.com/ai-ides-faq/",
+      "quote": "AI Free … Unlimited code completion (powered by JetBrains' Mellum model).",
+      "checked_at": "2026-11-15"
+    },
+    {
+      "item": "Cursor",
+      "url": "https://cursor.com/pricing",
+      "quote": "Free … $0/month … Limited agent requests",
+      "checked_at": "2026-11-15"
+    },
+    {
+      "item": "Cline",
+      "url": "https://github.com/cline/cline",
+      "quote": "GitHub API stargazers_count 71656 (15 Nov 2026); 'Autonomous coding agent as an SDK, IDE extension, or CLI assistant.'",
+      "checked_at": "2026-11-15"
+    },
+    {
+      "item": "Continue",
+      "url": "https://github.com/continuedev/continue",
+      "quote": "GitHub API stargazers_count 36483 (15 Nov 2026); 'open-source coding agent'",
+      "checked_at": "2026-11-15"
+    }
+  ],
+  "kind": "remake of context-prompting (31 Oct)",
+  "note": "Planned 15 Nov 2026 from topics.json queue[2026-11-23]. Items verified on official pages 2026-11-15 (WebFetch; stars via GitHub API). Dropped: Gemini Code Assist / Gemini CLI (the free individual tier was replaced by Antigravity CLI on 18 Jun 2026 per geminicli.com), Windsurf (pricing page redirects to devin.ai), Jules (turndown changelog 29 Oct 2026). Not a student-email offer (do_not_repeat: paid tools free with a college email). Close line 2: 22 Nov uses 3."
+}
