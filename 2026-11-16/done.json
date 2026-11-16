@@ -1,13 +1,14 @@
 {
  "date": "2026-11-16",
- "slug": "dsa-practice-sites",
- "images_rev": "2026-11-12-proof",
+ "slug": "free-project-hosting",
+ "images_rev": "2026-11-15-swap",
  "files": [
   "shot-1.jpg",
   "shot-2.jpg",
   "shot-3.jpg",
   "shot-4.jpg",
   "shot-5.jpg",
+  "shot-6.jpg",
   "student.png",
   "face-1.png",
   "face-2.png",
@@ -15,6 +16,6 @@
   "face-4.png",
   "proof.jpg"
  ],
- "made_at": "2026-11-13T12:17:47+05:30",
+ "made_at": "2026-11-16T07:23:42+05:30",
  "by": "Codex on the owner's ChatGPT plan"
 }
