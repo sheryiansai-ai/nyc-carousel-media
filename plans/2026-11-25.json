@@ -1,0 +1,258 @@
+{
+ "date": "2026-11-25",
+ "format": "collection",
+ "day_type": "value",
+ "slug": "sql-practice-sites",
+ "topic": "6 places to practise SQL",
+ "topicTag": "SQL",
+ "images_rev": "2026-11-17-plan",
+ "dm_keyword": "SQL",
+ "save_reason": "Six SQL practice sites in order, from first SELECT to real datasets, linked in the caption.",
+ "send_reason": "Send this to a friend who wants to start with data.",
+ "cover": {
+  "style": "C",
+  "hook": "6 places to *practise SQL*",
+  "emotion": "confidence",
+  "tag": "SQL",
+  "hooks": [
+   "6 places to practise SQL (confidence)",
+   "Practise SQL on these 6 sites (confidence)",
+   "6 sites to go from SELECT to real data (ambition)",
+   "Your first SQL query, on 6 sites (curiosity)"
+  ],
+  "field": "green",
+  "kicker": "6 places to practise",
+  "giant": "SQL",
+  "student": "student",
+  "logos": [
+   "leetcode",
+   "hackerrank",
+   "codechef",
+   "google"
+  ],
+  "notes": "Rotation: 23 G, 24 D, 25 C (green, student-3). Logos leetcode, hackerrank, codechef, google are in collection/logos (SQLBolt and SQLZoo have none: name only). Hook avoids 'free': LeetCode/HackerRank/CodeChef pages don't state free on the checked page. No screenshot on the cover; if C can't be made, golden rule (no other style keeps rotation), never F."
+ },
+ "items": [
+  {
+   "n": 2,
+   "name": "SQLBolt",
+   "logo": null,
+   "official_url": "https://sqlbolt.com/",
+   "fact": "Lessons and exercises in your browser",
+   "source_quote": "a series of interactive lessons and exercises designed to help you quickly learn SQL right in your browser",
+   "checked_at": "2026-11-17",
+   "shot_crop_top": 0,
+   "shot_name": "shot-1"
+  },
+  {
+   "n": 3,
+   "name": "SQLZoo",
+   "logo": null,
+   "official_url": "https://sqlzoo.net/wiki/SQL_Tutorial",
+   "fact": "No login needed",
+   "source_quote": "You are encouraged to log in; however, it is not mandatory.",
+   "checked_at": "2026-11-17",
+   "shot_crop_top": 0,
+   "shot_name": "shot-2"
+  },
+  {
+   "n": 4,
+   "name": "HackerRank SQL",
+   "logo": "hackerrank",
+   "official_url": "https://www.hackerrank.com/domains/sql",
+   "fact": "From Basic Select to Advanced Join",
+   "source_quote": "Basic Select / Advanced Select / Aggregation / Basic Join / Advanced Join / Alternative Queries (subdomain list on 'Solve SQL | HackerRank')",
+   "checked_at": "2026-11-17",
+   "shot_crop_top": 0,
+   "shot_name": "shot-3"
+  },
+  {
+   "n": 5,
+   "name": "CodeChef SQL",
+   "logo": "codechef",
+   "official_url": "https://www.codechef.com/practice/sql-case-studies-topic-wise",
+   "factNum": "80+",
+   "factText": "SQL exercises on case studies",
+   "source_quote": "Solve over 80 SQL exercises using real life case studies.",
+   "checked_at": "2026-11-17",
+   "shot_crop_top": 0,
+   "shot_name": "shot-4"
+  },
+  {
+   "n": 6,
+   "name": "LeetCode SQL 50",
+   "logo": "leetcode",
+   "official_url": "https://leetcode.com/studyplan/top-sql-50/",
+   "factNum": "50",
+   "factText": "SQL questions in one plan",
+   "source_quote": "Crack SQL Interview in 50 Qs",
+   "checked_at": "2026-11-17",
+   "shot_crop_top": 0,
+   "shot_name": "shot-5"
+  },
+  {
+   "n": 7,
+   "name": "BigQuery sandbox",
+   "logo": "google",
+   "official_url": "https://docs.cloud.google.com/bigquery/docs/sandbox",
+   "fact": "No credit card needed",
+   "source_quote": "lets you experience BigQuery without providing a credit card or creating a billing account",
+   "checked_at": "2026-11-17",
+   "shot_crop_top": 0,
+   "shot_name": "shot-6"
+  }
+ ],
+ "slides": [
+  {
+   "n": 1,
+   "type": "cover"
+  },
+  {
+   "n": 2,
+   "type": "item",
+   "item": "SQLBolt"
+  },
+  {
+   "n": 3,
+   "type": "item",
+   "item": "SQLZoo"
+  },
+  {
+   "n": 4,
+   "type": "item",
+   "item": "HackerRank SQL"
+  },
+  {
+   "n": 5,
+   "type": "item",
+   "item": "CodeChef SQL"
+  },
+  {
+   "n": 6,
+   "type": "item",
+   "item": "LeetCode SQL 50"
+  },
+  {
+   "n": 7,
+   "type": "item",
+   "item": "BigQuery sandbox"
+  },
+  {
+   "n": 8,
+   "type": "proof"
+  },
+  {
+   "n": 9,
+   "type": "close"
+  }
+ ],
+ "images": [
+  {
+   "name": "shot-1",
+   "screenshot": "https://sqlbolt.com/"
+  },
+  {
+   "name": "shot-2",
+   "screenshot": "https://sqlzoo.net/wiki/SQL_Tutorial"
+  },
+  {
+   "name": "shot-3",
+   "screenshot": "https://www.hackerrank.com/domains/sql"
+  },
+  {
+   "name": "shot-4",
+   "screenshot": "https://www.codechef.com/practice/sql-case-studies-topic-wise"
+  },
+  {
+   "name": "shot-5",
+   "screenshot": "https://leetcode.com/studyplan/top-sql-50/"
+  },
+  {
+   "name": "shot-6",
+   "screenshot": "https://docs.cloud.google.com/bigquery/docs/sandbox"
+  },
+  {
+   "name": "student",
+   "local": "student-3",
+   "use": "cover C cut-out"
+  },
+  {
+   "name": "face-1",
+   "local": "student-1",
+   "use": "last-slide face circle (optional; dropped if missing)"
+  },
+  {
+   "name": "face-2",
+   "local": "student-2",
+   "use": "last-slide face circle (optional; dropped if missing)"
+  },
+  {
+   "name": "face-3",
+   "local": "student-3",
+   "use": "last-slide face circle (optional; dropped if missing)"
+  },
+  {
+   "name": "face-4",
+   "local": "student-4",
+   "use": "last-slide face circle (optional; dropped if missing)"
+  },
+  {
+   "name": "proof",
+   "screenshot": "https://notyourcollege.com/instructors",
+   "use": "proof slide card: crop the heading + group photo, below the site header"
+  }
+ ],
+ "proof": {
+  "logos": [],
+  "sentence": "At NYC, your first SQL runs on a real business dataset.",
+  "fact": "Week 3 of Data Analytics + GenAI",
+  "shot_name": "proof",
+  "shot_crop_top": 0,
+  "source": "NYC_BRIEF.md → Proof facts: Data Analytics + GenAI week 3 your first SQL on a real business dataset (PROOF.md row SQL → close line 4)"
+ },
+ "close": {
+  "line": 4,
+  "text": "When you show this in an interview, they ask how you built it.",
+  "cta": "See the courses at notyourcollege.com →"
+ },
+ "caption_draft": "Six places to practise SQL, from your first SELECT to real datasets.\n\nSQLBolt — https://sqlbolt.com/ — Lessons and exercises in your browser\nSQLZoo — https://sqlzoo.net/wiki/SQL_Tutorial — No login needed\nHackerRank SQL — https://www.hackerrank.com/domains/sql — From Basic Select to Advanced Join\nCodeChef SQL — https://www.codechef.com/practice/sql-case-studies-topic-wise — 80+ SQL exercises on case studies\nLeetCode SQL 50 — https://leetcode.com/studyplan/top-sql-50/ — 50 SQL questions in one plan\nBigQuery sandbox — https://docs.cloud.google.com/bigquery/docs/sandbox — No credit card needed\n\nSave this and solve one SQL question tonight. Send it to a friend who wants to start with data.\n\n#sql #dataanalytics #database #firstyear #coding #practice #btech #notyourcollege",
+ "sources": [
+  {
+   "item": "SQLBolt",
+   "url": "https://sqlbolt.com/",
+   "quote": "a series of interactive lessons and exercises designed to help you quickly learn SQL right in your browser",
+   "checked_at": "2026-11-17"
+  },
+  {
+   "item": "SQLZoo",
+   "url": "https://sqlzoo.net/wiki/SQL_Tutorial",
+   "quote": "You are encouraged to log in; however, it is not mandatory.",
+   "checked_at": "2026-11-17"
+  },
+  {
+   "item": "HackerRank SQL",
+   "url": "https://www.hackerrank.com/domains/sql",
+   "quote": "Basic Select / Advanced Select / Aggregation / Basic Join / Advanced Join / Alternative Queries (subdomain list on 'Solve SQL | HackerRank')",
+   "checked_at": "2026-11-17"
+  },
+  {
+   "item": "CodeChef SQL",
+   "url": "https://www.codechef.com/practice/sql-case-studies-topic-wise",
+   "quote": "Solve over 80 SQL exercises using real life case studies.",
+   "checked_at": "2026-11-17"
+  },
+  {
+   "item": "LeetCode SQL 50",
+   "url": "https://leetcode.com/studyplan/top-sql-50/",
+   "quote": "Crack SQL Interview in 50 Qs",
+   "checked_at": "2026-11-17"
+  },
+  {
+   "item": "BigQuery sandbox",
+   "url": "https://docs.cloud.google.com/bigquery/docs/sandbox",
+   "quote": "lets you experience BigQuery without providing a credit card or creating a billing account",
+   "checked_at": "2026-11-17"
+  }
+ ],
+ "note": "Planned by the 17 Nov evening run from topics.json queue[2026-11-25] (sql-practice-sites, cover C green, student-3). 6 items verified on official pages 2026-11-17 (WebFetch); the daily run re-verifies. Close line 4 (24 Nov plan uses 3). Considered: DataLemur (count/free not stated on page), SQL Murder Mystery (spare item: https://mystery.knightlab.com)."
+}
