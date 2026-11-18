@@ -1,0 +1,258 @@
+{
+  "date": "2026-11-26",
+  "format": "collection",
+  "day_type": "build-fallback",
+  "slug": "free-databases-first-app",
+  "topic": "6 free databases for your first app",
+  "topicTag": "Databases",
+  "images_rev": "2026-11-18-plan",
+  "dm_keyword": "DATABASE",
+  "save_reason": "Six free databases with their free-plan limits, linked in the caption, for the first app that needs to save data.",
+  "send_reason": "Send this to a friend whose app forgets everything on refresh.",
+  "cover": {
+    "style": "G",
+    "hook": "6 free databases for *your first app*",
+    "emotion": "confidence",
+    "tag": "Databases",
+    "blanks": 6,
+    "scene": "A wooden wall shelf in a hostel kitchen, straight-on; six clear glass storage jars (3 per shelf, 2 shelves), each with a large blank white label facing the camera; empty pale wall in the top 38%.",
+    "overlay": "On each jar label, in item order (reading order): the short name (Supabase, MongoDB, Neon, Firestore, Turso, D1) with its real logo where collection/logos has one (firebase, cloudflare; supabase, mongodb, neon, turso only if the Mac puts real simple-icons SVGs in codex-images bot-assets/logos), mix-blend-mode: multiply. Names and logos only, never a screenshot.",
+    "hooks": [
+      "6 free databases for your first app (confidence)",
+      "Your first app can save data for free (confidence)",
+      "Where your app's data lives, free (curiosity)",
+      "6 databases with a free plan (calm)"
+    ],
+    "notes": "Jars = storage, the database metaphor. Not the card catalogue (20 Nov), desk folders, or notebook shelf (23 Nov). Headline in the empty top wall (dark text, hlTheme dark). blanks.py --mode light N=6 finds the six labels; labels are small, keep names short and check at 375px (names only if logos make them unreadable). Cover sequence (owner rule 13 Nov 2026: no screenshots on covers, F retired, C/D/G cycle): 22 C, 23 G, 24 D, 25 C, 26 G, 27 D. Build day (Thu): evergreen fallback, goes out only if the owner's Mac session scheduled no build post. If the cover cannot be made, regenerate the scene once (Figma generate_image), else post nothing (golden rule). Never F."
+  },
+  "items": [
+    {
+      "n": 2,
+      "name": "Supabase",
+      "logo": null,
+      "official_url": "https://supabase.com/pricing",
+      "factNum": "500 MB",
+      "factText": "Postgres database, free plan",
+      "source_quote": "500 MB database size (Shared CPU • 500 MB RAM)",
+      "checked_at": "2026-11-18",
+      "shot_crop_top": 0,
+      "shot_name": "shot-1",
+      "source_url": "https://supabase.com/pricing.md"
+    },
+    {
+      "n": 3,
+      "name": "MongoDB Atlas",
+      "logo": null,
+      "official_url": "https://www.mongodb.com/resources/basics/databases/cloud-databases/free-cloud-database",
+      "factNum": "512 MB",
+      "factText": "free cluster, no credit card",
+      "source_quote": "Our free clusters come with 512 MB of storage so you can play around with sample data and get oriented with our platform. … No credit cards are required to provision a cluster",
+      "checked_at": "2026-11-18",
+      "shot_crop_top": 0,
+      "shot_name": "shot-2"
+    },
+    {
+      "n": 4,
+      "name": "Neon",
+      "logo": null,
+      "official_url": "https://neon.com/docs/introduction/plans",
+      "factNum": "100",
+      "factText": "free Postgres projects",
+      "source_quote": "100 projects … 1 GB of Postgres storage per project (up to 20 GB total across all projects)",
+      "checked_at": "2026-11-18",
+      "shot_crop_top": 0,
+      "shot_name": "shot-3"
+    },
+    {
+      "n": 5,
+      "name": "Firebase Firestore",
+      "logo": "firebase",
+      "official_url": "https://firebase.google.com/pricing",
+      "factNum": "50K",
+      "factText": "free reads a day",
+      "source_quote": "No-cost (Spark) plan: 1 GiB total … 50K reads/day … 20K writes/day",
+      "checked_at": "2026-11-18",
+      "shot_crop_top": 0,
+      "shot_name": "shot-4"
+    },
+    {
+      "n": 6,
+      "name": "Turso",
+      "logo": null,
+      "official_url": "https://turso.tech/pricing",
+      "factNum": "100",
+      "factText": "free databases, 5GB storage",
+      "source_quote": "Free … $0/month … 100 [databases] … 5GB [storage]",
+      "checked_at": "2026-11-18",
+      "shot_crop_top": 0,
+      "shot_name": "shot-5"
+    },
+    {
+      "n": 7,
+      "name": "Cloudflare D1",
+      "logo": "cloudflare",
+      "official_url": "https://developers.cloudflare.com/d1/platform/limits/",
+      "factNum": "10",
+      "factText": "free databases per account",
+      "source_quote": "Databases per account: Free: 10 … Maximum database size: 500 MB (Free)",
+      "checked_at": "2026-11-18",
+      "shot_crop_top": 0,
+      "shot_name": "shot-6"
+    }
+  ],
+  "slides": [
+    {
+      "n": 1,
+      "type": "cover"
+    },
+    {
+      "n": 2,
+      "type": "item",
+      "item": "Supabase"
+    },
+    {
+      "n": 3,
+      "type": "item",
+      "item": "MongoDB Atlas"
+    },
+    {
+      "n": 4,
+      "type": "item",
+      "item": "Neon"
+    },
+    {
+      "n": 5,
+      "type": "item",
+      "item": "Firebase Firestore"
+    },
+    {
+      "n": 6,
+      "type": "item",
+      "item": "Turso"
+    },
+    {
+      "n": 7,
+      "type": "item",
+      "item": "Cloudflare D1"
+    },
+    {
+      "n": 8,
+      "type": "proof"
+    },
+    {
+      "n": 9,
+      "type": "close",
+      "text": "Your first app goes live in week six. / All six links are in the caption. / See the courses at notyourcollege.com →"
+    }
+  ],
+  "images": [
+    {
+      "name": "shot-1",
+      "screenshot": "https://supabase.com/pricing"
+    },
+    {
+      "name": "shot-2",
+      "screenshot": "https://www.mongodb.com/resources/basics/databases/cloud-databases/free-cloud-database"
+    },
+    {
+      "name": "shot-3",
+      "screenshot": "https://neon.com/docs/introduction/plans"
+    },
+    {
+      "name": "shot-4",
+      "screenshot": "https://firebase.google.com/pricing"
+    },
+    {
+      "name": "shot-5",
+      "screenshot": "https://turso.tech/pricing"
+    },
+    {
+      "name": "shot-6",
+      "screenshot": "https://developers.cloudflare.com/d1/platform/limits/"
+    },
+    {
+      "name": "cover",
+      "size": "1024x1280",
+      "prompt": "Photoreal photograph, magazine-ad quality, subtle film grain. A simple wooden wall shelf in a bright Indian hostel kitchen, seen perfectly straight-on, soft natural daylight. Two shelf levels hold six identical clear glass storage jars with wooden lids, three per shelf, evenly spaced; each jar has one large plain blank white rectangular label facing the camera flat. The shelf and jars fill the lower 62% of the frame; the top 38% is empty plain pale painted wall. Natural colours. No readable text, no letters, no numbers, no logos, no faces, no watermark."
+    },
+    {
+      "name": "face-1",
+      "local": "student-1",
+      "use": "last-slide face circle (optional; dropped if missing)"
+    },
+    {
+      "name": "face-2",
+      "local": "student-2",
+      "use": "last-slide face circle (optional; dropped if missing)"
+    },
+    {
+      "name": "face-3",
+      "local": "student-3",
+      "use": "last-slide face circle (optional; dropped if missing)"
+    },
+    {
+      "name": "face-4",
+      "local": "student-4",
+      "use": "last-slide face circle (optional; dropped if missing)"
+    },
+    {
+      "name": "proof",
+      "screenshot": "https://notyourcollege.com/instructors",
+      "use": "proof slide card: crop the heading + group photo, below the site header"
+    }
+  ],
+  "proof": {
+    "logos": [],
+    "sentence": "At NYC, your first pages go live in week one.",
+    "fact": "Fridays are build days",
+    "shot_name": "proof",
+    "shot_crop_top": 0,
+    "disclaimer": "Instructors and mentors speak for themselves, not for their employers.",
+    "source": "NYC_BRIEF.md → Proof facts: SE + AI week 1 first pages go live; Fridays are build days (PROOF.md row: free APIs, hosting → build topics)"
+  },
+  "close": {
+    "line": 2,
+    "text": "Your first app goes live in week six.",
+    "cta": "See the courses at notyourcollege.com →"
+  },
+  "caption_draft": "Your first app needs somewhere to keep its data. These 6 have a free plan.\n\nSupabase — https://supabase.com/pricing — 500 MB Postgres database, free plan\nMongoDB Atlas — https://www.mongodb.com/resources/basics/databases/cloud-databases/free-cloud-database — 512 MB free cluster, no credit card\nNeon — https://neon.com/docs/introduction/plans — 100 free Postgres projects\nFirebase Firestore — https://firebase.google.com/pricing — 50K free reads a day\nTurso — https://turso.tech/pricing — 100 free databases, 5GB storage\nCloudflare D1 — https://developers.cloudflare.com/d1/platform/limits/ — 10 free databases per account\n\nSave this for the day your app needs a login or a database. Send it to the friend whose app forgets everything on refresh.\n\n#webdev #database #backend #supabase #mongodb #firstyear #students #notyourcollege",
+  "sources": [
+    {
+      "item": "Supabase",
+      "url": "https://supabase.com/pricing.md",
+      "quote": "500 MB database size (Shared CPU • 500 MB RAM)",
+      "checked_at": "2026-11-18"
+    },
+    {
+      "item": "MongoDB Atlas",
+      "url": "https://www.mongodb.com/resources/basics/databases/cloud-databases/free-cloud-database",
+      "quote": "Our free clusters come with 512 MB of storage so you can play around with sample data and get oriented with our platform. … No credit cards are required to provision a cluster",
+      "checked_at": "2026-11-18"
+    },
+    {
+      "item": "Neon",
+      "url": "https://neon.com/docs/introduction/plans",
+      "quote": "100 projects … 1 GB of Postgres storage per project (up to 20 GB total across all projects)",
+      "checked_at": "2026-11-18"
+    },
+    {
+      "item": "Firebase Firestore",
+      "url": "https://firebase.google.com/pricing",
+      "quote": "No-cost (Spark) plan: 1 GiB total … 50K reads/day … 20K writes/day",
+      "checked_at": "2026-11-18"
+    },
+    {
+      "item": "Turso",
+      "url": "https://turso.tech/pricing",
+      "quote": "Free … $0/month … 100 [databases] … 5GB [storage]",
+      "checked_at": "2026-11-18"
+    },
+    {
+      "item": "Cloudflare D1",
+      "url": "https://developers.cloudflare.com/d1/platform/limits/",
+      "quote": "Databases per account: Free: 10 … Maximum database size: 500 MB (Free)",
+      "checked_at": "2026-11-18"
+    }
+  ],
+  "note": "Planned 18 Nov 2026 (daily run, step 16) from topics.json.queue['2026-11-26']. All 6 items verified on official pages on 2026-11-18. Appwrite (in the queue's example list) dropped: its pricing page did not show the Free plan's limits in a readable form; Cloudflare D1 used instead. Logos in collection/logos: firebase, cloudflare only; the other four items render name-only unless the Mac adds real SVGs. Close line 2 (25 Nov uses line 4)."
+}
