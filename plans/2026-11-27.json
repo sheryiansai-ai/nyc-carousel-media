@@ -1,0 +1,231 @@
+{
+  "date": "2026-11-27",
+  "format": "collection",
+  "day_type": "value",
+  "slug": "december-coding-challenges",
+  "topic": "5 coding challenges for December",
+  "topicTag": "December",
+  "images_rev": "2026-11-19-plan",
+  "dm_keyword": "DECEMBER",
+  "save_reason": "Five free coding challenges that run in December, with the official links in the caption.",
+  "send_reason": "Send this to a friend who wants a coding streak this December.",
+  "cover": {
+    "style": "D",
+    "hook": "5 coding challenges for *December*",
+    "emotion": "ambition",
+    "tag": "December",
+    "blanks": 1,
+    "scene": "Renaissance fresco: two cherubs hold up a large modern wall calendar with one blank white page facing the viewer, in a painted loggia; scholars seen from behind look up at it; empty painted sky on top.",
+    "overlay": "On the calendar's blank page: the five challenge names in item order as a neat vertical list (Advent of Code, Advent of Cyber, AdventJS, LeetCode, Kaggle Santa) with the real leetcode and kaggle logos next to theirs (no logo files for the others: names only), kind mark, dark ink on white. Names and logos only, never a screenshot.",
+    "hooks": [
+      "5 coding challenges for December (ambition)",
+      "Start a coding streak on 1 December (confidence)",
+      "Where coders spend December (curiosity)",
+      "5 free challenges that start 1 December (ambition)"
+    ],
+    "notes": "Headline on the painted sky at the top. blanks.py --mode light N=1 finds the calendar page; split its box into 5 rows. Cover sequence (owner rule 13 Nov 2026): 24 D, 25 C, 26 G, 27 D, 28 C. D objects used before: laptop (15), tablet (18), canvas screen (21), phone on a lectern (24): this one is a wall calendar. Time-bound topic: value day (Fri) only. If the cover cannot be made, regenerate once, else post nothing (golden rule). Never F."
+  },
+  "items": [
+    {
+      "n": 2,
+      "name": "Advent of Code",
+      "logo": null,
+      "official_url": "https://adventofcode.com/about",
+      "fact": "Daily puzzles from 1 December",
+      "source_quote": "The puzzles still start on December 1st so that the day numbers make sense (Day 1 = Dec 1)",
+      "checked_at": "2026-11-19",
+      "shot_url": "https://adventofcode.com/",
+      "shot_name": "shot-1",
+      "shot_crop_top": 0
+    },
+    {
+      "n": 3,
+      "name": "Advent of Cyber",
+      "logo": null,
+      "official_url": "https://tryhackme.com/adventofcyber26",
+      "fact": "24 free security challenges",
+      "source_quote": "A new hands-on cyber security challenge every day, 1st to 24th December.",
+      "checked_at": "2026-11-19",
+      "shot_name": "shot-2",
+      "shot_crop_top": 0,
+      "note": "Page also says 'Free, made for beginners.' and 'Tuesday 1st December 2026'"
+    },
+    {
+      "n": 4,
+      "name": "AdventJS",
+      "logo": null,
+      "official_url": "https://adventjs.dev/",
+      "fact": "A new challenge each day",
+      "source_quote": "From December 1st to December 24th, you will have a new challenge available.",
+      "checked_at": "2026-11-19",
+      "shot_name": "shot-3",
+      "shot_crop_top": 0,
+      "note": "Page also says 'Yes, playing AdventJS is completely free.' The page states no year: the daily run must confirm the 2026 edition (e.g. adventjs.dev/en/challenges/2026) or drop it."
+    },
+    {
+      "n": 5,
+      "name": "LeetCode Daily Challenge",
+      "logo": "leetcode",
+      "official_url": "https://leetcode.com/discuss/post/655704/",
+      "fact": "Solve all, earn December's badge",
+      "source_quote": "Users who completed all Daily LeetCoding Challenge non-premium problems for the month",
+      "checked_at": "2026-11-19",
+      "shot_url": "https://leetcode.com/problemset/",
+      "shot_name": "shot-4",
+      "shot_crop_top": 0
+    },
+    {
+      "n": 6,
+      "name": "Kaggle Santa 2026",
+      "logo": "kaggle",
+      "official_url": "https://www.kaggle.com/competitions/santa-2026",
+      "fact": "Kaggle's yearly holiday competition",
+      "source_quote": "Santa 2026 - The Elf Calculator",
+      "checked_at": "2026-11-19",
+      "shot_name": "shot-5",
+      "shot_crop_top": 0,
+      "note": "Dates and prizes were not readable from the cloud on 19 Nov; the daily run must confirm on the official page that it is open in December and use a verified fact (e.g. its deadline), else drop it."
+    }
+  ],
+  "slides": [
+    {
+      "n": 1,
+      "type": "cover"
+    },
+    {
+      "n": 2,
+      "type": "item",
+      "item": "Advent of Code"
+    },
+    {
+      "n": 3,
+      "type": "item",
+      "item": "Advent of Cyber"
+    },
+    {
+      "n": 4,
+      "type": "item",
+      "item": "AdventJS"
+    },
+    {
+      "n": 5,
+      "type": "item",
+      "item": "LeetCode Daily Challenge"
+    },
+    {
+      "n": 6,
+      "type": "item",
+      "item": "Kaggle Santa 2026"
+    },
+    {
+      "n": 7,
+      "type": "proof"
+    },
+    {
+      "n": 8,
+      "type": "close"
+    }
+  ],
+  "images": [
+    {
+      "name": "shot-1",
+      "screenshot": "https://adventofcode.com/"
+    },
+    {
+      "name": "shot-2",
+      "screenshot": "https://tryhackme.com/adventofcyber26"
+    },
+    {
+      "name": "shot-3",
+      "screenshot": "https://adventjs.dev/"
+    },
+    {
+      "name": "shot-4",
+      "screenshot": "https://leetcode.com/problemset/"
+    },
+    {
+      "name": "shot-5",
+      "screenshot": "https://www.kaggle.com/competitions/santa-2026"
+    },
+    {
+      "name": "cover",
+      "size": "1024x1280",
+      "prompt": "A Renaissance fresco in the style of Raphael, painterly, rich natural colours, visible fresco texture and fine cracks, magazine-ad quality. In an open painted loggia with marble columns, two small cherubs float and hold up a large modern wall calendar at the centre of the picture. The calendar has one page, completely blank, bright plain white, large in the frame and facing the viewer perfectly straight on, with a simple metal binding at the top. Below, robed scholars seen from behind look up at it. The top 35% of the picture is empty soft painted sky with light clouds. No readable text, no letters, no numbers, no logos, no faces, no watermark."
+    },
+    {
+      "name": "face-1",
+      "local": "student-1",
+      "use": "last-slide face circle (optional; dropped if missing)"
+    },
+    {
+      "name": "face-2",
+      "local": "student-2",
+      "use": "last-slide face circle (optional; dropped if missing)"
+    },
+    {
+      "name": "face-3",
+      "local": "student-3",
+      "use": "last-slide face circle (optional; dropped if missing)"
+    },
+    {
+      "name": "face-4",
+      "local": "student-4",
+      "use": "last-slide face circle (optional; dropped if missing)"
+    },
+    {
+      "name": "proof",
+      "screenshot": "https://notyourcollege.com/instructors",
+      "use": "proof slide card: crop the heading + group photo, below the site header"
+    }
+  ],
+  "proof": {
+    "logos": [
+      "atlassian"
+    ],
+    "sentence": "An Atlassian engineer teaches DSA at NYC.",
+    "fact": "The DSA track opens in week 13",
+    "shot_name": "proof",
+    "shot_crop_top": 0,
+    "disclaimer": "Instructors and mentors speak for themselves, not for their employers.",
+    "source": "NYC_BRIEF.md → Proof facts: Akshay (Senior Software Engineer, Atlassian) teaches DSA; week 13 the DSA track opens"
+  },
+  "close": {
+    "line": 3,
+    "text": "Engineers review every project you build here.",
+    "cta": "See the courses at notyourcollege.com →"
+  },
+  "caption_draft": "5 coding challenges for December.\n\nAdvent of Code — https://adventofcode.com/about — Daily puzzles from 1 December\nAdvent of Cyber — https://tryhackme.com/adventofcyber26 — 24 free security challenges\nAdventJS — https://adventjs.dev/ — A new challenge each day\nLeetCode Daily Challenge — https://leetcode.com/discuss/post/655704/ — Solve all, earn December's badge\nKaggle Santa 2026 — https://www.kaggle.com/competitions/santa-2026 — Kaggle's yearly holiday competition\n\nSave this for 1 December. Send it to the friend you want to race.\n\n#adventofcode #codingchallenge #leetcode #kaggle #cybersecurity #javascript #firstyear #notyourcollege",
+  "sources": [
+    {
+      "item": "Advent of Code",
+      "url": "https://adventofcode.com/about",
+      "quote": "The puzzles still start on December 1st so that the day numbers make sense (Day 1 = Dec 1)",
+      "checked_at": "2026-11-19"
+    },
+    {
+      "item": "Advent of Cyber",
+      "url": "https://tryhackme.com/adventofcyber26",
+      "quote": "A new hands-on cyber security challenge every day, 1st to 24th December.",
+      "checked_at": "2026-11-19"
+    },
+    {
+      "item": "AdventJS",
+      "url": "https://adventjs.dev/",
+      "quote": "From December 1st to December 24th, you will have a new challenge available.",
+      "checked_at": "2026-11-19"
+    },
+    {
+      "item": "LeetCode Daily Challenge",
+      "url": "https://leetcode.com/discuss/post/655704/",
+      "quote": "Users who completed all Daily LeetCoding Challenge non-premium problems for the month",
+      "checked_at": "2026-11-19"
+    },
+    {
+      "item": "Kaggle Santa 2026",
+      "url": "https://www.kaggle.com/competitions/santa-2026",
+      "quote": "Santa 2026 - The Elf Calculator",
+      "checked_at": "2026-11-19"
+    }
+  ],
+  "note": "Planned 19 Nov 2026 (daily run, step 16) from topics.json.queue[2026-11-27]. Advent of Code 2026 confirmed on adventofcode.com/about (title 'About - Advent of Code 2026', puzzles start December 1st). Two items need the daily run's re-check (AdventJS year, Kaggle Santa 2026 dates); if fewer than 5 items verify on 26 Nov, swap in the next ready backlog collection (golden rule)."
+}
