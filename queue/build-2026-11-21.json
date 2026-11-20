@@ -1,0 +1,17 @@
+{
+ "publish_at": "2026-11-21T10:00:00+05:30",
+ "type": "carousel",
+ "media": [
+  "https://static.metricool.com/planner/202611/7438518-file-16894322884249057666.png",
+  "https://static.metricool.com/planner/202611/7438518-file-3814171273061977952.png",
+  "https://static.metricool.com/planner/202611/7438518-file-16603884705224924231.png",
+  "https://static.metricool.com/planner/202611/7438518-file-5098939157343649811.png",
+  "https://static.metricool.com/planner/202611/7438518-file-9514586650899362543.png",
+  "https://static.metricool.com/planner/202611/7438518-file-9643890775596731111.png",
+  "https://static.metricool.com/planner/202611/7438518-file-1910702477658684604.png",
+  "https://static.metricool.com/planner/202611/7438518-file-4360654886165957610.png"
+ ],
+ "caption": "Jignesh from the NYC community built Idiot Box, a free, open-source desktop IDE. The code editor, terminal, browser, a visual project map, a test explorer and a debugger all sit in one window. It's built with Electron and React, and it's on the Microsoft Store.\n\nWindows (Microsoft Store): https://apps.microsoft.com/detail/9PB1J8PS17ZT\nmacOS and Linux downloads: https://thewonderlandstudio.github.io/Idiot_Box/download.html\nCode: https://github.com/TheWonderlandStudio/Idiot_Box\n\nSave this for the day your open windows outnumber your ideas. Send it to the friend who runs one file across three apps.\n\n#ide #electron #react #opensource #buildinpublic #students #firstyear #notyourcollege",
+ "by": "moved from Metricool (owner, 20 Nov)",
+ "queued_at": "2026-11-20T19:00+05:30"
+}
