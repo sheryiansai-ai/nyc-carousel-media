@@ -1,0 +1,51 @@
+name: NYC Poster (Instagram)
+
+# Every 5 minutes: publish the posts in queue/ whose time has come (see poster/publish.py).
+# GitHub may start a scheduled run a few minutes late; a post is published on the first run after its time.
+on:
+  schedule:
+    - cron: "*/5 * * * *"
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Dry run (no Instagram calls)"
+        type: boolean
+        default: false
+      check_only:
+        description: "Only check the token and quota (posts nothing)"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: nyc-poster
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          sparse-checkout: |
+            poster
+            queue
+            STATUS.md
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install --quiet pillow==11.0.0
+      - name: Publish due posts
+        env:
+          IG_TOKEN: ${{ secrets.IG_TOKEN }}
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+          DRY_RUN: ${{ inputs.dry_run && '1' || '0' }}
+          CHECK_ONLY: ${{ inputs.check_only && '1' || '0' }}
+        run: |
+          git config user.name "NYC Poster"
+          git config user.email "nyc-poster@users.noreply.github.com"
+          python poster/publish.py
