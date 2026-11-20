@@ -1,0 +1,231 @@
+{
+ "date": "2026-11-28",
+ "format": "collection",
+ "day_type": "build-fallback",
+ "slug": "ai-app-on-your-notes",
+ "topic": "5 free tools to build an AI app on your notes",
+ "topicTag": "AI apps",
+ "images_rev": "2026-11-20-plan",
+ "dm_keyword": "NOTES",
+ "save_reason": "Five free tools, in build order, for an app that answers from your own notes.",
+ "send_reason": "Send this to a friend whose notes are all over the place.",
+ "cover": {
+  "style": "C",
+  "hook": "5 free tools to chat with *your notes*",
+  "emotion": "curiosity",
+  "tag": "AI apps",
+  "hooks": [
+   "5 free tools to chat with your notes (curiosity)",
+   "Build an AI on your notes with 5 free tools (ambition)",
+   "Your notes can answer back: 5 free tools (awe)",
+   "5 free tools for your weekend AI project (confidence)"
+  ],
+  "field": "lime",
+  "kicker": "5 free tools to chat with",
+  "giant": "YOUR\nNOTES",
+  "student": "student",
+  "logos": [
+   "googlegemini",
+   "github"
+  ],
+  "notes": "Rotation: 26 G, 27 D, 28 C (lime, student-1; 22 paper, 25 green). Logos googlegemini and github are in collection/logos (LlamaIndex, Chroma, Ollama, Streamlit have none: the Mac may add simple-icons copies to codex-images bot-assets/logos; else name only, never drawn). No screenshot on the cover. If student.png is missing: post nothing (golden rule; no other style keeps rotation), never F."
+ },
+ "items": [
+  {
+   "n": 2,
+   "name": "LlamaIndex",
+   "logo": null,
+   "official_url": "https://github.com/run-llama/llama_index",
+   "factNum": "53k",
+   "factText": "stars on GitHub",
+   "source_quote": "LlamaIndex is the document processing platform for AI (GitHub repo description; 52,967 stars, MIT licence, via GitHub API)",
+   "checked_at": "2026-11-20",
+   "shot_name": "shot-1",
+   "shot_crop_top": 0
+  },
+  {
+   "n": 3,
+   "name": "Chroma",
+   "logo": null,
+   "official_url": "https://github.com/chroma-core/chroma",
+   "factNum": "29.7k",
+   "factText": "stars on GitHub",
+   "source_quote": "Search infrastructure for AI (GitHub repo description; 29,717 stars, Apache-2.0 licence, via GitHub API)",
+   "checked_at": "2026-11-20",
+   "shot_name": "shot-2",
+   "shot_crop_top": 0
+  },
+  {
+   "n": 4,
+   "name": "Ollama",
+   "logo": null,
+   "official_url": "https://github.com/ollama/ollama",
+   "factNum": "188k",
+   "factText": "stars on GitHub",
+   "source_quote": "Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models. (GitHub repo description; 187,743 stars, MIT licence, via GitHub API)",
+   "checked_at": "2026-11-20",
+   "shot_name": "shot-3",
+   "shot_crop_top": 0
+  },
+  {
+   "n": 5,
+   "name": "Gemini API",
+   "logo": "googlegemini",
+   "official_url": "https://ai.google.dev/gemini-api/docs/pricing",
+   "fact": "Free input and output tokens",
+   "source_quote": "Start building free of charge with generous limits / Free input & output tokens",
+   "checked_at": "2026-11-20",
+   "shot_name": "shot-4",
+   "shot_crop_top": 0
+  },
+  {
+   "n": 6,
+   "name": "Streamlit Community Cloud",
+   "logo": null,
+   "official_url": "https://docs.streamlit.io/deploy/streamlit-community-cloud",
+   "fact": "Deploy your app for free",
+   "source_quote": "With Streamlit Community Cloud, you can create, deploy, and manage your Streamlit apps — all for free.",
+   "checked_at": "2026-11-20",
+   "shot_name": "shot-5",
+   "shot_crop_top": 0
+  }
+ ],
+ "slides": [
+  {
+   "n": 1,
+   "type": "cover"
+  },
+  {
+   "n": 2,
+   "type": "item",
+   "item": "LlamaIndex"
+  },
+  {
+   "n": 3,
+   "type": "item",
+   "item": "Chroma"
+  },
+  {
+   "n": 4,
+   "type": "item",
+   "item": "Ollama"
+  },
+  {
+   "n": 5,
+   "type": "item",
+   "item": "Gemini API"
+  },
+  {
+   "n": 6,
+   "type": "item",
+   "item": "Streamlit Community Cloud"
+  },
+  {
+   "n": 7,
+   "type": "proof"
+  },
+  {
+   "n": 8,
+   "type": "close"
+  }
+ ],
+ "images": [
+  {
+   "name": "shot-1",
+   "screenshot": "https://github.com/run-llama/llama_index"
+  },
+  {
+   "name": "shot-2",
+   "screenshot": "https://github.com/chroma-core/chroma"
+  },
+  {
+   "name": "shot-3",
+   "screenshot": "https://github.com/ollama/ollama"
+  },
+  {
+   "name": "shot-4",
+   "screenshot": "https://ai.google.dev/gemini-api/docs/pricing"
+  },
+  {
+   "name": "shot-5",
+   "screenshot": "https://docs.streamlit.io/deploy/streamlit-community-cloud"
+  },
+  {
+   "name": "student",
+   "local": "student-1",
+   "use": "cover C cut-out"
+  },
+  {
+   "name": "face-1",
+   "local": "student-1",
+   "use": "last-slide face circle (optional; dropped if missing)"
+  },
+  {
+   "name": "face-2",
+   "local": "student-2",
+   "use": "last-slide face circle (optional; dropped if missing)"
+  },
+  {
+   "name": "face-3",
+   "local": "student-3",
+   "use": "last-slide face circle (optional; dropped if missing)"
+  },
+  {
+   "name": "face-4",
+   "local": "student-4",
+   "use": "last-slide face circle (optional; dropped if missing)"
+  },
+  {
+   "name": "proof",
+   "screenshot": "https://notyourcollege.com/instructors",
+   "use": "proof slide card: crop the heading + group photo, below the site header"
+  }
+ ],
+ "proof": {
+  "logos": [],
+  "sentence": "At NYC, you build a document assistant that cites its sources.",
+  "fact": "Week 22 of AI Engineering",
+  "shot_name": "proof",
+  "shot_crop_top": 0,
+  "source": "NYC_BRIEF.md → Proof facts: AI Engineering week 22 a document assistant that cites its sources (PROOF.md row 'AI app on your notes' → close line 2)"
+ },
+ "close": {
+  "line": 2,
+  "text": "Your first app goes live in week six.",
+  "cta": "See the courses at notyourcollege.com →"
+ },
+ "caption_draft": "Five free tools to build an app that answers from your notes.\n\nLlamaIndex — https://github.com/run-llama/llama_index — 53k stars on GitHub\nChroma — https://github.com/chroma-core/chroma — 29.7k stars on GitHub\nOllama — https://github.com/ollama/ollama — 188k stars on GitHub\nGemini API — https://ai.google.dev/gemini-api/docs/pricing — Free input and output tokens\nStreamlit Community Cloud — https://docs.streamlit.io/deploy/streamlit-community-cloud — Deploy your app for free\n\nSave this for your weekend project. Send it to a friend whose notes are all over the place.\n\n#ai #genai #rag #python #firstyear #coding #btech #notyourcollege",
+ "sources": [
+  {
+   "item": "LlamaIndex",
+   "url": "https://github.com/run-llama/llama_index",
+   "quote": "LlamaIndex is the document processing platform for AI (GitHub repo description; 52,967 stars, MIT licence, via GitHub API)",
+   "checked_at": "2026-11-20"
+  },
+  {
+   "item": "Chroma",
+   "url": "https://github.com/chroma-core/chroma",
+   "quote": "Search infrastructure for AI (GitHub repo description; 29,717 stars, Apache-2.0 licence, via GitHub API)",
+   "checked_at": "2026-11-20"
+  },
+  {
+   "item": "Ollama",
+   "url": "https://github.com/ollama/ollama",
+   "quote": "Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models. (GitHub repo description; 187,743 stars, MIT licence, via GitHub API)",
+   "checked_at": "2026-11-20"
+  },
+  {
+   "item": "Gemini API",
+   "url": "https://ai.google.dev/gemini-api/docs/pricing",
+   "quote": "Start building free of charge with generous limits / Free input & output tokens",
+   "checked_at": "2026-11-20"
+  },
+  {
+   "item": "Streamlit Community Cloud",
+   "url": "https://docs.streamlit.io/deploy/streamlit-community-cloud",
+   "quote": "With Streamlit Community Cloud, you can create, deploy, and manage your Streamlit apps — all for free.",
+   "checked_at": "2026-11-20"
+  }
+ ],
+ "note": "Planned by the 20 Nov evening run from topics.json queue[2026-11-28] (ai-app-on-your-notes, build-fallback, cover C lime, student-1). 5 items verified 2026-11-20: GitHub stars and descriptions via gh search API; Gemini pricing and Streamlit docs via WebFetch. Close line 2 (27 Nov uses 3). Build order: read notes (LlamaIndex) → search them (Chroma) → model on your laptop (Ollama) or free API (Gemini) → put it online (Streamlit). Spare: sentence-transformers (19.3k stars, github.com/huggingface/sentence-transformers)."
+}
