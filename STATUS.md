@@ -7,6 +7,8 @@ Times are IST. This page changes only when the queue changes.
 | When | Type | First line | Note |
 |---|---|---|---|
 | 2026-11-21 10:00 | carousel | Jignesh from the NYC community built Idiot Box, a free, open-source de |  |
+| 2026-11-21 12:00 | story |  |  |
+| 2026-11-21 12:00 | carousel | Free live workshop: What your college won’t teach you about a tech car |  |
 | 2026-11-24 10:00 | carousel | Pulkit from the NYC community built SmokePath with his team: it reads  |  |
 | 2026-11-26 10:00 | carousel | am.sarii from the NYC community is building Retailspoint POS, a restau |  |
 
