@@ -1,5 +1,5 @@
 {
- "publish_at": "2026-11-20T21:00:00+05:30",
+ "publish_at": "2026-11-21T12:00:00+05:30",
  "type": "carousel",
  "media": [
   "https://raw.githubusercontent.com/sheryiansai-ai/nyc-carousel-media/codex-images/workshop-2026-11-23-college-gap-kavisha-mathur/s-01.png",
@@ -7,5 +7,6 @@
  ],
  "caption": "Free live workshop: What your college won’t teach you about a tech career, with Kavisha Mathur, Software Development Engineer 2 at Tesco.\n\nMon, 23 Nov · 8:00 PM IST · Online · 30 minutes\nFor 1st and 2nd-year students.\n\nRegister free: notyourcollege.com/workshop?workshop=college-gap-kavisha-mathur\n\n#freeworkshop #internship #firstyear #secondyear #codinginterview #tesco #notyourcollege",
  "by": "workshop task",
- "queued_at": "2026-11-20T20:08+05:30"
+ "queued_at": "2026-11-20T20:08+05:30",
+ "note": "moved from 2026-11-20T21:00:00+05:30: the scheduled timer did not run at 21:00 on 20 Nov"
 }
