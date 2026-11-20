@@ -1,0 +1,17 @@
+{
+ "publish_at": "2026-11-24T10:00:00+05:30",
+ "type": "carousel",
+ "media": [
+  "https://static.metricool.com/planner/202611/7438518-file-14826565269420951188.png",
+  "https://static.metricool.com/planner/202611/7438518-file-10478212573641307306.png",
+  "https://static.metricool.com/planner/202611/7438518-file-3855256189153539305.png",
+  "https://static.metricool.com/planner/202611/7438518-file-3169043735794452770.png",
+  "https://static.metricool.com/planner/202611/7438518-file-17553146877992720546.png",
+  "https://static.metricool.com/planner/202611/7438518-file-16711277611892203965.png",
+  "https://static.metricool.com/planner/202611/7438518-file-3970572244478434632.png",
+  "https://static.metricool.com/planner/202611/7438518-file-14111381580086377324.png"
+ ],
+ "caption": "Pulkit from the NYC community built SmokePath with his team: it reads tomorrow's smoke forecast for 1,034 Delhi NCR schools every evening and tells each principal what to change, from assembly and PE to recess and windows, in English and Hindi. On the 11 Nov 2025 smog day, the global model said 90, Delhi's monitors measured 281, and SmokePath had said 255 the evening before.\n\nLive site: https://d35jtpishdgz20.cloudfront.net/\nMap app: https://d35jtpishdgz20.cloudfront.net/app\nDemo video: https://www.youtube.com/watch?v=RAbMHWgLwWU\nCode: https://github.com/dhruvdumra/smokepath\n\nSave this for the next time someone says college projects don't solve real problems. Send it to the friend who checks the AQI every morning.\n\n#datascience #python #aws #react #buildinpublic #students #firstyear #notyourcollege",
+ "by": "moved from Metricool (owner, 20 Nov)",
+ "queued_at": "2026-11-20T19:00+05:30"
+}
