@@ -8,6 +8,7 @@ Times are IST. This page changes only when the queue changes.
 |---|---|---|---|
 | 2026-11-24 10:00 | carousel | Pulkit from the NYC community built SmokePath with his team: it reads  |  |
 | 2026-11-26 10:00 | carousel | am.sarii from the NYC community is building Retailspoint POS, a restau |  |
+| 2026-11-28 10:00 | carousel | Abinash built Scorched: sign in with Google and it turns up to 200 of  |  |
 
 ## Published
 
