@@ -7,5 +7,6 @@
  "caption": "",
  "by": "workshop task",
  "queued_at": "2026-11-20T20:10+05:30",
- "note": "moved from 2026-11-20T21:00:00+05:30: the scheduled timer did not run at 21:00 on 20 Nov; moved again from 2026-11-21T12:00:00+05:30 so it is 1 h after the late build post"
+ "note": "moved from 2026-11-20T21:00:00+05:30: the scheduled timer did not run at 21:00 on 20 Nov; moved again from 2026-11-21T12:00:00+05:30 so it is 1 h after the late build post",
+ "claimed_at": "2026-11-21T14:15:01+05:30"
 }
