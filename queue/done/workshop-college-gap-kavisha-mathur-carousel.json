@@ -9,5 +9,9 @@
  "by": "workshop task",
  "queued_at": "2026-11-20T20:08+05:30",
  "note": "moved from 2026-11-20T21:00:00+05:30: the scheduled timer did not run at 21:00 on 20 Nov; moved again from 2026-11-21T12:00:00+05:30 so it is 1 h after the late build post",
- "claimed_at": "2026-11-21T14:14:35+05:30"
+ "result": {
+  "media_id": "17920048650266020",
+  "permalink": "https://www.instagram.com/p/Df_1Lk7jZks/",
+  "published_at": "2026-11-21T14:15+05:30"
+ }
 }
