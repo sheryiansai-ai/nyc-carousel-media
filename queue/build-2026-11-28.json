@@ -1,0 +1,17 @@
+{
+ "publish_at": "2026-11-28T10:00:00+05:30",
+ "type": "carousel",
+ "media": [
+  "https://raw.githubusercontent.com/sheryiansai-ai/nyc-carousel-media/codex-images/build-2026-11-28/s-01.png",
+  "https://raw.githubusercontent.com/sheryiansai-ai/nyc-carousel-media/codex-images/build-2026-11-28/s-02.png",
+  "https://raw.githubusercontent.com/sheryiansai-ai/nyc-carousel-media/codex-images/build-2026-11-28/s-03.png",
+  "https://raw.githubusercontent.com/sheryiansai-ai/nyc-carousel-media/codex-images/build-2026-11-28/s-04.png",
+  "https://raw.githubusercontent.com/sheryiansai-ai/nyc-carousel-media/codex-images/build-2026-11-28/s-05.png",
+  "https://raw.githubusercontent.com/sheryiansai-ai/nyc-carousel-media/codex-images/build-2026-11-28/s-06.png",
+  "https://raw.githubusercontent.com/sheryiansai-ai/nyc-carousel-media/codex-images/build-2026-11-28/s-07.png",
+  "https://raw.githubusercontent.com/sheryiansai-ai/nyc-carousel-media/codex-images/build-2026-11-28/s-08.png"
+ ],
+ "caption": "Abinash built Scorched: sign in with Google and it turns up to 200 of your liked YouTube videos into a roast report with a 0 to 100 brainrot score. Code counts four patterns, Gemini writes the jokes, and nothing is saved after the report.\n\nTry it: https://scorched-bice.vercel.app/\nCode: https://github.com/abinash2553J/scorched\n\nSend this to the friend whose likes are mostly Shorts. They know who they are.\n\n#notyourcollege #studentprojects #buildinpublic #nextjs #typescript #gemini #webdevelopment #collegestudents",
+ "by": "nyc-build-posts",
+ "queued_at": "2026-11-21T14:22+05:30"
+}
