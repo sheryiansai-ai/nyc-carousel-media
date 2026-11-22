@@ -1,0 +1,250 @@
+{
+  "date": "2026-11-29",
+  "format": "collection",
+  "day_type": "value",
+  "slug": "git-commands-every-project",
+  "topic": "6 Git commands for every project",
+  "topicTag": "Git",
+  "images_rev": "2026-11-22-plan",
+  "dm_keyword": "GIT",
+  "save_reason": "Six Git commands from a project's first day to its first push, each from the official Git docs.",
+  "send_reason": "Send this to a friend starting their first project.",
+  "cover": {
+    "style": "G",
+    "hook": "6 Git commands for *every project*",
+    "emotion": "confidence",
+    "tag": "Git",
+    "blanks": 6,
+    "scene": "A hostel key board on a plain wall, straight-on: six brass keys hang from hooks in a 3x2 grid, each with a large plain blank white rectangular paper tag facing the camera; empty pale wall in the top 38%.",
+    "overlay": "On each key tag, in item order (reading order): the command (git init, git status, git add, git commit, git log, git push) as short text, mix-blend-mode: multiply. Text only (no Git logo in collection/logos), never a screenshot.",
+    "hooks": [
+      "6 Git commands for every project (confidence)",
+      "Every project starts with these 6 Git commands (curiosity)",
+      "6 Git commands you will type every day (confidence)",
+      "From git init to git push: 6 commands (ambition)"
+    ],
+    "notes": "New G object (not the vending machine of 14 Nov, folders of 17 Nov, card catalogue of 20 Nov, notebook shelf of 23 Nov, jars of 26 Nov). Headline on the empty pale wall (dark text). blanks.py --mode light N=6 (the tags). Cover sequence (owner rule 13 Nov 2026: C/D/G cycle, F retired): 26 G, 27 D, 28 C, 29 G, 30 D. If the cover cannot be made, regenerate the scene once (Figma generate_image), else post nothing (golden rule). Never F. Screenshots: git-scm.com docs pages; crop to the NAME section (skip the site header)."
+  },
+  "items": [
+    {
+      "n": 2,
+      "name": "git init",
+      "logo": null,
+      "official_url": "https://git-scm.com/docs/git-init",
+      "fact": "Creates an empty Git repository",
+      "source_quote": "git-init - Create an empty Git repository or reinitialize an existing one",
+      "checked_at": "2026-11-22",
+      "shot_crop_top": 0,
+      "shot_name": "shot-1"
+    },
+    {
+      "n": 3,
+      "name": "git status",
+      "logo": null,
+      "official_url": "https://git-scm.com/docs/git-status.html",
+      "fact": "Shows the working tree status",
+      "source_quote": "git-status - Show the working tree status",
+      "checked_at": "2026-11-22",
+      "shot_crop_top": 0,
+      "shot_name": "shot-2"
+    },
+    {
+      "n": 4,
+      "name": "git add",
+      "logo": null,
+      "official_url": "https://git-scm.com/docs/git-add",
+      "fact": "Adds file contents to the index",
+      "source_quote": "git-add - Add file contents to the index",
+      "checked_at": "2026-11-22",
+      "shot_crop_top": 0,
+      "shot_name": "shot-3"
+    },
+    {
+      "n": 5,
+      "name": "git commit",
+      "logo": null,
+      "official_url": "https://git-scm.com/docs/git-commit",
+      "fact": "Records changes to the repository",
+      "source_quote": "git-commit - Record changes to the repository",
+      "checked_at": "2026-11-22",
+      "shot_crop_top": 0,
+      "shot_name": "shot-4"
+    },
+    {
+      "n": 6,
+      "name": "git log",
+      "logo": null,
+      "official_url": "https://git-scm.com/docs/git-log.html",
+      "fact": "Shows commit logs",
+      "source_quote": "git-log - Show commit logs",
+      "checked_at": "2026-11-22",
+      "shot_crop_top": 0,
+      "shot_name": "shot-5"
+    },
+    {
+      "n": 7,
+      "name": "git push",
+      "logo": null,
+      "official_url": "https://git-scm.com/docs/git-push",
+      "fact": "Updates the remote with your commits",
+      "source_quote": "git-push - Update remote refs along with associated objects",
+      "checked_at": "2026-11-22",
+      "shot_crop_top": 0,
+      "shot_name": "shot-6"
+    }
+  ],
+  "slides": [
+    {
+      "n": 1,
+      "type": "cover"
+    },
+    {
+      "n": 2,
+      "type": "item",
+      "item": "git init"
+    },
+    {
+      "n": 3,
+      "type": "item",
+      "item": "git status"
+    },
+    {
+      "n": 4,
+      "type": "item",
+      "item": "git add"
+    },
+    {
+      "n": 5,
+      "type": "item",
+      "item": "git commit"
+    },
+    {
+      "n": 6,
+      "type": "item",
+      "item": "git log"
+    },
+    {
+      "n": 7,
+      "type": "item",
+      "item": "git push"
+    },
+    {
+      "n": 8,
+      "type": "proof"
+    },
+    {
+      "n": 9,
+      "type": "close"
+    }
+  ],
+  "images": [
+    {
+      "name": "shot-1",
+      "screenshot": "https://git-scm.com/docs/git-init"
+    },
+    {
+      "name": "shot-2",
+      "screenshot": "https://git-scm.com/docs/git-status.html"
+    },
+    {
+      "name": "shot-3",
+      "screenshot": "https://git-scm.com/docs/git-add"
+    },
+    {
+      "name": "shot-4",
+      "screenshot": "https://git-scm.com/docs/git-commit"
+    },
+    {
+      "name": "shot-5",
+      "screenshot": "https://git-scm.com/docs/git-log.html"
+    },
+    {
+      "name": "shot-6",
+      "screenshot": "https://git-scm.com/docs/git-push"
+    },
+    {
+      "name": "cover",
+      "size": "1024x1280",
+      "prompt": "Photoreal photograph, magazine-ad quality, subtle film grain. A simple wooden key board mounted on a plain pale painted wall in an Indian college hostel, seen perfectly straight-on, soft warm daylight. Six brass keys hang from six small hooks in a neat grid of 3 columns and 2 rows; under each key hangs a large plain matte blank white rectangular paper tag on a thin string, each tag flat and facing the camera straight on, the tags large in the frame. The key board fills the lower 62% of the frame; the top 38% is empty plain pale painted wall. Natural colours. No readable text, no letters, no numbers, no logos, no faces, no watermark."
+    },
+    {
+      "name": "face-1",
+      "local": "student-1",
+      "use": "last-slide face circle (optional; dropped if missing)"
+    },
+    {
+      "name": "face-2",
+      "local": "student-2",
+      "use": "last-slide face circle (optional; dropped if missing)"
+    },
+    {
+      "name": "face-3",
+      "local": "student-3",
+      "use": "last-slide face circle (optional; dropped if missing)"
+    },
+    {
+      "name": "face-4",
+      "local": "student-4",
+      "use": "last-slide face circle (optional; dropped if missing)"
+    },
+    {
+      "name": "proof",
+      "screenshot": "https://notyourcollege.com/instructors",
+      "use": "proof slide card: crop the heading + group photo, below the site header"
+    }
+  ],
+  "proof": {
+    "logos": [],
+    "sentence": "At NYC, engineers review every project.",
+    "fact": "In week 13, you build with a team",
+    "shot_name": "proof",
+    "shot_crop_top": 0,
+    "disclaimer": "Instructors and mentors speak for themselves, not for their employers.",
+    "source": "NYC_BRIEF.md → Proof facts: Engineers review every project; week 13 you build with a team."
+  },
+  "close": {
+    "line": 3,
+    "text": "Engineers review every project you build here.",
+    "cta": "See the courses at notyourcollege.com →"
+  },
+  "caption_draft": "6 Git commands you will use in every project.\n\ngit init — https://git-scm.com/docs/git-init — Creates an empty Git repository\ngit status — https://git-scm.com/docs/git-status.html — Shows the working tree status\ngit add — https://git-scm.com/docs/git-add — Adds file contents to the index\ngit commit — https://git-scm.com/docs/git-commit — Records changes to the repository\ngit log — https://git-scm.com/docs/git-log.html — Shows commit logs\ngit push — https://git-scm.com/docs/git-push — Updates the remote with your commits\n\nSave this for your next project. Send it to a friend starting their first repo.\n\n#git #github #coding #programming #firstyear #students #developer #notyourcollege",
+  "sources": [
+    {
+      "item": "git init",
+      "url": "https://git-scm.com/docs/git-init",
+      "quote": "git-init - Create an empty Git repository or reinitialize an existing one",
+      "checked_at": "2026-11-22"
+    },
+    {
+      "item": "git status",
+      "url": "https://git-scm.com/docs/git-status.html",
+      "quote": "git-status - Show the working tree status",
+      "checked_at": "2026-11-22"
+    },
+    {
+      "item": "git add",
+      "url": "https://git-scm.com/docs/git-add",
+      "quote": "git-add - Add file contents to the index",
+      "checked_at": "2026-11-22"
+    },
+    {
+      "item": "git commit",
+      "url": "https://git-scm.com/docs/git-commit",
+      "quote": "git-commit - Record changes to the repository",
+      "checked_at": "2026-11-22"
+    },
+    {
+      "item": "git log",
+      "url": "https://git-scm.com/docs/git-log.html",
+      "quote": "git-log - Show commit logs",
+      "checked_at": "2026-11-22"
+    },
+    {
+      "item": "git push",
+      "url": "https://git-scm.com/docs/git-push",
+      "quote": "git-push - Update remote refs along with associated objects",
+      "checked_at": "2026-11-22"
+    }
+  ],
+  "note": "Planned 22 Nov 2026 from topics.json queue[2026-11-29] (owner-approved remake of git-six-commands, 12 Nov). NAME lines verified on git-scm.com 2026-11-22 (WebFetch; git-log NAME line read from the fetch summary, re-check verbatim on the day). Close line 3 (28 Nov uses 2)."
+}

@@ -1,0 +1,260 @@
+{
+  "date": "2026-11-30",
+  "format": "collection",
+  "day_type": "value",
+  "slug": "amazon-leadership-principles",
+  "topic": "6 of Amazon's 16 Leadership Principles",
+  "topicTag": "Amazon",
+  "images_rev": "2026-11-22-plan",
+  "dm_keyword": "AMAZON",
+  "save_reason": "Six of Amazon's 16 Leadership Principles in Amazon's own words, to start a story for each in first year.",
+  "send_reason": "Send this to a friend who wants an internship at Amazon one day.",
+  "cover": {
+    "style": "D",
+    "hook": "6 of Amazon's *16 principles*",
+    "emotion": "curiosity",
+    "tag": "Amazon",
+    "blanks": 1,
+    "scene": "Renaissance fresco: two robed scholars seen from behind hold up a large modern blank white whiteboard in a vaulted library hall; empty painted sky through a high arch at the top.",
+    "overlay": "On the blank whiteboard: the six principle names in item order as a neat 2x3 grid, dark ink text, kind mark (names only; no Amazon logo in collection/logos; never a screenshot).",
+    "hooks": [
+      "6 of Amazon's 16 principles (curiosity)",
+      "Amazon's principles, in Amazon's words (confidence)",
+      "Start a story for each of these 6 (ambition)",
+      "6 lines Amazon lives by (curiosity)"
+    ],
+    "notes": "Headline on the painted sky at the top. blanks.py --mode light N=1 finds the whiteboard; split its box into 6 cells. Cover sequence (owner rule 13 Nov 2026): 27 D, 28 C, 29 G, 30 D, 1 Dec C. D objects used before: laptop (15), tablet (18), canvas screen (21), phone on a lectern (24), wall calendar (27): this one is a whiteboard. If the cover cannot be made, regenerate once, else post nothing (golden rule). Never F. Angle (owner condition): names only, from Amazon's official page; start your story bank in first year; never jobs or packages. All six items are on the same official page: the shot images are taken 4000 css tall; the daily run sets each item's shotCropTop so the card starts at that principle's heading."
+  },
+  "items": [
+    {
+      "n": 2,
+      "name": "Customer Obsession",
+      "logo": null,
+      "official_url": "https://www.aboutamazon.com/about-us/leadership-principles",
+      "fact": "Start with the customer, work backwards",
+      "source_quote": "Leaders start with the customer and work backwards.",
+      "checked_at": "2026-11-22",
+      "shot_crop_top": 0,
+      "shot_name": "shot-1"
+    },
+    {
+      "n": 3,
+      "name": "Ownership",
+      "logo": null,
+      "official_url": "https://www.aboutamazon.com/about-us/leadership-principles",
+      "fact": "Leaders are owners",
+      "source_quote": "Leaders are owners.",
+      "checked_at": "2026-11-22",
+      "shot_crop_top": 0,
+      "shot_name": "shot-2"
+    },
+    {
+      "n": 4,
+      "name": "Learn and Be Curious",
+      "logo": null,
+      "official_url": "https://www.aboutamazon.com/about-us/leadership-principles",
+      "fact": "Never done learning",
+      "source_quote": "Leaders are never done learning and always seek to improve themselves.",
+      "checked_at": "2026-11-22",
+      "shot_crop_top": 0,
+      "shot_name": "shot-3"
+    },
+    {
+      "n": 5,
+      "name": "Bias for Action",
+      "logo": null,
+      "official_url": "https://www.aboutamazon.com/about-us/leadership-principles",
+      "fact": "Speed matters",
+      "source_quote": "Speed matters in business.",
+      "checked_at": "2026-11-22",
+      "shot_crop_top": 0,
+      "shot_name": "shot-4"
+    },
+    {
+      "n": 6,
+      "name": "Dive Deep",
+      "logo": null,
+      "official_url": "https://www.aboutamazon.com/about-us/leadership-principles",
+      "fact": "Stay connected to the details",
+      "source_quote": "Leaders operate at all levels, stay connected to the details, audit frequently",
+      "checked_at": "2026-11-22",
+      "shot_crop_top": 0,
+      "shot_name": "shot-5"
+    },
+    {
+      "n": 7,
+      "name": "Deliver Results",
+      "logo": null,
+      "official_url": "https://www.aboutamazon.com/about-us/leadership-principles",
+      "fact": "Right quality, in a timely fashion",
+      "source_quote": "Leaders focus on the key inputs for their business and deliver them with the right quality and in a timely fashion.",
+      "checked_at": "2026-11-22",
+      "shot_crop_top": 0,
+      "shot_name": "shot-6"
+    }
+  ],
+  "slides": [
+    {
+      "n": 1,
+      "type": "cover"
+    },
+    {
+      "n": 2,
+      "type": "item",
+      "item": "Customer Obsession"
+    },
+    {
+      "n": 3,
+      "type": "item",
+      "item": "Ownership"
+    },
+    {
+      "n": 4,
+      "type": "item",
+      "item": "Learn and Be Curious"
+    },
+    {
+      "n": 5,
+      "type": "item",
+      "item": "Bias for Action"
+    },
+    {
+      "n": 6,
+      "type": "item",
+      "item": "Dive Deep"
+    },
+    {
+      "n": 7,
+      "type": "item",
+      "item": "Deliver Results"
+    },
+    {
+      "n": 8,
+      "type": "proof"
+    },
+    {
+      "n": 9,
+      "type": "close"
+    }
+  ],
+  "images": [
+    {
+      "name": "shot-1",
+      "screenshot": "https://www.aboutamazon.com/about-us/leadership-principles",
+      "height": 4000
+    },
+    {
+      "name": "shot-2",
+      "screenshot": "https://www.aboutamazon.com/about-us/leadership-principles",
+      "height": 4000
+    },
+    {
+      "name": "shot-3",
+      "screenshot": "https://www.aboutamazon.com/about-us/leadership-principles",
+      "height": 4000
+    },
+    {
+      "name": "shot-4",
+      "screenshot": "https://www.aboutamazon.com/about-us/leadership-principles",
+      "height": 4000
+    },
+    {
+      "name": "shot-5",
+      "screenshot": "https://www.aboutamazon.com/about-us/leadership-principles",
+      "height": 4000
+    },
+    {
+      "name": "shot-6",
+      "screenshot": "https://www.aboutamazon.com/about-us/leadership-principles",
+      "height": 4000
+    },
+    {
+      "name": "cover",
+      "size": "1024x1280",
+      "prompt": "A Renaissance fresco in the style of Raphael, painterly, rich natural colours, visible fresco texture and fine cracks, magazine-ad quality. In a vaulted library hall with tall wooden shelves, two robed scholars seen from behind, heads turned away, hold up between them a large modern whiteboard with a thin grey frame; its surface is completely blank, bright white, large in the frame and facing the viewer straight on. The top 35% of the frame is an empty painted sky with soft clouds seen through a high arch. Natural colours, no green tint. No readable text, no letters, no numbers, no logos, no faces, no watermark."
+    },
+    {
+      "name": "face-1",
+      "local": "student-1",
+      "use": "last-slide face circle (optional; dropped if missing)"
+    },
+    {
+      "name": "face-2",
+      "local": "student-2",
+      "use": "last-slide face circle (optional; dropped if missing)"
+    },
+    {
+      "name": "face-3",
+      "local": "student-3",
+      "use": "last-slide face circle (optional; dropped if missing)"
+    },
+    {
+      "name": "face-4",
+      "local": "student-4",
+      "use": "last-slide face circle (optional; dropped if missing)"
+    },
+    {
+      "name": "proof",
+      "screenshot": "https://notyourcollege.com/instructors",
+      "use": "proof slide card: crop the heading + group photo, below the site header"
+    }
+  ],
+  "proof": {
+    "logos": [
+      "microsoft",
+      "atlassian",
+      "google"
+    ],
+    "sentence": "Engineers from these companies teach at NYC.",
+    "fact": "Mentors take your mock interviews",
+    "shot_name": "proof",
+    "shot_crop_top": 0,
+    "disclaimer": "Instructors and mentors speak for themselves, not for their employers.",
+    "source": "NYC_BRIEF.md → Proof facts: instructors (Microsoft, Atlassian, Google); mentors review projects and take mock interviews."
+  },
+  "close": {
+    "line": 5,
+    "text": "People will ask who taught you.",
+    "cta": "See the courses at notyourcollege.com →"
+  },
+  "caption_draft": "Amazon has 16 Leadership Principles. Here are 6, in Amazon's own words.\n\nCustomer Obsession — https://www.aboutamazon.com/about-us/leadership-principles — Start with the customer, work backwards\nOwnership — https://www.aboutamazon.com/about-us/leadership-principles — Leaders are owners\nLearn and Be Curious — https://www.aboutamazon.com/about-us/leadership-principles — Never done learning\nBias for Action — https://www.aboutamazon.com/about-us/leadership-principles — Speed matters\nDive Deep — https://www.aboutamazon.com/about-us/leadership-principles — Stay connected to the details\nDeliver Results — https://www.aboutamazon.com/about-us/leadership-principles — Right quality, in a timely fashion\n\nSave this and write one story from your own projects for each.\n\n#amazon #leadershipprinciples #internship #firstyear #students #engineering #notyourcollege",
+  "sources": [
+    {
+      "item": "Customer Obsession",
+      "url": "https://www.aboutamazon.com/about-us/leadership-principles",
+      "quote": "Leaders start with the customer and work backwards.",
+      "checked_at": "2026-11-22"
+    },
+    {
+      "item": "Ownership",
+      "url": "https://www.aboutamazon.com/about-us/leadership-principles",
+      "quote": "Leaders are owners.",
+      "checked_at": "2026-11-22"
+    },
+    {
+      "item": "Learn and Be Curious",
+      "url": "https://www.aboutamazon.com/about-us/leadership-principles",
+      "quote": "Leaders are never done learning and always seek to improve themselves.",
+      "checked_at": "2026-11-22"
+    },
+    {
+      "item": "Bias for Action",
+      "url": "https://www.aboutamazon.com/about-us/leadership-principles",
+      "quote": "Speed matters in business.",
+      "checked_at": "2026-11-22"
+    },
+    {
+      "item": "Dive Deep",
+      "url": "https://www.aboutamazon.com/about-us/leadership-principles",
+      "quote": "Leaders operate at all levels, stay connected to the details, audit frequently",
+      "checked_at": "2026-11-22"
+    },
+    {
+      "item": "Deliver Results",
+      "url": "https://www.aboutamazon.com/about-us/leadership-principles",
+      "quote": "Leaders focus on the key inputs for their business and deliver them with the right quality and in a timely fashion.",
+      "checked_at": "2026-11-22"
+    }
+  ],
+  "note": "Planned 22 Nov 2026 from topics.json queue[2026-11-30] (owner-approved remake of amazon-lp, 5 Nov) in collection format: 6 of the 16 principles, names and first lines from aboutamazon.com verified 2026-11-22 (WebFetch; 16 principles listed). Close line 5 (29 Nov uses 3)."
+}
