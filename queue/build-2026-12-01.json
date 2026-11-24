@@ -1,0 +1,17 @@
+{
+ "publish_at": "2026-12-01T10:00:00+05:30",
+ "type": "carousel",
+ "media": [
+  "https://raw.githubusercontent.com/sheryiansai-ai/nyc-carousel-media/codex-images/build-2026-12-01/s-01.png",
+  "https://raw.githubusercontent.com/sheryiansai-ai/nyc-carousel-media/codex-images/build-2026-12-01/s-02.png",
+  "https://raw.githubusercontent.com/sheryiansai-ai/nyc-carousel-media/codex-images/build-2026-12-01/s-03.png",
+  "https://raw.githubusercontent.com/sheryiansai-ai/nyc-carousel-media/codex-images/build-2026-12-01/s-04.png",
+  "https://raw.githubusercontent.com/sheryiansai-ai/nyc-carousel-media/codex-images/build-2026-12-01/s-05.png",
+  "https://raw.githubusercontent.com/sheryiansai-ai/nyc-carousel-media/codex-images/build-2026-12-01/s-06.png",
+  "https://raw.githubusercontent.com/sheryiansai-ai/nyc-carousel-media/codex-images/build-2026-12-01/s-07.png",
+  "https://raw.githubusercontent.com/sheryiansai-ai/nyc-carousel-media/codex-images/build-2026-12-01/s-08.png"
+ ],
+ "caption": "Nitish built an autonomous coding agent. You give it one problem statement; a six-node pipeline plans the project, writes the files, scans them for unsafe code, runs them in a sandbox and sends every crash back to a debugger for a fix, up to three times. Two small 4B models run locally with llama-server, so the cloud bill is $0. His LangSmith log: 91 of 96 benchmark runs passed.\n\nLive demo: https://ultimate-coding-agent-by-x-estal-nitish.streamlit.app/\nCode: https://github.com/XestalNitish/ultimate-coding-agent\n\nSend this to the friend who pastes tracebacks into a chat window all day.\n\n#aiagents #langgraph #python #coding #computerscience #buildinpublic #collegestudents #notyourcollege",
+ "by": "nyc-build-posts",
+ "queued_at": "2026-11-24T12:10+05:30"
+}
