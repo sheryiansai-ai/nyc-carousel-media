@@ -1,0 +1,254 @@
+{
+ "date": "2026-12-03",
+ "format": "collection",
+ "day_type": "build-fallback",
+ "slug": "app-monitoring-tools",
+ "topic": "6 free tools to see what your app is doing",
+ "topicTag": "Monitoring",
+ "images_rev": "2026-11-25-plan",
+ "dm_keyword": "MONITOR",
+ "save_reason": "Six free tools that tell you when your app breaks, with their free-plan limits, linked in the caption.",
+ "send_reason": "Send this to a friend whose app went down and nobody noticed.",
+ "cover": {
+  "style": "D",
+  "hook": "6 free tools to *watch your app*",
+  "emotion": "confidence",
+  "tag": "Monitoring",
+  "blanks": 1,
+  "scene": "Renaissance fresco: on a stone watchtower terrace above a hill town, a large modern smartphone stands upright on a carved marble lectern, its blank white screen facing the viewer; robed watchmen seen from behind look out over the valley; empty painted sky on top.",
+  "overlay": "On the phone's blank screen: the six tool names in item order as a neat vertical list (UptimeRobot, Sentry, PostHog, Better Stack, Grafana Cloud, Crashlytics), with the real firebase logo next to Crashlytics (collection/logos has no logo for the others: names only), kind mark, dark ink on the white screen. Names and logos only, never a screenshot.",
+  "hooks": [
+   "6 free tools to watch your app (confidence)",
+   "Know when your app breaks, free (curiosity)",
+   "Your app is live. Is it working? (curiosity)",
+   "6 free tools seniors use to watch their apps (ambition)"
+  ],
+  "notes": "Headline on the painted sky at the top (dark or light by the paint). blanks.py --mode light N=1 finds the phone screen; split its box into 6 rows for the overlay. Rotation: 1 C, 2 G, 3 D. Build day (Thu): evergreen fallback, goes out only if the owner's Mac session scheduled no build post. If the cover cannot be made, regenerate the scene once, else post nothing (golden rule). Never F. D objects used before: laptop (15), tablet (18), canvas screen (21): this one is a phone on a lectern. D objects in recent plans: calendar (27 Nov), whiteboard (30 Nov): this one is a phone on a lectern."
+ },
+ "items": [
+  {
+   "n": 2,
+   "name": "UptimeRobot",
+   "logo": null,
+   "official_url": "https://uptimerobot.com/",
+   "factNum": "50",
+   "factText": "monitors for free",
+   "source_quote": "50 monitors for free",
+   "checked_at": "2026-11-25",
+   "shot_name": "shot-1",
+   "shot_crop_top": 0
+  },
+  {
+   "n": 3,
+   "name": "Sentry",
+   "logo": null,
+   "official_url": "https://sentry.io/pricing/",
+   "factNum": "5k",
+   "factText": "errors on the free plan",
+   "source_quote": "Developer (Free) … Error Monitoring: 5k errors",
+   "checked_at": "2026-11-25",
+   "shot_name": "shot-2",
+   "shot_crop_top": 0
+  },
+  {
+   "n": 4,
+   "name": "PostHog",
+   "logo": null,
+   "official_url": "https://posthog.com/product-analytics/pricing",
+   "factNum": "1M",
+   "factText": "events free every month",
+   "source_quote": "You get 1 million events free every month.",
+   "checked_at": "2026-11-25",
+   "shot_name": "shot-3",
+   "shot_crop_top": 0
+  },
+  {
+   "n": 5,
+   "name": "Better Stack",
+   "logo": null,
+   "official_url": "https://betterstack.com/pricing",
+   "fact": "Free: 10 monitors, 1 status page",
+   "source_quote": "Free Tier: 10 monitors & heartbeats, 1 status page",
+   "checked_at": "2026-11-25",
+   "shot_name": "shot-4",
+   "shot_crop_top": 0
+  },
+  {
+   "n": 6,
+   "name": "Grafana Cloud",
+   "logo": null,
+   "official_url": "https://grafana.com/products/cloud/free-tier/",
+   "source_quote": "14 days retention for metrics, logs, traces, profiles, & k6 performance tests",
+   "checked_at": "2026-11-25",
+   "shot_name": "shot-5",
+   "shot_crop_top": 0,
+   "factNum": "14 days",
+   "factText": "of data on the free tier"
+  },
+  {
+   "n": 7,
+   "name": "Firebase Crashlytics",
+   "logo": "firebase",
+   "official_url": "https://firebase.google.com/products/crashlytics",
+   "fact": "Free crash reports for mobile apps",
+   "source_quote": "For mobile apps, there's no cost to using Crashlytics.",
+   "checked_at": "2026-11-25",
+   "shot_name": "shot-6",
+   "shot_crop_top": 0
+  }
+ ],
+ "slides": [
+  {
+   "n": 1,
+   "type": "cover"
+  },
+  {
+   "n": 2,
+   "type": "item",
+   "item": "UptimeRobot"
+  },
+  {
+   "n": 3,
+   "type": "item",
+   "item": "Sentry"
+  },
+  {
+   "n": 4,
+   "type": "item",
+   "item": "PostHog"
+  },
+  {
+   "n": 5,
+   "type": "item",
+   "item": "Better Stack"
+  },
+  {
+   "n": 6,
+   "type": "item",
+   "item": "Grafana Cloud"
+  },
+  {
+   "n": 7,
+   "type": "item",
+   "item": "Firebase Crashlytics"
+  },
+  {
+   "n": 8,
+   "type": "proof"
+  },
+  {
+   "n": 9,
+   "type": "close"
+  }
+ ],
+ "images": [
+  {
+   "name": "shot-1",
+   "screenshot": "https://uptimerobot.com/"
+  },
+  {
+   "name": "shot-2",
+   "screenshot": "https://sentry.io/pricing/"
+  },
+  {
+   "name": "shot-3",
+   "screenshot": "https://posthog.com/product-analytics/pricing"
+  },
+  {
+   "name": "shot-4",
+   "screenshot": "https://betterstack.com/pricing"
+  },
+  {
+   "name": "shot-5",
+   "screenshot": "https://grafana.com/products/cloud/free-tier/"
+  },
+  {
+   "name": "shot-6",
+   "screenshot": "https://firebase.google.com/products/crashlytics"
+  },
+  {
+   "name": "cover",
+   "size": "1024x1280",
+   "prompt": "Renaissance fresco: on a stone watchtower terrace above a hill town, a large modern smartphone stands upright on a carved marble lectern, its blank white screen facing the viewer; robed watchmen seen from behind look out over the valley; empty painted sky on top. Magazine-ad quality, natural colours; the phone's blank white screen faces the camera straight on; empty top 30-40% for the headline. No readable text, no letters, no numbers, no logos, no faces, no watermark."
+  },
+  {
+   "name": "face-1",
+   "local": "student-1",
+   "use": "last-slide face circle (optional; dropped if missing)"
+  },
+  {
+   "name": "face-2",
+   "local": "student-2",
+   "use": "last-slide face circle (optional; dropped if missing)"
+  },
+  {
+   "name": "face-3",
+   "local": "student-3",
+   "use": "last-slide face circle (optional; dropped if missing)"
+  },
+  {
+   "name": "face-4",
+   "local": "student-4",
+   "use": "last-slide face circle (optional; dropped if missing)"
+  },
+  {
+   "name": "proof",
+   "screenshot": "https://notyourcollege.com/instructors",
+   "use": "proof slide card: crop the heading + group photo, below the site header"
+  }
+ ],
+ "caption_draft": "Your app is live. These 6 free tools tell you when it breaks.\n\nUptimeRobot — https://uptimerobot.com/ — 50 monitors for free\nSentry — https://sentry.io/pricing/ — 5k errors on the free plan\nPostHog — https://posthog.com/product-analytics/pricing — 1M events free every month\nBetter Stack — https://betterstack.com/pricing — Free: 10 monitors, 1 status page\nGrafana Cloud — https://grafana.com/products/cloud/free-tier/ — 14 days of data on the free tier\nFirebase Crashlytics — https://firebase.google.com/products/crashlytics — Free crash reports for mobile apps\n\nSave this for your next deploy. Send this to a friend whose app went down and nobody noticed.\n\n#webdevelopment #devops #backend #coding #firstyear #btech #notyourcollege",
+ "sources": [
+  {
+   "item": "UptimeRobot",
+   "url": "https://uptimerobot.com/",
+   "quote": "50 monitors for free",
+   "checked_at": "2026-11-25"
+  },
+  {
+   "item": "Sentry",
+   "url": "https://sentry.io/pricing/",
+   "quote": "Developer (Free) … Error Monitoring: 5k errors",
+   "checked_at": "2026-11-25"
+  },
+  {
+   "item": "PostHog",
+   "url": "https://posthog.com/product-analytics/pricing",
+   "quote": "You get 1 million events free every month.",
+   "checked_at": "2026-11-25"
+  },
+  {
+   "item": "Better Stack",
+   "url": "https://betterstack.com/pricing",
+   "quote": "Free Tier: 10 monitors & heartbeats, 1 status page",
+   "checked_at": "2026-11-25"
+  },
+  {
+   "item": "Grafana Cloud",
+   "url": "https://grafana.com/products/cloud/free-tier/",
+   "quote": "14 days retention for metrics, logs, traces, profiles, & k6 performance tests",
+   "checked_at": "2026-11-25"
+  },
+  {
+   "item": "Firebase Crashlytics",
+   "url": "https://firebase.google.com/products/crashlytics",
+   "quote": "For mobile apps, there's no cost to using Crashlytics.",
+   "checked_at": "2026-11-25"
+  }
+ ],
+ "proof": {
+  "logos": [],
+  "sentence": "At NYC, engineers review every project you build.",
+  "fact": "Week 13: you build with a team",
+  "shot_name": "proof",
+  "shot_crop_top": 0,
+  "disclaimer": "Instructors and mentors speak for themselves, not for their employers.",
+  "source": "NYC_BRIEF.md → Proof facts: Engineers review every project; SE + AI week 13 you build with a team"
+ },
+ "close": {
+  "line": 3,
+  "text": "Engineers review every project you build here.",
+  "cta": "See the courses at notyourcollege.com →"
+ },
+ "note": "Planned by the 25 Nov evening run from topics.json backlog (app-monitoring-tools, evergreen, cover D) for the Thu build-day fallback. 6 items re-verified 2026-11-25 via WebFetch. Close line 3 (2 Dec uses 2). 'free-databases-first-app' moved to 2 Dec instead."
+}

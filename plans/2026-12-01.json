@@ -1,0 +1,235 @@
+{
+ "date": "2026-12-01",
+ "format": "collection",
+ "day_type": "build-fallback",
+ "slug": "after-first-ai-app",
+ "topic": "5 things to learn after your first AI-built app",
+ "topicTag": "Next steps",
+ "images_rev": "2026-11-25-plan",
+ "dm_keyword": "NEXT",
+ "save_reason": "Five next steps after an AI-built app, each with one free official page, in learning order.",
+ "send_reason": "Send this to a friend who just shipped their first AI-built app.",
+ "cover": {
+  "style": "C",
+  "hook": "5 things to learn after *your first AI app*",
+  "emotion": "ambition",
+  "tag": "Next steps",
+  "hooks": [
+   "5 things to learn after your first AI app (ambition)",
+   "AI built your app. Now learn these 5 (curiosity)",
+   "Your AI app works. Here's what's next (confidence)",
+   "5 skills that make your AI app yours (ambition)"
+  ],
+  "field": "paper",
+  "kicker": "5 things to learn after",
+  "giant": "YOUR FIRST\nAI APP",
+  "student": "student",
+  "logos": [
+   "github",
+   "google",
+   "vercel"
+  ],
+  "notes": "Rotation: 29 G, 30 D, 1 C (paper, student-4; 28 lime student-1). Logos github, google, vercel are in collection/logos (Git, MDN, Supabase have none: name only, never drawn). No screenshot on the cover. If student.png is missing: post nothing (golden rule; no other style keeps rotation), never F. Build day (Tue): evergreen fallback, goes out only if the owner's Mac session queued no build post."
+ },
+ "items": [
+  {
+   "name": "Pro Git",
+   "logo": null,
+   "official_url": "https://git-scm.com/learn",
+   "fact": "Full book, free to read online",
+   "source_quote": "The entire Pro Git book written by Scott Chacon and Ben Straub is available to read online for free.",
+   "step": "Git",
+   "n": 2,
+   "checked_at": "2026-11-25",
+   "shot_name": "shot-1",
+   "shot_crop_top": 0
+  },
+  {
+   "name": "MDN Web Docs",
+   "logo": null,
+   "official_url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules",
+   "fact": "Split programs into separate modules",
+   "source_quote": "Complex projects necessitate a mechanism for splitting JavaScript programs into separate modules: units of code that can be imported when needed.",
+   "step": "How the code is split",
+   "n": 3,
+   "checked_at": "2026-11-25",
+   "shot_name": "shot-2",
+   "shot_crop_top": 0
+  },
+  {
+   "name": "Chrome DevTools",
+   "logo": "google",
+   "official_url": "https://developer.chrome.com/docs/devtools/javascript",
+   "fact": "Pause code, examine all values",
+   "source_quote": "A breakpoint lets you pause your code in the middle of its execution, and examine all values at that moment in time.",
+   "step": "Debugging",
+   "n": 4,
+   "checked_at": "2026-11-25",
+   "shot_name": "shot-3",
+   "shot_crop_top": 0
+  },
+  {
+   "name": "Supabase",
+   "logo": null,
+   "official_url": "https://supabase.com/pricing",
+   "factNum": "500 MB",
+   "factText": "database on the free plan",
+   "source_quote": "500 MB database size per project included (Free plan, $0 / month)",
+   "step": "A database",
+   "n": 5,
+   "checked_at": "2026-11-25",
+   "shot_name": "shot-4",
+   "shot_crop_top": 0
+  },
+  {
+   "name": "Vercel",
+   "logo": "vercel",
+   "official_url": "https://vercel.com/pricing",
+   "fact": "$0 Hobby plan, deploy in seconds",
+   "source_quote": "Hobby … $0/mo. … The perfect starting place for your web app. … Import your repo, deploy in seconds",
+   "step": "Deploying",
+   "n": 6,
+   "checked_at": "2026-11-25",
+   "shot_name": "shot-5",
+   "shot_crop_top": 0
+  }
+ ],
+ "slides": [
+  {
+   "n": 1,
+   "type": "cover"
+  },
+  {
+   "n": 2,
+   "type": "item",
+   "item": "Pro Git"
+  },
+  {
+   "n": 3,
+   "type": "item",
+   "item": "MDN Web Docs"
+  },
+  {
+   "n": 4,
+   "type": "item",
+   "item": "Chrome DevTools"
+  },
+  {
+   "n": 5,
+   "type": "item",
+   "item": "Supabase"
+  },
+  {
+   "n": 6,
+   "type": "item",
+   "item": "Vercel"
+  },
+  {
+   "n": 7,
+   "type": "proof"
+  },
+  {
+   "n": 8,
+   "type": "close"
+  }
+ ],
+ "images": [
+  {
+   "name": "shot-1",
+   "screenshot": "https://git-scm.com/learn"
+  },
+  {
+   "name": "shot-2",
+   "screenshot": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules"
+  },
+  {
+   "name": "shot-3",
+   "screenshot": "https://developer.chrome.com/docs/devtools/javascript"
+  },
+  {
+   "name": "shot-4",
+   "screenshot": "https://supabase.com/pricing"
+  },
+  {
+   "name": "shot-5",
+   "screenshot": "https://vercel.com/pricing"
+  },
+  {
+   "name": "student",
+   "local": "student-4",
+   "use": "cover C cut-out"
+  },
+  {
+   "name": "face-1",
+   "local": "student-1",
+   "use": "last-slide face circle (optional; dropped if missing)"
+  },
+  {
+   "name": "face-2",
+   "local": "student-2",
+   "use": "last-slide face circle (optional; dropped if missing)"
+  },
+  {
+   "name": "face-3",
+   "local": "student-3",
+   "use": "last-slide face circle (optional; dropped if missing)"
+  },
+  {
+   "name": "face-4",
+   "local": "student-4",
+   "use": "last-slide face circle (optional; dropped if missing)"
+  },
+  {
+   "name": "proof",
+   "screenshot": "https://notyourcollege.com/instructors",
+   "use": "proof slide card: crop the heading + group photo, below the site header"
+  }
+ ],
+ "caption_draft": "Your AI built the app. These 5 make it yours.\n\nPro Git — https://git-scm.com/learn — Full book, free to read online\nMDN Web Docs — https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules — Split programs into separate modules\nChrome DevTools — https://developer.chrome.com/docs/devtools/javascript — Pause code, examine all values\nSupabase — https://supabase.com/pricing — 500 MB database on the free plan\nVercel — https://vercel.com/pricing — $0 Hobby plan, deploy in seconds\n\nSave this for your next build. Send this to a friend who just shipped their first AI-built app.\n\n#ai #webdevelopment #git #javascript #firstyear #coding #btech #notyourcollege",
+ "sources": [
+  {
+   "item": "Pro Git",
+   "url": "https://git-scm.com/learn",
+   "quote": "The entire Pro Git book written by Scott Chacon and Ben Straub is available to read online for free.",
+   "checked_at": "2026-11-25"
+  },
+  {
+   "item": "MDN Web Docs",
+   "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules",
+   "quote": "Complex projects necessitate a mechanism for splitting JavaScript programs into separate modules: units of code that can be imported when needed.",
+   "checked_at": "2026-11-25"
+  },
+  {
+   "item": "Chrome DevTools",
+   "url": "https://developer.chrome.com/docs/devtools/javascript",
+   "quote": "A breakpoint lets you pause your code in the middle of its execution, and examine all values at that moment in time.",
+   "checked_at": "2026-11-25"
+  },
+  {
+   "item": "Supabase",
+   "url": "https://supabase.com/pricing",
+   "quote": "500 MB database size per project included (Free plan, $0 / month)",
+   "checked_at": "2026-11-25"
+  },
+  {
+   "item": "Vercel",
+   "url": "https://vercel.com/pricing",
+   "quote": "Hobby … $0/mo. … The perfect starting place for your web app. … Import your repo, deploy in seconds",
+   "checked_at": "2026-11-25"
+  }
+ ],
+ "proof": {
+  "logos": [],
+  "sentence": "At NYC, you use AI from day one and learn to check its code.",
+  "fact": "Week 21: your app has AI inside",
+  "shot_name": "proof",
+  "shot_crop_top": 0,
+  "source": "NYC_BRIEF.md → Proof facts: AI is used from day one, and you learn to check its code; SE + AI week 21 your app has AI inside (PROOF.md row 'after your first AI app' → close line 2 or 3)"
+ },
+ "close": {
+  "line": 3,
+  "text": "Engineers review every project you build here.",
+  "cta": "See the courses at notyourcollege.com →"
+ },
+ "note": "Planned by the 25 Nov evening run from topics.json queue[2026-12-01] (after-first-ai-app, build-fallback, cover C paper, student-4). 5 items verified 2026-11-25 via WebFetch, one free official page per step: Git (Pro Git, git-scm.com/learn), code split (MDN modules guide), debugging (Chrome DevTools), database (Supabase free plan), deploying (Vercel Hobby $0). Close line 3 (30 Nov uses 5; 2 Dec uses 2)."
+}
