@@ -1,0 +1,17 @@
+{
+ "publish_at": "2026-12-03T10:00:00+05:30",
+ "type": "carousel",
+ "media": [
+  "https://raw.githubusercontent.com/sheryiansai-ai/nyc-carousel-media/codex-images/build-2026-12-03/s-01.png",
+  "https://raw.githubusercontent.com/sheryiansai-ai/nyc-carousel-media/codex-images/build-2026-12-03/s-02.png",
+  "https://raw.githubusercontent.com/sheryiansai-ai/nyc-carousel-media/codex-images/build-2026-12-03/s-03.png",
+  "https://raw.githubusercontent.com/sheryiansai-ai/nyc-carousel-media/codex-images/build-2026-12-03/s-04.png",
+  "https://raw.githubusercontent.com/sheryiansai-ai/nyc-carousel-media/codex-images/build-2026-12-03/s-05.png",
+  "https://raw.githubusercontent.com/sheryiansai-ai/nyc-carousel-media/codex-images/build-2026-12-03/s-06.png",
+  "https://raw.githubusercontent.com/sheryiansai-ai/nyc-carousel-media/codex-images/build-2026-12-03/s-07.png",
+  "https://raw.githubusercontent.com/sheryiansai-ai/nyc-carousel-media/codex-images/build-2026-12-03/s-08.png"
+ ],
+ "caption": "Bilal built Credora, a loan pre-screening app. You enter your income, employment and loan details, a logistic regression model returns an approved or rejected prediction in seconds, and a loan officer does the final verification. FastAPI and PostgreSQL behind it. His first AI/ML project.\n\nLive app (a student project, demo only): https://credora-fintech.web.app/\n\nSend this to the friend who thinks machine learning starts with a GPU.\n\n#machinelearning #logisticregression #fastapi #python #fintech #collegestudents #buildinpublic #notyourcollege",
+ "by": "nyc-build-posts",
+ "queued_at": "2026-11-26T12:59+05:30"
+}
