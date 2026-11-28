@@ -1,0 +1,17 @@
+{
+ "publish_at": "2026-12-05T10:00:00+05:30",
+ "type": "carousel",
+ "media": [
+  "https://raw.githubusercontent.com/sheryiansai-ai/nyc-carousel-media/codex-images/build-2026-12-05/s-01.png",
+  "https://raw.githubusercontent.com/sheryiansai-ai/nyc-carousel-media/codex-images/build-2026-12-05/s-02.png",
+  "https://raw.githubusercontent.com/sheryiansai-ai/nyc-carousel-media/codex-images/build-2026-12-05/s-03.png",
+  "https://raw.githubusercontent.com/sheryiansai-ai/nyc-carousel-media/codex-images/build-2026-12-05/s-04.png",
+  "https://raw.githubusercontent.com/sheryiansai-ai/nyc-carousel-media/codex-images/build-2026-12-05/s-05.png",
+  "https://raw.githubusercontent.com/sheryiansai-ai/nyc-carousel-media/codex-images/build-2026-12-05/s-06.png",
+  "https://raw.githubusercontent.com/sheryiansai-ai/nyc-carousel-media/codex-images/build-2026-12-05/s-07.png",
+  "https://raw.githubusercontent.com/sheryiansai-ai/nyc-carousel-media/codex-images/build-2026-12-05/s-08.png"
+ ],
+ "caption": "Subhransu built MUXARO, a private workspace with 38 PDF tools, 14 video tools and a voice assistant. You can say \"redact my phone number and compress this PDF\", and the local tools do it on your own device. It runs on the web, Windows and Android from one Next.js codebase, and it is open source.\n\nLive app: https://muxaro.vercel.app/\nCode: https://github.com/SubhransuNayak007/muxaro\n\nSend this to the friend who uploads their Aadhaar to a random PDF website.\n\n#opensource #nextjs #webassembly #privacy #pdftools #collegestudents #buildinpublic #notyourcollege",
+ "by": "nyc-build-posts",
+ "queued_at": "2026-11-28T13:13+05:30"
+}
