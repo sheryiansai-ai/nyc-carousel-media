@@ -6,14 +6,15 @@ Times are IST. This page changes only when the queue changes.
 
 | When | Type | First line | Note |
 |---|---|---|---|
-| 2026-11-28 10:00 | carousel | Abinash built Scorched: sign in with Google and it turns up to 200 of  |  |
 | 2026-12-01 10:00 | carousel | Nitish built an autonomous coding agent. You give it one problem state |  |
 | 2026-12-03 10:00 | carousel | Bilal built Credora, a loan pre-screening app. You enter your income,  |  |
+| 2026-12-05 10:00 | carousel | Subhransu built MUXARO, a private workspace with 38 PDF tools, 14 vide |  |
 
 ## Published
 
 | When | Type | First line | Link |
 |---|---|---|---|
+| 2026-11-28 10:00 | carousel | Abinash built Scorched: sign in with Google and it turns up to 200 of  | https://www.instagram.com/p/DgSV7wFERk1/ |
 | 2026-11-26 20:16 | story |  | https://www.instagram.com/stories/notyourcollege/4039230349664409662 |
 | 2026-11-26 20:16 | carousel | Free live workshop: Build a name for yourself in college, with Yasir S | https://www.instagram.com/p/DgOOkaMlXeM/ |
 | 2026-11-26 10:00 | carousel | am.sarii from the NYC community is building Retailspoint POS, a restau | https://www.instagram.com/p/DgNR13lDD4d/ |
